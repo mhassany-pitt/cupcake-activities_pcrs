@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_unshift_char_en
+source: main.py
+title: PCRS C3-PL  Unshift Char
+description: Write a function that takes a single character and an int key as parameters,and then shifts the character backwards
+  by the given number of letters,wrapping around from a back around z.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes a single character and an int key as parameters,\nand then shifts the character **backwards**\
+  \ by the given number of letters,\nwrapping around from a back around z. For simplicity, assume all input chars\nare lower-case\
+  \ letters. \n\nNote that this it is harder to shift backwards than\nforwards. You may need to add extra multiple of 26 so\n\
+  that you don't get back a negative value when subtracting\noff the key.\n\nFor example:\n\n```\nunshiftChar('a', 4) => 'w'\n\
+  unshiftChar('z', 1) => 'y'\nunshiftChar('z', 26) => 'z'\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def unshiftChar(ch, key):
+          # code goes here
+  placeholder: |2-
+
+    def unshiftChar(ch, key):
+        # code goes here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

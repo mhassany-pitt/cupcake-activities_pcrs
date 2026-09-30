@@ -1,0 +1,77 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_object_classes_2_en
+source: Circle.java
+title: Objects and Classes 2
+description: Consider the following code:public class Circle { private double radius; public double getRadius() { return radius;
+  }}Write a method for the class Circle named
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:VoidDataType
+  - pcrs:DoubleDataType
+  - pcrs:ThisReference
+  - pcrs:InstanceFieldInvocation
+  - pcrs:FormalMethodParameter
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:GreaterExpression
+  - pcrs:MethodDefinition
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ClassDefinition
+  - pcrs:InstanceField
+  - pcrs:SimpleVariable
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ClassDefinition
+  - pcrs:DoubleDataType
+  - pcrs:FormalMethodParameter
+  - pcrs:GreaterExpression
+  - pcrs:IfStatement
+  - pcrs:InstanceField
+  - pcrs:InstanceFieldInvocation
+  - pcrs:MethodDefinition
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:ThisReference
+  - pcrs:VoidDataType
+runtime:
+  language: java
+  version: '17'
+statement: "Consider the following code:\n\n```\npublic class Circle {\n    private double radius;\n\n    public double getRadius()\
+  \ {\n\t  return radius;\n    }\n}\n```\n\nWrite a method for the class `Circle` named `setRadius` that sets the `radius`\
+  \ of the circle to the value that is specified as the parameter of the `setRadius` method. This method does not return anything.\
+  \ Note that the radius of a circle must be always a positive number. Therefore, this method prevents setting the radius\
+  \ of the circle to a negative value or zero."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Circle { \n    private double radius = 1;"
+- type: editable
+  location:
+    snippet: "    // TODO: add the setRadius method here\n    \n    \n    \n    \n    \n    "
+  placeholder: "    // TODO: add the setRadius method here\n    \n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: "    public double getRadius() {\n\t\treturn radius;\n    }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

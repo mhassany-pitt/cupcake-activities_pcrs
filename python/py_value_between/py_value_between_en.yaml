@@ -1,0 +1,77 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_value_between_en
+source: main.py
+title: Is Teenager
+description: Complete the following function according to instruction
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to instruction
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def is_teenager(age):
+          """ (int) -> bool
+
+          Return True iff age represents a teenager between 13 and 18 inclusive.
+
+          >>> is_teenager(4)
+          False
+          >>> is_teenager(16)
+          True
+          >>> is_teenager(19)
+          False
+          """
+
+          if age < 13:
+              return False
+          else:
+              if age > 18:
+                  return False
+              else:
+                  return True
+
+          #TODO: complete the new single-line function body in the space below:
+  placeholder: |2-
+
+    def is_teenager(age):
+        """ (int) -> bool
+
+        Return True iff age represents a teenager between 13 and 18 inclusive.
+
+        >>> is_teenager(4)
+        False
+        >>> is_teenager(16)
+        True
+        >>> is_teenager(19)
+        False
+        """
+
+        if age < 13:
+            return False
+        else:
+            if age > 18:
+                return False
+            else:
+                return True
+
+        #TODO: complete the new single-line function body in the space below:
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

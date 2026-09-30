@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_shoe_company_en
+source: main.py
+title: Shoe Company
+description: As part of a study funded by a major shoe company, we crouched at the ﬁnish line of the Boston marathonand kept
+  an ordered list of the shoes that we saw as they passed the ﬁnish line.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  As part of a study funded by a major shoe company, we crouched at the ﬁnish line of the Boston marathon
+  and kept an ordered list of the shoes that we saw as they passed the ﬁnish line. Write a function that,
+  given such a list, will return a dictionary mapping shoe companies to a list of the placements achieved by
+  runners wearing shoes made by those companies.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef build_placements(shoes):\n    \"\"\" (list of str) -> dict of {str: list of int}\n\n    Return a dictionary\
+      \ where each key is a shoe company from shoes and each value is a\n    list of placements by people wearing footwear\
+      \ made by that company. First place is at index\n    0 of shoes, 2nd place is at index 1, and so on.\n\n    >>> build_placements(['Saucony',\
+      \ 'Asics', 'Asics', 'NB', 'Saucony', \\\n                          'Nike', 'Asics', 'Adidas', 'Saucony', 'Asics'])\n\
+      \    {'Saucony': [1, 5, 9] 'Asics': [2, 3, 7, 10], 'NB': [4], 'Nike': [6], 'Adidas': [8]}                      \n  \
+      \  \"\"\""
+  placeholder: "\ndef build_placements(shoes):\n    \"\"\" (list of str) -> dict of {str: list of int}\n\n    Return a dictionary\
+    \ where each key is a shoe company from shoes and each value is a\n    list of placements by people wearing footwear made\
+    \ by that company. First place is at index\n    0 of shoes, 2nd place is at index 1, and so on.\n\n    >>> build_placements(['Saucony',\
+    \ 'Asics', 'Asics', 'NB', 'Saucony', \\\n                          'Nike', 'Asics', 'Adidas', 'Saucony', 'Asics'])\n \
+    \   {'Saucony': [1, 5, 9] 'Asics': [2, 3, 7, 10], 'NB': [4], 'Nike': [6], 'Adidas': [8]}                      \n    \"\
+    \"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,78 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_search_list2_es
+source: main.py
+title: Buscar armario (lista de strings) (ES)
+description: Completa la siguiente funcion segun su docstring utilizando un ciclo for.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:IfElifElseChecking
+  - pcrs:IntegerLiteral
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:StringLiteral
+  - pcrs:ListLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:CreatingObject
+  - pcrs:IndexingList
+  - pcrs:SplittingString
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:StringLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:SingleForLoopIteration
+  - pcrs:SplittingString
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun su docstring utilizando un ciclo for. El metodo de string startswith puede
+  ser util aqui. Las listas que probamos no se mostraran todas; en su lugar, algunas se describiran en ingles. Si fallas en
+  algun caso de prueba, deberas leer la descripcion y hacer tu propia prueba.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos\
+      \ es una lista que contiene descripciones del contenido de un armario donde\n    cada descripcion tiene la forma 'color\
+      \ articulo', donde cada color es una palabra\n    y cada articulo es una o mas palabras. Por ejemplo:\n\n        ['gris\
+      \ chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos', 'verde sombrero']\n\n    color es un color que\
+      \ se esta buscando en elementos. \n    \n    Devuelve una lista que contiene solo los articulos que coinciden con el\
+      \ color.\n    \n    >>> buscar_armario(['rojo chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos',\
+      \ 'verde sombrero'], 'rojo')\n    ['rojo chaqueta de verano', 'rojo zapatos']\n    >>> buscar_armario(['rojo camisa',\
+      \ 'verde pantalones'], 'azul')\n    []\n    >>> buscar_armario([], 'malva')\n    []\n    \"\"\""
+  placeholder: "\ndef buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos\
+    \ es una lista que contiene descripciones del contenido de un armario donde\n    cada descripcion tiene la forma 'color\
+    \ articulo', donde cada color es una palabra\n    y cada articulo es una o mas palabras. Por ejemplo:\n\n        ['gris\
+    \ chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos', 'verde sombrero']\n\n    color es un color que\
+    \ se esta buscando en elementos. \n    \n    Devuelve una lista que contiene solo los articulos que coinciden con el color.\n\
+    \    \n    >>> buscar_armario(['rojo chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos', 'verde sombrero'],\
+    \ 'rojo')\n    ['rojo chaqueta de verano', 'rojo zapatos']\n    >>> buscar_armario(['rojo camisa', 'verde pantalones'],\
+    \ 'azul')\n    []\n    >>> buscar_armario([], 'malva')\n    []\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

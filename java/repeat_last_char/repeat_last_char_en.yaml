@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_repeat_last_char_en
+source: SCode.java
+title: Repeating the Last Character of a String
+description: Given a string variable str, complete the following code in order to create a string that has the last character
+  of the string str repeated 2 times.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:StringAddition
+  - pcrs:java.lang.String.charAt
+  - pcrs:StringLiteral
+  - pcrs:StringDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:StringVariable
+  - pcrs:java.lang.String.length
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SubtractExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:java.lang.String.charAt
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.System.out.println
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringAddition
+  - pcrs:StringDataType
+  - pcrs:StringLiteral
+  - pcrs:StringVariable
+  - pcrs:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Dada una variable de cadena `cadena`, completa el siguiente código para crear un texto que tenga el último carácter de `cadena` repetido 2 veces. Guarda el resultado en una variable llamada `resultado`.
+  Supón que el valor inicial de la variable `cadena` ya está fijado en un texto con cero o más caracteres.
+
+  Ej. 1: si el valor de `cadena` es "Hello", el código imprime oo.
+  Ej. 2: si el valor de `cadena` es "HiH", el código imprime HH.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    String resultado;'
+- type: editable
+  location:
+    snippet: "    // TODO: escribe tu codigo aqui\n    \n    "
+  placeholder: "    // TODO: escribe tu codigo aqui\n    \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(resultado);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

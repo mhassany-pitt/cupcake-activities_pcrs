@@ -1,0 +1,38 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_find_n_letters_en
+source: main.py
+title: PCRS C3-PL  Find N Letters
+description: Complete the body for the following function.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the body for the following function. While this function could be completed with a for loop, for practice,
+  we request that you use a while loop.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
+      \ at least n times in s\n\n    Return the smallest substring of s starting from index 0 that contains\n    n occurrences\
+      \ of letter.\n\n    >>> find_letter_n_times('Computer Science', 'e', 2)\n    'Computer Scie'\n    \"\"\"\n\n    i =\
+      \ 0\n    count = 0\n    \n    #TODO complete the rest of the function below"
+  placeholder: "\ndef find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
+    \ at least n times in s\n\n    Return the smallest substring of s starting from index 0 that contains\n    n occurrences\
+    \ of letter.\n\n    >>> find_letter_n_times('Computer Science', 'e', 2)\n    'Computer Scie'\n    \"\"\"\n\n    i = 0\n\
+    \    count = 0\n    \n    #TODO complete the rest of the function below"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

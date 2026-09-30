@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_array_lst_1_en
+source: SCode.java
+title: ArrayLists 1
+description: Complete the following method which takes a list of integers as a parameter and returns a new list of the integers,
+  omitting any that are less than 0.For exampl
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.util.ArrayList
+  - pcrs:ForEachStatement
+  - pcrs:GenericObjectCreationStatement
+  - pcrs:java.util.ArrayList.add
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:GreaterEqualExpression
+  - pcrs:IntDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:ForEachStatement
+  - pcrs:GenericObjectCreationStatement
+  - pcrs:GreaterEqualExpression
+  - pcrs:IfStatement
+  - pcrs:IntDataType
+  - pcrs:java.util.ArrayList
+  - pcrs:java.util.ArrayList.add
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following method which takes a list of integers as a parameter and returns a new list of the integers, omitting any that are less than 0.
+  For example:
+
+  ```
+  noNeg([1, -2]) → [1]
+  noNeg([-3, -3, 3, 3]) → [3, 3]
+  noNeg([-1, -1, -1]) → []
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\npublic ArrayList<Integer> noNeg(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n    \n\
+      \    \n    \n    \n    \n}\n"
+  placeholder: "\npublic ArrayList<Integer> noNeg(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n  \
+    \  \n    \n    \n    \n    \n}\n"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

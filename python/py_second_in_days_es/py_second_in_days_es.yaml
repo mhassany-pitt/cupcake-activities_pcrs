@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_second_in_days_es
+source: main.py
+title: Calcular los segundos en n dias (ES)
+description: 'Calcular los segundos en n dias y asignar el valor a la variable segundosEj. 1: si el valor de n es 1, la variable
+  segundos se establece en 86400.Ej. 2: si el v'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:Multiplication
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Calcular los segundos en `n` dias y asignar el valor a la variable `segundos`
+
+  Ej. 1: si el valor de n es 1, la variable `segundos` se establece en 86400.
+  Ej. 2: si el valor de n es 2, la variable `segundos` se establece en 172800.
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: |-
+      #Una variable llamada n ya esta establecida en un entero positivo.
+      #Usa la variable n en tu codigo a continuacion.
+      #Asignala a una variable llamada segundos.
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

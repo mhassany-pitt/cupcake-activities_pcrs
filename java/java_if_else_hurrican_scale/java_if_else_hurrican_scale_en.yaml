@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_if_else_hurrican_scale_en
+source: Lab3.java
+title: Saffir-Simpson Hurricane Wind Scale Calculator
+description: The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on a hurricane's sustained wind speed.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElseIfStatement
+  - pcrs:IfElseStatement
+  - pcrs:MultiplicativeExpression
+  - pcrs:IfElseIfStatement
+  - pcrs:IfElseStatement
+  - pcrs:MultiplicativeExpression
+runtime:
+  language: java
+  version: '17'
+statement: "The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on a hurricane's sustained wind speed. This scale\
+  \ estimates potential property damage. Hurricanes reaching Category 3 and higher are considered major hurricanes because\
+  \ of their potential for significant loss of life and damage. Category 1 and 2 storms are still dangerous, however, and\
+  \ require preventative measures. \n\nThe Saffir-Simpson Scale is defined in the following table:\n\nCategory | Sustained\
+  \ Winds\n     1         |     74 ≤ `windSpeed` < 96 mph\n     2         |     96 ≤ `windSpeed` < 111 mph\n     3       \
+  \  |   111 ≤ `windSpeed` < 130 mph\n     4         |   130 ≤ `windSpeed` < 157 mph\n     5         |   `windSpeed` of 157\
+  \ mph or higher\n\nYour program must calculate the scale of the hurricane described by the user's input, which will be given\
+  \ in km/h and not in mph. Thus, you must transform it to mph before assigning the scale (1 km/h corresponds to .62 mph).\
+  \ Finally, your code needs to print in console the following message: \" __ mph is classified as __ in the Saffir-Simpson\
+  \ Hurricane Wind Scale\" (completing the missing blank with the respective speed in mph and the scale), and the message\
+  \ \"__ mph does not qualify as hurricane\" in case the sustained wind speed specified by the user is lower than 74 mph (completing\
+  \ the missing blank with the respective speed in mph).\n\nExamples of input/output:\n\nE.g. Enter hurricane's sustained\
+  \ wind speed (in km/hr): 30 | Output in console: \"18.6 mph does not qualify as hurricane\"\nE.g. Enter hurricane's sustained\
+  \ wind speed (in km/hr): 199  | Output in console: \"123.38 mph is classified as 3 in the Saffir-Simpson Hurricane Wind\
+  \ Scale\""
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        System.out.print(\"\
+      Enter hurricane's sustained wind speed (in km/h): \");\n        \n        int windSpeedInKmh = kbd.nextInt();\n    \
+      \  \n        //Definition of the variable that will store the scale of the hurricane\n    \tint scale;\n           \
+      \    \n        //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "        \n    \t// TODO: add your code here\n        \n    "
+  placeholder: "        \n    \t// TODO: add your code here\n        \n    "
+- type: locked
+  location:
+    snippet: |2-
+          }
+      }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

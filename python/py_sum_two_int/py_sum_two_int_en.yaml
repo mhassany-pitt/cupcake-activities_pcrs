@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_sum_two_int_en
+source: main.py
+title: Sum of two integer numbers
+description: 'Given 2 integers, num1 and num2, calculate their sum and store it in variable called sum.E.g.: if the value
+  of num1 is 3 and the value of num2 is 4, the program'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Given 2 integers, `num1` and `num2`, calculate their sum and store it in variable called `sum`.
+
+  E.g.: if the value of num1 is 3 and the value of num2 is 4, the program prints 7.
+
+  Authors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+- type: locked
+  location:
+    snippet: |-
+      # Assume that both variables num1 and num2 are already set to an integer.
+      # Assign the sum to a variable called sum.
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+- type: locked
+  location:
+    snippet: print(sum)
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

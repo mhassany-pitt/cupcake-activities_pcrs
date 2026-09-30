@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_compute_sum_es
+source: main.py
+title: PCRS C3-PL  Compute Sum
+description: 'Escribe una funcion llamada calcular_suma quetome dos parametros y devuelva su suma.Llamadas de ejemplo: calcular_suma(2,
+  3) => 5 calcular_suma(4, -11) => -7 ca'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion llamada `calcular_suma` que
+  tome dos parametros y devuelva su suma.
+
+  Llamadas de ejemplo:
+
+   - `calcular_suma(2, 3)` => `5`
+
+   - `calcular_suma(4, -11)` => `-7`
+
+   - `calcular_suma(42, 0)` => `42`
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

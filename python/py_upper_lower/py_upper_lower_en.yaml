@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_upper_lower_en
+source: main.py
+title: PCRS C3-PL  Upper Lower
+description: Complete this function according to its docstring description.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete this function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef upper_lower(s):\n    \"\"\" (str) -> bool\n    \n    Return True if and only if there is at least one\
+      \ alphabetic character in s and the alphabetic characters in s\n    are either all uppercase or all lowercase.\n   \
+      \ \n    >>> upper_lower('abc')\n    True\n    >>> upper_lower('abcXYZ')\n    False\n    >>> upper_lower('XYZ')\n   \
+      \ True\n    \"\"\""
+  placeholder: "\ndef upper_lower(s):\n    \"\"\" (str) -> bool\n    \n    Return True if and only if there is at least one\
+    \ alphabetic character in s and the alphabetic characters in s\n    are either all uppercase or all lowercase.\n    \n\
+    \    >>> upper_lower('abc')\n    True\n    >>> upper_lower('abcXYZ')\n    False\n    >>> upper_lower('XYZ')\n    True\n\
+    \    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_while_n_to_20_en
+source: SCode.java
+title: while_n_to_20
+description: Write a program that increments an integer input, n, to m, but breaks away if the increment ever becomes a multiple
+  of 7.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:AddExpression
+  - pcrs:ModulusExpression
+  - pcrs:BooleanExpression
+  - pcrs:WhileStatement
+  - pcrs:AddExpression
+  - pcrs:BooleanExpression
+  - pcrs:ModulusExpression
+  - pcrs:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Write a program that increments an integer input, n, to m, but breaks away if the increment ever becomes a multiple\
+  \ of 7.  Assume an integer named `n` is already defined for you and use that to increment.  Additionally, assume an integer\
+  \ `m` is already defined for you, which will act as your limit to increment towards (note: you should be able to increment\
+  \ up to m, but not past it).  \n\nStore the number of times that you loop through into an integer variable called `count`,\
+  \ which is also already defined, but not initialized.\nExamples:\n- If n = 8 and m = 20, the total number of loops will\
+  \ be 6 (since we encounter 14 along the way).\n- If n = -6 and m = 12, the total number of loops will be 14 (since we encounter\
+  \ 7 along the way).\n- If n = 9 and m = 10, the total number of loops will be 1 (since we get to m without encountering\
+  \ any multiples of 7).\n\nNote that 0 should not be a valid multiple of 7 at any point in your iterations."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: int count;
+- type: editable
+  location:
+    snippet: "// TO-DO: Add your code here (use a while loop).\n// Increment n for each loop that is not a multiple of 7 all\
+      \ the way to m.\n// Increment count for each time you loop through.\n        "
+  placeholder: "// TO-DO: Add your code here (use a while loop).\n// Increment n for each loop that is not a multiple of 7\
+    \ all the way to m.\n// Increment count for each time you loop through.\n        "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

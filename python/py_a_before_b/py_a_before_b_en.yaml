@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_a_before_b_en
+source: main.py
+title: PCRS C3-PL  A Before B
+description: Check if all instances of string a appear before string b.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Check if all instances of string a appear before string b. Return True if all instances of A are before B.
+
+  ```
+  aBeforeB("cats cats cats dogs dogs", "cats", "dogs") -> True
+  aBeforeB("cats cats dogs cats dogs", "cats", "dogs") -> False
+  aBeforeB("dogs cats cats cats dogs", "cats", "dogs") -> False
+  aBeforeB("cats dogs", "cats", "dogs") -> True
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def aBeforeB(s, a, b):
+          #code
+  placeholder: |2-
+
+    def aBeforeB(s, a, b):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

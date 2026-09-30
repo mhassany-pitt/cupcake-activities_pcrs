@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_modify_name_list_en
+source: main.py
+title: Modify Name in lists
+description: 'Complete the following function according to its docstring.Note: this function should return None.'
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Complete the following function according to its docstring.
+
+  **Note:** this function should return `None`.  Its job is to modify the list passed as its argument.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
+      \ name.  Modify name_list so that the first name and last name are swapped. \n                 \n    >>> name = ['John',\
+      \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'John'] \n    >>> name = ['John', 'Andrew', 'Gleeson',\
+      \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
+  placeholder: "\ndef swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
+    \ name.  Modify name_list so that the first name and last name are swapped. \n                 \n    >>> name = ['John',\
+    \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'John'] \n    >>> name = ['John', 'Andrew', 'Gleeson',\
+    \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,142 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_rectangle_class_es
+source: main.py
+title: PCRS C3-PL  Rectangle Class
+description: NO USES LA PALABRA input EN NINGUN LUGAR!Proporcionamos la clase Rectangulo y el codigo inicial para la clase
+  ColeccionRectangulos.Completa la clase ColeccionRe
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningSimpleFunction
+  - pcrs:CheckingForItem
+  - pcrs:list()
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:ListLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingObjectMethod
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:ListLiteral
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  NO USES LA PALABRA `input` EN NINGUN LUGAR!
+
+  Proporcionamos la clase `Rectangulo` y el codigo inicial para la clase `ColeccionRectangulos`.
+
+  Completa la clase `ColeccionRectangulos`, que tiene una variable de instancia de lista, `rectangulos`, que inicialmente debe referirse a una lista vacia. Escribe un metodo `anadir_rectangulo` que tome un `Rectangulo` como parametro y lo agregue a la lista de rectangulos. Escribe un metodo `obtener_rects_misma_area` que tome un numero como parametro y devuelva una lista de todos los `Rectangulo`s de la lista de rectangulos que tengan esa area.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      class Rectangulo:
+          """ Un rectangulo con un ancho y alto. """
+
+          def __init__(self, an, al):
+              """ (Rectangulo, numero, numero)
+
+              Crea un nuevo rectangulo de ancho an y alto al.
+
+              >>> r = Rectangulo(1, 2)
+              >>> r.ancho
+              1
+              >>> r.alto
+              2
+              """
+
+              self.ancho = an
+              self.alto = al
+
+          def obtener_area(self):
+              """ (Rectangulo) -> numero
+
+              Devuelve el area de este rectangulo.
+
+              >>> r = Rectangulo(10, 20)
+              >>> r.obtener_area()
+              200
+              """
+
+              return self.ancho * self.alto
+
+
+      class ColeccionRectangulos:
+
+          def __init__(self):
+              """ (ColeccionRectangulos) -> NoneType
+
+              >>> rc = ColeccionRectangulos()
+              >>> rc.rectangulos
+              []
+              """
+  placeholder: |2-
+
+    class Rectangulo:
+        """ Un rectangulo con un ancho y alto. """
+
+        def __init__(self, an, al):
+            """ (Rectangulo, numero, numero)
+
+            Crea un nuevo rectangulo de ancho an y alto al.
+
+            >>> r = Rectangulo(1, 2)
+            >>> r.ancho
+            1
+            >>> r.alto
+            2
+            """
+
+            self.ancho = an
+            self.alto = al
+
+        def obtener_area(self):
+            """ (Rectangulo) -> numero
+
+            Devuelve el area de este rectangulo.
+
+            >>> r = Rectangulo(10, 20)
+            >>> r.obtener_area()
+            200
+            """
+
+            return self.ancho * self.alto
+
+
+    class ColeccionRectangulos:
+
+        def __init__(self):
+            """ (ColeccionRectangulos) -> NoneType
+
+            >>> rc = ColeccionRectangulos()
+            >>> rc.rectangulos
+            []
+            """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

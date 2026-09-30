@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_linkedlist_repeated_en
+source: Lab7.java
+title: LinkedList repeated two lists
+description: By using the LinkedList class implemented in the java.lang package, complete the method listRepeated in order
+  to return a LinkedList that includes only the elem
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:EqualExpression
+  - pcrs:MethodBody
+  - pcrs:NestedForLoops
+  - pcrs:EqualExpression
+  - pcrs:IfStatement
+  - pcrs:MethodBody
+  - pcrs:NestedForLoops
+  - pcrs:ReturnStatement
+runtime:
+  language: java
+  version: '17'
+statement: "By using the LinkedList class implemented in the java.lang package, complete the method `listRepeated` in order\
+  \ to return a LinkedList that includes only the elements that appear in BOTH listA and listB. The elements in the returned\
+  \ LinkedList must follow the number of appearances and the order of appearance specified in listA.\n\nE.g. \nlistA = [3,4,5,6],\
+  \ listB = [6,6,7,3,8], then returned newList = [3,6] (here we include 6 only once because in listA it only appears once)\n\
+  listA = [3,4,4,5,6,7], listB = [34,7,12], then returned newList = [7]\nlistA = [4,90,1,2], listB=[3,67,0,55,12], then returned\
+  \ newList = [] (empty LinkedList, no elements)"
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n    \
+      \  "
+  placeholder: "\nstatic LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n  \
+    \    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

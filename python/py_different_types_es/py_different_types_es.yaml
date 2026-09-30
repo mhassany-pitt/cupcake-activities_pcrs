@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_different_types_es
+source: main.py
+title: PCRS C3-PL  Different Types
+description: Completa la siguiente funcion segun la descripcion de su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:CallingStandardFunction
+  - pcrs:CallingStandardFunction
+  - pcrs:ComparisonExpression
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def diferentes_tipos(obj1, obj2):
+          """ (object, object) -> bool
+
+          Devuelve True si y solo si obj1 y obj2 son de diferentes tipos.
+
+          >>> diferentes_tipos(3, '3')
+          True
+          >>> diferentes_tipos(108.0, 3.14)
+          False
+          """
+  placeholder: |2-
+
+    def diferentes_tipos(obj1, obj2):
+        """ (object, object) -> bool
+
+        Devuelve True si y solo si obj1 y obj2 son de diferentes tipos.
+
+        >>> diferentes_tipos(3, '3')
+        True
+        >>> diferentes_tipos(108.0, 3.14)
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

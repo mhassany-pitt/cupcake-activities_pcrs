@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_right_triangle_en
+source: main.py
+title: Right Triangle
+description: Complete the following function according to its docstring description.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def is_right_triangle(side1, side2, hypotenuse):
+          """ (int, int, int) -> bool
+
+          Return whether a triangle with sides of length side1, side2 and hypotenuse
+          is a right triangle.
+
+          >>> is_right_triangle(3, 4, 5)
+          True
+          >>> is_right_triangle(2, 2, 4)
+          False
+          """
+  placeholder: |2-
+
+    def is_right_triangle(side1, side2, hypotenuse):
+        """ (int, int, int) -> bool
+
+        Return whether a triangle with sides of length side1, side2 and hypotenuse
+        is a right triangle.
+
+        >>> is_right_triangle(3, 4, 5)
+        True
+        >>> is_right_triangle(2, 2, 4)
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

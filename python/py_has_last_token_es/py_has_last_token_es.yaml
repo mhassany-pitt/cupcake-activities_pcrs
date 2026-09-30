@@ -1,0 +1,97 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_has_last_token_es
+source: main.py
+title: PCRS C3-PL  Has Last Token
+description: En este problema escribiras la funcion tiene_ultimo_token que toma como su primer parametro una lista de strings
+  que son cada una una secuencia separada por comas.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:CheckingForItem
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:ListReferencing
+  - pcrs:StringLiteral
+  - pcrs:IndexingList
+  - pcrs:Subtraction
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:WhileLoopWithListIndexing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:CreatingObject
+  - pcrs:IndexingString
+  - pcrs:SlicingString
+  - pcrs:ComparisonExpression
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingObject
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IfElifElseChecking
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:ListReferencing
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:SlicingString
+  - pcrs:TransformingToStringType
+  - pcrs:WhileLoopWithListIndexing
+runtime:
+  language: python
+  version: '3'
+statement: En este problema escribiras la `funcion tiene_ultimo_token` que toma como su primer parametro una lista de strings
+  que son cada una una secuencia separada por comas. Completa la funcion segun su docstring. No usar la funcion endswith()
+elements:
+- type: editable
+  location:
+    snippet: |2
+
+      def tiene_ultimo_token(L, token)
+          """ (lista de str, str) -> lista de str
+
+          Devuelve una lista de los elementos de L que terminan con el token especificado en el orden en que aparecen en la lista original.
+
+          >>> tiene_ultimo_token(['uno,gordo,negro,gato', 'uno,pequeno,rojo,pez', 'dos,delgado,azul,pez'], 'pez')
+          ['uno,pequeno,rojo,pez', 'dos,delgado,azul,pez']
+          """
+  placeholder: |2
+
+    def tiene_ultimo_token(L, token)
+        """ (lista de str, str) -> lista de str
+
+        Devuelve una lista de los elementos de L que terminan con el token especificado en el orden en que aparecen en la lista original.
+
+        >>> tiene_ultimo_token(['uno,gordo,negro,gato', 'uno,pequeno,rojo,pez', 'dos,delgado,azul,pez'], 'pez')
+        ['uno,pequeno,rojo,pez', 'dos,delgado,azul,pez']
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

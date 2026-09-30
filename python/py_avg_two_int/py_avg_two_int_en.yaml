@@ -1,0 +1,35 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_avg_two_int_en
+source: main.py
+title: Calculate average of two integer numbers
+description: Given two integer variables first_num, second_num, write a program that calculates their average.Assume that
+  the initial values of first_num, second_num are set to an integer value.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Given two integer variables `first_num`, `second_num`, write a program that calculates their average.\n\nAssume\
+  \ that the initial values of `first_num`, `second_num` are set to an integer value. \n\nThe average of the two numbers should\
+  \ be stored in the variable `average`\n\nE.g.: \nIf first_num is 3 and second_num is 5, then the average is 4.0\nIf first_num\
+  \ is 4 and second_num is 5, then the average is 4.5\n\nAuthors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

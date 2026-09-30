@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_percentage_correctness_en
+source: SCode.java
+title: Calculating the Percentage of the Correctly Answered Questions on a Test
+description: Complete the following code in order to calculate the percentage of the correctly answered questions on a student’s
+  test, given the total number of questions on
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ExplicitTypeCasting
+  - pcrs:DivideExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:DoubleDataType
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:ExplicitTypeCasting
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to calculate the percentage of the correctly answered questions on a student’s test, given the total number of questions on the test and the number of questions the student got right.
+
+  The total number of questions on the test and the number of questions the student got right are stored in the variables `totalQuestions` and `numRight`, respectively. Assume that the initial value of variable `totalQuestions` is already set to a positive integer greater than 0 and the initial value of variable `numRight` is already set to a positive integer greater than or equal to 0. Also, note that the percentage should include the fractional part.
+
+  E.g. 1: if the value of `numRight` is 4 and the value of `totalQuestions` is 10, the code prints 0.4.
+  E.g. 2: if the value of `numRight` is 9 and the value of `totalQuestions` is 15, the code prints 0.6.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    double percent;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n        \n    "
+  placeholder: "    // TODO: add your code here\n        \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(percent);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

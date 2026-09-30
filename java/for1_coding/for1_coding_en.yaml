@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_for1_coding_en
+source: SCode.java
+title: For Loop 1
+description: Given two integer variables a and b, complete the following code in order to calculate the sum of the integers
+  from a (inclusive) to b (exclusive).
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:LessExpression
+  - pcrs:ForStatement
+  - pcrs:PostIncrementExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:IntDataType
+  - pcrs:AddAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:AddAssignmentExpression
+  - pcrs:ForStatement
+  - pcrs:IntDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:LessExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: "Given two integer variables a and b, complete the following code in order to calculate the sum of the integers\
+  \ from `a` (inclusive) to `b` (exclusive). The sum is stored in an integer variable called `sum`. Assume that the initial\
+  \ value of the variables `a` and `b` is already set to a positive integer. \n\nE.g. 1: if the value of `a` is 3 and the\
+  \ value of `b` is 5, the value of `sum` will be 7.\nE.g. 2: if the value of `a` is 2 and the value of `b` is 8, the value\
+  \ of `sum` will be 27.\nE.g. 3: if the value of `a` is 1 and the value of `b` is 6, the value of `sum` will be 15."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "int sum = 0, i;\nfor "
+- type: editable
+  location:
+    snippet: '(;;)       '
+  placeholder: '(;;)       '
+- type: locked
+  location:
+    snippet: "{        \n\tsum += i;\n}\nSystem.out.println(sum);"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,3 @@
+
+def firstHalf(s):
+    return

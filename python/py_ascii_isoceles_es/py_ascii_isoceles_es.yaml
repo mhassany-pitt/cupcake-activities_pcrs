@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_ascii_isoceles_es
+source: main.py
+title: PCRS C3-PL  Ascii Isoceles
+description: Completa la siguiente funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
+      \ str, int) -> NoneType\n    \n    Precondicion: len(bloque) == 1\n    \n    Escribe un triangulo rectangulo isosceles\
+      \ de caracteres bloque que es\n    longitud_lado caracteres de ancho y alto en triangulo_doc. El angulo recto\n    debe\
+      \ estar en la esquina superior izquierda. Por ejemplo, dado\n    bloque=\"@\" y longitud_lado=4, lo siguiente debe escribirse\
+      \ en triangulo_doc:\n    \n    @@@@\n    @@@\n    @@\n    @\n    \"\"\""
+  placeholder: "\ndef escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
+    \ str, int) -> NoneType\n    \n    Precondicion: len(bloque) == 1\n    \n    Escribe un triangulo rectangulo isosceles\
+    \ de caracteres bloque que es\n    longitud_lado caracteres de ancho y alto en triangulo_doc. El angulo recto\n    debe\
+    \ estar en la esquina superior izquierda. Por ejemplo, dado\n    bloque=\"@\" y longitud_lado=4, lo siguiente debe escribirse\
+    \ en triangulo_doc:\n    \n    @@@@\n    @@@\n    @@\n    @\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

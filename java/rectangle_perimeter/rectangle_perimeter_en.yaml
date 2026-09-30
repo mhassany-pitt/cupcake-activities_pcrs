@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_rectangle_perimeter_en
+source: SCode.java
+title: Calculating the Perimeter of a Rectangle
+description: Complete the following code in order to calculate the perimeter of a rectangle, given its height and width.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MultiplyExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:IntDataType
+  - pcrs:AddExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:AddExpression
+  - pcrs:IntDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:MultiplyExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to calculate the perimeter of a rectangle, given its height and width. The height and width of the rectangle are stored in the variables `height` and `width`, respectively. The initial value of both variables is already set to a positive number.
+
+  E.g. 1: if the value of `height` is 3 and the value of `width` is 4, the code prints 14.
+  E.g. 2: if the value of `height` is 6 and the value of `width` is 7, the code prints 26.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    int perimeter;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n        \n    "
+  placeholder: "    // TODO: add your code here\n        \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(perimeter);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

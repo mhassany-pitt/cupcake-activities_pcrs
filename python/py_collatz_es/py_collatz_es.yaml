@@ -1,0 +1,85 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_collatz_es
+source: main.py
+title: Contar Pasos Collatz (ES)
+description: En matematicas, la conjetura de Collatz establece que comenzando desde cualquier numero, eventualmente se obtendra
+  1 al seguir repetidamente estos dos pasos:Si
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Division
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:IfElifCheckingInWhileLoop
+  - pcrs:NoneLiteral
+  - pcrs:Multiplication
+  - pcrs:FindRemainder
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInWhileLoop
+  - pcrs:IfElseCheckingInWhileLoop
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Division
+  - pcrs:FindRemainder
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:IfElseCheckingInWhileLoop
+  - pcrs:Multiplication
+  - pcrs:SingleWhileLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  En matematicas, la conjetura de Collatz establece que comenzando desde cualquier numero, eventualmente se obtendra 1 al seguir repetidamente estos dos pasos:
+  Si el numero es par, dividir por 2.
+  Si el numero es impar, multiplicar por 3 y sumar 1.
+
+  Completa esta funcion para contar los pasos de Collatz para un numero en particular.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contar_pasos_collatz(n):
+          """ (int) -> int
+
+          Devuelve el numero de pasos que toma llegar a 1, aplicando los dos pasos
+          de la conjetura de Collatz comenzando desde n.
+
+          >>> contar_pasos_collatz(6)
+          8
+          """
+  placeholder: |2-
+
+    def contar_pasos_collatz(n):
+        """ (int) -> int
+
+        Devuelve el numero de pasos que toma llegar a 1, aplicando los dos pasos
+        de la conjetura de Collatz comenzando desde n.
+
+        >>> contar_pasos_collatz(6)
+        8
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

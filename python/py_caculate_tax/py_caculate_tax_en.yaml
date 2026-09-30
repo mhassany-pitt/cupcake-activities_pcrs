@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_caculate_tax_en
+source: main.py
+title: PCRS C3-PL  Caculate Tax
+description: Following the Function Design Recipe, define function calculate_tax.Here is its Type Contract:( number, number)
+  → numberThe first parameter represents a bill an
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Following the **Function Design Recipe**, define function `calculate_tax`.
+
+  Here is its `Type Contract`:( `number`,  `number`) → `number`
+
+  The first parameter represents a bill and the second represents a tax rate (a rate between 0.0 and 1.0 inclusive). Return the amount of tax to be paid on this bill.
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

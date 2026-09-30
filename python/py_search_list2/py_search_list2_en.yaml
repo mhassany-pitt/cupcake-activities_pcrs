@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_search_list2_en
+source: main.py
+title: Search List 2
+description: Complete the following function according to its docstring using a for loop.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring using a for loop.  String method startswith may come
+  in handy here.  The lists we test will not all be shown; instead, some will be described in English. If you fail any test
+  cases, you will need to read the description and make your own test.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef search_closet(items, colour):\n    \"\"\" (list of str, str) -> list of str\n    \n    items is a list\
+      \ containing descriptions of the contents of a closet where\n    every description has the form 'colour item', where\
+      \ each colour is one word\n    and each item is one or more word.  For example:\n\n        ['grey summer jacket', 'orange\
+      \ spring jacket', 'red shoes', 'green hat']\n\n    colour is a colour that is being searched for in items. \n    \n\
+      \    Return a list containing only the items that match the colour.\n    \n    >>> search_closet(['red summer jacket',\
+      \ 'orange spring jacket', 'red shoes', 'green hat'], 'red')\n    ['red summer jacket', 'red shoes']\n    >>> search_closet(['red\
+      \ shirt', 'green pants'], 'blue')\n    []\n    >>> search_closet([], 'mauve')\n    []\n    \"\"\""
+  placeholder: "\ndef search_closet(items, colour):\n    \"\"\" (list of str, str) -> list of str\n    \n    items is a list\
+    \ containing descriptions of the contents of a closet where\n    every description has the form 'colour item', where each\
+    \ colour is one word\n    and each item is one or more word.  For example:\n\n        ['grey summer jacket', 'orange spring\
+    \ jacket', 'red shoes', 'green hat']\n\n    colour is a colour that is being searched for in items. \n    \n    Return\
+    \ a list containing only the items that match the colour.\n    \n    >>> search_closet(['red summer jacket', 'orange spring\
+    \ jacket', 'red shoes', 'green hat'], 'red')\n    ['red summer jacket', 'red shoes']\n    >>> search_closet(['red shirt',\
+    \ 'green pants'], 'blue')\n    []\n    >>> search_closet([], 'mauve')\n    []\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

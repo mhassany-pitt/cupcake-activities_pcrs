@@ -1,0 +1,3 @@
+
+def tieneDosDigitos(x):
+    return

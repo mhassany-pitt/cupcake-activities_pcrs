@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_bracket_validator_en
+source: main.py
+title: PCRS C3-PL Bracket validation
+description: Bracket ValidatorYou're working with an intern that keeps coming to you with JavaScript code that won't run because
+  the braces, brackets, and parentheses are off.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  ## Bracket Validator
+
+  You're working with an intern that keeps coming to you with JavaScript code that won't run because the braces, brackets, and parentheses are off. To save you both some time, you decide to write a braces/brackets/parentheses validator.
+
+  Let's say:
+
+  - '(', '{', '[' are called "openers."
+
+  - ')', '}', ']' are called "closers."
+
+  Write an efficient function that tells us whether or not an input string's openers and closers are properly nested.
+
+  #### Examples:
+
+  `"{ [ ] ( ) }"` should return `True`
+
+  `"{ [ ( ] ) }"` should return `False`
+
+  `"{ [ }"` should return `False`
+
+  Simply making sure each opener has a corresponding closer is not enough — we must also confirm that they are correctly ordered.For example, `"{ [ ( ] ) }"` should return `False`, even though each opener can be matched to a closer.
+
+  We can do this in `O(n)` time and space. One iteration is all we need!
+
+  #### Bonus:
+
+  In Ruby, sometimes expressions are surrounded by vertical bars, "|like this|". Extend your validator to validate vertical bars. Careful: there's no difference between the "opener" and "closer" in this case—they're the same character!
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def is_valid(code):
+          pass
+  placeholder: |2-
+
+    def is_valid(code):
+        pass
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_is_tautonym_en
+source: SCode.java
+title: Determining if a word is tautonym
+description: Complete the following code in order to determine if a word if a given word can be considered as a "tautonym".
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.substring
+  - pcrs:ModulusExpression
+  - pcrs:AndExpression
+  - pcrs:AndExpression
+  - pcrs:java.lang.String.substring
+  - pcrs:ModulusExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to determine if a word if a given word can be considered as a "tautonym". A tautonym is a word that is formed by the repetition of a subword, e.g. tartar (tar and tar). Thus, its first half is exactly the same as the second half (so a word with an odd number of characters cannot be tautonym). The empty word is not considered as a tautonym.
+
+  Assume that the word to be analyzed is stored in a String variable called `word`, which has already been initialized. Use the boolean variable `isTautonym` and define a boolean expression to decide if `word` is a tautonym.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '// TODO: Write your code here'
+- type: editable
+  location:
+    snippet: "\n        \n\nboolean isTautonym = ();\n\n \n        \n        "
+  placeholder: "\n        \n\nboolean isTautonym = ();\n\n \n        \n        "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

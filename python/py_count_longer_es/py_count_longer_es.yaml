@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_count_longer_es
+source: main.py
+title: PCRS C3-PL  Count Longer
+description: Escribe una funcion que tome una lista de strings y un string, y devuelva el numero de strings en la lista que
+  son mas largas que el string dada. contarStringsM
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que tome una lista de strings y un string, y devuelva el numero de strings en la lista que son mas largas que el string dada.
+
+  ```
+  contarStringsMasLargos(['perro', 'gato', 'a', 'ab'], 'z')=>3
+  contarStringsMasLargos(['', 'a', 'ab', 'abc'], 'abcd') => 0
+  contarStringsMasLargos(['azul', 'colegio', 'fracaso', 'dia'], 'abril')=>2
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contarStringsMasLargos(elementos, string):
+          # codigo
+  placeholder: |2-
+
+    def contarStringsMasLargos(elementos, string):
+        # codigo
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

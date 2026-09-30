@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_without2_en
+source: SCode.java
+title: Conditional statements 4
+description: Given a string str, complete the following code in order to determine the value of the string variable result.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:StringVariable
+  - pcrs:java.lang.String.substring
+  - pcrs:StringDataType
+  - pcrs:ObjectMethodInvocation
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.equals
+  - pcrs:IfStatement
+  - pcrs:EqualExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:StringLiteral
+  - pcrs:SubtractExpression
+  - pcrs:IfElseStatement
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:EqualExpression
+  - pcrs:GreaterEqualExpression
+  - pcrs:IfElseStatement
+  - pcrs:IfStatement
+  - pcrs:java.lang.String.equals
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.substring
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringLiteral
+  - pcrs:StringVariable
+  - pcrs:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: "Given a string `str`, complete the following code in order to determine the value of the string variable `result`.\
+  \ If the same 2-character substring appears at both beginning and end of the string `str`, the `result` is the contents\
+  \ of the string `str` without the 2-character substring at the beginning. If the two characters at the start and end of\
+  \ the string do not match each other, the `result` is the same as the string `str`.\nAssume that the initial value of the\
+  \ variable `str` is already set to a string. \n\nE.g. 1: if the value of `str` is \"HelloHe\", the value of `result` will\
+  \ be \"lloHe\".\nE.g. 2: if the value of `str` is \"Hi\", the value of `result` will be \"\".\nE.g. 3: if the value of `str`\
+  \ is \"HelloHi\", the value of `result` will be \"HelloHi\"."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    String result;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n        \n       "
+  placeholder: "    // TODO: add your code here\n        \n       "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

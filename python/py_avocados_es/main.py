@@ -1,0 +1,3 @@
+
+def aguacates(diasPasados):
+    return

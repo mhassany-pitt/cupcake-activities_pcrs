@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_recursion_palindrome_en
+source: SCode.java
+title: (Recursion) Check if a string is palindrome
+description: Complete the isPalindrome method so that it returns true if the string passed as the parameter is the same if
+  its characters are reversed.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.charAt
+  - pcrs:recursion
+  - pcrs:EqualExpression
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.equals
+  - pcrs:EqualExpression
+  - pcrs:java.lang.String.charAt
+  - pcrs:java.lang.String.equals
+  - pcrs:java.lang.String.length
+  - pcrs:recursion
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the `isPalindrome` method so that it returns\n `true` if the string passed as the parameter is the\n\
+  \    same if its characters are reversed.  For example, \"abba\" is a\n    palindrome, but \"abbc\" is not a palindrome.\n\
+  \n **Important**: your implementation must be recursive:\n    do not use a loop. \n\n    Think about what base case or cases\
+  \ would be appropriate.\n    Make sure that your recursive call or calls make progress towards\n    a base case.\n\n   \
+  \ The method should *not* ignore spaces, punctuation, or case\n    differences.  For example, \"abbA\" should *not* be considered\
+  \ a\n    palindrome.\n\n    You can use the `length()` method to get the length\n    of a string.  The `charAt(int)` method\
+  \ gets the character\n    at the given index in a string.  The `substring(int, int)`\n    method gets a substring from the\
+  \ given start index (inclusive)\n    to the given end index (exclusive).  A correct solution will\n    probably use all\
+  \ of these methods."
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      public boolean isPalindrome(String s) {
+          // TODO: add your code
+      }
+  placeholder: |2-
+
+    public boolean isPalindrome(String s) {
+        // TODO: add your code
+    }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

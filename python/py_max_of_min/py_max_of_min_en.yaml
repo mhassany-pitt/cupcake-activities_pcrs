@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_max_of_min_en
+source: main.py
+title: PCRS C3-PL  Max Of Min
+description: Function max_of_min takes four numbers, num1, num2, value1, and value2, determines the minimum of num1 and num2
+  and the minimum of value1 and value2, and return
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Function `max_of_min` takes four numbers, `num1`, `num2`, `value1`, and `value2`, determines the minimum of `num1` and `num2` and the minimum of `value1` and `value2`, and returns the maximum of those two minimums.
+
+  Complete the function definition.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def max_of_min(num1, num2, value1, value2):
+  placeholder: |2-
+
+    def max_of_min(num1, num2, value1, value2):
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

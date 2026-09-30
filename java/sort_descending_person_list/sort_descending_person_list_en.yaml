@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_sort_descending_person_list_en
+source: Lab7.java
+title: (Sorting) Sort descendingly a list of persons
+description: Complete the method sortPersonListDescending in order to return a descendingly sorted ArrayList of Person objects,
+  based on lexicographical order of last names.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:sorting
+  - pcrs:sorting
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the method `sortPersonListDescending` in order to return a descendingly sorted ArrayList of Person objects, based on lexicographical order of last names.
+
+  Hint: use compareTo() method from String class to lexicographically compare two Strings. See more: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#compareTo(java.lang.String)
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
+  placeholder: "\nstatic ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
+- type: locked
+  location:
+    snippet: "class Person{\n    public String firstName;\n    public String lastName;\n    public int age;\n    \n    public\
+      \ Person(String firstName, String lastName, int age){\n    \tthis.firstName = firstName;\n        this.lastName = lastName;\n\
+      \        this.age = age;\n    }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

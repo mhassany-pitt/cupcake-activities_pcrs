@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_is_not_in_en
+source: main.py
+title: PCRS C3-PL  Is Not In
+description: Return true if the second string is not in the first string. "Use not in".isNotIn("I is not in team", "i") ->
+  FalseisNotIn("I is not in team", "g") -> TrueisNot
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Return true if the second string is not in the first string. "Use not in".
+
+  ```
+  isNotIn("I is not in team", "i") -> False
+  isNotIn("I is not in team", "g") -> True
+  isNotIn("team", "i") -> True
+  isNotIn("I is not in team", "teams") -> True
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def isNotIn(s1, s2):
+          #code
+  placeholder: |2-
+
+    def isNotIn(s1, s2):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

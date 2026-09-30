@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_recursive_times_in_list_en
+source: main.py
+title: PCRS C3-PL Recursive counting
+description: Write a function that takes a list and an item x, andreturns the number of times that x occurrs in the list.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a list and an item `x`, and
+  returns the number of times that x occurrs in the list. Use
+  recursion in your implementation. For example:
+
+  ```
+  recCount([1,2,3], 2) => 1
+  recCount([], 16) => 0
+  recCount([4,3,2,1,4,5,6,3], 4) => 2
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def recCount(items, x):
+          # code here
+  placeholder: |2-
+
+    def recCount(items, x):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

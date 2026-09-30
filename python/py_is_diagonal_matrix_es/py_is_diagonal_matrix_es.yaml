@@ -1,0 +1,77 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_is_diagonal_matrix_es
+source: main.py
+title: Es matriz diagonal (lista 2D) (ES)
+description: Una matriz diagonal es una matriz cuadrada donde todos los elementos fuera de la diagonal principal son cero.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ComparisonExpression
+  - pcrs:CheckingForItem
+  - pcrs:NestedForLoopIteration
+  - pcrs:IntegerLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:FindingLength
+  - pcrs:Indexing2DArray
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:CheckingForItem
+  - pcrs:FindingLength
+  - pcrs:IfCheckingInForLoop
+  - pcrs:Indexing2DArray
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Una matriz diagonal es una matriz cuadrada donde todos los elementos fuera de la diagonal principal son cero. La diagonal principal de una matriz está formada por los elementos matrix[i][i].
+
+  Tu tarea es completar la funcion `es_matriz_diagonal` que determine si una matriz cuadrada dada es una matriz diagonal o no.
+
+  Ejemplos de entrada/salida:
+  `matriz1 = [
+      [3, 0, 0],
+      [0, -2, 0],
+      [0, 0, 5]
+  ]
+  es_matriz_diagonal(matriz1) -> True
+  `
+
+  `matriz2 = [
+      [4, 2, 0],
+      [0, -2, 0],
+      [1, 0, 5]
+  ]
+  es_matrix_diagonal(matriz2) -> False
+  `
+
+  A considerar:
+  - La matriz siempre será cuadrada.
+  - No utilices librerías externas como NumPy.
+  - Usa estructuras básicas de Python (list, range, etc.).
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def es_matriz_diagonal(matriz):
+          #Escribe tu codigo aqui
+  placeholder: |2-
+
+    def es_matriz_diagonal(matriz):
+        #Escribe tu codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

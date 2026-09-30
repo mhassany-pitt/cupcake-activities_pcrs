@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_is_in_es
+source: main.py
+title: PCRS C3-PL  Is In
+description: Devuelve True si s2 esta en s1 y False si no lo esta.estaEn("gatos y perros", "t") -> TrueestaEn("gatos y perros",
+  "perro") -> TrueestaEn("gatos y perros", "mas
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:StringLiteral
+  - pcrs:CheckingForItem
+  - pcrs:DefiningSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Devuelve True si s2 esta en s1 y False si no lo esta.
+
+  ```
+  estaEn("gatos y perros", "t") -> True
+  estaEn("gatos y perros", "perro") -> True
+  estaEn("gatos y perros", "mascota") -> False
+  estaEn("gatos y perros", "tos y") -> True
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def estaEn (c1, c2):
+          # codigo
+  placeholder: |2-
+
+    def estaEn (c1, c2):
+        # codigo
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

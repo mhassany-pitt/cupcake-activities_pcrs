@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_in_order_main_en
+source: Lab3.java
+title: in_order_main
+description: Given three integer variables, a, b, and c, write a boolean expression to determine if b is greater than a, and
+  c is greater than b.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElseStatement
+  - pcrs:EqualExpression
+  - pcrs:GreaterExpression
+  - pcrs:EqualExpression
+  - pcrs:GreaterExpression
+  - pcrs:IfElseStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Given three integer variables, `a`, `b`, and `c`, write a boolean expression to determine if `b` is greater than\
+  \ `a`, and `c` is greater than `b`. However, with the exception that if the boolean variable `bOk` is true, `b` does not\
+  \ need to be greater than `a`. Store the result of this expression in a variable called `result`. Assume that the initial\
+  \ value of the variables `a`, `b`, and `c` is already set to an integer and the initial value of the variable `bOk` is already\
+  \ set to a boolean value.\n\nE.g. 1: if the value of `a` is 1, the value of `b` is 2 , the value of `c` is 4, and the value\
+  \ of `bOk` is false, the value of `result` will be true. \nE.g. 2: if the value of `a` is 1, the value of `b` is 2 , the\
+  \ value of `c` is 1, and the value of `bOk` is false, the value of `result` will be false. \nE.g. 3: if the value of `a`\
+  \ is 1, the value of `b` is 1 , the value of `c` is 2, and the value of `bOk` is true, the value of `result` will be true."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        System.out.print(\"\
+      Enter three integer numbers in order (a, b and c) and a boolean value (bOk): \");\n        \n        int a = kbd.nextInt();\n\
+      \        int b = kbd.nextInt();\n        int c = kbd.nextInt();\n        boolean bOk = kbd.nextBoolean();\n        \n\
+      \        //Definition of the variable that will store the value or result\n    \tboolean result;\n               \n\
+      \        //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "        \n    \t// TODO: add your code here\n        \n        \n    "
+  placeholder: "        \n    \t// TODO: add your code here\n        \n        \n    "
+- type: locked
+  location:
+    snippet: "        //YOU MUST NOT WRITE ANY CODE BELOW THIS LINE\n        \n \t\tSystem.out.println(result);       \n \
+      \   }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,81 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_overload_grade_en
+source: Grade.java
+title: Grade class
+description: Complete the following code for overloading the constructors of the class Grade.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfStatement
+  - pcrs:ThisReference
+  - pcrs:ConstructorName
+  - pcrs:ConstructorDefinition
+  - pcrs:ConstructorSignature
+  - pcrs:Constructor
+  - pcrs:ConstructorCall
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:Constructor
+  - pcrs:ConstructorCall
+  - pcrs:ConstructorDefinition
+  - pcrs:ConstructorName
+  - pcrs:ConstructorSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:IfStatement
+  - pcrs:MethodSignature
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ThisReference
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the following code for overloading the constructors of the class Grade. Additionally, you need to implement\
+  \ the missing getters/setters for the three attributes of the class. For this task, you need to consider the following grade\
+  \ conversion table:\n\nLetter grade | Percent grade\nA+: 97-100\nA: 93-96\nA-: 90-92\nB+: 87-89\nB: 83-86\nB-: 80-82\nC+:\
+  \ 77-79\nC: 73-76\nC-: 70-72\nD+: 67-69\nD: 63-66\nD-: 60-62\nF: Below 60\n\nConstructors definition:\n+ Grade(studentID:\
+  \ String) -> this one will set the percentGrade as 0 and letterGrade as F\n+ Grade(studentID: String, percent: int) \n+\
+  \ Grade(studentID: String, letter: char, sign: char) -> this one will set letterGrade as the concatenation of `letter` and\
+  \ `sign`, and the percent score as the upper limit of the corresponding range (e.g. if `letter` score is B+, `percent` will\
+  \ be equals to 89). If second parameter is ' ', do not concatenate (keep the single letter given as first parameter as it\
+  \ is).\n\nImportant: you need to control that the Grade objects created (as well as getters/setters) accept grades only\
+  \ within the specified range (`percentScore` from 0 to 100,  `letterGrade` with first character from 'A' to 'F' and the\
+  \ second character has to be either '+', '-' or ' ' - the last one represents when the letter grade has no sign associated).\
+  \ In case the constructor is passed with a parameter outside the feasible range, you need to set the `percentGrade` as 0\
+  \ and `letterGrade` as F.\n\nMore instructions on how to implement the missing parts of this class are provided in the code\
+  \ below."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: |-
+      public class Grade {
+          private String studentID;
+          private String letter;
+          private int percent;
+- type: editable
+  location:
+    snippet: "    // TODO: add the 3 getters and 3 setters\n    \n    \n    // TODO: add the 3 overloaded constructors.\n\
+      \    \n    "
+  placeholder: "    // TODO: add the 3 getters and 3 setters\n    \n    \n    // TODO: add the 3 overloaded constructors.\n\
+    \    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

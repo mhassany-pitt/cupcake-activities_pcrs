@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_first_mismatch_es
+source: main.py
+title: Primera no coincidencia en lista (ES)
+description: Completa la siguiente funcion segun su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:FindingLength
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IfElseChecking
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun su docstring.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
+      \ en el que los valores de lista1 y lista2 difieren. \n    Devuelve -1 si no se encuentran diferencias.\n       \n \
+      \   >>> primera_diferencia(['a', 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> primera_diferencia(['a', 'b', 'c'], ['a',\
+      \ 'b', 'c', 'd'])\n    3\n    >>> primera_diferencia(['a', 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""
+  placeholder: "\ndef primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
+    \ en el que los valores de lista1 y lista2 difieren. \n    Devuelve -1 si no se encuentran diferencias.\n       \n   \
+    \ >>> primera_diferencia(['a', 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> primera_diferencia(['a', 'b', 'c'], ['a', 'b',\
+    \ 'c', 'd'])\n    3\n    >>> primera_diferencia(['a', 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

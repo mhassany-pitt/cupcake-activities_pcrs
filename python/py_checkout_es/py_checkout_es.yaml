@@ -1,0 +1,68 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_checkout_es
+source: main.py
+title: Caja rapida (diccionario) (ES)
+description: La caja rapida es para pedidos de comestibles con 8 o menos articulos.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:ListReferencing
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:Addition
+  - pcrs:dict()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:StringLiteral
+  - pcrs:DictLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingDictionary
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:DictLiteral
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:StringLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingDictionary
+runtime:
+  language: python
+  version: '3'
+statement: La caja rapida es para pedidos de comestibles con 8 o menos articulos. Completa los ejemplos en el docstring y
+  luego completa el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve\
+      \ True si y solo si el pedido de comestibles en producto_a_cantidad califica para la\n    caja rapida. producto_a_cantidad\
+      \ asigna productos a la cantidad de esos\n    articulos en el pedido de comestibles.\n\n    >>> caja_rapida({'platano':\
+      \ 3, 'leche de soya': 1, 'mantequilla de mani': 1})\n    #Pendiente: Completar el valor de retorno de la llamada a la\
+      \ funcion anterior.\n    >>> caja_rapida({'platano': 3, 'leche de soya': 1, 'pastelito': 5})\n    #Pendiente: Completar\
+      \ el valor de retorno de la llamada a la funcion anterior.\n    \"\"\"\n    "
+  placeholder: "\ndef caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve\
+    \ True si y solo si el pedido de comestibles en producto_a_cantidad califica para la\n    caja rapida. producto_a_cantidad\
+    \ asigna productos a la cantidad de esos\n    articulos en el pedido de comestibles.\n\n    >>> caja_rapida({'platano':\
+    \ 3, 'leche de soya': 1, 'mantequilla de mani': 1})\n    #Pendiente: Completar el valor de retorno de la llamada a la\
+    \ funcion anterior.\n    >>> caja_rapida({'platano': 3, 'leche de soya': 1, 'pastelito': 5})\n    #Pendiente: Completar\
+    \ el valor de retorno de la llamada a la funcion anterior.\n    \"\"\"\n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

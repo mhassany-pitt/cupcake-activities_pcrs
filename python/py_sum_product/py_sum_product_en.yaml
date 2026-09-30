@@ -1,0 +1,35 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_sum_product_en
+source: main.py
+title: Calculate sum and product
+description: Given 2 integers, first_num and second_num, write a program to calculate their sum and product that are stored
+  in variables sum and product respectively.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Given 2 integers, `first_num` and `second_num`, write a program to calculate their sum and product that are stored\
+  \ in variables `sum` and `product` respectively. \n\nAssume that the initial value of the variables `first_num` and `second_num`\
+  \ are already set to an integer.\n\nE.g.: if the value of first_num is 3 and the value of second_num is 4, the value of\
+  \ sum will be 7 and the product will be 12\n\nAuthors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

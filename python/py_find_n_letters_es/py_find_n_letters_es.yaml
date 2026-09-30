@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_find_n_letters_es
+source: main.py
+title: Encontrar letra n veces con while (ES)
+description: Completa el cuerpo de la siguiente funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:SlicingString
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:IfElifElseCheckingInWhileLoop
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:Addition
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:WhileLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:StringLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:IndexingString
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:SlicingString
+  - pcrs:WhileLoopWithListIndexing
+runtime:
+  language: python
+  version: '3'
+statement: Completa el cuerpo de la siguiente funcion. Aunque esta funcion podria completarse con un ciclo for, para practicar,
+  solicitamos que uses un ciclo while.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
+      \ ocurre al menos 'n' veces en 'string'\n\n    Devuelve el substring mas pequeno de 'string' comenzando desde el indice\
+      \ 0 que contiene\n    n ocurrencias de 'letra'.\n\n    >>> encontrar_letra_n_veces('Ciencias de la Computacion', 'e',\
+      \ 2)\n    'Ciencias de'\n    \"\"\"\n\n    i = 0\n    cuenta = 0\n    \n    #TODO completa el resto de la funcion abajo"
+  placeholder: "\ndef encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
+    \ ocurre al menos 'n' veces en 'string'\n\n    Devuelve el substring mas pequeno de 'string' comenzando desde el indice\
+    \ 0 que contiene\n    n ocurrencias de 'letra'.\n\n    >>> encontrar_letra_n_veces('Ciencias de la Computacion', 'e',\
+    \ 2)\n    'Ciencias de'\n    \"\"\"\n\n    i = 0\n    cuenta = 0\n    \n    #TODO completa el resto de la funcion abajo"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_replacec_en
+source: main.py
+title: PCRS C3-PL  Replacec
+description: Replace all of the given characters with c.replaceC("replace the x with a c", "x") -> "replace the c with a c"replaceC("This
+  is not aaa work", "a") -> "This is
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Replace all of the given characters with c.
+
+  ```
+  replaceC("replace the x with a c", "x") -> "replace the c with a c"
+  replaceC("This is not aaa work", "a") -> "This is not ccc work"
+  replaceC("To b or not to b for I want to b the world", "c") -> "To c or not to c for I want to c the world"
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def replaceC(s, ch):
+          #code
+  placeholder: |2-
+
+    def replaceC(s, ch):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

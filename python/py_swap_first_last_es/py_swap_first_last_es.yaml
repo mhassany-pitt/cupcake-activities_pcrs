@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_swap_first_last_es
+source: main.py
+title: Intercambiar primero y ultimo
+description: Completa la funcion intercambiar_extremos(L) para intercambiar los extremos de la lista L (primer y ultimo elemento)
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Subtraction
+  - pcrs:IfElifElseChecking
+  - pcrs:NoneLiteral
+  - pcrs:IndexingDictionary
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:SwappingValueVariables
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingTuple
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:IfChecking
+  - pcrs:IndexingList
+  - pcrs:SwappingValueVariables
+runtime:
+  language: python
+  version: '3'
+statement: Completa la funcion intercambiar_extremos(L) para intercambiar los extremos de la lista L (primer y ultimo elemento)
+elements:
+- type: editable
+  location:
+    snippet: "\ndef intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
+      \ y L[-1].\n    \"\"\""
+  placeholder: "\ndef intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
+    \ y L[-1].\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

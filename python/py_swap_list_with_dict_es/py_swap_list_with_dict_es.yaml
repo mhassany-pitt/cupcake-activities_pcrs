@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_swap_list_with_dict_es
+source: main.py
+title: Intercambiar elementos de una lista con diccionario (ES)
+description: Escribe una función que tome una lista de strings denominados items y un diccionario llamado d con strings como
+  llaves y valores.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:IfElifElseChecking
+  - pcrs:DictLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:list()
+  - pcrs:dict()
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElseCheckingInForLoop
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:CreatingObject
+  - pcrs:IndexingDictionary
+runtime:
+  language: python
+  version: '3'
+statement: "Escribe una función que tome una lista de strings denominados ` items `\ny un diccionario llamado ` d `con strings\
+  \ como llaves y valores. \nDevuelve una nueva lista que contenga todos los strings de ` items `,\npero si algun string en\
+  \ ` items ` aparece como llave en `d`\nreemplácelo con el valor. Por ejemplo:\n\n```\nintercambiar(['ab','bc','perro'],\
+  \ {'ab':'xyz'}) => ['xyz', 'bc', 'perro']\n```"
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: 'def intercambiar(items, d):'
+- type: editable
+  location:
+    snippet: "\t#escribe tu codigo aqui\n    "
+  placeholder: "\t#escribe tu codigo aqui\n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

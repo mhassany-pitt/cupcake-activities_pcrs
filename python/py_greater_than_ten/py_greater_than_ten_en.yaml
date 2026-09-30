@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_greater_than_ten_en
+source: main.py
+title: PCRS C3-PL  Greater Than Ten
+description: Write a function that takes a list of ints and returns the sumof the values that are greater than 10.Do not use
+  the max() function. sumOver10([5,6,7,8,9])=>0 su
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a list of ints and returns the sum
+  of the values that are greater than 10.
+  **Do not** use the max() function.
+
+  ```
+  sumOver10([5,6,7,8,9])=>0
+  sumOver10([19,11,0,10,8])=>30
+  sumOver10([-3,-2,-1,-6,-9,-11, 57])=>57
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def sumOver10(items):
+          #code
+  placeholder: |2-
+
+    def sumOver10(items):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

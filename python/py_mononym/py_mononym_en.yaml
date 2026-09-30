@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_mononym_en
+source: main.py
+title: Mononymize Names
+description: Complete the following function according to its docstring description.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
+      \ as a single string, in the form:\n    LAST_NAME, FIRST_NAME\n    where LAST_NAME and FIRST_NAME are replaced by last\
+      \ and first.\n    Mononymous persons (those with no last name) should have their name\n    returned without a comma.\n\
+      \n    >>> format_name('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> format_name('Cher', '')\n    'Cher'\n\
+      \    \"\"\""
+  placeholder: "\ndef format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
+    \ as a single string, in the form:\n    LAST_NAME, FIRST_NAME\n    where LAST_NAME and FIRST_NAME are replaced by last\
+    \ and first.\n    Mononymous persons (those with no last name) should have their name\n    returned without a comma.\n\
+    \n    >>> format_name('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> format_name('Cher', '')\n    'Cher'\n\
+    \    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

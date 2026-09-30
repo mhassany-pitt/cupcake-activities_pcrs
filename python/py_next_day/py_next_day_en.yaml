@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_next_day_en
+source: main.py
+title: Next Day
+description: 'Complete the following program that checks three integers, representing a date: month, day, and year.'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Complete the following program that checks three integers, representing a date: month, day, and year. \n\nThe\
+  \ month, day and year values are already set to variables `month`, `day`, and `year` respectively. \nYou can assume that\
+  \ the values of these variables are always valid. \n\nFor the program to work correctly, you only need to update the current\
+  \ values of `month`, `day` and `year` variables to the next day's date. \n\nE.g. 1: If the given three integers (month day\
+  \ year) are 3 30 2015 which represents the actual date March 30, 2015, the next day's date is 3 31 2015 (March 31, 2015)\
+  \ .  \nE.g. 2: If the given three integers (month day year) are 12 31 2016 which represents the actual date December 31,\
+  \ 2016, the next day's date is 1 1 2017 (January 1, 2017). \n\nHint 1: Do not forget to consider the leap year. If the current\
+  \ year is a leap year and the current date given is 02 28 1988, the next day's date becomes 02 29 1988 instead of 03 01\
+  \ 1988\nIn the Gregorian calendar, a year is a leap year when the number representing that year is divisible by 4, but not\
+  \ by 100, unless it is divisible by 400. \n\nHint 2: Assume that there are no leap years before 1582.\n\nAuthors: Yana Kortsarts,\
+  \ Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

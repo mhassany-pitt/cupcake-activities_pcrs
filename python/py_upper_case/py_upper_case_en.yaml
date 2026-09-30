@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_upper_case_en
+source: main.py
+title: Upper Case
+description: Add at least one example to the docstring and complete the function body
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Add at least one example to the docstring and complete the function body
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def count_uppercase(s):
+          """ (str) -> int
+
+          Return the number of uppercase letters in s.
+
+          #TODO: add at least one example in the space below
+
+          """
+
+          #TODO: now complete the function body
+  placeholder: |2-
+
+    def count_uppercase(s):
+        """ (str) -> int
+
+        Return the number of uppercase letters in s.
+
+        #TODO: add at least one example in the space below
+
+        """
+
+        #TODO: now complete the function body
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

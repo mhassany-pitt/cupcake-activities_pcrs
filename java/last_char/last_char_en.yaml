@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_last_char_en
+source: Lab2.java
+title: last_char
+description: Complete the following program in order to print to the console the last character of a string entered by a user
+  from the keyboard.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.charAt
+  - pcrs:SimpleVariable
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:CharDataType
+  - pcrs:CharDataType
+  - pcrs:java.lang.String.charAt
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following program in order to print to the console the last character of a string entered by a user from the keyboard. Assume that the string entered by the user is at least 1-character long.
+
+  **Important:** Note that you have to define a variable named `lastChar` to store the last character of the user input, which is printed to the console in the last part of the code below.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab2 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        // Prompt user\
+      \ for typing text input\n        System.out.print(\"Enter any string ( e.g your name): \");\n        //Store user input\
+      \ in a String variable\n        String s = kbd.nextLine();\n        System.out.println(\"You entered \" + s);\n    \
+      \    \n        //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "        \n        // Define variable lastChar to store the last character of the user input\n        \n    \
+      \         \n        "
+  placeholder: "        \n        // Define variable lastChar to store the last character of the user input\n        \n  \
+    \           \n        "
+- type: locked
+  location:
+    snippet: "        //YOU MUST NOT WRITE ANY CODE BELOW THIS LINE\n        \n        //Prints to the console the last character\
+      \ of the user input\n        System.out.println(\"Last character: \"+lastChar);\n  }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

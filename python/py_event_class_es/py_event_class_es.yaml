@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_event_class_es
+source: main.py
+title: PCRS C3-PL  Event Class
+description: Se proporciona la clase Evento.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:__init()__
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:StringLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CreatingObject
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:StringLiteral
+  - pcrs:__init()__
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingObject
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: Se proporciona la clase Evento. Completa los ejemplos y el cuerpo del metodo renombrar.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
+      \ nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio < hora_fin\
+      \ <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n      \
+      \  y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n       \
+      \ >>> e.hora_fin\n        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n        \n        self.hora_inicio\
+      \ = hora_inicio\n        self.hora_fin = hora_fin\n        self.nombre = nombre_evento\n\n\n    def renombrar(self,\
+      \ nuevo_nombre):\n        \"\"\" (Evento, str) -> NoneType\n\n        Cambia el nombre de este evento a nuevo_nombre.\n\
+      \        \n        #TODO: completa el ejemplo a continuacion usando el metodo renombrar.\n        >>> e = Evento(12,\
+      \ 13, 'Almuerzo')\n        >>>\n        >>>\n\n        \"\"\""
+  placeholder: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio,\
+    \ hora_fin, nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio\
+    \ < hora_fin <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n\
+    \        y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n   \
+    \     >>> e.hora_fin\n        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n        \n        self.hora_inicio\
+    \ = hora_inicio\n        self.hora_fin = hora_fin\n        self.nombre = nombre_evento\n\n\n    def renombrar(self, nuevo_nombre):\n\
+    \        \"\"\" (Evento, str) -> NoneType\n\n        Cambia el nombre de este evento a nuevo_nombre.\n        \n     \
+    \   #TODO: completa el ejemplo a continuacion usando el metodo renombrar.\n        >>> e = Evento(12, 13, 'Almuerzo')\n\
+    \        >>>\n        >>>\n\n        \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

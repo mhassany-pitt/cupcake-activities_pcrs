@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_two_params_true_one_es
+source: main.py
+title: Solo Uno Verdadero (p1-4-ES)
+description: 'Escribe una funcion que devuelva verdadero si solo uno de los dos parametros dados es verdadero. (Nota: el operador
+  normal ''or'' devuelve verdadero cuando ambos'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NoneLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: 'Escribe una funcion que devuelva verdadero si solo uno de los dos parametros dados es verdadero. (Nota: el operador
+  normal ''or'' devuelve verdadero cuando ambos son verdaderos.)'
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def soloUnoVerdadero(b1, b2):
+          return
+  placeholder: |2-
+
+    def soloUnoVerdadero(b1, b2):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

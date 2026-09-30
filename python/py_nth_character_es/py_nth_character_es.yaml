@@ -1,0 +1,90 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_nth_character_es
+source: main.py
+title: Cada enesimo caracter con while (ES)
+description: Complete the body for the following function.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:StringLiteral
+  - pcrs:Concatenation
+  - pcrs:FindingLength
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:WhileLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:IndexingString
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:WhileLoopWithListIndexing
+runtime:
+  language: python
+  version: '3'
+statement: Complete the body for the following function. While this function could be completed with a for loop, for practice,
+  we request that you use a while loop.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def cada_n_caracter(string, n):
+          """ (str, int) -> str
+
+          Devuelve cada n-esimo caracter en string comenzando en el indice 0.
+
+          >>> cada_n_caracter('Computer Science', 3)
+          'CpeSee'
+          """
+
+          resultado = ''
+          i = 0
+
+          #TODO agrega el resto del codigo aqui
+
+          return resultado
+  placeholder: |2-
+
+    def cada_n_caracter(string, n):
+        """ (str, int) -> str
+
+        Devuelve cada n-esimo caracter en string comenzando en el indice 0.
+
+        >>> cada_n_caracter('Computer Science', 3)
+        'CpeSee'
+        """
+
+        resultado = ''
+        i = 0
+
+        #TODO agrega el resto del codigo aqui
+
+        return resultado
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

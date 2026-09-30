@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_first_half_en
+source: SCode.java
+title: Printing the First Half of a String
+description: Complete the following code in order to print the first half of the string variable str.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.substring
+  - pcrs:DivideExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:StringVariable
+  - pcrs:java.lang.String.length
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:StringDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:DivideExpression
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.substring
+  - pcrs:java.lang.System.out.println
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to print the first half of the string variable `str`.  Assume that the initial value of the variable `str` is already set to a string with an even number of characters.
+
+  E.g. 1: if the value of `str` is "WooHoo", the code prints Woo.
+  E.g. 2: if the value of `str` is "HelloThere", the code prints Hello.
+  E.g. 3: if the value of `str` is "abcdef", the code prints abc.
+elements:
+- type: editable
+  location:
+    snippet: "\n    // TODO: add your code here\n    \n    \t\n    System.out.println(str); \n"
+  placeholder: "\n    // TODO: add your code here\n    \n    \t\n    System.out.println(str); \n"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_sum_twenty_es
+source: main.py
+title: 'Condicion: pares que sumen 20 (ES)'
+description: 'El metodo tiene 3 parametros: a, b y c.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IntegerLiteral
+  - pcrs:+
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:Addition
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: "El metodo tiene 3 parametros: a, b y c. Devuelve verdadero si alguna pareja de parametros (ab, ac, o bc) suma\
+  \ 20. \nPor ejemplo:\n\n```\nsuma20(5, 25, -5) => True\nsuma20(3, 10, 7) => False\nsuma20(4, 19, -7) => False\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def suma20(a, b, c):
+          # code here
+  placeholder: |2-
+
+    def suma20(a, b, c):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

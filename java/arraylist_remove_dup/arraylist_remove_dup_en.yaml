@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_arraylist_remove_dup_en
+source: SCode.java
+title: arraylist_remove_dup
+description: Create a method that traverses through an input array and deletes all duplicate elements.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.util.ArrayList.get
+  - pcrs:java.util.ArrayList.size
+  - pcrs:java.util.ArrayList.add
+  - pcrs:DoubleValue
+  - pcrs:java.util.ArrayList.get
+  - pcrs:java.util.ArrayList.size
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Create a method that traverses through an input array and deletes all duplicate elements. Assume that the input ArrayList is already in numerical order. The method will be returning the new ArrayList with no duplicates in it
+  For example:
+
+  ```
+  noDups([1, 1, 2, 3, 3, 3]) → [1, 2, 3]
+  noDups([-3, -3, 3, 3]) → [-3, 3]
+  noDups([-1, 2, 9]) → [-1, 2, 9]
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\npublic ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n   \
+      \ \n    \n    \n    \n    \n}\n"
+  placeholder: "\npublic ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n \
+    \   \n    \n    \n    \n    \n}\n"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

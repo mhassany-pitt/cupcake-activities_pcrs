@@ -1,0 +1,76 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_user_class1_es
+source: main.py
+title: PCRS C3-PL  User Class1
+description: La clase Usuario representa un usuario con un nombre de usuario, contrasena e informacion de cuenta.Completa
+  el metodo actualizar_cuenta en el codigo a continua
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningFunctionCallingFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfChecking
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningClass
+  - pcrs:DefiningFunctionCallingFunction
+  - pcrs:DefiningObjectMethod
+  - pcrs:IfChecking
+  - pcrs:IfElifElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  La clase `Usuario` representa un usuario con un nombre de usuario, contrasena e informacion de cuenta.
+
+  Completa el metodo `actualizar_cuenta` en el codigo a continuacion segun la descripcion de su docstring. Llama al metodo `iniciar_sesion` en tu solucion.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
+      \ str, str, str) -> NoneType\n        \n        Inicializa el usuario con nombre_usuario, contrasena e info_cuenta.\n\
+      \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.nombre_usuario\n\
+      \        'xyz'\n        >>> nuevo_usuario.contrasena\n        'contrasena1'\n        >>> nuevo_usuario.info_cuenta\n\
+      \        \"Banco en Linea de Bob\"\n        \"\"\"\n        self.nombre_usuario = nombre_usuario\n        self.contrasena\
+      \ = contrasena\n        self.info_cuenta = info_cuenta\n        \n    def iniciar_sesion(self, contrasena_ingresada):\n\
+      \        \"\"\" (Usuario, str) -> bool\n        \n        Devuelve True si y solo si la contrasena del usuario coincide\
+      \ con contrasena_ingresada.\n        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de\
+      \ Bob\")\n        >>> nuevo_usuario.iniciar_sesion('contrasena1')\n        True\n        >>> nuevo_usuario.iniciar_sesion('1234')\n\
+      \        False\n        \"\"\"\n        return self.contrasena == contrasena_ingresada\n\n    def actualizar_cuenta(self,\
+      \ contrasena_ingresada, nueva_info):\n        \"\"\" (Usuario, str, str) -> NoneType\n        \n        Modifica la\
+      \ info_cuenta del usuario para ser nueva_info si la contrasena del usuario\n        coincide con contrasena_ingresada.\n\
+      \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.actualizar_cuenta('1234',\
+      \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        \"Banco en Linea de Bob\"\n        >>> nuevo_usuario.actualizar_cuenta('contrasena1',\
+      \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        'B.O.B.'\n        \"\"\""
+  placeholder: "\nclass Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
+    \ str, str, str) -> NoneType\n        \n        Inicializa el usuario con nombre_usuario, contrasena e info_cuenta.\n\
+    \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.nombre_usuario\n\
+    \        'xyz'\n        >>> nuevo_usuario.contrasena\n        'contrasena1'\n        >>> nuevo_usuario.info_cuenta\n \
+    \       \"Banco en Linea de Bob\"\n        \"\"\"\n        self.nombre_usuario = nombre_usuario\n        self.contrasena\
+    \ = contrasena\n        self.info_cuenta = info_cuenta\n        \n    def iniciar_sesion(self, contrasena_ingresada):\n\
+    \        \"\"\" (Usuario, str) -> bool\n        \n        Devuelve True si y solo si la contrasena del usuario coincide\
+    \ con contrasena_ingresada.\n        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\"\
+    )\n        >>> nuevo_usuario.iniciar_sesion('contrasena1')\n        True\n        >>> nuevo_usuario.iniciar_sesion('1234')\n\
+    \        False\n        \"\"\"\n        return self.contrasena == contrasena_ingresada\n\n    def actualizar_cuenta(self,\
+    \ contrasena_ingresada, nueva_info):\n        \"\"\" (Usuario, str, str) -> NoneType\n        \n        Modifica la info_cuenta\
+    \ del usuario para ser nueva_info si la contrasena del usuario\n        coincide con contrasena_ingresada.\n        \n\
+    \        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.actualizar_cuenta('1234',\
+    \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        \"Banco en Linea de Bob\"\n        >>> nuevo_usuario.actualizar_cuenta('contrasena1',\
+    \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        'B.O.B.'\n        \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

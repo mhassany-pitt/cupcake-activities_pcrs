@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_chars_in_order_str_en
+source: SCode.java
+title: chars_in_order_str
+description: Given a String as a parameter, return true only whenthe letters of the String are in alphabetical order.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:MethodImplementation
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given a String as a parameter, return true only when
+  the letters of the String are in alphabetical order. Assume
+  that the empty String is in alphabetical order.
+  For example:
+
+  isAlpha("abc") => true
+  isAlpha("xya") => false
+  isAlpha("w") => true
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static boolean isAlpha(String s)\n{\n    \n}"
+  placeholder: "\npublic static boolean isAlpha(String s)\n{\n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

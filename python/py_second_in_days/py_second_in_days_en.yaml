@@ -1,0 +1,44 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_second_in_days_en
+source: main.py
+title: Calculating the Seconds in n Days
+description: 'Calculate the seconds in n days and set the value to the variable secondsE.g. 1: if the value of n is 1, seconds
+  variable is set to 86400.E.g. 2: if the value o'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Calculate the seconds in `n` days and set the value to the variable `seconds`
+
+  E.g. 1: if the value of n is 1, `seconds` variable is set to 86400.
+  E.g. 2: if the value of n is 2, `seconds` variable is set to 172800.
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+- type: locked
+  location:
+    snippet: "#A variable called n is already set to a positive integer.\n#Use variable n in your code below. \n#Assign it\
+      \ to variable called seconds."
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

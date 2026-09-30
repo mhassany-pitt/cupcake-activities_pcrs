@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_greenticket_en
+source: SCode.java
+title: Conditional statements 3
+description: You have a green lottery ticket, with integers a, b, and c on it.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElseIfStatement
+  - pcrs:EqualExpression
+  - pcrs:IfStatement
+  - pcrs:AndExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:IntDataType
+  - pcrs:IfElseStatement
+  - pcrs:SimpleVariable
+  - pcrs:OrExpression
+  - pcrs:AndExpression
+  - pcrs:EqualExpression
+  - pcrs:IfElseIfStatement
+  - pcrs:IfElseStatement
+  - pcrs:IfStatement
+  - pcrs:IntDataType
+  - pcrs:OrExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Tienes un boleto de lotería verde con los enteros `a`, `b` y `c` impresos. Completa el siguiente código para determinar el valor de la variable `resultado` según los tres enteros del boleto. Si los tres enteros son distintos entre sí, `resultado` es 0. Si los tres son iguales, `resultado` es 20. Si dos de los enteros son iguales, `resultado` es 10.
+  Supón que el valor inicial de las variables `a`, `b` y `c` ya está fijado en un entero.
+
+  Ej. 1: si el valor de `a` es 1, el de `b` es 2 y el de `c` es 3, el valor de `resultado` será 0.
+  Ej. 2: si el valor de `a` es 2, el de `b` es 2 y el de `c` es 2, el valor de `resultado` será 20.
+  Ej. 3: si el valor de `a` es 1, el de `b` es 1 y el de `c` es 2, el valor de `resultado` será 10.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    int resultado;'
+- type: editable
+  location:
+    snippet: "    // TODO: escribe tu codigo aqui\n        \n       "
+  placeholder: "    // TODO: escribe tu codigo aqui\n        \n       "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

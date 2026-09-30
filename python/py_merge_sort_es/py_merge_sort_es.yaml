@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_merge_sort_es
+source: main.py
+title: PCRS C3-PL  Merge Sort
+description: Fusion de arreglos ordenadosGTG 14.1Dado arreglos ordenados arr1 y arr2 de longitudes n y m respectivamente,
+  devuelve un arreglo out que contiene la union de lo
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  # Fusion de arreglos ordenados
+
+  *GTG 14.1*
+  Dado arreglos ordenados `arr1` y `arr2` de longitudes `n` y `m` respectivamente, devuelve un arreglo `out` que contiene la union de los elementos de ambos arreglos, sin ningun duplicado.
+
+  - Usa `fuerza bruta` para establecer rapidamente el paso de casos de prueba
+
+  - Usa `busqueda binaria` para buscar en `arr1` (el mayor de los dos) entre insertar el elemento en `arr2` en `out`
+
+  # Ejemplo
+
+  `[1, 1]`, `[]` -> `[1]`
+  `[1]`, `[2]` -> `[1, 2]`
+  `[1, 2]`, `[2]`, -> `[1, 2]`
+  `[3, 4]`, `[1, 2]` -> `[1, 2, 3, 4]`
+  `[3, 4, 4]`, `[1, 1, 2]` -> `[1, 2, 3, 4]`
+  `[1, 2, 3, 6, 7, 8]`, `[4, 4]` -> `[1, 2, 3, 4, 6, 7, 8]`
+elements:
+- type: editable
+  location:
+    snippet: "\ndef fusionar_arreglos (a1, a2): \n    \n    pass"
+  placeholder: "\ndef fusionar_arreglos (a1, a2): \n    \n    pass"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

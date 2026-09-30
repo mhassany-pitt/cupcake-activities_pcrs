@@ -1,0 +1,118 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_bubble_up_es
+source: main.py
+title: PCRS C3-PL  Bubble Up
+description: 'A continuacion se presenta una funcion llamada burbujear_hacia_arriba que toma 3 parametros: la lista, un indice
+  de inicio y un indice de fin, y burbujea los elementos en ese rango.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ForLoopWithUpdate
+  - pcrs:TupleLiteral
+  - pcrs:Subtraction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:SwappingValueVariables
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:ForLoopWithUpdate
+  - pcrs:IntegerLiteral
+  - pcrs:TupleLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:SwappingValueVariables
+runtime:
+  language: python
+  version: '3'
+statement: 'A continuacion se presenta una funcion llamada burbujear_hacia_arriba que toma 3 parametros: la lista, un indice
+  de inicio y un indice de fin, y burbujea los elementos en ese rango. Hemos comenzado una funcion llamada burbujear_hacia_abajo
+  que toma los mismos 3 parametros pero burbujea en la direccion opuesta. Completa la funcion burbujear_hacia_abajo.'
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def burbujear_hacia_arriba(L, inicio, fin):
+          """ (list, int, int) -> NoneType
+
+          Burbujear hacia arriba a traves de L[inicio:fin], intercambiando elementos que estan fuera de orden.
+
+          >>> L = [4, 3, 2, 1, 0]
+          >>> burbujear_hacia_arriba(L, 0, 3)
+          >>> L
+          [3, 2, 1, 4, 0]
+          >>> L = [4, 3, 2, 1, 0]
+          >>> burbujear_hacia_arriba(L, 2, 4)
+          >>> L
+          [4, 3, 1, 0, 2]
+          """
+
+          for i in range(inicio, fin):
+              if L[i] > L[i + 1]:
+                  L[i], L[i + 1] = L[i + 1], L[i]
+
+      def burbujear_hacia_abajo(L, inicio, fin):
+          """ (list, int, int) -> NoneType
+
+          Burbujear hacia abajo a traves de L desde los indices fin hasta inicio, intercambiando elementos que estan fuera de lugar.
+
+          >>> L = [4, 3, 2, 1, 0]
+          >>> burbujear_hacia_abajo(L, 1, 3)
+          >>> L
+          [4, 1, 3, 2, 0]
+          """
+  placeholder: |2-
+
+    def burbujear_hacia_arriba(L, inicio, fin):
+        """ (list, int, int) -> NoneType
+
+        Burbujear hacia arriba a traves de L[inicio:fin], intercambiando elementos que estan fuera de orden.
+
+        >>> L = [4, 3, 2, 1, 0]
+        >>> burbujear_hacia_arriba(L, 0, 3)
+        >>> L
+        [3, 2, 1, 4, 0]
+        >>> L = [4, 3, 2, 1, 0]
+        >>> burbujear_hacia_arriba(L, 2, 4)
+        >>> L
+        [4, 3, 1, 0, 2]
+        """
+
+        for i in range(inicio, fin):
+            if L[i] > L[i + 1]:
+                L[i], L[i + 1] = L[i + 1], L[i]
+
+    def burbujear_hacia_abajo(L, inicio, fin):
+        """ (list, int, int) -> NoneType
+
+        Burbujear hacia abajo a traves de L desde los indices fin hasta inicio, intercambiando elementos que estan fuera de lugar.
+
+        >>> L = [4, 3, 2, 1, 0]
+        >>> burbujear_hacia_abajo(L, 1, 3)
+        >>> L
+        [4, 1, 3, 2, 0]
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_recurse_converge_es
+source: main.py
+title: Convergencia recursiva (ES)
+description: 'auto_convergerObjetivo: Dado un numero, devuelve el numero de iteraciones que toma para llegar a un numero derivado
+  que converge en si mismo, segun la siguiente rutina.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "### auto_converger\n\n`Objetivo`: Dado un numero, devuelve el numero de iteraciones que toma para llegar a un\
+  \ numero derivado que converge en si mismo, segun la siguiente rutina. Se recomienda recursion. \n\n- Inicializa un contador\
+  \ para contar el numero de iteraciones\n\n- Toma cualquier numero de cuatro digitos, usando al menos dos digitos diferentes.\
+  \ (Se permiten ceros a la izquierda.)\n\n- Ordena los digitos en orden descendente y luego en orden ascendente para obtener\
+  \ dos numeros de cuatro digitos, agregando ceros a la izquierda si es necesario.\n\n- Resta el numero mas pequeno del numero\
+  \ mas grande. Llamemos a esto un numero_secuencia.\n\n- Comprueba si el numero_secuencia (el resto) del Paso 3 es igual\
+  \ al numero original. Si no, incrementa el contador de iteraciones, y vuelve al paso 2 y realiza la operacion en el numero_secuencia.\n\
+  \nSi hay una coincidencia, entonces devuelve el conteo de iteraciones\n\n- Si el numero_secuencia colapsa a cero, entonces\
+  \ devuelve -1 \n\n### Valores convergentes\n\nMientras que los numeros de 3 digitos convergen al mismo numero unico `k`\
+  \ que tambien tiene 3 digitos, todos los numeros de 4 digitos tambien convergen al mismo valor unico `k1` que tiene 4 digitos.\
+  \ Sin embargo, los numeros de 5 digitos convergen a cualquiera de los siguientes valores: `53955, 59994, 61974, 62964, 63954,\
+  \ 71973, 74943, 75933, 82962, 83952`.\n\n### Ejemplo\n\n`1234`  ->   `3`\n\n```\n1. 4321 - 1234 =  3087 /\n2. 8730 - 378\
+  \  =  8352 /\n3. 8532 - 2358 =  6174 /\n   7641 - 1467 =  6174 // igual que el anterior\n```\n\n`414` -> `4`\n\n```\n1.\
+  \ 441 - 144 =  297 /\n2. 972 - 279 =  693 /\n3. 963 - 369 =  594 /\n4. 954 - 459 =  495 /\n   954 - 459 =  495 // igual\
+  \ que el anterior\n```\n\n`50000` -> `3`\n\n```\n1. 50000 - 5      =  49995 /\n2. 99954 - 45999  =  53955 /  # primero\n\
+  3. 95553 - 35559  =  59994 /\n   99954 - 45999  =  53955 /  # 2da vez\n```"
+elements:
+- type: editable
+  location:
+    snippet: "\ndef auto_converger(numero):\n    \n    "
+  placeholder: "\ndef auto_converger(numero):\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

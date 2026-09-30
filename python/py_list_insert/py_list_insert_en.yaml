@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_list_insert_en
+source: main.py
+title: PCRS C3-PL  List Insert
+description: Complete the following code.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following code.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def insert(lst, v):
+          """ (list of int, int) -> NoneType
+
+          Insert v into lst just before the rightmost item greater than v, or at
+          index 0 if no items are greater than v.
+
+          >>> my_list = [3, 10, 4, 2]
+          >>> insert(my_list, 5)
+          >>> my_list
+          [3, 5, 10, 4, 2]
+          >>> my_list = [5, 4, 2, 10]
+          >>> insert(my_list, 20)
+          >>> my_list
+          [20, 5, 4, 2, 10]
+          """
+  placeholder: |2-
+
+    def insert(lst, v):
+        """ (list of int, int) -> NoneType
+
+        Insert v into lst just before the rightmost item greater than v, or at
+        index 0 if no items are greater than v.
+
+        >>> my_list = [3, 10, 4, 2]
+        >>> insert(my_list, 5)
+        >>> my_list
+        [3, 5, 10, 4, 2]
+        >>> my_list = [5, 4, 2, 10]
+        >>> insert(my_list, 20)
+        >>> my_list
+        [20, 5, 4, 2, 10]
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

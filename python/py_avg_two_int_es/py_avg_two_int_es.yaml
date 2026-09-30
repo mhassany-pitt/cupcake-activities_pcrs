@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_avg_two_int_es
+source: main.py
+title: Calcular promedio de dos numeros enteros (ES)
+description: Dadas dos variables enteras primer_num, segundo_num, escribe un programa que calcule su promedio.Suponga que
+  los valores iniciales de primer_num, segundo_num es
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Division
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Division
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Dadas dos variables enteras `primer_num`, `segundo_num`, escribe un programa que calcule su promedio.
+
+  Suponga que los valores iniciales de `primer_num`, `segundo_num` estan establecidos en un valor entero.
+
+  El promedio de los dos numeros debe almacenarse en la variable `promedio`
+
+  Ejemplo:
+  Si primer_num es 3 y segundo_num es 5, entonces el programa deberia imprimir "El promedio es 4.0"
+  Si primer_num es 4 y segundo_num es 5, entonces el programa deberia imprimir "El promedio es 4.5"
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      # Calcular el promedio de primer_num y segundo_num
+  placeholder: |2-
+
+    # Calcular el promedio de primer_num y segundo_num
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,38 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_diary_farm_en
+source: main.py
+title: Diary Farm
+description: A dairy farm ships milk bottles using containers of a specific size.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "A dairy farm ships milk bottles using containers of a specific size. Each container holds a certain number of\
+  \ milk bottles. \n\nComplete the following program that calculates and prints the number of containers fully packed with\
+  \ milk bottles and the number of remaining milk bottles. \n\nAssume that the size of a container and the number of milk\
+  \ bottles stored in `container_size` and `bottle_count` respectively. \n\nStore the number of fully packed containers and\
+  \ remaining milk bottles in variables `container_count` and `remaining` respectively. \n\nE.g. if the farm needs to ship\
+  \ 118 milk bottles and the capacity of one container is 24 bottles, then 4 containers will be fully packed and 22 bottles\
+  \ of milk will be leftover. \nIn this case, the number of fully packed containers is 4 and 22 bottle(s) left\n\nAuthors:\
+  \ Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

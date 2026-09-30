@@ -1,0 +1,38 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_2d_arrays_2_en
+source: SCode.java
+title: 2D Arrays 2
+description: Complete the following method which takes a 2D int array (square or rectangular) called arr and returns the sum
+  of all the elements in the specified column colu
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the following method which takes a 2D int array (square or rectangular) called `arr`\n and returns the\
+  \ sum of all the elements in the specified column `columnIndex` of the 2D array `arr`.\n\nAssume that none of the rows in\
+  \ this 2D array is null. \nIf the `columnIndex` is invalid, the method should return -1.\n\nFor exampe:\n\n```\nsumColumn(\
+  \ new int[][] { {1,0,1}, {2,1,2}, {0,0,0} }, 1) => 1\nsumColumn( new int[][]  { {1}, {1}, {5} }, 0) => 7\nsumColumn( new\
+  \ int[][] { {1,0}, {2,1}, {1,2} }, 2) => -1\n```"
+elements:
+- type: editable
+  location:
+    snippet: "\npublic int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n  \
+      \  \n}"
+  placeholder: "\npublic int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n\
+    \    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_odd_condition_es
+source: main.py
+title: 'Condicion: es impar (ES)'
+description: Proporciona la expresion booleana que se evalua como True si y solo si la variable cuenta es impar
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:FindRemainder
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:FindRemainder
+runtime:
+  language: python
+  version: '3'
+statement: Proporciona la expresion booleana que se evalua como True si y solo si la variable `cuenta` es impar
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: 'def es_impar(cuenta):'
+- type: editable
+  location:
+    snippet: "\tcond = "
+  placeholder: "\tcond = "
+- type: locked
+  location:
+    snippet: '    return cond'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

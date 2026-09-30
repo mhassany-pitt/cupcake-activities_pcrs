@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_create_circle_radius_en
+source: main.py
+title: Circle Radius
+description: Complete method __init__ in the following class. (It's only missing an assignment to a radius instance variable.)
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete method `__init__` in the following class.  (It's only missing an assignment to a `radius` instance variable.)
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      class Circle:
+          """ A circle with a radius. """
+
+          def __init__(self, r):
+              """ (Circle, number)
+
+              Create a circle with a radius r.
+
+              >>> c = Circle(10)
+              >>> c.radius
+              10
+              """
+  placeholder: |2-
+
+    class Circle:
+        """ A circle with a radius. """
+
+        def __init__(self, r):
+            """ (Circle, number)
+
+            Create a circle with a radius r.
+
+            >>> c = Circle(10)
+            >>> c.radius
+            10
+            """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

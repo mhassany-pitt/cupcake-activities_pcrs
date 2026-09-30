@@ -1,0 +1,43 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_recursive_addition_letters_en
+source: SCode.java
+title: Recursive addition of characters
+description: Using recursion, complete the doubleCharacters method so that it returns a string in which the characters of
+  the parameter string are doubled.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:recursion
+  - pcrs:recursion
+runtime:
+  language: java
+  version: '17'
+statement: "*Using recursion*,\n    complete the `doubleCharacters` method\n    so that it returns a string in which the characters\
+  \ of\n    the parameter string are doubled.\n    Examples:\n\n - `doubleCharacters(\"\")` => `\"\"`\n\n - `doubleCharacters(\"\
+  a\")` => `\"aa\"`\n\n - `doubleCharacters(\"abc\")` => `\"aabbcc\"`\n\n - `doubleCharacters(\"Hello\")` => `\"HHeelllloo\"\
+  `\n\n    Hints:\n\n - The `substring` method can be used to get a string\n        containing the characters of the original\
+  \ string from a\n        start index (inclusive) to an end index (exclusive).\n        For example, `s.substring(1, s.length())`\n\
+  \        returns a substring containing all of the characters\n        of `s` except for the first.\n \n\n - \n        The\
+  \ `charAt` method can be used to return the\n        character at a specified index in a string.\n        For example, `s.charAt(0)`\
+  \ returns the first\n        character of `s`.\n \n\n - \n        Make sure that your recursive call(s) make progress\n\
+  \        towards a base case.\n \n\n - \n        You can use string concatenation to construct the result\n        string.\
+  \  For example, if `c` is a `char`\n        variable, then\n \"\" + c + c\n        is a string that contains two repetitions\
+  \ of the\n        character that `c` contains."
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static String doubleCharacters(String s) {\n    // TODO\n    \n}"
+  placeholder: "\npublic static String doubleCharacters(String s) {\n    // TODO\n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

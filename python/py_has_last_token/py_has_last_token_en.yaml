@@ -1,0 +1,51 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_has_last_token_en
+source: main.py
+title: PCRS C3-PL  Has Last Token
+description: In this problem you will write the function has_last_token which takes as its first parameter a list of strings
+  that are each a comma-separated sequence.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: In this problem you will write the `function has_last_token` which takes as its first parameter a list of strings
+  that are each a comma-separated sequence. Complete the function according to its docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2
+
+
+          """ (list of str, str) -> list of str
+
+          Return a list of the elements of L that end with the specified token in the order they appear in the original list.
+
+          >>> has_last_token(['one,fat,black,cat', 'one,tiny,red,fish', 'two,thin,blue,fish'], 'fish')
+          ['one,tiny,red,fish', 'two,thin,blue,fish']
+          """
+  placeholder: |2
+
+
+        """ (list of str, str) -> list of str
+
+        Return a list of the elements of L that end with the specified token in the order they appear in the original list.
+
+        >>> has_last_token(['one,fat,black,cat', 'one,tiny,red,fish', 'two,thin,blue,fish'], 'fish')
+        ['one,tiny,red,fish', 'two,thin,blue,fish']
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

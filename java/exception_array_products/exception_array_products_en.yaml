@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_exception_array_products_en
+source: Lab8.java
+title: (Exception) Getting price from array of products
+description: Complete the method getProductPrice(Product[] arr, int index) in order to get the price of the product in the
+  position index of the array arr.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ReturnStatement
+  - pcrs:TryCatchStatement
+  - pcrs:ExceptionHandlingStatement
+  - pcrs:ArrayElement
+  - pcrs:java.io.BufferedReader
+  - pcrs:java.io.BufferedReader.readline
+  - pcrs:ArrayElement
+  - pcrs:ExceptionHandlingStatement
+  - pcrs:java.io.BufferedReader
+  - pcrs:java.io.BufferedReader.readline
+  - pcrs:ReturnStatement
+  - pcrs:TryCatchStatement
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the method getProductPrice(Product[] arr, int index) in order to get the price of the product in the position `index` of the array `arr`. You need to be aware of two erroneous situations that could happen in this context, where you need to implement try/catch to handle this situations:
+
+  1. If the product in the position `index` is `null`, the method needs to return 0.0;
+  2. If the `index` provided is "out of bounds" of the array `arr`, the method needs to return -9999.0;
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "static double getProductPrice(Product[] arr, int index){\n\ttry{"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "}  \nclass Product{\n\tpublic String id;\n    public double price;\n    \n    Product(String id, double price){\n\
+      \    \tthis.id = id;\n        this.price=price;\n    }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

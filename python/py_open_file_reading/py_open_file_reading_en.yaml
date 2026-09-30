@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_open_file_reading_en
+source: main.py
+title: File Open Reading
+description: This shows an example of how to text a function that involves reading from a file.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: This shows an example of how to text a function that involves reading from a file.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def get_lines(f):
+          """ (file open for reading) -> list of str"""
+          result = []
+          for line in f:
+              result.append(line.strip())
+          return result
+  placeholder: |2-
+
+    def get_lines(f):
+        """ (file open for reading) -> list of str"""
+        result = []
+        for line in f:
+            result.append(line.strip())
+        return result
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

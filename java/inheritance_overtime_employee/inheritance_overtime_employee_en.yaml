@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_inheritance_overtime_employee_en
+source: SCode.java
+title: (Inheritance) Method overriding class Employee
+description: Suppose that we have a class Employee and we want to extend it to produce class OvertimeEmployee.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MultiplicativeExpression
+  - pcrs:MethodOverriding
+  - pcrs:MethodImplementation
+  - pcrs:MethodImplementation
+  - pcrs:MethodOverriding
+  - pcrs:MultiplicativeExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Suppose that we have a class `Employee` and we want to extend it to produce class `OvertimeEmployee`. The class `Employee` provides the following three methods:
+
+  ```
+  public double getHourlyRate() { … }  //Returns the default hourlyRate of an employee
+  public int getHours() { … } //Returns how many hours a worker has worked
+  public double getSalary() { ... }//Returns the salary for a worker (multiplication between hours and hourlyRate
+  ```
+
+  Implement the `getSalary()` method in the `Employee` class and override it in class `OvertimeEmployee` assuming that the salary of an overtime employee is the same as a regular employee but multiplied by the `overtimeFactor`
+
+  Make sure to interact with the superclass.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "class Employee {\n\tprivate int hours;\n\tprivate double hourlyRate;\n    \n\tpublic int getHours() {\n\t\t\
+      return hours;\n\t}\n\t\n\tpublic double hourlyRate() {\n\t\treturn hourlyRate;\n\t}\n    "
+- type: editable
+  location:
+    snippet: "    public double getSalary(){\n        // TODO: Write your code here (implement getSalary())\n        \n  \
+      \     \n    }"
+  placeholder: "    public double getSalary(){\n        // TODO: Write your code here (implement getSalary())\n        \n\
+    \       \n    }"
+- type: locked
+  location:
+    snippet: "    \n\tpublic Employee(int hours, double hourlyRate){\n\t\tthis.hours = hours;\n\t\tthis.hourlyRate = hourlyRate;\n\
+      \t}\n}\n\nclass OvertimeEmployee extends Employee {\n\tpublic double overtimeFactor;\n    \n    public OvertimeEmployee(int\
+      \ hours, double hourlyRate, double overtimeFactor) {\n\t\tsuper(hours, hourlyRate);\n\t\tthis.overtimeFactor = overtimeFactor;\n\
+      \t}"
+- type: editable
+  location:
+    snippet: "    \n\t// TODO: Write your code here (override getSalary())\n\n    \n    \n    \n    \n    \n    \n    "
+  placeholder: "    \n\t// TODO: Write your code here (override getSalary())\n\n    \n    \n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

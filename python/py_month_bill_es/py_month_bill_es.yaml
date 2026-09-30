@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_month_bill_es
+source: main.py
+title: Calcular factura mensual (ES)
+description: Escribe un programa que calcule la factura mensual total utilizando las facturas de electricidad, agua y gas
+  para ese mes.Las facturas de electricidad, agua y g
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Concatenation
+  - pcrs:TransformingToFloatType
+  - pcrs:FloatLiteral
+  - pcrs:Addition
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:FloatLiteral
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Concatenation
+  - pcrs:TransformingToFloatType
+runtime:
+  language: python
+  version: '3'
+statement: "Escribe un programa que calcule la factura mensual total utilizando las facturas de electricidad, agua y gas para\
+  \ ese mes.\n\nLas facturas de electricidad, agua y gas se almacenan en las variables `electricidad`, `agua` y `gas`, respectivamente.\
+  \ \nSuponga que los valores iniciales de `electricidad`, `agua` y `gas` ya están establecidos como un número de punto flotante.\n\
+  \nLa factura mensual total se almacena en una variable de punto flotante `total`.\n\nEj.:\nSi la factura de electricidad\
+  \ es 50.6, la factura de agua es 40.4 y la factura de gas es 95.5, la variable `total` debería tener el valor de 186.5.\n\
+  \nAutores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      # Este es un programa para calcular la factura mensual total
+  placeholder: |2-
+
+    # Este es un programa para calcular la factura mensual total
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

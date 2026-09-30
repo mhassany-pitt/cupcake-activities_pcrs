@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_max_three_nums_es
+source: main.py
+title: Maximo de tres enteros (ES)
+description: Completa el siguiente programa que encuentra el valor maximo entre los tres valores enteros.Suponga que los tres
+  valores enteros ya estan asignados a num1, num2
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElseChecking
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Completa el siguiente programa que encuentra el valor maximo entre los tres valores enteros.
+
+  Suponga que los tres valores enteros ya estan asignados a `num1`, `num2`, y `num3` respectivamente.
+
+  Ej.: Si num1=5, num2=10, y num3=7, el programa imprime "El valor maximo de  5 10 7 es 10
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: print("El valor maximo de ", num1, num2, num3, "es", valor_maximo)
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,85 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_object_classes_4_en
+source: Box.java
+title: Objects and Classes 4
+description: Assume that we have a class called Box that contains instance data that represents the height, width, and depth
+  of the box.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:InstanceField
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:OverridingToString
+  - pcrs:SimpleVariable
+  - pcrs:DoubleDataType
+  - pcrs:StringDataType
+  - pcrs:ReturnStatement
+  - pcrs:ThisReference
+  - pcrs:StringAddition
+  - pcrs:MethodDefinition
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ClassDefinition
+  - pcrs:ConstructorDefinition
+  - pcrs:StringLiteral
+  - pcrs:FormalMethodParameter
+  - pcrs:InstanceFieldInvocation
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ClassDefinition
+  - pcrs:ConstructorDefinition
+  - pcrs:DoubleDataType
+  - pcrs:FormalMethodParameter
+  - pcrs:InstanceField
+  - pcrs:InstanceFieldInvocation
+  - pcrs:MethodDefinition
+  - pcrs:OverridingToString
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringAddition
+  - pcrs:StringDataType
+  - pcrs:StringLiteral
+  - pcrs:ThisReference
+runtime:
+  language: java
+  version: '17'
+statement: "Assume that we have a class called `Box` that contains instance data that represents the `height`, `width`, and\
+  \ `depth` of the box.  The Box constructor accepts and initializes the `height`, `width`, and `depth` of the box. Complete\
+  \ the following `Box` class by writing a `toString` method that returns a one-line description of the box. \n\nE.g. 1: if\
+  \ the `height` is 1, `width` is 3, and `depth` is 5, the `toString` method returns \"[1.0,3.0,5.0]\".\n\nE.g. 2: if the\
+  \ `height` is 4.4, `width` is 5.4, and `depth` is 1.2, the `toString` method returns \"[4.4,5.4,1.2]\"."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Box {\n\tprivate double height;\n\tprivate double width;\n\tprivate double depth;\n\t\n\tpublic\
+      \ Box(double height, double width, double depth) {\n\t\tthis.height = height;\n\t\tthis.width = width;\n\t\tthis.depth\
+      \ = depth;\n\t}"
+- type: editable
+  location:
+    snippet: "\t// TODO: add the toString method here\n    \n    \n    \n    \n    "
+  placeholder: "\t// TODO: add the toString method here\n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

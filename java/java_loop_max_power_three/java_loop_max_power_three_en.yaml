@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_loop_max_power_three_en
+source: Lab4.java
+title: (Loops) Maximum power of three
+description: Given an integer variable n entered by the user from keyboard, complete the following code in order to figure
+  what is the maximum power of 3 that is lower or equal than n.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:BooleanExpression
+  - pcrs:GreaterExpression
+  - pcrs:MultiplicativeExpression
+  - pcrs:java.lang.Math.pow
+  - pcrs:WhileStatement
+  - pcrs:BooleanExpression
+  - pcrs:GreaterExpression
+  - pcrs:java.lang.Math.pow
+  - pcrs:MultiplicativeExpression
+  - pcrs:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Given an integer variable `n` entered by the user from keyboard, complete the following code in order to figure\
+  \ what is the maximum power of 3 that is lower or equal than `n`. Store the result in an integer variable called `maxPower`.\
+  \ \n\nE.g. 1: if the value of `n` entered by the user is 2, the value of `maxPower` will be 1. \nE.g. 2: if the value of\
+  \ `n` entered by the user is 500, the value of `maxPower` will be 243. \nE.g. 3: if the value of `n` entered by the user\
+  \ is 27, the value of `maxPower` will be 27."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab4 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        // Prompt user\
+      \ for typing a numeric input\n        System.out.print(\"Enter value of n: \");\n        \n        //Stores the integer\
+      \ value from keyboard in the variable n\n        int n = kbd.nextInt();\n        \n\t\tint maxPower;\n        \n   \
+      \     //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "\t\t// TODO: add your code here\n\n \n        \n        "
+  placeholder: "\t\t// TODO: add your code here\n\n \n        \n        "
+- type: locked
+  location:
+    snippet: "        //YOU MUST NOT WRITE ANY CODE BELOW THIS LINE\n    \tSystem.out.println(maxPower);\n\t}\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_index_array_exception_en
+source: Lab8.java
+title: Index Array Exception
+description: 'Complete the method given below: You must check to see if the index exists in the array:1.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TryCatchStatement
+  - pcrs:TryCatchFinallyStatement
+  - pcrs:ArrayElement
+  - pcrs:ArrayElement
+  - pcrs:TryCatchFinallyStatement
+  - pcrs:TryCatchStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the method given below: \n\nYou must check to see if the index exists in the array:\n\n1. If the `index`\
+  \ is in range, then you will print out \"The user's choice is: __\", but fill in the blank with the element at the index\n\
+  2. If the `index` provided is \"out of bounds\" of the array `arr`, then you will print out \"The user has no preferences\"\
+  \n3. You will print out all the elements in the array in the output after checking the index. The numbers should be separated\
+  \ with a comma (the last element in the array does not include a comma).\n\nExample:\nif `arr={3,7,90}` and `index=3` you\
+  \ must print:\n`The user has no preferences`\n`3,7,90`"
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "static void inputIndex(int[] arr, int index){\n\ttry{"
+- type: editable
+  location:
+    snippet: "    \n          \n    }  \n    catch(/* input exception */){\n    \n    \n          "
+  placeholder: "    \n          \n    }  \n    catch(/* input exception */){\n    \n    \n          "
+- type: locked
+  location:
+    snippet: "    }  \n    finally{"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '}  '
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

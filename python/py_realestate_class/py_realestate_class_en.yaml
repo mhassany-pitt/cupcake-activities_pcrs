@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_realestate_class_en
+source: main.py
+title: PCRS C3-PL  Realestate Class
+description: Below we have provided a class RealEstateSystem which contains a collection of homes for sale and a Home class
+  which contains a price instance variable.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Below we have provided a class RealEstateSystem which contains a collection of homes for sale and a Home class
+  which contains a price instance variable. Your task is to complete the extract_minimum_price function which will return
+  the lowest price of all the homes in the RealEstateSystem. If there are no homes in the system, return -1.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass RealEstateSystem:\n    def __init__(self):\n        \"\"\" (RealEstateSystem)\n        Initialize the\
+      \ homes list\n        \"\"\"\n        self.homes = []\n        \n    def add_home(self, home):\n        \"\"\" (RealEstateSystem,\
+      \ Home) -> NoneType\n        Adds a home to our system\n        \"\"\"\n        self.homes.append(home)\n    \n    def\
+      \ extract_minimum_price(self):\n        \"\"\" (RealEstateSystem) -> int\n        Return the lowest priced home in the\
+      \ system, or -1 if there are no houses in the system\n        \"\"\"\n        # complete this code\n\n\nclass Home:\n\
+      \    \"\"\" An instance of a home \"\"\"\n    def __init__(self, price):\n        \"\"\" (Home, float)\n        Initialize\
+      \ a home\n        \"\"\"\n        self.price = price"
+  placeholder: "\nclass RealEstateSystem:\n    def __init__(self):\n        \"\"\" (RealEstateSystem)\n        Initialize\
+    \ the homes list\n        \"\"\"\n        self.homes = []\n        \n    def add_home(self, home):\n        \"\"\" (RealEstateSystem,\
+    \ Home) -> NoneType\n        Adds a home to our system\n        \"\"\"\n        self.homes.append(home)\n    \n    def\
+    \ extract_minimum_price(self):\n        \"\"\" (RealEstateSystem) -> int\n        Return the lowest priced home in the\
+    \ system, or -1 if there are no houses in the system\n        \"\"\"\n        # complete this code\n\n\nclass Home:\n\
+    \    \"\"\" An instance of a home \"\"\"\n    def __init__(self, price):\n        \"\"\" (Home, float)\n        Initialize\
+    \ a home\n        \"\"\"\n        self.price = price"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

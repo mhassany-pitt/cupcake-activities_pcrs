@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_ascii_isoceles_en
+source: main.py
+title: ASCII Isoceles Triangle
+description: Complete the following function.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef write_ascii_triangle(triangle_doc, block, sidelength):\n    \"\"\" (File Open for writing, str, int) ->\
+      \ NoneType\n    \n    Precondition: len(block) == 1\n    \n    Write an ascii isosceles right triangle of character\
+      \ block that is\n    sidelength characters wide and high to triangle_doc. The right\n    angle should be in the upper-left\
+      \ corner. For example, given\n    block=\"@\" and sidelength=4, the following should be written to triangle_doc:\n \
+      \   \n    @@@@\n    @@@\n    @@\n    @\n    \"\"\""
+  placeholder: "\ndef write_ascii_triangle(triangle_doc, block, sidelength):\n    \"\"\" (File Open for writing, str, int)\
+    \ -> NoneType\n    \n    Precondition: len(block) == 1\n    \n    Write an ascii isosceles right triangle of character\
+    \ block that is\n    sidelength characters wide and high to triangle_doc. The right\n    angle should be in the upper-left\
+    \ corner. For example, given\n    block=\"@\" and sidelength=4, the following should be written to triangle_doc:\n   \
+    \ \n    @@@@\n    @@@\n    @@\n    @\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

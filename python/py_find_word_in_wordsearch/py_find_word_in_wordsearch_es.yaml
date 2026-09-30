@@ -1,0 +1,91 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_find_word_in_wordsearch_es
+source: main.py
+title: Encontrar palabra en sopa de letras simple (lista 2D) (ES)
+description: Se te entrega una matriz de caracteres (strings de una sola letra) que representa una sopa de letras muy simple.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Indexing2DArray
+  - pcrs:Addition
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:StringLiteral
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CheckingForItem
+  - pcrs:Concatenation
+  - pcrs:FindingLength
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ForLoopWith+=
+  - pcrs:ListReferencing
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:Indexing2DArray
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Se te entrega una matriz de caracteres (strings de una sola letra) que representa una sopa de letras muy simple. Tu tarea es completar la función `encontrar_palabra` que determine si una palabra dada aparece en alguna fila de la matriz (de izquierda a derecha).
+
+  No es necesario buscar en columnas, ni al revés, ni en diagonal. Solo en las filas, y solo de izquierda a derecha.
+
+  Ejemplos entrada/salida:
+
+  `
+  sopa=[
+    ['a','s','o','l'],
+    ['x','y','z','w'],
+    ['p','u','d','u'],
+    ['r','o','m','a']
+  ]
+  encontrar_palabra(sopa,'sol') -> True
+  encontrar_palabra(sopa,'amor') -> False
+  encontrar_palabra(sopa,'pudu') -> False
+  encontrar_palabra(sopa,'semaforo') -> False
+  `
+elements:
+- type: editable
+  location:
+    snippet: "\ndef encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
+  placeholder: "\ndef encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

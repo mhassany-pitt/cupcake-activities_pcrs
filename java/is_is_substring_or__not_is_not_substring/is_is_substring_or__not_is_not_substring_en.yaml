@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_is_is_substring_or__not_is_not_substring_en
+source: SCode.java
+title: Is is substring or not is not substring
+description: Given a string, return true if the number of appearances of "is" anywhere in the string is equal to the number
+  of appearances of "not" anywhere in the string (c
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given a string, return true if the number of appearances of "is" anywhere in the string is equal to the number of appearances of "not" anywhere in the string (case sensitive).
+
+  equalIsNot("This is not") → false
+
+  equalIsNot("This is notnot") → true
+
+  equalIsNot("noisxxnotyynotxisi") → true
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: public boolean equalIsNot(String str) {
+- type: editable
+  location:
+    snippet: '// TODO: Write your code here'
+  placeholder: '// TODO: Write your code here'
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_smallest_integer_en
+source: SCode.java
+title: Smallest integer
+description: Find the smallest n such that 1 + 4 + 9 +…+ n^2 is too large to be represented as an int.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: "Find the smallest n such that \n\n1 + 4 + 9 +…+ n^2 \n\nis too large to be represented as an int."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: public int smallestN() {
+- type: editable
+  location:
+    snippet: '// TODO: Write your code here'
+  placeholder: '// TODO: Write your code here'
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

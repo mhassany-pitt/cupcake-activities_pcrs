@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_find_index_in_list_en
+source: main.py
+title: Find Index List
+description: Complete the following function.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function.  Note that neither item_list nor index_list should be mutated.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def find_value_indexes(item_list, index_list, v):
+          """ (list of object, list of int, object) -> list of int
+
+          Precondition: the values in index_list are valid indexes in item_list.
+
+          v may appear multiple times in item_list.  index_list contains zero or
+          more indexes.  Return a list of the indexes from index_list at which v
+          appears in item_list.
+
+          >>> find_value_indexes([6, 8, 8, 5, 8], [0, 2, 4], 8)
+          [2, 4]
+          """
+  placeholder: |2-
+
+    def find_value_indexes(item_list, index_list, v):
+        """ (list of object, list of int, object) -> list of int
+
+        Precondition: the values in index_list are valid indexes in item_list.
+
+        v may appear multiple times in item_list.  index_list contains zero or
+        more indexes.  Return a list of the indexes from index_list at which v
+        appears in item_list.
+
+        >>> find_value_indexes([6, 8, 8, 5, 8], [0, 2, 4], 8)
+        [2, 4]
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

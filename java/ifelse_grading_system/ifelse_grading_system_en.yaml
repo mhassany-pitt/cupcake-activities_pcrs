@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_ifelse_grading_system_en
+source: Lab3.java
+title: ifelse_grading_system
+description: You will be coding a function that will take in an input of a percentage and will output the letter grade and
+  the GPA equivalent.In this learning activity, you
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElseIfStatement
+  - pcrs:IfElseStatement
+  - pcrs:GreaterEqualExpression
+  - pcrs:BooleanExpression
+  - pcrs:BooleanExpression
+  - pcrs:GreaterEqualExpression
+  - pcrs:IfElseIfStatement
+  - pcrs:IfElseStatement
+runtime:
+  language: java
+  version: '17'
+statement: "You will be coding a function that will take in an input of a percentage and will output the letter grade and\
+  \ the GPA equivalent.\n\nIn this learning activity, you will be tested on your knowledge of if-else statements and how to\
+  \ implement it. You will be modifying 2 variables: double gpa (which houses your gpa equivalent in decimal form), and String\
+  \ letter (which houses your letter grade equivalent in String form)\n\nNote: Make sure you do not have any spaces in your\
+  \ String letter variable and that your double variable always only holds 2 digits or less after the decimal point.\n\nBelow\
+  \ is the chart for the range of each letter grade/GPA: \nAssume your input will always be an int value and within the range\
+  \ [0, 100]\n\n     A+  |    4.0     |     97% ≤ `percentage` ≤ 100%\n     A    |    4.0     |     93% ≤ `percentage` < 97%\n\
+  \     A-   |   3.75   |     90% ≤ `percentage` < 93%\n     B+  |   3.25   |     87% ≤ `percentage` < 90%\n     B    |  \
+  \  3.0    |     83% ≤ `percentage` < 87%\n     B-   |  2.75    |     80% ≤ `percentage` < 83%\n     C+  |  2.25    |   \
+  \  77% ≤ `percentage` < 80%\n     C    |   2.0     |     73% ≤ `percentage` < 77%\n     C-   |  1.75    |     70% ≤ `percentage`\
+  \ < 73%\n     D+  |  1.25    |     67% ≤ `percentage` < 70%\n     D    |   1.0     |     63% ≤ `percentage` < 67%\n    \
+  \ D-   |  0.75    |     60% ≤ `percentage` < 63%\n     F     |   0.0     |     0% ≤ `percentage` < 60%\n\nNote: YOU DO NOT\
+  \ HAVE TO HAVE A SYSTEM.OUT.PRINTLN IN YOUR CODE. AS LONG AS YOU MODIFY THE 2 VARIABLES GIVEN, YOU WILL SUCCEED.\n\nExamples\
+  \ of input/output:\n\nE.g. Enter percentage received in class: 96 | Output in console: \"Letter Grade Received: A : GPA\
+  \ Received: 4.0\"\nE.g. Enter percentage received in class: 88 | Output in console: \"Letter Grade Received: B+ : GPA Received:\
+  \ 3.25\"\nE.g. Enter percentage received in class: 85 | Output in console: \"Letter Grade Received: B : GPA Received: 3.0\"\
+  \nE.g. Enter percentage received in class: 60 | Output in console: \"Letter Grade Received: D- : GPA Received: 0.75\"\n\
+  E.g. Enter percentage received in class: 59 | Output in console: \"Letter Grade Received: F : GPA Received: 0.0\""
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        System.out.print(\"\
+      Enter percentage received in class: \");\n        \n        final int percentage = kbd.nextInt();\n      \n        //Definition\
+      \ of the variable that will store the grade percentage\n    \tString letter = \"N/A\";\n        double gpa = 0.0;\n\
+      \               \n        //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "        \n    \t// TODO: add your code here\n        \n    "
+  placeholder: "        \n    \t// TODO: add your code here\n        \n    "
+- type: locked
+  location:
+    snippet: |2-
+          }
+      }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

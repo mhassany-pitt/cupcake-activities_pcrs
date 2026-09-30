@@ -1,0 +1,81 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_reorganize_es
+source: main.py
+title: Reorganizar diccionario (ES)
+description: Completa la funcion reorganizar a continuacion que devuelve un diccionario nuevo_dicc que mapea llaves de string
+  a listas de strings a partir de los datos propo
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:IfElifElseChecking
+  - pcrs:IfChecking
+  - pcrs:ComparisonExpression
+  - pcrs:CheckingForItem
+  - pcrs:list()
+  - pcrs:dict()
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:NestedForLoopIteration
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:StringLiteral
+  - pcrs:ListLiteral
+  - pcrs:DictLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:CreatingObject
+  - pcrs:IndexingList
+  - pcrs:AddingItemToDictionary
+  - pcrs:IndexingDictionary
+  - pcrs:AccessingDictionary
+  - pcrs:ComparisonExpression
+  - pcrs:DictLiteral
+  - pcrs:ListLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:AccessingDictionary
+  - pcrs:AddingItemToDictionary
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingDictionary
+  - pcrs:ListReferencing
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Completa la funcion `reorganizar` a continuacion que devuelve un diccionario `nuevo_dicc` que mapea llaves de string a listas de strings a partir de los datos proporcionados por el parametro `dicc_entrada`
+
+  Las llaves en `resultado_dicc` son los strings de los valores en `orig_dicc`. Para cada llave `k` en `nuevo_dicc`, el valor correspondiente es la lista de claves en `orig_dicc` donde `k` se encontro en su lista de valores.
+
+  Completa la funcion a continuacion incluyendo la escritura de una descripcion.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n    \n\
+      \    >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
+      \ 'Clave2']}\n    \"\"\""
+  placeholder: "\ndef reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n   \
+    \ \n    >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
+    \ 'Clave2']}\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

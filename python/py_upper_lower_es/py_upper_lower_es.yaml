@@ -1,0 +1,77 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_upper_lower_es
+source: main.py
+title: Mayusculas o Minusculas (ES)
+description: Completa esta funcion segun la descripcion de su docstring.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:FindingLength
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfElifChecking
+  - pcrs:IfElifCheckingInForLoop
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingString
+  - pcrs:SlicingString
+  - pcrs:IfElifCheckingInForLoop
+  - pcrs:LogicalExpression
+  - pcrs:ComparisonExpression
+  - pcrs:StringLiteral
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:IntegerLiteral
+  - pcrs:IndexingString
+  - pcrs:IfCheckingInForLoop
+  - pcrs:SlicingString
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfElifChecking
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:FindingLength
+  - pcrs:ChangingValueVariable
+  - pcrs:CallingSimpleFunction
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: Completa esta funcion segun la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un caracter\
+      \ alfabetico en string y los caracteres alfabeticos en string\n    son todos mayusculas o todos minusculas.\n    \n\
+      \    >>> mayus_minus('abc')\n    True\n    >>> mayus_minus('abcXYZ')\n    False\n    >>> mayus_minus('XYZ')\n    True\n\
+      \    \"\"\""
+  placeholder: "\ndef mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un\
+    \ caracter alfabetico en string y los caracteres alfabeticos en string\n    son todos mayusculas o todos minusculas.\n\
+    \    \n    >>> mayus_minus('abc')\n    True\n    >>> mayus_minus('abcXYZ')\n    False\n    >>> mayus_minus('XYZ')\n  \
+    \  True\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_in_between_es
+source: main.py
+title: 'Condicion: numero entre otros (ES)'
+description: Escribe un metodo llamado estaEntre() que tome tres parametros y devuelva verdadero (True) si el primer numero
+  esta entre los otros dos, inclusivamente, y falso
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:AssigningValueVariable
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:AssigningValueVariable
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe un metodo llamado estaEntre() que tome tres parametros y devuelva verdadero (True) si el primer numero esta entre los otros dos, inclusivamente, y falso (False) en el caso contrario.
+
+  ```
+  estaEntre(3, 3, 3) deberia devolver True
+  estaEntre(4, 7, 9) deberia devolver False
+  estaEntre(2, 1, 3) deberia devolver True
+  estaEntre(2, 3, 1) deberia devolver True
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\ndef estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
+  placeholder: "\ndef estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

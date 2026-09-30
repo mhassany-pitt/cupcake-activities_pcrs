@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_arrays_2_en
+source: SCode.java
+title: Arrays 2
+description: Complete the following method which take an array of Strings as a parameter and returns the average length of
+  the Strings (as a double).
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ArrayLength
+  - pcrs:ReturnStatement
+  - pcrs:AddAssignmentExpression
+  - pcrs:IfElseStatement
+  - pcrs:ArrayElement
+  - pcrs:DoubleDataType
+  - pcrs:IfStatement
+  - pcrs:EqualExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:java.lang.String.length
+  - pcrs:LessExpression
+  - pcrs:IntDataType
+  - pcrs:DivideExpression
+  - pcrs:ForStatement
+  - pcrs:AddAssignmentExpression
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:EqualExpression
+  - pcrs:ForStatement
+  - pcrs:IfElseStatement
+  - pcrs:IfStatement
+  - pcrs:IntDataType
+  - pcrs:java.lang.String.length
+  - pcrs:LessExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following method which take an array of Strings as a parameter and returns the average length of the Strings (as a double). For example:
+
+  ```
+  averageStringLength({"hello", "world"}) => 5.0
+  averageStringLength({}) => 0
+  averageStringLength({"hello", "there", "ab"}) => 4.0
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\npublic double averageStringLength(String[] sarr) {\n     // TODO: Write your code here\n    \n    \n    \n\
+      \    \n    \n}"
+  placeholder: "\npublic double averageStringLength(String[] sarr) {\n     // TODO: Write your code here\n    \n    \n   \
+    \ \n    \n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

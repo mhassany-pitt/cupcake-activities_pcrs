@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_inheritance_2_en
+source: SCode.java
+title: inheritance 2
+description: Suppose that we have a class Employee and we want to extend it to produce class Janitor.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SuperclassMethodCall
+  - pcrs:SuperReference
+  - pcrs:PublicMethodSpecifier
+  - pcrs:MethodDefinition
+  - pcrs:ReturnStatement
+  - pcrs:ExtendsSpecification
+  - pcrs:ClassDefinition
+  - pcrs:DoubleDataType
+  - pcrs:MultiplyExpression
+  - pcrs:IntDataType
+  - pcrs:SubtractExpression
+  - pcrs:ClassDefinition
+  - pcrs:DoubleDataType
+  - pcrs:ExtendsSpecification
+  - pcrs:IntDataType
+  - pcrs:MethodDefinition
+  - pcrs:MultiplyExpression
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:SubtractExpression
+  - pcrs:SuperclassMethodCall
+  - pcrs:SuperReference
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Suppose that we have a class `Employee` and we want to extend it to produce class `Janitor`. The class `Employee` provides the following two methods:
+
+  ```
+  public double getSalary() { … }  //Returns the default salary of an employee
+  public int getHours() { … } //Returns the default working hours of an employee
+  ```
+
+  Override the above methods in class `Janitor` assuming that janitors work twice as many hours per week as other employees and make $5000.0 less than general employees.
+
+  Make sure to interact with the superclass.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: class Janitor extends Employee {
+- type: editable
+  location:
+    snippet: "\t// TODO: Write your code here\n\n    \n    \n    \n    \n    \n    \n    "
+  placeholder: "\t// TODO: Write your code here\n\n    \n    \n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

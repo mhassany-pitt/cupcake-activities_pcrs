@@ -1,0 +1,3 @@
+
+def aprobara(calificacion):
+    return

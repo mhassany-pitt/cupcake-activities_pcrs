@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_same_name_list_en
+source: main.py
+title: Same Name in Two lists
+description: Complete the following function according to its docstring.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring. The arguments we use for testing will not be shown;
+  instead, they will be described in English. If you fail any test cases, you will need to read the description and make your
+  own test.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef same_first_name(name1, name2):\n    \"\"\" (list of str, list of str) -> bool\n    \n    Return whether\
+      \ the first element of name1 and name2 are the same.\n    \n    >>> same_first_name(['John', 'Smith'], ['John', 'Harkness'])\n\
+      \    True\n    >>> same_first_name(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
+  placeholder: "\ndef same_first_name(name1, name2):\n    \"\"\" (list of str, list of str) -> bool\n    \n    Return whether\
+    \ the first element of name1 and name2 are the same.\n    \n    >>> same_first_name(['John', 'Smith'], ['John', 'Harkness'])\n\
+    \    True\n    >>> same_first_name(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,85 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_greatest_absolute_difference_es
+source: main.py
+title: Calculo diferencia absoluta mayor lista (ES)
+description: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Subtraction
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:FindMaximum
+  - pcrs:FindAbsolute
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingTuple
+  - pcrs:IndexingList
+  - pcrs:FindAbsolute
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:FindMaximum
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def mayor_diferencia(nums1, nums2):
+          """ (lista de numeros, lista de numeros) -> numero
+
+          Precondicion: len(nums1) == len(nums2) y nums1 != []
+
+          Devuelve la mayor diferencia absoluta entre numeros en posiciones correspondientes
+          en nums1 y nums2.
+
+          >>> mayor_diferencia([1, 2, 3], [6, 8, 10])
+          7
+          >>> mayor_diferencia([1, -2, 3], [-6, 8, 10])
+          # TODO Reemplazar este comentario con el valor de retorno para la llamada de funcion anterior.
+          """
+  placeholder: |2-
+
+    def mayor_diferencia(nums1, nums2):
+        """ (lista de numeros, lista de numeros) -> numero
+
+        Precondicion: len(nums1) == len(nums2) y nums1 != []
+
+        Devuelve la mayor diferencia absoluta entre numeros en posiciones correspondientes
+        en nums1 y nums2.
+
+        >>> mayor_diferencia([1, 2, 3], [6, 8, 10])
+        7
+        >>> mayor_diferencia([1, -2, 3], [-6, 8, 10])
+        # TODO Reemplazar este comentario con el valor de retorno para la llamada de funcion anterior.
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

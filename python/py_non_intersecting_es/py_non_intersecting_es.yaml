@@ -1,0 +1,68 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_non_intersecting_es
+source: main.py
+title: PCRS C3-PL  Non Intersecting
+description: Escribe una funcion listas_sin_interseccion que tome dos listas como parametros.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:IfElifElseChecking
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:NestedForLoopIteration
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CreatingList
+  - pcrs:ListLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingList
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion `listas_sin_interseccion` que tome dos listas como parametros. La primera lista `L1` tiene elementos que son listas de strings de texto. La segunda `L2`, es una lista de strings de texto.
+
+  `listas_sin_interseccion` debe devolver una nueva lista que contiene las listas originales dentro de `L1` que no contienen ninguna de las strings en `L2`. Tu funcion no debe cambiar las listas originales pasadas como parametros.
+
+  Ejemplo entrada/salida:
+  listas_sin_interseccion([ ['alpha', 'beta', 'charlie'], ['delta', 'echo'], ['alpha', 'beta', 'sierra'] ], ['delta']) -> [ ['alpha', 'beta', 'charlie'], ['alpha', 'beta', 'sierra'] ]
+elements:
+- type: editable
+  location:
+    snippet: "\ndef listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
+      \ de lista de str\n\n    Devuelve una nueva lista que contiene las listas originales dentro de lista1\n    que no contienen\
+      \ ninguno de los strings en lista2.\n    \"\"\"\n    \n    \n    \n    "
+  placeholder: "\ndef listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
+    \ de lista de str\n\n    Devuelve una nueva lista que contiene las listas originales dentro de lista1\n    que no contienen\
+    \ ninguno de los strings en lista2.\n    \"\"\"\n    \n    \n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

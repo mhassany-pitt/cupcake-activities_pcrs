@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_is_char_half_alphabet_es
+source: main.py
+title: PCRS C3-PL Is char half alphabet
+description: En python puedes comparar strings como comparas numeros (usando el orden alfabetico); por ejemplo, el string
+  'abcd' es menor que el string 'zyxw'.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:IntegerLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:StringLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: 'En python puedes comparar strings como comparas numeros (usando el orden alfabetico); por ejemplo, el string ''abcd''
+  es menor que el string ''zyxw''. Escribe una funcion que determine si el string dada comienza con una letra en la primera
+  mitad del alfabeto (antes de ''N''). (Pista: puedes asumir que la primera letra sera mayuscula).'
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def primeraMitad(string):
+          return
+  placeholder: |2-
+
+    def primeraMitad(string):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

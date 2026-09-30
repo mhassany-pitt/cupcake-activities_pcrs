@@ -1,0 +1,77 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_return_list_of_list_even_es
+source: main.py
+title: Listas de enteros pares (ES)
+description: Este problema te pide escribir un ciclo anidado para procesar una lista de lista de int, y acumular una lista
+  de lista de int.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Indexing2DArray
+  - pcrs:IfElifElseChecking
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:FindRemainder
+  - pcrs:list()
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfElifCheckingInForLoop
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:AddingListElementWithAppend
+  - pcrs:BooleanLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindRemainder
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:Indexing2DArray
+  - pcrs:IndexingList
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: "Este problema te pide escribir un ciclo anidado para procesar una `lista de lista de int`, y acumular una `lista\
+  \ de lista de int`. \n\nEl codigo inicial proporciona un acumulador para el resultado y un ciclo sobre las listas, y necesitas\
+  \ escribir el codigo que verifica si `sublista` contiene solo `int`s pares.\n\nSi hay un entero impar en la `sublista`,\
+  \ `sublista` no debe agregarse a la `listas_pares`"
+elements:
+- type: editable
+  location:
+    snippet: "\ndef solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una lista\
+      \ de las listas en lista que contienen solo enteros pares. \n   \n    >>> solo_pares([[1, 2, 4], [4, 0, 6], [22, 4,\
+      \ 3], [2]])\n    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    listas_pares = []\n\n    for sublista in lista:\n        #\
+      \ escribe tu codigo aqui\n        \n    return listas_pares"
+  placeholder: "\ndef solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una\
+    \ lista de las listas en lista que contienen solo enteros pares. \n   \n    >>> solo_pares([[1, 2, 4], [4, 0, 6], [22,\
+    \ 4, 3], [2]])\n    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    listas_pares = []\n\n    for sublista in lista:\n        #\
+    \ escribe tu codigo aqui\n        \n    return listas_pares"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

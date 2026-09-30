@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_array_count_divisible_by_x_en
+source: SCode.java
+title: (Arrays) Count elements divisible by x
+description: Write a function (static method) that takes an array of intsand an int named x as parameters, and returnsthe
+  number of values in the array that are divisible by
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DivideExpression
+  - pcrs:AddExpression
+  - pcrs:ForStatement
+  - pcrs:AddExpression
+  - pcrs:DivideExpression
+  - pcrs:ForStatement
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Write a function (static method) that takes an array of ints
+  and an int named `x` as parameters, and returns
+  the number of values in the array that are divisible by x.
+  For example:
+
+  ```
+  countDivisibleByX( {1,2,3,4,5,6}, 2) => 3
+  countDivisibleByX( {1,2,3,4,5,6}, 1) => 6
+  countDivisibleByX( {1,2,3,4,5,6}, 7) => 0
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      public int countDivisibleByX(int[] arr, int x) {
+          return -1;
+      }
+  placeholder: |2-
+
+    public int countDivisibleByX(int[] arr, int x) {
+        return -1;
+    }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

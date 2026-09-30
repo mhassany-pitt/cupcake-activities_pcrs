@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_alert_weekend_es
+source: main.py
+title: 'Condicion: es dia de fin de semana (ES)'
+description: Escribe una funcion que alertara al usuario sobre si ya es el fin de semana, basado en el dia actual (proporcionado
+  como un string).
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:StringLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:StringLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: 'Escribe una funcion que alertara al usuario sobre si ya es el fin de semana, basado en el dia actual (proporcionado
+  como un string). Asume que los úhicos string que la función recibira como entrada serán: "lunes", "martes", "miércoles",
+  "jueves", "viernes", "sábado" y "domingo" (donde solo los ultimos dos son considerados como fin de semana).'
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def esFinDeSemana(dia):
+          return
+  placeholder: |2-
+
+    def esFinDeSemana(dia):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

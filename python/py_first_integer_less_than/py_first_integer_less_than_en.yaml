@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_first_integer_less_than_en
+source: main.py
+title: First Integer Less Than
+description: Complete the following function according to its docstring using a while loop.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring using a while loop.  The lists we test will not all
+  be shown; instead, some will be described in English. If you fail any test cases, you will need to read the description
+  and make your own test.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef smaller_index(items):\n    \"\"\" (list of int) -> int\n    \n    Return the index of the first integer\
+      \ in items that is less than its index,\n    or -1 if no such integer exists in items.\n    \n    >>> smaller_index([2,\
+      \ 5, 7, 99, 6])\n    -1\n    >>> smaller_index([-5, 8, 9, 16])\n    0\n    >>> smaller_index([5, 8, 9, 0, 1, 3])\n \
+      \   3\n    \"\"\""
+  placeholder: "\ndef smaller_index(items):\n    \"\"\" (list of int) -> int\n    \n    Return the index of the first integer\
+    \ in items that is less than its index,\n    or -1 if no such integer exists in items.\n    \n    >>> smaller_index([2,\
+    \ 5, 7, 99, 6])\n    -1\n    >>> smaller_index([-5, 8, 9, 16])\n    0\n    >>> smaller_index([5, 8, 9, 0, 1, 3])\n   \
+    \ 3\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

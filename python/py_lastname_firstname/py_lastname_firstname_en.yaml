@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_lastname_firstname_en
+source: main.py
+title: Format Name
+description: Complete the following function according to its docstring description.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter is\
+      \ a first name and the second is a last name. Return a string \n    in the format \"LAST_NAME, FIRST_NAME\", where LAST_NAME\
+      \ and FIRST_NAME \n    are replaced by the given last and first names. \n\n    >>> format_name('David', 'Cohen'')\n\
+      \    'Cohen, David' \n    \"\"\""
+  placeholder: "\ndef format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter\
+    \ is a first name and the second is a last name. Return a string \n    in the format \"LAST_NAME, FIRST_NAME\", where\
+    \ LAST_NAME and FIRST_NAME \n    are replaced by the given last and first names. \n\n    >>> format_name('David', 'Cohen'')\n\
+    \    'Cohen, David' \n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

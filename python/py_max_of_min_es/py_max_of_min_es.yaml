@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_max_of_min_es
+source: main.py
+title: Funcion maximo de los minimos valores (ES)
+description: La funcion max_de_min toma cuatro numeros, num1, num2, valor1 y valor2, determina el minimo de num1 y num2 y
+  el minimo de valor1 y valor2, y devuelve el maximo
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:IfChecking
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  La funcion `max_de_min` toma cuatro numeros, `num1`, `num2`, `valor1` y `valor2`, determina el minimo de `num1` y `num2` y el minimo de `valor1` y `valor2`, y devuelve el maximo de esos dos minimos.
+
+  Completa la definicion de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef maximo_de_minimos(num1, num2, valor1, valor2):\n    "
+  placeholder: "\ndef maximo_de_minimos(num1, num2, valor1, valor2):\n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

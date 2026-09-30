@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_is_prime_en
+source: main.py
+title: PCRS C3-PL  Is Prime
+description: Return True for prime numbers or False for numbers that are not prime.isPrime(5)=> TrueisPrime(11)=> TrueisPrime(8)=>
+  FalseisPrime(1949)=> TrueisPrime(15)=> Fal
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Return True for prime numbers or False for numbers that are not prime.
+
+  ```
+  isPrime(5)=> True
+  isPrime(11)=> True
+  isPrime(8)=> False
+  isPrime(1949)=> True
+  isPrime(15)=> False
+  isPrime(51)=> False
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def isPrime(x):
+          # code here
+  placeholder: |2-
+
+    def isPrime(x):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

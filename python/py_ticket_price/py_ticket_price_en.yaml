@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_ticket_price_en
+source: main.py
+title: Ticket Price
+description: Complete the following function according to its docstring description.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef ticket_price(age):\n    \"\"\" (int) -> float\n    \n    Precondition: age > 0\n    \n    Return the ticket\
+      \ price for a person with age in years. Seniors 65 and over\n    pay 4.75, kids 12 and under pay 4.25, and everyone\
+      \ else pays 7.50.\n\n    >>> ticket_price(7)\n    4.25\n    >>> ticket_price(21)\n    7.5\n    >>> ticket_price(101)\n\
+      \    4.75\n    \"\"\""
+  placeholder: "\ndef ticket_price(age):\n    \"\"\" (int) -> float\n    \n    Precondition: age > 0\n    \n    Return the\
+    \ ticket price for a person with age in years. Seniors 65 and over\n    pay 4.75, kids 12 and under pay 4.25, and everyone\
+    \ else pays 7.50.\n\n    >>> ticket_price(7)\n    4.25\n    >>> ticket_price(21)\n    7.5\n    >>> ticket_price(101)\n\
+    \    4.75\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

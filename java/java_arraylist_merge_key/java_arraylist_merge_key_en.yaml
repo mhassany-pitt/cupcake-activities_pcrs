@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_arraylist_merge_key_en
+source: Lab7.java
+title: Merge two ArrayLists given a key
+description: Complete the method mergeLists in order to return an arraylists that merges the left portion of listA and the
+  right portion of listB, considering the element ke
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:java.util.ArrayList.get
+  - pcrs:EqualExpression
+  - pcrs:java.util.ArrayList
+  - pcrs:WhileStatement
+  - pcrs:java.util.ArrayList.add
+  - pcrs:java.util.ArrayList.size
+  - pcrs:MethodBody
+  - pcrs:NestedForLoops
+  - pcrs:EqualExpression
+  - pcrs:IfStatement
+  - pcrs:java.util.ArrayList
+  - pcrs:java.util.ArrayList.add
+  - pcrs:java.util.ArrayList.get
+  - pcrs:java.util.ArrayList.size
+  - pcrs:MethodBody
+  - pcrs:NestedForLoops
+  - pcrs:ReturnStatement
+  - pcrs:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the method `mergeLists` in order to return an arraylists that merges the left portion of listA and the\
+  \ right portion of listB, considering the element `key` as the point that defines left and right portions for each of the\
+  \ array lists. If key  If `key` is not contained in BOTH simply merge all the elements of listA and listB. Assume that within\
+  \ each list, elements are not repeated and both have at least one element.\n\nE.g. \nlistA = [3,4,5,6], listB = [7,5,8,1],\
+  \ key = 5, then returned mergedList = [3,4,5,8,1]\nlistA = [3,4,5,6], listB = [12,9,3], key =5, then returned mergedList\
+  \ = [3,4,5,6,12,9,3]"
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n\
+      \      "
+  placeholder: "\nstatic ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n\
+    \      "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_recurse_converge_en
+source: main.py
+title: PCRS C3-PL  Recurse Converge
+description: 'self_convergeGoal: Given a number, return the number of iterations it takes to arrive at a derived number that
+  converges on to itself, as per the following routine.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "### self_converge\n\n`Goal`: Given a number, return the number of iterations it takes to arrive at a derived number\
+  \ that converges on to itself, as per the following routine. Recursion is recommended. \n\n- Initialize a counter to count\
+  \ the number of iterations\n\n- Take any four-digit number, using at least two different digits. (Leading zeros are allowed.)\n\
+  \n- Arrange the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if\
+  \ necessary.\n\n- Subtract the smaller number from the bigger number. Let's call this a sequence_number.\n\n- Check if the\
+  \ sequence_number (the remainder) from Step 3 equals the orginal number. If not, increment the iteration counter, and go\
+  \ back to step 2 and perform it on the sequence_number.\n\nIf there is a match, then return the count of iterations\n\n\
+  - If the sequence_number collapses to zero, then return -1 \n\n### Converge values\n\nWhile 3-digit numbers converge to\
+  \ the same unique number `k` which is also 3 digits long, all 4-digit numbers also converge to the same unique value `k1`\
+  \ which is 4 digits long. However, 5 digit numbers converge to any one of the following values: `53955, 59994, 61974, 62964,\
+  \ 63954, 71973, 74943, 75933, 82962, 83952`.\n\n### Example\n\n`1234`  ->   `3`\n\n```\n1. 4321 - 1234 =  3087 /\n2. 8730\
+  \ - 378  =  8352 /\n3. 8532 - 2358 =  6174 /\n   7641 - 1467 =  6174 // same as previous\n```\n\n`414` -> `4`\n\n```\n1.\
+  \ 441 - 144 =  297 /\n2. 972 - 279 =  693 /\n3. 963 - 369 =  594 /\n4. 954 - 459 =  495 /\n   954 - 459 =  495 // same as\
+  \ previous\n```\n\n`50000` -> `3`\n\n```\n1. 50000 - 5      =  49995 /\n2. 99954 - 45999  =  53955 /  # first\n3. 95553\
+  \ - 35559  =  59994 /\n   99954 - 45999  =  53955 /  # 2nd time\n```"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

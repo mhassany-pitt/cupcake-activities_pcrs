@@ -1,0 +1,80 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_obj_sphere_en
+source: Sphere.java
+title: Sphere class
+description: Complete the code for the class Sphere.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfStatement
+  - pcrs:Constant
+  - pcrs:java.lang.Math.sqrt
+  - pcrs:MethodImplementation
+  - pcrs:java.lang.Math.pow
+  - pcrs:MultiplyExpression
+  - pcrs:IfElseIfStatement
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:MethodBody
+  - pcrs:Constant
+  - pcrs:FormalMethodParameter
+  - pcrs:IfElseIfStatement
+  - pcrs:IfStatement
+  - pcrs:java.lang.Math.pow
+  - pcrs:java.lang.Math.sqrt
+  - pcrs:MethodBody
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:MultiplyExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the code for the class Sphere. You have to implement all the accessor and mutator (getter/setter) methods for each of these 4 attributes:
+
+  x is the x-coordinate of the sphere center
+  y is the y-coordinate of the sphere center
+  z is the z-coordinate of the sphere center
+  radius is the sphere's radius (make sure that its setter/mutator only allows positive numbers for the sphere radius)
+
+  You also have to implement the following methods (follow specifications as if they were written in UML class diagram):
+
+  + getArea(): double -> it calculates the area of the sphere (please use the constant PI defined in the class for this)
+  + getVolume(): double -> it calculates the volume of the sphere (please use the constant PI defined in the class for this)
+  + pointInSphere(xPoint: int, yPoint:int, zPoint: int): boolean -> it checks if the points with given coordinates xPoint, yPoint and zPoint is contained inside the sphere
+
+  More instructions on how to implement the missing parts of this class are provided in the code below.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Sphere{ \n    //class attributes\n    private int x;\n    private int y;\n \tprivate int z;\n \
+      \   private int radius;\n    \n    final double PI = 3.14;\n    \n    public Sphere(){\n        x=0;\n        y=0;\n\
+      \        z=0;\n        radius=1;\n    }\n    "
+- type: editable
+  location:
+    snippet: "    // TODO: add getter/setter methods for all the properties of the class\n    // There has to be 8 methods\
+      \ in total here (setRadius, getRadius, setX, getX, setY, getY, setZ, getZ).\n    \n    \n    \n    \n    \n    //Define\
+      \ the methods getArea, getVolume, pointInSphere\n    "
+  placeholder: "    // TODO: add getter/setter methods for all the properties of the class\n    // There has to be 8 methods\
+    \ in total here (setRadius, getRadius, setX, getX, setY, getY, setZ, getZ).\n    \n    \n    \n    \n    \n    //Define\
+    \ the methods getArea, getVolume, pointInSphere\n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

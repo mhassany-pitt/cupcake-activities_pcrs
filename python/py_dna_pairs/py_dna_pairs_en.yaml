@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_dna_pairs_en
+source: main.py
+title: PCRS C3-PL  Dna Pairs
+description: Write a function that takes a String that consists only of thecapital letters A, C, G, and T, and returns the
+  number of timeseach letter occurs.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a String that consists only of the
+  capital letters A, C, G, and T, and returns the number of times
+  each letter occurs. You can return multiple values by putting
+  them in parentheses, like this:
+
+  ```
+  return (1, 2, 8, 4)
+  ```
+
+  Be sure to return the counts in the order ACGT.
+  For example:
+
+  ```
+  countBasePairs('GATTACA') => (3, 1, 1, 2)
+  countBasePairs('') => (0, 0, 0, 0)
+  countBasePairs('GGTCAGGCCCCT' => (1, 5, 4, 2)
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def countBasePairs(seq):
+          # code here
+  placeholder: |2-
+
+    def countBasePairs(seq):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_sort_array_indofmin_en
+source: Lab7.java
+title: Sort array with indOfMin method
+description: Complete the method sortArray in order to ascendingly sort the first count elements of an array of integers (arr).
+  count and arr are given as parameters of sort
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:For Statement
+  - pcrs:ArrayElement
+  - pcrs:FormalMethodParameter
+  - pcrs:ArrayElement
+  - pcrs:FormalMethodParameter
+  - pcrs:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the method `sortArray` in order to ascendingly sort the first `count` elements of an array of integers\
+  \ (`arr`). `count` and `arr` are given as parameters of `sortArray` (in that order).\n\n**Instructions on how to solve this\
+  \ problem:**\n\n-  Write a loop that goes from i=0 to i < count. \n-  For each value of i get the index of the smallest\
+  \ number in the array starting at i. \n-  Swap the array element at i with the element as indOfMin. In order to avoid losing\
+  \ any element while trying to swap pairs, you have to use an auxiliary temporal variable (for this, use the following lines\
+  \ of code `temp = a; a=b; b = temp;` in the same order)."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "static int indOfMin( int[] arr, int count, int startingAt){\n    int minIndex = startingAt;\n    int min = arr[startingAt];\n\
+      \    for(int i=startingAt+1;i<count;i++){\n        if(arr[i]<min){\n            minIndex = i;\n        }\n    }\n  \
+      \  return minIndex;\n}\n    "
+- type: editable
+  location:
+    snippet: "static void sortArray(int arr[], int count){\n\t//TODO: write your code here\n    //Make sure you use the method\
+      \ indOfMin to solve this problem (for more detailed guidance, check the description of the problem)\n    \n    \n  \
+      \  \n}\n      "
+  placeholder: "static void sortArray(int arr[], int count){\n\t//TODO: write your code here\n    //Make sure you use the\
+    \ method indOfMin to solve this problem (for more detailed guidance, check the description of the problem)\n    \n   \
+    \ \n    \n}\n      "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

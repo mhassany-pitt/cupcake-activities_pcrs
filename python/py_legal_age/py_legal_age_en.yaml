@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_legal_age_en
+source: main.py
+title: Can Vote
+description: Complete the following function according to instruction
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to instruction
+elements:
+- type: editable
+  location:
+    snippet: "\ndef can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least 18\
+      \ years.\n\n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n  \
+      \      return False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the\
+      \ space below"
+  placeholder: "\ndef can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least\
+    \ 18 years.\n\n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n \
+    \       return False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the space\
+    \ below"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

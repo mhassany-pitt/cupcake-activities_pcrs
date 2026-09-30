@@ -1,0 +1,78 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_object_classes_3_en
+source: Bicycle.java
+title: Objects and Classes 3
+description: Consider the following code:public class Bicycle { private String owner; public String getOwner() { return this.owner;
+  }}Complete the Bicycle class to allow Bic
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:ConstructorDefinition
+  - pcrs:StringDataType
+  - pcrs:ThisReference
+  - pcrs:InstanceFieldInvocation
+  - pcrs:StringVariable
+  - pcrs:ReturnStatement
+  - pcrs:MethodDefinition
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ClassDefinition
+  - pcrs:InstanceField
+  - pcrs:StringLiteral
+  - pcrs:SimpleVariable
+  - pcrs:FormalMethodParameter
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ClassDefinition
+  - pcrs:ConstructorDefinition
+  - pcrs:FormalMethodParameter
+  - pcrs:InstanceField
+  - pcrs:InstanceFieldInvocation
+  - pcrs:MethodDefinition
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringLiteral
+  - pcrs:StringVariable
+  - pcrs:ThisReference
+runtime:
+  language: java
+  version: '17'
+statement: "Consider the following code:\n\n```\npublic class Bicycle {\n    private String owner;\n    public String getOwner()\
+  \ {\n\treturn this.owner;\n    }\n}\n```\n\nComplete the `Bicycle` class to allow `Bicycle` objects to be instantiated with\
+  \ or without specifiying the `owner`. If the `owner` is not specified, the `owner` should be set to \"Anonymous\".\n\nHint:\
+  \ You need to define two constructors for this class."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Bicycle { \n    private String owner;"
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    \n    \n    \n    \n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    \n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: "    public String getOwner() {\n\t\treturn this.owner;\n    }\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

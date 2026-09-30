@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_context_to_next_words_en
+source: main.py
+title: PCRS C3-PL  Context To Next Words
+description: Here is an example of a story list:['And', 'the', 'fan,', 'and', 'the', 'cup,', 'And', 'the', 'ship,', 'and',
+  'the', 'fish.']You have worked out that it makes s
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Here is an example of a story list:\n\n```\n['And', 'the', 'fan,', 'and', 'the', 'cup,', 'And', 'the', 'ship,',\
+  \ 'and', 'the', 'fish.']\n```\n\nYou have worked out that it makes sense to represent the context information as a dictionary\
+  \ where the keys are tuples of strings and the values are lists of strings.  \n\nBelow, we have given you the first key;\
+  \ write the list of values for it.  Fill in the dictionary with all the 2-word contexts and their values.\n\nReminder: Python\
+  \ is case sensitive, so `'And'` and `'and'` are not equal."
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      context_to_next_words = {('And', 'the'): [
+  placeholder: |2-
+
+    context_to_next_words = {('And', 'the'): [
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

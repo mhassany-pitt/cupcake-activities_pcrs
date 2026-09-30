@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_word_correctly_spelled_es
+source: main.py
+title: Ortografia correcta (diccionario desde archivo) (ES)
+description: Muchos sistemas similares a Unix (incluyendo CDF) tienen un diccionario de palabras correctamente escritas en
+  un archivo.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:Subtraction
+  - pcrs:OpeningFile
+  - pcrs:TransformingToStringType
+  - pcrs:ReadingLine
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:StringLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:SlicingString
+  - pcrs:ComparisonExpression
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInForLoop
+  - pcrs:OpeningFile
+  - pcrs:ReadingLine
+  - pcrs:SingleForLoopIteration
+  - pcrs:SlicingString
+runtime:
+  language: python
+  version: '3'
+statement: 'Muchos sistemas similares a Unix (incluyendo CDF) tienen un diccionario de palabras correctamente escritas en
+  un archivo. En CDF, aqui esta la ruta al archivo: /etc/dictionaries-common/words. A continuacion se muestran algunas de
+  esas palabras (el archivo contiene palabras tanto en mayusculas como en minusculas); completa la funcion a continuacion,
+  donde diccionario se refiere a un archivo que ha sido abierto para lectura:'
+elements:
+- type: editable
+  location:
+    snippet: "\ndef es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
+      \    \n    Devuelve True si y solo si palabra es una palabra correctamente escrita en diccionario.\n    \n    >>> dict1\
+      \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"Zyrtec\"\")\n    True\n    >>> dict1.close()\n\n    >>> dict1\
+      \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"lolz\"\")\n    False\n    >>> dict1.close()\n    \"\"\"\n\
+      \    #Escribe tu codigo aqui\n    \n    \n    "
+  placeholder: "\ndef es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
+    \    \n    Devuelve True si y solo si palabra es una palabra correctamente escrita en diccionario.\n    \n    >>> dict1\
+    \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"Zyrtec\"\")\n    True\n    >>> dict1.close()\n\n    >>> dict1\
+    \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"lolz\"\")\n    False\n    >>> dict1.close()\n    \"\"\"\n  \
+    \  #Escribe tu codigo aqui\n    \n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

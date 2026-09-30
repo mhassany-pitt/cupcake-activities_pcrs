@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_compute_average_en
+source: SCode.java
+title: Calculating the Average of Three Numbers
+description: Complete the following code in order to calculate the average of three integers that are stored in variables
+  num1, num2, and num3.Assume that the initial value
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ExplicitTypeCasting
+  - pcrs:DoubleDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:DivideExpression
+  - pcrs:AddExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:AddExpression
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:ExplicitTypeCasting
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to calculate the average of three integers that are stored in variables `num1`,  `num2`, and `num3`.
+
+  Assume that the initial value of each of these variables is already set to an integer number. Also, note that the average should include the fractional part.
+
+  E.g. 1: if the value of `num1` is 3, the value of `num2` is 4, and the value of `num3` is 5, the code prints 4.0.
+  E.g. 2: if the value of `num1` is 2, the value of `num2` is 3, and the value of `num3` is 1, the code prints 2.0.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    double average;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n        \n    "
+  placeholder: "    // TODO: add your code here\n        \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(average);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

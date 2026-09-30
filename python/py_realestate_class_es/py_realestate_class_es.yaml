@@ -1,0 +1,79 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_realestate_class_es
+source: main.py
+title: PCRS C3-PL  Realestate Class
+description: A continuacion, hemos proporcionado una clase SistemaDeBienesRaices que contiene una coleccion de casas en venta
+  y una clase Casa que contiene una variable de instancia precio.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ListReferencing
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:IndexingList
+  - pcrs:list()
+  - pcrs:FindMinimum
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfChecking
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:CheckingForItem
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:LogicalExpression
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindMinimum
+  - pcrs:IfChecking
+  - pcrs:IfElifElseChecking
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: A continuacion, hemos proporcionado una clase SistemaDeBienesRaices que contiene una coleccion de casas en venta
+  y una clase Casa que contiene una variable de instancia precio. Tu tarea es completar la funcion extraer_precio_minimo que
+  devolvera el precio mas bajo de todas las casas en el SistemaDeBienesRaices. Si no hay casas en el sistema, devuelve -1.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
+      \ la lista de casas\n        \"\"\"\n        self.casas = []\n        \n    def anadir_casa(self, casa):\n        \"\
+      \"\" (SistemaDeBienesRaices, Casa) -> NoneType\n        Anadir una casa a nuestro sistema\n        \"\"\"\n        self.casas.append(casa)\n\
+      \    \n    def extraer_precio_minimo(self):\n        \"\"\" (SistemaDeBienesRaices) -> int\n        Devolver la casa\
+      \ con el precio mas bajo en el sistema, o -1 si no hay casas en el sistema\n        \"\"\"\n        # completa este\
+      \ codigo\n\n\nclass Casa:\n    \"\"\" Una instancia de una casa \"\"\"\n    def __init__(self, precio):\n        \"\"\
+      \" (Casa, float)\n        Inicializar una casa\n        \"\"\"\n        self.precio = precio"
+  placeholder: "\nclass SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
+    \ la lista de casas\n        \"\"\"\n        self.casas = []\n        \n    def anadir_casa(self, casa):\n        \"\"\
+    \" (SistemaDeBienesRaices, Casa) -> NoneType\n        Anadir una casa a nuestro sistema\n        \"\"\"\n        self.casas.append(casa)\n\
+    \    \n    def extraer_precio_minimo(self):\n        \"\"\" (SistemaDeBienesRaices) -> int\n        Devolver la casa con\
+    \ el precio mas bajo en el sistema, o -1 si no hay casas en el sistema\n        \"\"\"\n        # completa este codigo\n\
+    \n\nclass Casa:\n    \"\"\" Una instancia de una casa \"\"\"\n    def __init__(self, precio):\n        \"\"\" (Casa, float)\n\
+    \        Inicializar una casa\n        \"\"\"\n        self.precio = precio"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

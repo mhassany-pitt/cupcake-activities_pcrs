@@ -1,0 +1,98 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_special_list_class_es
+source: main.py
+title: PCRS C3-PL  Special List Class
+description: es una clase que tiene dos variables de instancia y . se refiere a una lista, y almacena un entero que representa
+  el numero maximo de elementos que se pueden a
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:CreatingObject
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DeletingListElement
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfElifChecking
+  - pcrs:IfChecking
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingObject
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:DeletingListElement
+  - pcrs:FindingLength
+  - pcrs:IfChecking
+  - pcrs:IfElifChecking
+  - pcrs:IfElifElseChecking
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  `ListaEspecial` es una clase que tiene dos variables de instancia `lista_valores` y `tamano`. `lista_valores` se refiere a una lista, y `tamano` almacena un entero que representa el numero maximo de elementos que se pueden almacenar en la lista.
+
+  Complete el siguiente codigo.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n  \
+      \  def __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>>\
+      \ L.tamano\n        10\n        >>> L.lista_valores\n        []\n        \"\"\"\n        # complete este codigo\n\n\n\
+      \    def agregar_valor(self, nuevo_valor):\n        \"\"\" (ListaEspecial, object) -> NoneType\n\n        Agregar nuevo_valor\
+      \ a esta lista, si hay suficiente espacio en la lista segun su tamano maximo.\n        Si no hay espacio suficiente,\
+      \ nuevo_valor no debe ser agregado a la lista.\n\n        >>> L = ListaEspecial(10)\n        >>> L.agregar_valor(3)\n\
+      \        >>> L.lista_valores\n        [3]\n        \"\"\"\n        # complete este codigo\n\n\n    def eliminar_valor_mas_reciente(self):\n\
+      \        \"\"\" (ListaEspecial) -> object\n\n        Precondicion: len(self.lista_valores) != 0\n\n        Retornar\
+      \ el valor agregado mas recientemente a lista_valores y eliminarlo de la lista.\n\n        >>> L = ListaEspecial(10)\n\
+      \        >>> L.agregar_valor(3)\n        >>> L.agregar_valor(4)\n        >>> L.lista_valores\n        [3, 4]\n     \
+      \   >>> L.eliminar_valor_mas_reciente()\n        4\n        \"\"\"\n        # complete este codigo\n\n    \n    def\
+      \ comparar(self, otro):\n        \"\"\" (ListaEspecial, ListaEspecial) -> int\n\n        Retornar 0 si ambos objetos\
+      \ ListaEspecial tienen listas que contienen el mismo numero de elementos.\n        Retornar 1 si la lista de self contiene\
+      \ mas elementos que la lista de otro.\n        Retornar -1 si la lista de self contiene menos elementos que la lista\
+      \ de otro.\n        \"\"\"\n        # complete este codigo"
+  placeholder: "\nclass ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n\
+    \    def __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>>\
+    \ L.tamano\n        10\n        >>> L.lista_valores\n        []\n        \"\"\"\n        # complete este codigo\n\n\n\
+    \    def agregar_valor(self, nuevo_valor):\n        \"\"\" (ListaEspecial, object) -> NoneType\n\n        Agregar nuevo_valor\
+    \ a esta lista, si hay suficiente espacio en la lista segun su tamano maximo.\n        Si no hay espacio suficiente, nuevo_valor\
+    \ no debe ser agregado a la lista.\n\n        >>> L = ListaEspecial(10)\n        >>> L.agregar_valor(3)\n        >>> L.lista_valores\n\
+    \        [3]\n        \"\"\"\n        # complete este codigo\n\n\n    def eliminar_valor_mas_reciente(self):\n       \
+    \ \"\"\" (ListaEspecial) -> object\n\n        Precondicion: len(self.lista_valores) != 0\n\n        Retornar el valor\
+    \ agregado mas recientemente a lista_valores y eliminarlo de la lista.\n\n        >>> L = ListaEspecial(10)\n        >>>\
+    \ L.agregar_valor(3)\n        >>> L.agregar_valor(4)\n        >>> L.lista_valores\n        [3, 4]\n        >>> L.eliminar_valor_mas_reciente()\n\
+    \        4\n        \"\"\"\n        # complete este codigo\n\n    \n    def comparar(self, otro):\n        \"\"\" (ListaEspecial,\
+    \ ListaEspecial) -> int\n\n        Retornar 0 si ambos objetos ListaEspecial tienen listas que contienen el mismo numero\
+    \ de elementos.\n        Retornar 1 si la lista de self contiene mas elementos que la lista de otro.\n        Retornar\
+    \ -1 si la lista de self contiene menos elementos que la lista de otro.\n        \"\"\"\n        # complete este codigo"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

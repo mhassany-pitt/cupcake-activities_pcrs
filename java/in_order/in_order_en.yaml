@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_in_order_en
+source: SCode.java
+title: Determining When the three Numbers are in Order
+description: Given three integer variables, a, b, and c, write a boolean expression to determine if b is greater than a, and
+  c is greater than b.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NotExpression
+  - pcrs:AndExpression
+  - pcrs:GreaterExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:BooleanDataType
+  - pcrs:SimpleVariable
+  - pcrs:OrExpression
+  - pcrs:AndExpression
+  - pcrs:BooleanDataType
+  - pcrs:GreaterExpression
+  - pcrs:NotExpression
+  - pcrs:OrExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: "Given three integer variables, `a`, `b`, and `c`, write a boolean expression to determine if `b` is greater than\
+  \ `a`, and `c` is greater than `b`. However, with the exception that if the boolean variable `bOk` is true, `b` does not\
+  \ need to be greater than `a`. Store the result of this expression in a variable called `result`. Assume that the initial\
+  \ value of the variables `a`, `b`, and `c` is already set to an integer and the initial value of the variable `bOk` is already\
+  \ set to a boolean value.\n\nE.g. 1: if the value of `a` is 1, the value of `b` is 2 , the value of `c` is 4, and the value\
+  \ of `bOk` is false, the value of `result` will be true. \nE.g. 2: if the value of `a` is 1, the value of `b` is 2 , the\
+  \ value of `c` is 1, and the value of `bOk` is false, the value of `result` will be false. \nE.g. 3: if the value of `a`\
+  \ is 1, the value of `b` is 1 , the value of `c` is 2, and the value of `bOk` is true, the value of `result` will be true."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    boolean result;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

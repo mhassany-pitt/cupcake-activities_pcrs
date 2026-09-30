@@ -1,0 +1,44 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_is_even_en
+source: main.py
+title: Is Even
+description: Write a program that checks whether the given integer is even or odd and sets a variable called is_even to True
+  if the given number is even or False otherwise.A
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a program that checks whether the given integer is even or odd and sets a variable called  `is_even` to `True` if the given number is even or `False` otherwise.
+
+  Assume that the integer number is already set to a variable `num`.
+
+  Authors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+- type: locked
+  location:
+    snippet: '# Use variable num below to complete your program'
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,62 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_return_cookies_es
+source: main.py
+title: Calculo galletas necesarias (ES)
+description: Escribe el cuerpo de la funcion y luego haz clic en Enviar para probar tu funcion.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Multiplication
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: Escribe el cuerpo de la funcion y luego haz clic en Enviar para probar tu funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def galletas_necesarias(num_adultos, num_adolescentes, num_ninos):
+          """ (int, int, int) -> int
+
+          Devuelve el numero de galletas necesarias para alimentar a num_adultos adultos, num_adolescentes
+          adolescentes y num_ninos ninos.
+          Cada adulto recibe 3 galletas, cada adolescente recibe 5, y cada nino recibe 2.
+
+          >>> galletas_necesarias(2, 3, 1)
+          23
+          """
+  placeholder: |2-
+
+    def galletas_necesarias(num_adultos, num_adolescentes, num_ninos):
+        """ (int, int, int) -> int
+
+        Devuelve el numero de galletas necesarias para alimentar a num_adultos adultos, num_adolescentes
+        adolescentes y num_ninos ninos.
+        Cada adulto recibe 3 galletas, cada adolescente recibe 5, y cada nino recibe 2.
+
+        >>> galletas_necesarias(2, 3, 1)
+        23
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_open_file_reading_es
+source: main.py
+title: Obtener lineas archivo (ES)
+description: Completa la siguiente funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TrimmingString
+  - pcrs:OpeningFile
+  - pcrs:ListReferencing
+  - pcrs:list()
+  - pcrs:ReadingLine
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:SingleForLoopIteration
+  - pcrs:ListLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:OpeningFile
+  - pcrs:ReadingLine
+  - pcrs:SingleForLoopIteration
+  - pcrs:TrimmingString
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2
+
+      def obtener_lineas(f):
+          """ (archivo abierto para lectura) -> lista de str
+            Retorna una lista de strings donde cada uno de los elementos es una linea del archivo
+      """
+             resultado=[]
+  placeholder: |2
+
+    def obtener_lineas(f):
+        """ (archivo abierto para lectura) -> lista de str
+          Retorna una lista de strings donde cada uno de los elementos es una linea del archivo
+    """
+           resultado=[]
+- type: locked
+  location:
+    snippet: '        return resultado'
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

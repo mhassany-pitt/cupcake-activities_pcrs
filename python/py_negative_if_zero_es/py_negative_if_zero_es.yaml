@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_negative_if_zero_es
+source: main.py
+title: 'Condicion: es negativo (ES)'
+description: Un numero solo se considera negativo si es menor que 0.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IntegerLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Un numero solo se considera negativo si es menor que 0. Escribe una funcion que determine si el numero dado es
+  negativo.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def esNegativo(x):
+          return
+  placeholder: |2-
+
+    def esNegativo(x):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

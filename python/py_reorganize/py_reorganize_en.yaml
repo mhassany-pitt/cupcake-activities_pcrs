@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_reorganize_en
+source: main.py
+title: PCRS C3-PL  Reorganize
+description: Complete the function reorganize below that returns a dictionary new_dict mapping string keys to lists of strings
+  from the data provided by the parameter input_
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Complete the function `reorganize` below that returns a dictionary `new_dict` mapping string keys to lists of\
+  \ strings from the data provided by the parameter `input_dict`\n\nThe keys in `result_dict` are the strings from the values\
+  \ in `orig_dict`. For each key `k` in `new_dict`, the corresponding value, is the list of keys in `orig_dict` where `k`\
+  \ was found in its value list. \n\nComplete the function below including writing a description."
+elements:
+- type: editable
+  location:
+    snippet: "\ndef reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n\
+      \    >>> reorganize({'Key1':[\"str1\", \"str2\"], 'Key2':[\"str2\"]})\n    {'str1':['Key1'], 'str2':['Key1', 'Key2']}\n\
+      \    \"\"\""
+  placeholder: "\ndef reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n\
+    \    >>> reorganize({'Key1':[\"str1\", \"str2\"], 'Key2':[\"str2\"]})\n    {'str1':['Key1'], 'str2':['Key1', 'Key2']}\n\
+    \    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

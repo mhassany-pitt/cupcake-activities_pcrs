@@ -1,0 +1,36 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_every_second_line_en
+source: main.py
+title: PCRS C3-PL  Every Second Line
+description: Complete the following function according to its docstring description.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Complete the following function according to its docstring description.  \n\nNotes: \n\n- `report` is a file open\
+  \ for reading, not a string representing the name of a file.\n\n- the method `str.strip()` may come in handy!"
+elements:
+- type: editable
+  location:
+    snippet: "\ndef every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list\
+      \ containing every second line (with leading and trailing\n    whitespace removed) in report, starting with the first\
+      \ line.\n    \"\"\""
+  placeholder: "\ndef every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list\
+    \ containing every second line (with leading and trailing\n    whitespace removed) in report, starting with the first\
+    \ line.\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

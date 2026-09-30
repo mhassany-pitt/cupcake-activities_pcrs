@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_check_if_list_es
+source: main.py
+title: Suma digital (ES)
+description: Completa los ejemplos en el docstring y luego el cuerpo de la funcion.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToIntType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:CallingSimpleFunction
+  - pcrs:TransformingToStringType
+  - pcrs:ListReferencing
+  - pcrs:StringLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:CheckingForItem
+  - pcrs:Addition
+  - pcrs:IndexingList
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:NestedForLoopIteration
+  - pcrs:TransformingToIntType
+runtime:
+  language: python
+  version: '3'
+statement: Completa los ejemplos en el docstring y luego el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: "def suma_digital(lista_numeros):\n    \"\"\" (lista de str) -> int\n    \n    Precondicion: s.isdigit() se cumple\
+      \ para cada string en lista_numeros.\n\n    Devuelve la suma de todos los digitos en todas los strings en lista_numeros.\n\
+      \n    >>> suma_digital(['64', '128', '256'])\n    34\n    >>> suma_digital(['12', '3'])\n    6\n    \"\"\"\n    # TODO:\
+      \ Completar el cuerpo de la funcion "
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_fluffy_en
+source: main.py
+title: Fluffy
+description: Add at least one example to the docstring and complete the function body.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Add at least one example to the docstring and complete the function body.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def all_fluffy(s):
+          """ (str) -> bool
+
+          Return True iff every letter in s is fluffy. Fluffy letters are those that
+          appear in the word 'fluffy'.
+
+          #TODO: Add at least one example to the docstring and complete the function body
+
+
+          """
+
+          #TODO: Now complete the function body
+  placeholder: |2-
+
+    def all_fluffy(s):
+        """ (str) -> bool
+
+        Return True iff every letter in s is fluffy. Fluffy letters are those that
+        appear in the word 'fluffy'.
+
+        #TODO: Add at least one example to the docstring and complete the function body
+
+
+        """
+
+        #TODO: Now complete the function body
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

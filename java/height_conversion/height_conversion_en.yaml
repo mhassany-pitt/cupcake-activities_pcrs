@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_height_conversion_en
+source: SCode.java
+title: height_conversion
+description: Complete the following code in order to prompt the user for his/her full name (first name, middle name and last
+  name separately) and then for his/her height in
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SimpleVariable
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:DoubleDataType
+  - pcrs:MultiplyExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:DivideExpression
+  - pcrs:ModulusExpression
+  - pcrs:StringAddition
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:ModulusExpression
+  - pcrs:MultiplyExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringAddition
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the following code in order to prompt the user for his/her full name (first name, middle name and last\
+  \ name separately) and then for his/her height in inches, then the code has to convert and display the height in inches\
+  \ to feet, then ft'' in', then meters.\n\nFor the conversions, please consider that 12 inches is 1 foot. Also, use the conversion\
+  \ rate 0.0254 as your inches to meters conversion rate. For example, 1 inch is 0.0254 meters.\n\nTry to solve this problem\
+  \ by defining constant values (use keyword **final**) that will store the conversion rate specified above. Then, use these\
+  \ constant values in your calculations. \n(This is not a requirement but something that will make the code readability better)\
+  \ \n\nNote: The java.util.Scanner is already imported. In your submission, you do not have to import it again. If you import\
+  \ again, you will get an error in your submissions. \n\nE.g. \n**For the input:**\nFirst name: William\nMiddle name: Jefferson\n\
+  Last name: Clinton\nHeight (in inches): 75\n\n**For the output:**\nFull Name: Clinton, William Jefferson\nHeight in inches:\
+  \ 75\nHeight in feet & inches: 6 ft. 3 in.\nHeight in feet:  6.0833 \nHeight in meters:  1.854139"
+elements:
+- type: editable
+  location:
+    snippet: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
+      \ to import java.util.Scanner, it is already imported.\n        \n       "
+  placeholder: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
+    \ to import java.util.Scanner, it is already imported.\n        \n       "
+- type: locked
+  location:
+    snippet: |-
+      System.out.println("Full Name: " + lastName + "," + firstName + " " + middleName);
+      System.out.println("Height in inches: " + heightInInches);
+      System.out.println("Height in feet: "+ heightInFeet);
+      System.out.println("Height in feet & inches: "+ heightFeetPart +" ft. "+ heightInchesPart +" in.");
+      System.out.println("Height in meters: "+heightInMeters);
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,87 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_new_rectangle_en
+source: main.py
+title: New rectangle
+description: Complete method area in the following class.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete method `area` in the following class.  All it needs is a `return` statement.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      class Rectangle:
+          """ A rectangle with a width and height. """
+
+          def __init__(self, w, h):
+              """ (Rectangle, number, number)
+
+              Create a new rectangle of width w and height h.
+
+              >>> r = Rectangle(1, 2)
+              >>> r.width
+              1
+              >>> r.height
+              2
+              """
+
+              self.width = w
+              self.height = h
+
+          def area(self):
+              """ (Rectangle) -> number
+
+              Return the area of this rectangle.
+
+              >>> r = Rectangle(10, 20)
+              >>> r.area()
+              200
+              """
+  placeholder: |2-
+
+    class Rectangle:
+        """ A rectangle with a width and height. """
+
+        def __init__(self, w, h):
+            """ (Rectangle, number, number)
+
+            Create a new rectangle of width w and height h.
+
+            >>> r = Rectangle(1, 2)
+            >>> r.width
+            1
+            >>> r.height
+            2
+            """
+
+            self.width = w
+            self.height = h
+
+        def area(self):
+            """ (Rectangle) -> number
+
+            Return the area of this rectangle.
+
+            >>> r = Rectangle(10, 20)
+            >>> r.area()
+            200
+            """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_days_to_week_conversion_en
+source: SCode.java
+title: Converting n Days into Weeks and Remaining Days
+description: Complete the following code in order to convert n days into weeks and remaining days.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ModulusExpression
+  - pcrs:StringAddition
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:IntDataType
+  - pcrs:StringLiteral
+  - pcrs:DivideExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:StringDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:DivideExpression
+  - pcrs:IntDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:ModulusExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringAddition
+  - pcrs:StringDataType
+  - pcrs:StringLiteral
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to convert `n` days into weeks and remaining days. Assume that the initial value of variable `n` is already set to a positive integer.
+
+  E.g. 1: if the value of `n` is 9, the code prints "1 week(s) and 2 day(s)".
+  E.g. 2: if the value of `n` is 17, the code prints "2 week(s) and 3 day(s)".
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    int weeks, days;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+- type: locked
+  location:
+    snippet: '   System.out.println(weeks + " week(s) and " + days + " day(s).");'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

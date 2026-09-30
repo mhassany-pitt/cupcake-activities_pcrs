@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_two_params_true_one_en
+source: main.py
+title: PCRS C3-PL  Two Params True One
+description: Write a function that returns true if only one of the two given parameters is true. (Note- the normal ‘or’ operator
+  returns true when both are true.)
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Write a function that returns true if only one of the two given parameters is true. (Note- the normal ‘or’ operator
+  returns true when both are true.)
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def onlyOneTrue(b1, b2):
+          return
+  placeholder: |2-
+
+    def onlyOneTrue(b1, b2):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

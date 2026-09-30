@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_user_class1_en
+source: main.py
+title: PCRS C3-PL  User Class1
+description: The User class represents a user with a username, password, and account information.Complete the update_account
+  method in the code below according to its docstring description.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  The `User` class represents a user with a username, password, and account information.
+
+  Complete the `update_account` method in the code below according to its docstring description. Call the `login` method in your solution.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str, str,\
+      \ str) -> NoneType\n        \n        Initialize the user with username, password, and account_info.\n        \n   \
+      \     >>> new_user = User('xyz', 'password1', \"Bob's Online Banking\")\n        >>> new_user.username\n        'xyz'\n\
+      \        >>> new_user.password\n        'password1'\n        >>> new_user.account_info\n        \"Bob's Online Banking\"\
+      \n        \"\"\"\n        self.username = username\n        self.password = password\n        self.account_info = account_info\n\
+      \        \n    def login(self, entered_password):\n        \"\"\" (User, str) -> bool\n        \n        Return True\
+      \ iff the user's password matches entered_password.\n        \n        >>> new_user = User('xyz', 'password1', \"Bob's\
+      \ Online Banking\")\n        >>> new_user.login('password1')\n        True\n        >>> new_user.login('1234')\n   \
+      \     False\n        \"\"\"\n        return self.password == entered_password\n\n    def update_account(self, entered_password,\
+      \ new_info):\n        \"\"\" (User, str, str) -> NoneType\n        \n        Modify the user's account_info to be new_info\
+      \ if the user's password\n        matches entered_password.\n        \n        >>> new_user = User('xyz', 'password1',\
+      \ \"Bob's Online Banking\")\n        >>> new_user.update_account('1234', 'B.O.B.')\n        >>> new_user.account_info\n\
+      \        \"Bob's Online Banking\"\n        >>> new_user.update_account('password1', 'B.O.B.')\n        >>> new_user.account_info\n\
+      \        'B.O.B.'\n        \"\"\""
+  placeholder: "\nclass User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str,\
+    \ str, str) -> NoneType\n        \n        Initialize the user with username, password, and account_info.\n        \n\
+    \        >>> new_user = User('xyz', 'password1', \"Bob's Online Banking\")\n        >>> new_user.username\n        'xyz'\n\
+    \        >>> new_user.password\n        'password1'\n        >>> new_user.account_info\n        \"Bob's Online Banking\"\
+    \n        \"\"\"\n        self.username = username\n        self.password = password\n        self.account_info = account_info\n\
+    \        \n    def login(self, entered_password):\n        \"\"\" (User, str) -> bool\n        \n        Return True iff\
+    \ the user's password matches entered_password.\n        \n        >>> new_user = User('xyz', 'password1', \"Bob's Online\
+    \ Banking\")\n        >>> new_user.login('password1')\n        True\n        >>> new_user.login('1234')\n        False\n\
+    \        \"\"\"\n        return self.password == entered_password\n\n    def update_account(self, entered_password, new_info):\n\
+    \        \"\"\" (User, str, str) -> NoneType\n        \n        Modify the user's account_info to be new_info if the user's\
+    \ password\n        matches entered_password.\n        \n        >>> new_user = User('xyz', 'password1', \"Bob's Online\
+    \ Banking\")\n        >>> new_user.update_account('1234', 'B.O.B.')\n        >>> new_user.account_info\n        \"Bob's\
+    \ Online Banking\"\n        >>> new_user.update_account('password1', 'B.O.B.')\n        >>> new_user.account_info\n  \
+    \      'B.O.B.'\n        \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,81 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_safe_dict_sum_es
+source: main.py
+title: Suma segura de productos en pedido (excepciones) (ES)
+description: Una tienda online recibe un diccionario que representa un pedido.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:CheckingForItem
+  - pcrs:ValueError
+  - pcrs:TransformingToIntType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:HandlingSpecificError
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:AccessingDictionary
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:ValueError
+  - pcrs:Addition
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:HandlingSpecificError
+  - pcrs:TransformingToIntType
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Una tienda online recibe un diccionario que representa un pedido. En este diccionario:
+
+  -Las claves son los nombres de los productos.
+  -Los valores son strings que representan el precio total del producto en pesos chilenos (por ejemplo, "1499").
+
+  Sin embargo, algunos valores pueden estar mal ingresados (por ejemplo, "abc"). Tu tarea es sumar correctamente los precios válidos y cargar un recargo por error en el sistema (50 pesos chilenos) cuando se encuentre un precio inválido.
+
+  Escribe una función llamada calcular_total(pedido) que:
+  - Reciba un diccionario ('pedido') donde las claves son nombres de productos y los valores son strings con el total.
+  - Intente convertir cada valor a int y usa try/except para manejar los distintos casos:
+      - Si la conversión es exitosa, lo suma al total general.
+      - Si ocurre un error, agrega 50 pesos chilenos al total como recargo por error en el sistema.
+  - Devuelve el total de todos los productos válidos como un número entero
+
+  Ejemplo entrada/salida:
+
+  pedido={"libro": "10990", "cuaderno": "abc", "lápiz": "150x", "mochila": "40000"}
+  calcular_total(pedido) -> 51090
+
+  En este caso, el total es 51090 pues se desglosa en: 10990 (por item 'libro') + 50 (por error en item 'cuaderno') + 50 (por error en item 'lápiz') + 40000 (por item 'mochila')
+elements:
+- type: editable
+  location:
+    snippet: "\ndef calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
+  placeholder: "\ndef calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
+- type: locked
+  location:
+    snippet: "\t\ttry:"
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

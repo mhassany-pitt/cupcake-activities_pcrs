@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_shift_char_en
+source: main.py
+title: PCRS C3-PL  Shift Char
+description: Write a function that takes a single character and an int key as parameters,and then shifts the character ahead
+  by the given number of spots,wrapping around from z to a.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a single character and an int key as parameters,
+  and then shifts the character ahead by the given number of spots,
+  wrapping around from z to a. For simplicity, assume all input chars
+  are lower-case letters. For example:
+
+  ```
+  shiftChar('a', 4) => 'e'
+  shiftChar('z', 1) => 'a'
+  shiftChar('z', 26) => 'z'
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def shiftChar(char, key):
+          # code goes here
+  placeholder: |2-
+
+    def shiftChar(char, key):
+        # code goes here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

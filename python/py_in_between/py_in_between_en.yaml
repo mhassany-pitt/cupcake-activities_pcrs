@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_in_between_en
+source: main.py
+title: PCRS C3-PL  In Between
+description: Write a method called isBetween that takes three parameters and returns true if the first number is between the
+  other two (inclusive), and false otherwise.isBet
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a method called isBetween that takes three parameters and returns true if the first number is between the other two (inclusive), and false otherwise.
+
+  ```
+  isBetween(3, 3, 3) should return True
+  isBetween(4, 7, 9) should return False
+  isBetween(2, 1, 3) should return True
+  isBetween(2, 3, 1) should return True
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2
+
+      def inBetween(a, b, c):
+          # codigo aqui
+  placeholder: |2
+
+    def inBetween(a, b, c):
+        # codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

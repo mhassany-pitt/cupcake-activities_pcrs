@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_count_longer_en
+source: main.py
+title: PCRS C3-PL  Count Longer
+description: Write a function that takes a list of stringsand a string, and returns the number of strings in the list that
+  are longer than the given string. countLongerStrin
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes a list of strings\nand a string, and returns the number of strings in the list \n\
+  that are longer than the given string.\n\n```\ncountLongerStrings(['dog', 'cat', 'a', 'ab'], 'z')=>3\ncountLongerStrings(['',\
+  \ 'a', 'ab', 'abc'], 'abcd') => 0\ncountLongerStrings(['knox', 'college', 'flunk', 'day'], 'april')=>1\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def countLongerStrings(items, s):
+          #code
+  placeholder: |2-
+
+    def countLongerStrings(items, s):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

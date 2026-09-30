@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_table_of_foods_en
+source: main.py
+title: Table of Foods
+description: You are a cook in a busy restaurant.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  You are a cook in a busy restaurant.  You are writing a program to help you organize how much of each kind of food you need to cook.  Naturally, you decide to take a break from cooking and write a function to help.  You decide that your function will take a dictionary as a parameter where the keys are the tables in the restaurant and the values are lists of strings describing the food each table has ordered.  Your function returns a dictionary with the totals for how many of each food item you need to cook.
+
+  For example, say you have 5 tables and 3 dishes:
+
+  Tables: t1, t2, t3, t4 and t5
+
+  Dishes: Vegetarian stew, Steak pie, Poutine
+
+  **Input:**
+
+  You will use the table names as the keys, and use a list of the foods ordered at each table as values.
+
+  For example your dictionary may look like this:
+
+  ```
+  {'t1': ['Vegetarian stew', 'Poutine', 'Vegetarian stew'],
+   't3': ['Steak pie', 'Poutine', 'Vegetarian stew'],
+   't4': ['Steak pie', 'Steak pie']}
+  ```
+
+  **Output:**
+
+  Your function must return a dictionary with the dish as the key, and the number of times that dish was ordered as the value.  Given the above input, your function would create and return a dictionary equivalent to the following:
+
+  `{'Vegetarian stew': 3, 'Poutine': 2, 'Steak pie': 3}`
+
+  Here we have started the code for you.  Complete it:
+elements:
+- type: editable
+  location:
+    snippet: "\ndef get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n \
+      \   The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
+      \ ordered for that table.\n\n    Return a dictionary where each key is a food from table_to_foods and each\n    value\
+      \ is the quantity of that food that was ordered.\n\t\n    >>> get_quantities({'t1': ['Vegetarian stew', 'Poutine', 'Vegetarian\
+      \ stew'], 't3': ['Steak pie', 'Poutine', 'Vegetarian stew'], 't4': ['Steak pie', 'Steak pie']})\n    {'Vegetarian stew':\
+      \ 3, 'Poutine': 2, 'Steak pie': 3}\t\n    \"\"\"\n\n    food_to_quantity = {}\n\n    # Accumulate the food information\
+      \ here.\n\n    return food_to_quantity"
+  placeholder: "\ndef get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n\
+    \    The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
+    \ ordered for that table.\n\n    Return a dictionary where each key is a food from table_to_foods and each\n    value\
+    \ is the quantity of that food that was ordered.\n\t\n    >>> get_quantities({'t1': ['Vegetarian stew', 'Poutine', 'Vegetarian\
+    \ stew'], 't3': ['Steak pie', 'Poutine', 'Vegetarian stew'], 't4': ['Steak pie', 'Steak pie']})\n    {'Vegetarian stew':\
+    \ 3, 'Poutine': 2, 'Steak pie': 3}\t\n    \"\"\"\n\n    food_to_quantity = {}\n\n    # Accumulate the food information\
+    \ here.\n\n    return food_to_quantity"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

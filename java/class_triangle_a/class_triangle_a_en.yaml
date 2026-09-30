@@ -1,0 +1,71 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_class_triangle_a_en
+source: Triangle.java
+title: class_triangle_a
+description: Complete the code for the class Triangle, which represents a right triangle.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:PublicMethodSpecifier
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:PublicMethodSpecifier
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the code for the class Triangle, which represents a right triangle. You have to implement all the accessor and mutator (getter/setter) methods for each of these 3 attributes:
+
+  a is Side A of the triangle (also the height)
+  b is Side B of the triangle (also the base)
+  c is Side C of the triangle (also the hypotenuse)
+
+  **Important:** the getter for setting the value of the hypotenuse (`getC`) needs to receive two input parameters (not directly the value), the height and the base (i.e., a and b), and calculate the value of c based on that (you need to use Pythagorean theorem here).
+
+  You must ensure all sides of the triangle are positive.
+
+  Use the Math class to your advantage for this problem.
+
+  More instructions on how to implement the missing parts of this class are provided in the code below.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.lang.*;\npublic class Triangle{ \n    //class attributes\n    private int a;\n    private int b;\n\
+      \    private double c;\n    \n    private double perimeter;\n    private double area;\n    \n    public Triangle(){\n\
+      \        a=3;\n        b=4;\n    }\n    "
+- type: editable
+  location:
+    snippet: "    // TO DO: Add getter/setter methods for all of the properties of this \n    // class:\n    // (setA, getA,\
+      \ setB, getB, getC)\n    // CONDITION: Ensure all sides are greater than 0.  If the argument for setA or setB are <=\
+      \ 0, do not set it to that value.\n    \n    // Define the method setC:\n    // (Note: Use the Math class to your advantage\
+      \ to set the value for c.)\n    // Side c can be calculated as follows:\n    // c = sqrt(a^2 + b^2)   \n    \n    "
+  placeholder: "    // TO DO: Add getter/setter methods for all of the properties of this \n    // class:\n    // (setA, getA,\
+    \ setB, getB, getC)\n    // CONDITION: Ensure all sides are greater than 0.  If the argument for setA or setB are <= 0,\
+    \ do not set it to that value.\n    \n    // Define the method setC:\n    // (Note: Use the Math class to your advantage\
+    \ to set the value for c.)\n    // Side c can be calculated as follows:\n    // c = sqrt(a^2 + b^2)   \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

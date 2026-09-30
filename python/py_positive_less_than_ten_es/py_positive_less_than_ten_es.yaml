@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_positive_less_than_ten_es
+source: main.py
+title: 'Condicion: positivo menor que 10 (ES)'
+description: Escribe un metodo que tome un entero como parametro y devuelva verdadero si el parametro es tanto positivo (es
+  decir, mayor que 0) como estrictamente menor que 10.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NoneLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: "Escribe un metodo que tome un entero como parametro y devuelva verdadero si el parametro es tanto positivo (es\
+  \ decir, mayor que 0) como estrictamente menor que 10. \nPor ejemplo:\n\n```\npositivoMenorQue10(10) => False\npositivoMenorQue10(-5)\
+  \ => False\npositivoMenorQue10(5) => True\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def positivoMenorQue10(num):
+          # tu codigo aqui
+  placeholder: |2-
+
+    def positivoMenorQue10(num):
+        # tu codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

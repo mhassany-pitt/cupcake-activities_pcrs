@@ -1,0 +1,80 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_duplicate_cut_es
+source: main.py
+title: PCRS C3-PL  Duplicate Cut
+description: Supongamos que se nos han dado varias secuencias candidatas de enzimas que podemos aplicar a una hebra para corregir
+  una mutacion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:ChangingValueVariable
+  - pcrs:Subtraction
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:ListLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:ListLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Supongamos que se nos han dado varias secuencias candidatas de enzimas que podemos aplicar a una hebra para corregir una mutacion. Nos gustaria filtrar las secuencias que son menos eficientes o efectivas. En particular, las secuencias que contienen la misma enzima en posiciones adyacentes son ineficientes, ya que la enzima cortara el mismo lugar dos veces.
+
+  Completa la funcion `corte_duplicado` segun su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def corte_duplicado(lista_enzimas):
+          """ (lista de str) -> booleano
+
+          Devuelve True si y solo si la misma enzima esta en la lista de enzimas en posiciones adyacentes.
+
+          >>> corte_duplicado(['EcoRI', 'Sau3A', 'Sau3A'])
+          True
+          >>> corte_duplicado(['EcoRI', 'Sau3A', 'EcoRI'])
+          False
+          """
+  placeholder: |2-
+
+    def corte_duplicado(lista_enzimas):
+        """ (lista de str) -> booleano
+
+        Devuelve True si y solo si la misma enzima esta en la lista de enzimas en posiciones adyacentes.
+
+        >>> corte_duplicado(['EcoRI', 'Sau3A', 'Sau3A'])
+        True
+        >>> corte_duplicado(['EcoRI', 'Sau3A', 'EcoRI'])
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

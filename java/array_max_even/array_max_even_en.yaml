@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_array_max_even_en
+source: Lab5.java
+title: Find Max Even Array
+description: Write a program that given an array of integers variable called array prints in the console the index of the
+  largest even number in the array.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ForStatement
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:ModulusExpression
+  - pcrs:IfStatement
+  - pcrs:ReturnStatement
+  - pcrs:AddExpression
+  - pcrs:AddExpression
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:ForStatement
+  - pcrs:IfStatement
+  - pcrs:ModulusExpression
+  - pcrs:ReturnStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Write a program that given an array of integers variable called `array` prints in the console the **index** of\
+  \ the largest even number in the array. \n\nPlease note that you have to complete the methods `isEven(int n)`  and `indOfMaxEven(int[]\
+  \ input)`."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.*;\nimport java.io.*;\n\npublic class Lab5{\n    \n   static int array[] = { 26, 52, 96, 84,\
+      \ 87, 31, 37, 30, 95, 35, 75, 34, 91, 27, 78, 60, 29, 65, 57, 70 };\n    \n   public static void main( String args[]\
+      \ ){\n       \n         System.out.println(\"indexOf largest even number array is: \" + indOfMaxEven(array));\n   }\n\
+      \    \n    static boolean isEven(int n){\n        //YOUR CODE HERE"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "    }\n    \n    static int indOfMaxEven( int [] input ){\n    \t// RETURN INDEX OF LARGEST EVEN NUMBER IN ARRAY.\n\
+      \        // YOU MUST USE THE isEven() method"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: |2-
+          }
+      }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

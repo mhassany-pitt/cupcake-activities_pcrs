@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_playlist_exception_es
+source: main.py
+title: Generar lista rápida de reproduccion valida (excepciones) (ES)
+description: Estás desarrollando un prototipo para una aplicación de música.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Estás desarrollando un prototipo para una aplicación de música. Cada usuario tiene una lista de canciones disponibles\
+  \ para reproducir (canciones). La app permite a los usuarios crear una lista de reproducción rápida eligiendo canciones\
+  \ por su posición en esa lista.\n\nSin embargo, algunos usuarios cometen errores al seleccionar canciones que no existen\
+  \ (índices inválidos). Para evitar que la app se detenga, debes manejar estos errores apropiadamente.\n\nEscribe una función\
+  \ llamada generar_lista_reproduccion(canciones, selecciones) que reciba: \n- canciones: una lista de strings con los títulos\
+  \ de las canciones disponibles.\n- selecciones: una lista de enteros con las posiciones que el usuario quiere reproducir.\n\
+  \nLa función debe devolver una lista cuyos elementos sean:\n- El nombre de la canción si el índice es válido.\n- El string\
+  \ \"random\" si el índice de la canción está fuera de rango (de modo que se reproduzca una canción aleatoria en ese caso)."
+elements:
+- type: editable
+  location:
+    snippet: "\ndef generar_lista_reproduccion(canciones,selecciones):\n    "
+  placeholder: "\ndef generar_lista_reproduccion(canciones,selecciones):\n    "
+- type: locked
+  location:
+    snippet: "\t\ttry:"
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

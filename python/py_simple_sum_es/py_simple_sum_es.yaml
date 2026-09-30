@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_simple_sum_es
+source: main.py
+title: PCRS C3-PL  Simple Sum
+description: 'Dado 2 numeros enteros, num1 y num2, calcula su suma y almacenala en una variable llamada suma.Por ejemplo:
+  si el valor de num1 es 3 y el valor de num2 es 4, el'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:Printing
+  - pcrs:ChangingValueVariable
+  - pcrs:CallingSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:Printing
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Dado 2 numeros enteros, `num1` y `num2`, calcula su suma y almacenala en una variable llamada `suma`.
+
+  Por ejemplo: si el valor de num1 es 3 y el valor de num2 es 4, el programa imprime 7.
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      # Supongamos que ambas variables num1 y num2 ya estan establecidas en un entero.
+      # Asigna la suma a una variable llamada suma.
+
+      suma = num1 + num2
+      print(suma)
+  placeholder: |2-
+
+    # Supongamos que ambas variables num1 y num2 ya estan establecidas en un entero.
+    # Asigna la suma a una variable llamada suma.
+
+    suma = num1 + num2
+    print(suma)
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

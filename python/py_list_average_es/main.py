@@ -1,0 +1,3 @@
+
+def promedioLista(unaLista):
+    # codigo

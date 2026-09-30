@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_while_4_coding_en
+source: SCode.java
+title: While Loop 4
+description: Assume that you want to invest your money by putting it in a bank account that earns a certain percent interest
+  per year.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: "Assume that you want to invest your money by putting it in a bank account that earns a certain percent interest\
+  \ per year. Assume that your initial balance is stored in a double variable `balance` and the interest rate is stored in\
+  \ a double variable `rate`. Given these two variables, complete the following code in order to calculate how many years\
+  \ does it take for the initial balance to triple. Store the result in an integer variable called `year`. \n\nAssume that\
+  \ the initial value of variables `balance` and `rate` is already set to a positive number and value of `rate` is in percent\
+  \ (i.e. ranges from 0 to 100).\n\nNote that while this can be computed directly mathematically, you need to use a \"while\
+  \ loop\" to figure out the answer for this exercise.\n\nE.g. 1:  if the value of `balance` is 1000 and the value of `rate`\
+  \ is 5, the value of `year` will be 23.\nE.g. 2:  if the value of `balance` is 1000 and the value of `rate` is 10, the value\
+  \ of `year` will be 12.\nE.g. 3:  if the value of `balance` is 1000 and the value of `rate` is 20, the value of `year` will\
+  \ be 7."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: int year;
+- type: editable
+  location:
+    snippet: "// TODO: add your code here\n\n \n        \n        "
+  placeholder: "// TODO: add your code here\n\n \n        \n        "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_non_start_en
+source: SCode.java
+title: Concatenating Two Strings Without Including the First Character of Each of Them
+description: Given two string variables str1 and str2, complete the following code in order to concatenate the two strings
+  without including the first character of each of them.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.substring
+  - pcrs:ObjectMethodInvocation
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:StringVariable
+  - pcrs:java.lang.String.length
+  - pcrs:AddExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:StringDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:AddExpression
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.substring
+  - pcrs:java.lang.System.out.println
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringVariable
+runtime:
+  language: java
+  version: '17'
+statement: "Given two string variables  `str1` and `str2`, complete the following code in order to concatenate the two strings\
+  \ without including the first character of each of them. Store the resulting string in a variable called `str3`.  Assume\
+  \ that the initial value of variables `str1` and `str2` is already set to a string with at least one character.\n\nE.g.\
+  \ 1: if the value of `str1` is \"Hello\" and the value of `str2` is \"There\", the code prints ellohere. \nE.g. 2: if the\
+  \ value of `str1` is \"java\" and the value of `str2` is \"code\", the code prints avaode. \nE.g. 3: if the value of `str1`\
+  \ is \"shotl\" and the value of `str2` is \"java\", the code prints hotlava."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    String str3;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n\n        "
+  placeholder: "    // TODO: add your code here\n\n        "
+- type: locked
+  location:
+    snippet: '    System.out.println(str3);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

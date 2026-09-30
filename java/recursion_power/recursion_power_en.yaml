@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_recursion_power_en
+source: SCode.java
+title: (Recursion) Power calculation
+description: Using recursion, complete the power method so that it returns the value of a to the power of b.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:recursion
+  - pcrs:recursion
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  *Using recursion*, complete the `power` method so that it returns the value of a to the power of b.
+      Examples:
+
+   - `power(3,4)` => `81`
+
+   - `power(2,8)` => `256`
+
+   - `power(1,1)` => `1`
+
+   - `power(9,0)` => `1`
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static int power(int a, int b) {\n    // TODO\n    \n}"
+  placeholder: "\npublic static int power(int a, int b) {\n    // TODO\n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

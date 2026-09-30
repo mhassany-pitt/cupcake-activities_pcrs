@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_name_sort_en
+source: main.py
+title: Name Alphabetical Order
+description: Complete the following function according to its docstring description.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def earlier_name(name1, name2):
+          """ (str, str) -> str
+
+          Return the name, name1 or name2, that comes first alphabetically.
+
+          >>> earlier_name('Jen', 'Paul')
+          'Jen'
+          >>> earlier_name('Colin', 'Colin')
+          'Colin'
+          """
+  placeholder: |2-
+
+    def earlier_name(name1, name2):
+        """ (str, str) -> str
+
+        Return the name, name1 or name2, that comes first alphabetically.
+
+        >>> earlier_name('Jen', 'Paul')
+        'Jen'
+        >>> earlier_name('Colin', 'Colin')
+        'Colin'
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

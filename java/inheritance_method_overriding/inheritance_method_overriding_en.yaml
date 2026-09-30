@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_inheritance_method_overriding_en
+source: Sports.java
+title: (Inheritance) Method overriding basics
+description: Consider the following code:void getNumMembers(){ System.out.println( "The team has n players in " + getName());
+  }}Write an overridden getNumMembers method that
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodOverriding
+  - pcrs:MethodOverriding
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Consider the following code:
+
+  ```
+  void getNumMembers(){
+          System.out.println( "The team has n players in " + getName());
+      }
+  }
+  ```
+
+  Write an overridden ` getNumMembers method` that `prints the same` statement as the `superclass` getNumMembers ` except ` it replaces n with 21 `n` with `21`. The method will ` not return` anything.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Sports{\n\n    String getName(){\n        return \"Generic Sports\";\n    }\n  \n    void getNumMembers(){\n\
+      \        System.out.println( \"The team has n players in \" + getName() );\n    }\n}\n\nclass Basketball extends Sports{\n\
+      \    @Override\n    String getName(){\n        return \"Basketball Class\";\n    }"
+- type: editable
+  location:
+    snippet: "    // TODO: add your method here\n    \n    "
+  placeholder: "    // TODO: add your method here\n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

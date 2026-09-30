@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_quotient_remainder_en
+source: main.py
+title: Calculate quotient and remainder
+description: Given two integer numbers, num1 and num2, complete the following code that calculates the quotient (result of
+  the division of the num1 by the num2), the integer
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Given two integer numbers, `num1` and `num2`, complete the following code that calculates the quotient (result of the division of the num1 by the num2), the integer quotient (integer division of the num1 by the num2), and the remainder (remainder from the division of the num1 by the num2).
+
+  Assume that the initial values of `num1` and `num2` are already set.
+
+  Quotient, integer quotient and remainder should be stored in `quotient`, `integer_quotient`, and `remainder` variables respectively.
+
+  E.g. 1: If the value of `num1` is 25 and `num2` is 5, the quotient is 5.0, the integer quotient is 5, and the remainder is 0.0
+  E.g. 2: If the value of `num1` is 14 and `num2` is 4, the quotient is 3.5, the integer quotient is 3, and the remainder is 2.0
+
+  Authors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

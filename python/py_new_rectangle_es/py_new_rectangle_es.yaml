@@ -1,0 +1,104 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_new_rectangle_es
+source: main.py
+title: PCRS C3-PL  New Rectangle
+description: Completa el metodo area en la siguiente clase.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Multiplication
+  - pcrs:__init()__
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:__init()__
+  - pcrs:Addition
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: Completa el metodo `area` en la siguiente clase. Todo lo que necesita es una declaracion `return`.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      class Rectangulo:
+          """ Un rectangulo con un ancho y altura. """
+
+          def __init__(self, an, al):
+              """ (Rectangulo, numero, numero)
+
+              Crea un nuevo rectangulo de ancho a y altura h.
+
+              >>> r = Rectangulo(1, 2)
+              >>> r.ancho
+              1
+              >>> r.altura
+              2
+              """
+
+              self.ancho = an
+              self.altura = al
+
+          def area(self):
+              """ (Rectangulo) -> numero
+
+              Devuelve el area de este rectangulo.
+
+              >>> r = Rectangulo(10, 20)
+              >>> r.area()
+              200
+              """
+  placeholder: |2-
+
+    class Rectangulo:
+        """ Un rectangulo con un ancho y altura. """
+
+        def __init__(self, an, al):
+            """ (Rectangulo, numero, numero)
+
+            Crea un nuevo rectangulo de ancho a y altura h.
+
+            >>> r = Rectangulo(1, 2)
+            >>> r.ancho
+            1
+            >>> r.altura
+            2
+            """
+
+            self.ancho = an
+            self.altura = al
+
+        def area(self):
+            """ (Rectangulo) -> numero
+
+            Devuelve el area de este rectangulo.
+
+            >>> r = Rectangulo(10, 20)
+            >>> r.area()
+            200
+            """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

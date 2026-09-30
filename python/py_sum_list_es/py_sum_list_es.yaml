@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_sum_list_es
+source: main.py
+title: Suma elementos lista (ES)
+description: Escribe una funcion que devuelva la suma de todos los elementos de la lista.No uses la funcion sum(). sumaLista([1,
+  2, 3, 4, 5, 6])=> 21 sumaLista([1, 2, 3, 4,
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IndexingList
+  - pcrs:SingleForLoopIteration
+  - pcrs:NoneLiteral
+  - pcrs:CheckingForItem
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:NoneLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que devuelva la suma de todos los elementos de la lista.
+  **No** uses la funcion sum().
+
+  ```
+  sumaLista([1, 2, 3, 4, 5, 6])=> 21
+  sumaLista([1, 2, 3, 4, 5, 6])=> -21
+  sumaLista([-1, 2, -3, 4, -5, 6])=> 3
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def sumaLista(elementos):
+          # codigo
+  placeholder: |2-
+
+    def sumaLista(elementos):
+        # codigo
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

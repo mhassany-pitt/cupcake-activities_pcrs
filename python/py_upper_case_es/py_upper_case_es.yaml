@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_upper_case_es
+source: main.py
+title: Contar Mayusculas (ES)
+description: Completa el cuerpo de la funcion.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Completa el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contar_mayusculas(string):
+          """ (str) -> int
+
+          Devuelve el numero de letras mayusculas en string.
+          """
+          #Pendiente: ahora completa el cuerpo de la funcion
+  placeholder: |2-
+
+    def contar_mayusculas(string):
+        """ (str) -> int
+
+        Devuelve el numero de letras mayusculas en string.
+        """
+        #Pendiente: ahora completa el cuerpo de la funcion
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

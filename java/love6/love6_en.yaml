@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_love6_en
+source: SCode.java
+title: Determining Equality to a Specific Number
+description: The number 6 is a truly great number.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:OrExpression
+  - pcrs:AddExpression
+  - pcrs:EqualExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:BooleanDataType
+  - pcrs:SubtractExpression
+  - pcrs:SimpleVariable
+  - pcrs:AddExpression
+  - pcrs:BooleanDataType
+  - pcrs:EqualExpression
+  - pcrs:OrExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: "The number 6 is a truly great number. Given two integer variables, `a` and `b`, write a boolean expression to\
+  \ determine if either one of these two integers is 6 or if their sum or difference is 6. Store the result of this expression\
+  \ in a variable called `result`. Assume that the initial value of the variables `a` and `b` is already set to an integer.\
+  \ \nNote: the method `Math.abs(num)` computes the absolute value of the number `num`.\n\nE.g. 1: if the value of `a` is\
+  \ 6 and the value of `b` is 4,  the value of `result` will be true. \nE.g. 2: if the value of `a` is 4 and the value of\
+  \ `b` is 5,  the value of `result` will be false."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    boolean result;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

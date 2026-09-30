@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_between_two_genes_en
+source: main.py
+title: PCRS C3-PL  Between Two Genes
+description: Write a function that takes three parameters:a sequence of DNA called seq, a genecalled g1, and a gene called
+  g2.Return all of the strings that occur between an
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes three parameters:
+  a sequence of DNA called `seq`, a gene
+  called `g1`, and a gene called `g2`.
+  Return all of the strings that occur between an
+  occurrence of `g1` and the nearest occurrence of
+  `g2` that comes after it. If g1 occurs without g2,
+  return the empty string. If there are extra occurrences of g2,
+  use the first one. If there are extra occurrences of g1, use
+  the last one.
+  For example:
+
+  ```
+  betweenGenes('ATAATCGTGGCCA', 'AAT', 'GCCA') => 'CGTG'
+  betweenGenes('CGTGATCGCAATGGGGCAGTC', 'AT', 'CA') => 'CGGGGG'
+  betweenGenes('ATAATCGTGGCCA', 'AAT', 'GCCA') => 'CGTG'
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def betweenGenes(seq, g1, g2):
+          # code here
+  placeholder: |2-
+
+    def betweenGenes(seq, g1, g2):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

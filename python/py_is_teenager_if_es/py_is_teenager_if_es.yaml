@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_is_teenager_if_es
+source: main.py
+title: PCRS C3-PL Is teenager
+description: Generalmente se considera que una persona es un adolescente entre las edades de 13 y 18 años.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NestedIfChecking
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: 'Generalmente se considera que una persona es un adolescente entre las edades de 13 y 18 años. Escriba una función
+  que determine si la edad dada es a la vez adolescente y no un número primo. (Pista: sólo 13 y 17 son primos en ese rango).'
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def adolescenteNoPrimo(edad):
+          return
+  placeholder: |2-
+
+    def adolescenteNoPrimo(edad):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

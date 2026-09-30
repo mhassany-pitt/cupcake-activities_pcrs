@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_high_low_temp_en
+source: main.py
+title: High Low Temp
+description: Complete the following function according to its docstring.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the following function according to its docstring.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
+      \n    Precondition: len(high_temps) == len(low_temps)\n\n    high_temps and low_temps are daily high and low temperatures\
+      \ for a series\n    of days. Return a new list of temperatures where each item is the daily\n    average.\n   \n   \
+      \ >>> average_daily_temp([26, 27, 27, 28, 27, 26], [20, 20, 20, 20, 21, 21])\n    [23.0, 23.5, 23.5, 24.0, 24.0, 23.5]\n\
+      \    \"\"\""
+  placeholder: "\ndef average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
+    \n    Precondition: len(high_temps) == len(low_temps)\n\n    high_temps and low_temps are daily high and low temperatures\
+    \ for a series\n    of days. Return a new list of temperatures where each item is the daily\n    average.\n   \n    >>>\
+    \ average_daily_temp([26, 27, 27, 28, 27, 26], [20, 20, 20, 20, 21, 21])\n    [23.0, 23.5, 23.5, 24.0, 24.0, 23.5]\n \
+    \   \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

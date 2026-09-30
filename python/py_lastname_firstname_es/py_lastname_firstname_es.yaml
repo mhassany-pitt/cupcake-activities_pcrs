@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_lastname_firstname_es
+source: main.py
+title: PCRS C3-PL  Lastname Firstname
+description: Completa la siguiente funcion de acuerdo con la descripcion de su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Concatenation
+  - pcrs:Addition
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion de acuerdo con la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es\
+      \ un nombre y el segundo es un apellido. Devuelve un string \n    en el formato \"APELLIDO, NOMBRE\", donde APELLIDO\
+      \ y NOMBRE \n    son reemplazados por el apellido y nombre  dados.\n\n    >>> formato_nombre('David', 'Cohen')\n   \
+      \ 'Cohen, David' \n    \"\"\""
+  placeholder: "\ndef formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es\
+    \ un nombre y el segundo es un apellido. Devuelve un string \n    en el formato \"APELLIDO, NOMBRE\", donde APELLIDO y\
+    \ NOMBRE \n    son reemplazados por el apellido y nombre  dados.\n\n    >>> formato_nombre('David', 'Cohen')\n    'Cohen,\
+    \ David' \n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

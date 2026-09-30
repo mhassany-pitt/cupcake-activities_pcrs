@@ -1,0 +1,36 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_total_number_of_pizza_en
+source: main.py
+title: Number of Slices
+description: Complete the function according to its docstring.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the function according to its docstring.  When you think you are done, click "Submit" to have your code
+  tested.  If both tests pass, congrats!  If one or both fails, edit your code and resubmit.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
+      \ of slices in num_pizzas pizzas that each have\n    slices_per_pizza slices.\n    \n    >>> total_slices(2, 30)\n \
+      \   60\n    >>> total_slices(1, 8)\n    8\n    \"\"\""
+  placeholder: "\ndef total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
+    \ of slices in num_pizzas pizzas that each have\n    slices_per_pizza slices.\n    \n    >>> total_slices(2, 30)\n   \
+    \ 60\n    >>> total_slices(1, 8)\n    8\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

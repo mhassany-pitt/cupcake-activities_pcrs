@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_alert_weekend_en
+source: main.py
+title: PCRS C3-PL  Alert Weekend
+description: Write a function that will alert the user about whether it is the weekend yet, based on the current day (provided
+  as a string).
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Write a function that will alert the user about whether it is the weekend yet, based on the current day (provided
+  as a string).
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def isWeekend(day):
+          return
+  placeholder: |2-
+
+    def isWeekend(day):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

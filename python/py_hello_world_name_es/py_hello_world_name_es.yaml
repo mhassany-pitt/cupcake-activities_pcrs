@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_hello_world_name_es
+source: main.py
+title: Programa usual primero (CC)
+description: 'Escribe una funcion llamada hola_mundo quedevuelva un saludo adecuado usando el parametro ''nombre''.Ejemplos
+  de llamadas: hola_mundo(''KITE'') => "KITE dice hola m'
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:StringLiteral
+  - pcrs:Concatenation
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:CallingSimpleFunction
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion llamada `hola_mundo` que
+  devuelva un saludo adecuado usando el parametro 'nombre'.
+
+  Ejemplos de llamadas:
+
+   - `hola_mundo('KITE')` => `"KITE dice hola mundo!"`
+
+   - `hola_mundo('Python')` => `"Python dice hola mundo!"`
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: 'def hola_mundo(nombre):'
+- type: editable
+  location:
+    snippet: '    # Tu codigo va aqui...'
+  placeholder: '    # Tu codigo va aqui...'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

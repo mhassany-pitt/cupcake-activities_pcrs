@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_student_by_degree_en
+source: main.py
+title: PCRS C3-PL  Student By Degree
+description: This exercise uses the student record format from assignment 1.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  This exercise uses the student record format from assignment 1. Recall that each student record was a comma separated sequence where the last item in the sequence is the degree being applied to.
+
+  Complete the function `students_by_degree` according to its docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2
+
+      def students_by_degree(student_list, degree_type):
+          """ (list of str, str) -> list of str
+
+          Return a list of the elements of student_list which are enrolling in the degree_type in the order
+          they appear in the original list.
+
+          >>> students_by_degree(['Jacqueline Smith,Best High School,2002,MAT,90,94,ENG,92,88,CHM,80,85,BArts',
+                                 'Paul Gries,Another High School,1990,BIO,60,70,CHM,80,90,CAT,95,96,BEng',
+                                 'Jen Campbell,Yet Another High School,2015,ENG,75,78,SCI,80,81,CHM,80,81,BEng'],
+                                 'BEng')
+          ['Paul Gries,Another High School,1990,BIO,60,70,CHM,80,90,CAT,95,96,BEng', 'Jen Campbell,Yet Another High School,2015,ENG,75,78,SCI,80,81,CHM,80,81,BEng']
+          """
+  placeholder: |2
+
+    def students_by_degree(student_list, degree_type):
+        """ (list of str, str) -> list of str
+
+        Return a list of the elements of student_list which are enrolling in the degree_type in the order
+        they appear in the original list.
+
+        >>> students_by_degree(['Jacqueline Smith,Best High School,2002,MAT,90,94,ENG,92,88,CHM,80,85,BArts',
+                               'Paul Gries,Another High School,1990,BIO,60,70,CHM,80,90,CAT,95,96,BEng',
+                               'Jen Campbell,Yet Another High School,2015,ENG,75,78,SCI,80,81,CHM,80,81,BEng'],
+                               'BEng')
+        ['Paul Gries,Another High School,1990,BIO,60,70,CHM,80,90,CAT,95,96,BEng', 'Jen Campbell,Yet Another High School,2015,ENG,75,78,SCI,80,81,CHM,80,81,BEng']
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,36 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_treasure_box_en
+source: main.py
+title: Treasure Box
+description: A treasure box with 1 million dollars inside has a lock combination that uses a 3-digit positive integer.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "A treasure box with 1 million dollars inside has a lock combination that uses a 3-digit positive integer. \nTo\
+  \ open the box, the following rules need to be satisfied: \n\n(1) The first digit equals the last digit.\n(2) The middle\
+  \ digit is odd.\n\nWrite a program that checks single 3-digit integer and prints YES if the number opens the box and NO\
+  \ otherwise.\n\nAssume that the 3-digit integer is already set to variable **`code`**.\n\nE.g. 1: if code is 212, the program\
+  \ prints 'YES'\nE.g. 2: if code is 312, the program prints 'NO'\nE.g. 3: if code is 999, the program prints 'YES'\n\nAuthors:\
+  \ Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

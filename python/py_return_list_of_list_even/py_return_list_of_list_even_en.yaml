@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_return_list_of_list_even_en
+source: main.py
+title: List of Lists with Even
+description: This problem has you write a nested loop to process a list of list of int, and accumulate a list of list of int.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "This problem has you write a nested loop to process a `list of list of int`, and accumulate a `list of list of\
+  \ int`.  The starter code provides an accumulator for the result and a loop over the lists, and you need to write the code\
+  \ that checks whether `sublist` contains only even `int`s.  \n\nYou'll probably want a one-way flag: a Boolean variable\
+  \ that starts out as `True` and is set to `False` if you find an odd `int` in the sublist.  You'll need to check the value\
+  \ of this variable to figure out whether to append `sublist` to the `even_lists` accumulator."
+elements:
+- type: editable
+  location:
+    snippet: "\ndef only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the\
+      \ lists in lst that contain only even integers. \n   \n    >>> only_evens([[1, 2, 4], [4, 0, 6], [22, 4, 3], [2]])\n\
+      \    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    even_lists = []\n\n    for sublist in lst:\n    \n        # write your\
+      \ code here (be sure to read above for a suggested approach)\n\n    return even_lists"
+  placeholder: "\ndef only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the\
+    \ lists in lst that contain only even integers. \n   \n    >>> only_evens([[1, 2, 4], [4, 0, 6], [22, 4, 3], [2]])\n \
+    \   [[4, 0, 6], [2]]\n    \"\"\"\n    \n    even_lists = []\n\n    for sublist in lst:\n    \n        # write your code\
+    \ here (be sure to read above for a suggested approach)\n\n    return even_lists"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

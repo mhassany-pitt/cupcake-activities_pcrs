@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_value_between_es
+source: main.py
+title: 'Condicion: es adolescente (ES)'
+description: Completa la siguiente funcion segun las instrucciones
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun las instrucciones
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: |-
+      def es_adolescente(edad):
+          """ (int) -> bool
+
+          Devuelve True si y solo si edad representa un adolescente entre 13 y 18 inclusive.
+
+          >>> es_adolescente(4)
+          False
+          >>> es_adolescente(16)
+          True
+          >>> es_adolescente(19)
+          False
+          """
+          #TODO: completa el nuevo cuerpo de la funcion en una sola linea en el espacio de abajo:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_return_max_index_en
+source: main.py
+title: PCRS C3-PL  Return Max Index
+description: Write a function that takes a list of ints and returns the index (index, not the value)of the maximum element.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes a list of ints \nand returns the *index* (index, not the value)\nof the maximum element.\
+  \ If the max value occurs\nmultiple times, return the index of the first occurrence.\n**Do not** use the max() function.\
+  \ The max of\nan empty list is undefined, so your function can crash\nif given an empty list.\n\n```\nmaxIndex([5,5,5,5])=>0\n\
+  maxIndex([5,15,10,20,25])=>4\nmaxIndex([-3,-2,-1,-6,-9,-11])=>2\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def maxIndex(items):
+          #code
+  placeholder: |2-
+
+    def maxIndex(items):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

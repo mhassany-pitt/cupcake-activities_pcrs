@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_sort_array_swap_contiguous_en
+source: Lab7.java
+title: Sort array by swapping contigous elements
+description: Complete the method sortArray in order to ascendingly sort the first count elements of an array of integers (arr).
+  count and arr are given as parameters of sort
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ActualMethodParameter
+  - pcrs:ArrayElement
+  - pcrs:FormalMethodParameter
+  - pcrs:GreaterExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ForStatement
+  - pcrs:NestedForLoops
+  - pcrs:ActualMethodParameter
+  - pcrs:ArrayElement
+  - pcrs:FormalMethodParameter
+  - pcrs:ForStatement
+  - pcrs:GreaterExpression
+  - pcrs:NestedForLoops
+  - pcrs:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the method `sortArray` in order to ascendingly sort the first `count` elements of an array of integers (`arr`). `count` and `arr` are given as parameters of `sortArray` (in that order).
+
+  **Instructions on how to solve this problem:**
+
+  -  Inside the given for loop, you have to nest another loop (controlled by j) that will be responsible for moving the i-th largest element to its respective position in the right part of the array, one by one.
+  -  For moving the i-th largest element in the array to the right side of the array on each i-th iteration, you have to repetitively swap contiguous elements (arr[j] and arr[j+1]) when needed (if arr[j] > arr[j+1]).
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your\
+      \ code here\n        //See the instructions for details on how to solve this problem\n    \n        \n        \n   \
+      \     \n    }\n}\n      "
+  placeholder: "\nstatic void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your\
+    \ code here\n        //See the instructions for details on how to solve this problem\n    \n        \n        \n     \
+    \   \n    }\n}\n      "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

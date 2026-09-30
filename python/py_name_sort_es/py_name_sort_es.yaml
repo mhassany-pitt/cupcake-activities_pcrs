@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_name_sort_es
+source: main.py
+title: PCRS C3-PL  Name Sort
+description: Completa la siguiente funcion segun la descripcion de su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfElseChecking
+  - pcrs:IfChecking
+  - pcrs:StringLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def primer_nombre(nombre1, nombre2):
+          """ (str, str) -> str
+
+          Devuelve el nombre, nombre1 o nombre2, que aparece primero alfabeticamente.
+
+          >>> primer_nombre('Jen', 'Paul')
+          'Jen'
+          >>> primer_nombre('Colin', 'Colin')
+          'Colin'
+          """
+  placeholder: |2-
+
+    def primer_nombre(nombre1, nombre2):
+        """ (str, str) -> str
+
+        Devuelve el nombre, nombre1 o nombre2, que aparece primero alfabeticamente.
+
+        >>> primer_nombre('Jen', 'Paul')
+        'Jen'
+        >>> primer_nombre('Colin', 'Colin')
+        'Colin'
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

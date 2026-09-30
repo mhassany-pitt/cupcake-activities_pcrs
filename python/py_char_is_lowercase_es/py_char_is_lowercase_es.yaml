@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_char_is_lowercase_es
+source: main.py
+title: PCRS C3-PL Is char lowercase
+description: Una letra es minúscula si se encuentra entre 'a' y 'z'.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:StringLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: Una letra es minúscula si se encuentra entre 'a' y 'z'. Escribe una función que determine si la letra dada está
+  en minúscula.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def esMinuscula(letra):
+          return
+  placeholder: |2-
+
+    def esMinuscula(letra):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

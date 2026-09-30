@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_dna_pairs_es
+source: main.py
+title: PCRS C3-PL  Dna Pairs
+description: Escribe una funcion que tome un string que consiste solo en las letras mayusculas A, C, G y T, y devuelva el
+  numero de veces que ocurre cada letra.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que tome un string que consiste solo en las letras mayusculas A, C, G y T, y devuelva el numero de veces que ocurre cada letra. Puedes devolver multiples valores poniendolos entre parentesis, asi:
+
+  ```
+  return (1, 2, 8, 4)
+  ```
+
+  Asegurate de devolver los conteos en el orden ACGT.
+  Por ejemplo:
+
+  ```
+  contarParesDeBases('GATTACA') => (3, 1, 1, 2)
+  contarParesDeBases('') => (0, 0, 0, 0)
+  contarParesDeBases('GGTCAGGCCCCT') => (1, 5, 4, 2)
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contarParesDeBases(secuencia):
+          # codigo aqui
+  placeholder: |2-
+
+    def contarParesDeBases(secuencia):
+        # codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

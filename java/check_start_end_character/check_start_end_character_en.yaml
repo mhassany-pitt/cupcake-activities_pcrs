@@ -1,0 +1,62 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_check_start_end_character_en
+source: SCode.java
+title: Determining When a String Starts and Ends with Specific Characters
+description: Given a string str, write a boolean expression to determine if the string starts with the letter "f" and ends
+  with the letter "b".
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.charAt
+  - pcrs:AndExpression
+  - pcrs:ObjectMethodInvocation
+  - pcrs:EqualExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:java.lang.String.length
+  - pcrs:BooleanDataType
+  - pcrs:SubtractExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:AndExpression
+  - pcrs:BooleanDataType
+  - pcrs:EqualExpression
+  - pcrs:java.lang.String.charAt
+  - pcrs:java.lang.String.length
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: "Given a string `str`, write a boolean expression to determine if the string starts with the letter \"f\" and ends\
+  \ with the letter \"b\". Store the result of this expression in a variable called `result`. Assume that the initial value\
+  \ of the variable `str` is already set to a string with an even number of characters. \n\nE.g. 1: if the value of `str`\
+  \ is \"fig\",  the value of `result` will be false. \nE.g. 2: if the value of `str` is \"fib\",  the value of `result` will\
+  \ be true."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    boolean result;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

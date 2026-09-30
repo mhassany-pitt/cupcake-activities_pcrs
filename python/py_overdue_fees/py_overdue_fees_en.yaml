@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_overdue_fees_en
+source: main.py
+title: PCRS C3-PL  Overdue Fees
+description: 'A library charges overdue fees for a borrowed book using the following fee schedule:less than 4 days late: 1
+  dollar per day4 to 6 days late: 2 dollars per day ('
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  A library charges overdue fees for a borrowed book using the following fee schedule:
+
+  - less than 4 days late: 1 dollar per day
+
+  - 4 to 6 days late: 2 dollars per day (for all days, including the first 3 days)
+
+  - more than 6 days late: 3 dollars per day (for all days, including the first 6 days)
+
+  Borrowers of books are in one of these age groups: `CHILD`, `ADULT`, or `SENIOR`. A `CHILD` gets charged only half of the fees and a `SENIOR` gets charged only one quarter of the fees. An `ADULT` pays the full fee.
+
+  Complete the following function according to the description above and the docstring below.
+elements:
+- type: editable
+  location:
+    snippet: "\nCHILD = \"child\"\nSENIOR = \"senior\"\nADULT = \"adult\"\n\ndef overdue_fees(days_late, age_group):\n   \
+      \ \"\"\" (int, str) -> number\n    \n    Return the fees for a book that is days_late days late for a borrower\n   \
+      \ in the age group age_group.\n    \n    >>> overdue_fees(2, SENIOR) # 2 days late, SENIOR borrower\n    0.5\n    >>>\
+      \ overdue_fees(5, ADULT) # 5 days late, ADULT borrower\n    10\n    \"\"\""
+  placeholder: "\nCHILD = \"child\"\nSENIOR = \"senior\"\nADULT = \"adult\"\n\ndef overdue_fees(days_late, age_group):\n \
+    \   \"\"\" (int, str) -> number\n    \n    Return the fees for a book that is days_late days late for a borrower\n   \
+    \ in the age group age_group.\n    \n    >>> overdue_fees(2, SENIOR) # 2 days late, SENIOR borrower\n    0.5\n    >>>\
+    \ overdue_fees(5, ADULT) # 5 days late, ADULT borrower\n    10\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_exactly_one_positive_es
+source: main.py
+title: 'Condicion: al menos un numero positivo (ES)'
+description: Escribe una funcion que tome tres parametros y devuelva True si al menos un parametro es positivo.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que tome tres parametros y devuelva True si al menos un parametro es positivo. Por ejemplo:
+
+  ```
+  alMenosUnoPositivo(1,0,0) -> True
+  alMenosUnoPositivo(1,7,1) -> True
+  alMenosUnoPositivo(-9,-5,0) -> False
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\ndef alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de\
+      \ los parámetros es positivo.\n    \"\"\"\n    #Escribe tu codigo aqui\n    \n    "
+  placeholder: "\ndef alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de\
+    \ los parámetros es positivo.\n    \"\"\"\n    #Escribe tu codigo aqui\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

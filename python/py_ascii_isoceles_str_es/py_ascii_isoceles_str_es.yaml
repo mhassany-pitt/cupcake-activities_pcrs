@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_ascii_isoceles_str_es
+source: main.py
+title: Triangulo Ascii (ES)
+description: Escribe una función triangulo_ascii(bloque, lado) que retorne una cadena de texto que represente un triángulo
+  rectángulo isósceles en ASCII, utilizando el carác
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:CheckingForItem
+  - pcrs:Addition
+  - pcrs:StringLiteral
+  - pcrs:Subtraction
+  - pcrs:Concatenation
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ForLoopWith+=
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una función `triangulo_ascii(bloque, lado)` que retorne una cadena de texto que represente un triángulo rectángulo isósceles en ASCII, utilizando el carácter `bloque`, con una base y altura de `lado` caracteres. El ángulo recto debe estar en la esquina superior izquierda.
+
+  Precondición: len(bloque) == 1
+
+  Por ejemplo, si `bloque="@"` y `lado=4`, la función debe retornar la siguiente cadena (con un salto de línea al final de cada fila):
+  @@@@
+  @@@
+  @@
+  @
+elements:
+- type: editable
+  location:
+    snippet: "\ndef triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\n\
+      \    Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter\
+      \ bloque, con una base y altura de 'lado' caracteres. \n    El ángulo recto debe estar en la esquina superior izquierda.\n\
+      \    \"\"\"\n    # Escribe tu codigo aqui"
+  placeholder: "\ndef triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\
+    \n    Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter\
+    \ bloque, con una base y altura de 'lado' caracteres. \n    El ángulo recto debe estar en la esquina superior izquierda.\n\
+    \    \"\"\"\n    # Escribe tu codigo aqui"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,74 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_stretch_string_es
+source: main.py
+title: Estirar String (ES)
+description: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:list()
+  - pcrs:ListLiteral
+  - pcrs:Multiplication
+  - pcrs:Concatenation
+  - pcrs:Addition
+  - pcrs:FindingLength
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:StringLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:Concatenation
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:ListReferencing
+  - pcrs:Multiplication
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion:\
+      \ len(c) == len(factores_estiramiento) y los elementos de\n                  factores_estiramiento son mayores o iguales\
+      \ a cero\n     \n    Devuelve una  string que consiste en los caracteres en c en el mismo orden que en c,\n    repetidos\
+      \ el numero de veces indicado por el elemento en la posicion correspondiente\n    de factores_estiramiento.\n    \n\
+      \    >>> estirar_string('Hola', [2, 0, 3, 1])\n    'HHllla'\n    >>> estirar_string('eco', [0, 1, 2])\n    #TODO: Reemplaza\
+      \ este comentario con el valor de retorno de la llamada a la funcion anterior.\n    \"\"\""
+  placeholder: "\ndef estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion:\
+    \ len(c) == len(factores_estiramiento) y los elementos de\n                  factores_estiramiento son mayores o iguales\
+    \ a cero\n     \n    Devuelve una  string que consiste en los caracteres en c en el mismo orden que en c,\n    repetidos\
+    \ el numero de veces indicado por el elemento en la posicion correspondiente\n    de factores_estiramiento.\n    \n  \
+    \  >>> estirar_string('Hola', [2, 0, 3, 1])\n    'HHllla'\n    >>> estirar_string('eco', [0, 1, 2])\n    #TODO: Reemplaza\
+    \ este comentario con el valor de retorno de la llamada a la funcion anterior.\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_get_words_es
+source: main.py
+title: Obtener lista de palabras desde archivo (ES)
+description: Completa la funcion obtener_palabras que necesitara leer las palabras en el archivo de texto 'archivo' y que
+  retorne una lista de todas las palabras que conform
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ListReferencing
+  - pcrs:CreatingList
+  - pcrs:TransformingToStringType
+  - pcrs:ReadingLine
+  - pcrs:SplittingString
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:ListLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingList
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ReadingLine
+  - pcrs:SplittingString
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Completa la funcion obtener_palabras que necesitara leer las palabras en el archivo de texto 'archivo' y que retorne una lista de todas las palabras que conforman el texto en su mismo orden de aparicion. La variable `archivo` representa un archivo abierto para lectura. Puedes usar el metodo `str` `split` para hacer tu lista.
+
+  Completa la funcion a continuacion segun la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
+      \ una nueva lista que contiene las palabras de archivo en el mismo orden\n    en que aparecen en archivo.\n    \"\"\"\
+      \""
+  placeholder: "\ndef obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
+    \ una nueva lista que contiene las palabras de archivo en el mismo orden\n    en que aparecen en archivo.\n    \"\"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,83 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_num_above_average_es
+source: main.py
+title: Contar el numero de valores que estan por encima del promedio (ES)
+description: Escribe un programa que tome dos listas de enteros como parametros, y devuelva el numero de elementos en la segunda
+  lista que son mayores que el promedio de la primera lista.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Division
+  - pcrs:ListReferencing
+  - pcrs:ListLiteral
+  - pcrs:FloatLiteral
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:Addition
+  - pcrs:list()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseChecking
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:FloatLiteral
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:Addition
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Division
+  - pcrs:IfChecking
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe un programa que tome dos listas de enteros como parametros, y devuelva el numero de elementos en la segunda lista que son mayores que el promedio de la primera lista. **No** uses la funcion sum().
+
+  ```
+  numPorEncimaDelPromedio([5,5,5,5], [3,4,5,6,7])=>2
+  numPorEncimaDelPromedio([5,15,10,20,25], [34, 12, 19, -1])=>2
+  numPorEncimaDelPromedio([5, 7], [])=>0
+  ```
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: |-
+      def numPorEncimaDelPromedio(lista1, lista2):
+          #Escribir codigo aqui
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

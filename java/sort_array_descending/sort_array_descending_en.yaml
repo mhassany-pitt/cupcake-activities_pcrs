@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_sort_array_descending_en
+source: Lab7.java
+title: (Sorting) Sort array descendingly with bubble sort
+description: Complete the method sortArray in order to descendingly sort the elements of an array of integers (arr). arr is
+  given as parameters of sortArrayDesc.Instructions
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfStatement
+  - pcrs:ArrayElement
+  - pcrs:sorting
+  - pcrs:ArrayElement
+  - pcrs:IfStatement
+  - pcrs:sorting
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the method `sortArray` in order to descendingly sort the elements of an array of integers (`arr`). `arr` is given as parameters of `sortArrayDesc`.
+
+  **Instructions on how to solve this problem:**
+
+  -  Inside the given for loop, you have to nest another loop (controlled by j) that will be responsible for moving the i-th smallest element to its respective position in the right part of the array, one by one.
+  -  For moving the i-th smallest element in the array to the right side of the array on each i-th iteration, you have to repetitively swap contiguous elements (arr[j] and arr[j+1]) when needed.
+  - If after a j-th iteration you realize that all the elements are in order, you can stop the execution of the sorting algorithm.
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
+      \ for details on how to solve this problem\n    \n        \n        \n        \n    }\n}\n      "
+  placeholder: "\nstatic void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
+    \ for details on how to solve this problem\n    \n        \n        \n        \n    }\n}\n      "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

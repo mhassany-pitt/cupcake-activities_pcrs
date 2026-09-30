@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_less_than_ten_en
+source: main.py
+title: PCRS C3-PL  Less Than Ten
+description: Write a function called lessThan10 that takes one parameterand returns true if the parameter is strictly less
+  than 10,and false otherwise.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function called lessThan10 that takes one parameter
+  and returns true if the parameter is strictly less than 10,
+  and false otherwise. For example:
+
+  ```
+  lessThan10(9) => True
+  lessThan10(10) => False
+  lessThan10(11) => False
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def lessThan10(num):
+          # put your code under here
+  placeholder: |2-
+
+    def lessThan10(num):
+        # put your code under here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

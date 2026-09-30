@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_smallest_factor_while_es
+source: main.py
+title: Factor menor (ES)
+description: Escribe una función que reciba un número entero positivo mayor que 1 y retorne su factor más pequeño mayor que
+  1.Instrucciones:- Un factor de un número n es cua
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:IfElifElseCheckingInWhileLoop
+  - pcrs:FindRemainder
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindRemainder
+  - pcrs:IfCheckingInWhileLoop
+  - pcrs:SingleWhileLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una función que reciba un número entero positivo mayor que 1 y retorne su factor más pequeño mayor que 1.
+  Instrucciones:
+
+  - Un factor de un número n es cualquier número que lo divide exactamente (es decir, sin dejar residuo).
+  - Debes retornar el factor más pequeño que sea mayor que 1.
+  - Puedes asumir que la entrada siempre será un número mayor que 1.
+
+  Usa un ciclo while en tu solución.
+
+  Ejemplos de entrada/salida:
+  factor_menor(15) -> 3
+  factor_menor(24) -> 2
+  factor_menor(49) -> 7
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: 'def factor_menor(n):'
+- type: editable
+  location:
+    snippet: "\t# Escribe tu codigo aqui"
+  placeholder: "\t# Escribe tu codigo aqui"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

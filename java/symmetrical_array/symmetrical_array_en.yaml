@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_symmetrical_array_en
+source: SCode.java
+title: Symmetrical array
+description: Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on
+  one side is equal to the sum of the numbers on the
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
+
+  canBalance([1, 1, 1, 2, 1]) → true
+
+  canBalance([2, 1, 1, 2, 1]) → false
+
+  canBalance([10, 10]) → true
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: public boolean isArraySymmetrical(int[] arr) {
+- type: editable
+  location:
+    snippet: '// TODO: Write your code here'
+  placeholder: '// TODO: Write your code here'
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

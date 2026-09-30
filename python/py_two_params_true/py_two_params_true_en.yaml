@@ -1,0 +1,37 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_two_params_true_en
+source: main.py
+title: PCRS C3-PL  Two Params True
+description: Write a function that returns true if exactly two of the three given parameters are true.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Write a function that returns true if exactly two of the three given parameters are true.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def onlyTwoTrue(b1, b2, b3):
+          return
+  placeholder: |2-
+
+    def onlyTwoTrue(b1, b2, b3):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

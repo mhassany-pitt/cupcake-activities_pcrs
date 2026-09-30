@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_replacex_en
+source: main.py
+title: PCRS C3-PL  Replacex
+description: Replace all instances of ch1 with ch2.replaceX("abvdef", "v","c")->"abcdef"replaceX("xreaspbaxpoinb", "a","i")->"xreispbixpoinb"replaceX("Four
+  score and seven y
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Replace all instances of ch1 with ch2.
+
+  ```
+  replaceX("abvdef", "v","c")->"abcdef"
+  replaceX("xreaspbaxpoinb", "a","i")->"xreispbixpoinb"
+  replaceX("Four score and seven years ago", "e","t")->"Four scort and stvtn ytars ago"
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def replaceX (s, ch1, ch2):
+          #code
+  placeholder: |2-
+
+    def replaceX (s, ch1, ch2):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

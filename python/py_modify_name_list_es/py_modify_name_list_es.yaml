@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_modify_name_list_es
+source: main.py
+title: PCRS C3-PL  Modify Name List
+description: 'Completa la siguiente funcion segun su docstring.Nota: esta funcion debe devolver None.'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Subtraction
+  - pcrs:StringLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:SwappingValueVariables
+  - pcrs:ChangingValueVariable
+  - pcrs:NoneLiteral
+  - pcrs:ListLiteral
+  - pcrs:IndexingTuple
+  - pcrs:IndexingList
+  - pcrs:ChangingValueListElement
+  - pcrs:IntegerLiteral
+  - pcrs:ChangingValueListElement
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:SwappingValueVariables
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Completa la siguiente funcion segun su docstring.
+
+  **Nota:** esta funcion debe devolver `None`. Su tarea es modificar la lista pasada como argumento.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
+      \ el nombre de una sola persona. Modifica lista_nombres para que el primer nombre y el ultimo apellido sean intercambiados.\
+      \ \n                 \n    >>> nombre = ['John', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n    >>> nombre \n\
+      \    ['Smith', 'John'] \n    >>> nombre = ['John', 'Andrew', 'Gleeson', 'Smith'] \n    >>> intercambiar_nombre(nombre)\
+      \ \n    >>> nombre \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
+  placeholder: "\ndef intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
+    \ el nombre de una sola persona. Modifica lista_nombres para que el primer nombre y el ultimo apellido sean intercambiados.\
+    \ \n                 \n    >>> nombre = ['John', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n    >>> nombre \n  \
+    \  ['Smith', 'John'] \n    >>> nombre = ['John', 'Andrew', 'Gleeson', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n\
+    \    >>> nombre \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

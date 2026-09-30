@@ -1,0 +1,39 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_eligible_en
+source: main.py
+title: PCRS C3-PL  Eligible
+description: You are analyzing the results of the admissions process and you have two parallel lists of information about
+  each student.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  You are analyzing the results of the admissions process and you have two parallel lists of information about each student. The first list indicates whether or not the student was eligible for admission under the special case rules (stored as a string, either `"SC"` or `"non-SC"` and the second list has their average final mark (stored as an int). The lists are in the same order. In other words, a particular student occurs at the same index in both lists.
+
+  The group you want to analyze is the students admitted (average final mark at least 65) under the special case rules. The first step is to count how many students fit these criteria, to see if there are enough to run statistical tests.
+
+  Write a function `count_admitted_sc` that returns the number of students admitted under the special case rules.  Your function should take the special case / non-special case list as the first parameter and the admissions status list as the second.
+
+  Write your own docstring.
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

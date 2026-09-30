@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_hidden_es
+source: main.py
+title: PCRS C3-PL  Hidden
+description: Completa la funcion segun lo descrito en su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IntegerLiteral
+  - pcrs:Multiplication
+  - pcrs:DefiningSimpleFunction
+  - pcrs:CallingSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Completa la funcion segun lo descrito en su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def triple(numero):
+          """
+          Multiplica el numero dado por tres.
+
+          :param numero: El numero a multiplicar
+          :return: El resultado de multiplicar el numero por tres
+          """
+          return numero * 3
+
+      # Ejemplo de uso
+      resultado = triple(4)
+      print('El resultado es:', resultado)  # Salida: El resultado es: 12
+  placeholder: |2-
+
+    def triple(numero):
+        """
+        Multiplica el numero dado por tres.
+
+        :param numero: El numero a multiplicar
+        :return: El resultado de multiplicar el numero por tres
+        """
+        return numero * 3
+
+    # Ejemplo de uso
+    resultado = triple(4)
+    print('El resultado es:', resultado)  # Salida: El resultado es: 12
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

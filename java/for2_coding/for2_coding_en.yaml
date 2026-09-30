@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_for2_coding_en
+source: SCode.java
+title: For Loop 2
+description: Given an integer variable n, complete the following code in order to calculate the factorial of the integer n.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:LessEqualExpression
+  - pcrs:ForStatement
+  - pcrs:LongDataType
+  - pcrs:PostIncrementExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:MultiplyAssignmentExpression
+  - pcrs:IntDataType
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:ActualMethodParameter
+  - pcrs:ForStatement
+  - pcrs:IntDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:LessEqualExpression
+  - pcrs:LongDataType
+  - pcrs:MultiplyAssignmentExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given an integer variable `n`, complete the following code in order to calculate the factorial of the integer `n`. The factorial n! is calculated using the formula 1*2*3*...*n. For example 4! = 1*2*3*4 = 24. Additionally, it is defined that 0! = 1.
+
+  The result is stored in a long variable called `factorial`. Assume that the initial value of the variable `n` is already set to an integer greater than or equal to zero.
+
+  E.g. 1: if the value of `n` is 3, the value of `factorial` will be 6.
+  E.g. 2: if the value of `n` is 4, the value of `factorial` will be 24.
+  E.g. 3: if the value of `n` is 5, the value of `factorial` will be 120.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "long factorial = 1;\nint i;\nfor "
+- type: editable
+  location:
+    snippet: '(;;)       '
+  placeholder: '(;;)       '
+- type: locked
+  location:
+    snippet: "{        \n\tfactorial *= i;\n}\nSystem.out.println(factorial);"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

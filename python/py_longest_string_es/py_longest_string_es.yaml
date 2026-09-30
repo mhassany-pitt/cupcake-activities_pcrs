@@ -1,0 +1,71 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_longest_string_es
+source: main.py
+title: Encontrar el indice de el string mas largo (ES)
+description: Escribe una funcion que tome una lista de strings y devuelva el indice de el string mas largo.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:CheckingForItem
+  - pcrs:IfElifElseChecking
+  - pcrs:ListLiteral
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que tome una lista de strings y devuelva el indice de el string mas largo. Si hay multiples strings mas largas, devuelve el indice de la primera. Si la lista esta vacia, tu codigo puede fallar.
+
+  ```
+  indiceStringMasLargo(['perro', 'gato', 'a', 'ab'])=>0
+  indiceStringMasLargo(['', 'a', 'ab', 'abc']) => 3
+  indiceStringMasLargo(['azul', 'colegio', 'verde', 'dia'])=>1
+  ```
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: |-
+      def indiceStringMasLargo(elementos):
+          # codigo
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

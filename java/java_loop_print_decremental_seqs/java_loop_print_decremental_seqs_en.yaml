@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_java_loop_print_decremental_seqs_en
+source: Lab4.java
+title: (Loops) Print decremental steps
+description: Complete the following code to print n decremental sequences of numbers. n is an integer greater or equal than
+  1 entered by the user through his/her keyboard.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.System.out.print
+  - pcrs:java.lang.System.out.println
+  - pcrs:PostDecrementExpression
+  - pcrs:ForStatement
+  - pcrs:NestedForLoops
+  - pcrs:ForStatement
+  - pcrs:java.lang.System.out.print
+  - pcrs:java.lang.System.out.println
+  - pcrs:NestedForLoops
+  - pcrs:PostDecrementExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code to print `n` decremental sequences of numbers. `n` is an integer greater or equal than 1 entered by the user through his/her keyboard. Each of the i-th sequences must start in i and end in 1 (i.e. print sequence in a decremental way) and each of them need to be printed in a new line.
+
+  E.g.
+  **Input:**
+  Enter a positive integer: 3
+
+  **Output:**
+  1
+  21
+  321
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "\nimport java.util.Scanner;\n\npublic class Lab4 {\n    public static void main(String args[]) {\n\n\t\t// Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        System.out.print(\"\
+      Enter a positive integer: \");\n        \n        int n = kbd.nextInt();\n               \n        //YOU MUST NOT WRITE\
+      \ ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "     \n\t\t// TODO: Write your code here\n        \n\n"
+  placeholder: "     \n\t\t// TODO: Write your code here\n        \n\n"
+- type: locked
+  location:
+    snippet: "        //YOU MUST NOT WRITE ANY CODE BELOW THIS LINE\n\t}\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

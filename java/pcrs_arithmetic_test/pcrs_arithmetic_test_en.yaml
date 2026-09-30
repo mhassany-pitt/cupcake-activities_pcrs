@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_pcrs_arithmetic_test_en
+source: SCode.java
+title: pcrs java arithmetic
+description: Complete the following code in order to calculate how many seconds there are in n days.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following code in order to calculate how many seconds there are in `n` days. Assume that the initial value of variable `n` is already set to a positive integer.
+
+  E.g. 1: if the value of `n` is 1, the code prints 86400.
+  E.g. 2: if the value of `n` is 2, the code prints 172800.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    int seconds;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n        \n       "
+  placeholder: "    // TODO: add your code here\n        \n       "
+- type: locked
+  location:
+    snippet: '    System.out.println(seconds);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

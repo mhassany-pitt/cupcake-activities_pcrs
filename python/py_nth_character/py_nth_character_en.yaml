@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_nth_character_en
+source: main.py
+title: nth Character
+description: Complete the body for the following function.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the body for the following function. While this function could be completed with a for loop, for practice,
+  we request that you use a while loop.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def every_nth_character(s, n):
+          """ (str, int) -> str
+
+          Return every nth character in s starting at index 0.
+
+          >>> every_nth_character('Computer Science', 3)
+          'CpeSee'
+          """
+
+          result = ''
+          i = 0
+
+          #TODO add the rest of the code here
+
+          return result
+  placeholder: |2-
+
+    def every_nth_character(s, n):
+        """ (str, int) -> str
+
+        Return every nth character in s starting at index 0.
+
+        >>> every_nth_character('Computer Science', 3)
+        'CpeSee'
+        """
+
+        result = ''
+        i = 0
+
+        #TODO add the rest of the code here
+
+        return result
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

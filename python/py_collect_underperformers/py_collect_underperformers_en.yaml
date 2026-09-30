@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_collect_underperformers_en
+source: main.py
+title: Collect Underperformers
+description: Complete the examples in the docstring and then complete the function body.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the examples in the docstring and then complete the function body.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def collect_underperformers(nums, threshold):
+          """ (list of number, int) -> list of number
+
+          Return a new list consisting of those numbers in nums that are below threshold,
+          in the same order as in nums.
+
+          >>> collect_underperformers([1, 2, 3, 4], 3)
+          [1, 2]
+          >>> collect_underperformers([1, 2, 108, 3, 4], 50)
+          # TODO Replace this comment with the return value for the function call.
+          >>> collect_underperformers([], 7)
+          # TODO Replace this comment with the return value for the function call.
+          """
+  placeholder: |2-
+
+    def collect_underperformers(nums, threshold):
+        """ (list of number, int) -> list of number
+
+        Return a new list consisting of those numbers in nums that are below threshold,
+        in the same order as in nums.
+
+        >>> collect_underperformers([1, 2, 3, 4], 3)
+        [1, 2]
+        >>> collect_underperformers([1, 2, 108, 3, 4], 50)
+        # TODO Replace this comment with the return value for the function call.
+        >>> collect_underperformers([], 7)
+        # TODO Replace this comment with the return value for the function call.
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

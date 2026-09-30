@@ -1,0 +1,3 @@
+
+def isSorted(items):
+    #code

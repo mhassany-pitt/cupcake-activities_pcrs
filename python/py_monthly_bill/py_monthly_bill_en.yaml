@@ -1,0 +1,36 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_monthly_bill_en
+source: main.py
+title: Calculate monthly bill
+description: Write a program that calculates the total monthly bill by using electric, water, and gas bills for that month.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a program that calculates the total monthly bill by using electric, water, and gas bills for that month.\
+  \ \n\nElectric, water, and gas bills are stored in variables `electricity`, `water`, and `gas`, respectively. \nAssume that\
+  \ the initial values of `electricity`, `water`, and `gas` are already set to a floating-point number. \n\nThe total monthly\
+  \ bill is stored in a floating-point variable `total`. \n\nEg.:\nIf the electricity bill is 50.6, the water bill is 40.4\
+  \ and the gas bill is 95.5, variable `total` should have the value of 186.5.\n\nAuthors: Yana Kortsarts, Yulia Kempner,\
+  \ Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

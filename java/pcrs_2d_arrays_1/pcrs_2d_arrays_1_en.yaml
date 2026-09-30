@@ -1,0 +1,62 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_pcrs_2d_arrays_1_en
+source: SCode.java
+title: Two-Dimensional Arrays 1
+description: Complete the following method which takes a 2D int array (square or rectangular) and counts the number of positive
+  values in that array.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ArrayElement
+  - pcrs:MultiDimensionalArrayDataType
+  - pcrs:IntDataType
+  - pcrs:NestedForLoops
+  - pcrs:LessExpression
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:GreaterExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ForStatement
+  - pcrs:ArrayLength
+  - pcrs:SimpleVariable
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:ForStatement
+  - pcrs:GreaterExpression
+  - pcrs:IfStatement
+  - pcrs:IntDataType
+  - pcrs:LessExpression
+  - pcrs:MultiDimensionalArrayDataType
+  - pcrs:NestedForLoops
+  - pcrs:PostIncrementExpression
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the following method which takes a 2D int array (square or rectangular) and counts the number of positive\
+  \ values in that array. Assume that none of the rows in this 2D array is null. \n\nFor exampe:\n\n```\nsuperSumPositives(\
+  \ new int[][] { {-1,0,1}, {-2,-1,-3}, {0,0,-1}}) => 1\nsuperSumPositives( new int[][] { {-1,0,1}, {1,2,3}, {0,0,0}}) =>\
+  \ 4\nsuperSumPositives( new int[][] { {-1,0,-1}, {-2,-1,-3}, {-1,-2,-3}}) => 0\n```"
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n    \n\
+      }"
+  placeholder: "\npublic static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n  \
+    \  \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

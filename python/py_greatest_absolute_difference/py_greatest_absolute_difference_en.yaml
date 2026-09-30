@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_greatest_absolute_difference_en
+source: main.py
+title: Greatest Absolute Differemce
+description: Complete the examples in the docstring and then complete the function body.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the examples in the docstring and then complete the function body.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def greatest_difference(nums1, nums2):
+          """ (list of number, list of number) -> number
+
+          Precondition: len(nums1) == len(nums2) and nums1 != []
+
+          Return the greatest absolute difference between numbers at corresponding
+          positions in nums1 and nums2.
+
+          >>> greatest_difference([1, 2, 3], [6, 8, 10])
+          7
+          >>> greatest_difference([1, -2, 3], [-6, 8, 10])
+          # TODO Replace this comment with the return value for the above function call.
+          """
+  placeholder: |2-
+
+    def greatest_difference(nums1, nums2):
+        """ (list of number, list of number) -> number
+
+        Precondition: len(nums1) == len(nums2) and nums1 != []
+
+        Return the greatest absolute difference between numbers at corresponding
+        positions in nums1 and nums2.
+
+        >>> greatest_difference([1, 2, 3], [6, 8, 10])
+        7
+        >>> greatest_difference([1, -2, 3], [-6, 8, 10])
+        # TODO Replace this comment with the return value for the above function call.
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_collatz_en
+source: main.py
+title: Count Collatz Steps
+description: In math, the Collatz conjecture states that starting from any number, you will eventually obtain 1 byrepeatedly
+  following these two steps:If the number is even,
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  In math, the Collatz conjecture states that starting from any number, you will eventually obtain 1 by
+  repeatedly following these two steps:
+  If the number is even, divide by 2.
+  If the number is odd, multiply by 3 and add 1.
+
+  Complete this function to count Collatz steps for a particular number.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def count_collatz_steps(n):
+          """ (int) -> int
+
+          Return the number of steps it takes to reach 1, by applying the two steps
+          of the Collatz conjecture beginning from n.
+
+          >>> count_collatz_steps(6)
+          8
+          """
+  placeholder: |2-
+
+    def count_collatz_steps(n):
+        """ (int) -> int
+
+        Return the number of steps it takes to reach 1, by applying the two steps
+        of the Collatz conjecture beginning from n.
+
+        >>> count_collatz_steps(6)
+        8
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

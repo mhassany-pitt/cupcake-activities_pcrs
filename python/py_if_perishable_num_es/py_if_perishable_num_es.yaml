@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_if_perishable_num_es
+source: main.py
+title: PCRS C3-PL  If Perishable Num
+description: Una tienda de comestibles vende alimentos perecederos y no perecederos.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NestedIfChecking
+  - pcrs:FindRemainder
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElseChecking
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:ChangingValueVariable
+  - pcrs:FindRemainder
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+  - pcrs:NestedIfChecking
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Una tienda de comestibles vende alimentos perecederos y no perecederos. Cada articulo en la tienda tiene un codigo de barras, un numero entero positivo de 9 digitos. El codigo de barras de los articulos perecederos termina con 3, 4 o 7.
+
+  Escriba un programa que verifique un numero entero, el codigo de barras de un solo articulo, si el articulo es perecedero o no. El programa imprime 'SI' si es perecedero, 'NO' de lo contrario. Si el numero entero dado no es un numero entero positivo de 9 digitos, el programa debe imprimir 'Invalido'.
+
+  Suponga que el valor del codigo de barras ya esta almacenado en una variable llamada **`codigo_barras`**.
+
+  Ej. 1: Si el codigo de barras es 342564643, el programa imprime 'SI' ya que el codigo de barras termina con 3.
+  Ej. 2: Si el codigo de barras es 442554645, el programa imprime 'NO' ya que el codigo de barras termina con 5.
+  Ej. 3: Si el codigo de barras es 325, el programa imprime 'Invalido' ya que el codigo de barras no es un entero de 9 digitos.
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: "\n# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
+      \  # Ejemplo de codigo de barras\n\n# Verificar si el codigo de barras es un numero entero de 9 digitos\nif len(str(codigo_barras))\
+      \ == 9:\n    # Obtener el ultimo digito del codigo de barras\n    ultimo_digito = int(str(codigo_barras)[-1])\n    \n\
+      \    # Verificar si el ultimo digito indica que el articulo es perecedero\n    if ultimo_digito in [3, 4, 7]:\n    \
+      \    print('SI')  # El articulo es perecedero\n    else:\n        print('NO')  # El articulo no es perecedero\nelse:\n\
+      \    print('Invalido')  # El codigo de barras no es valido"
+  placeholder: "\n# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
+    \  # Ejemplo de codigo de barras\n\n# Verificar si el codigo de barras es un numero entero de 9 digitos\nif len(str(codigo_barras))\
+    \ == 9:\n    # Obtener el ultimo digito del codigo de barras\n    ultimo_digito = int(str(codigo_barras)[-1])\n    \n\
+    \    # Verificar si el ultimo digito indica que el articulo es perecedero\n    if ultimo_digito in [3, 4, 7]:\n      \
+    \  print('SI')  # El articulo es perecedero\n    else:\n        print('NO')  # El articulo no es perecedero\nelse:\n \
+    \   print('Invalido')  # El codigo de barras no es valido"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

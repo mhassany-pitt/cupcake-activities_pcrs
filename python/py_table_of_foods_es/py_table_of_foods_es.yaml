@@ -1,0 +1,114 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_table_of_foods_es
+source: main.py
+title: Cantidades de comida en diccionario (ES)
+description: Eres un cocinero en un restaurante ocupado.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:keys()
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:IfElifElseChecking
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:StringLiteral
+  - pcrs:CheckingForItem
+  - pcrs:FindingLength
+  - pcrs:dict()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ForLoopWith+=
+  - pcrs:ListReferencing
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:DictLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:AddingItemToDictionary
+  - pcrs:ChangingValueDictionaryElement
+  - pcrs:IndexingDictionary
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:DictLiteral
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:SimpleAssignmentStatement
+  - pcrs:StringLiteral
+  - pcrs:AddingItemToDictionary
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueDictionaryElement
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingDictionary
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Eres un cocinero en un restaurante ocupado. Estas escribiendo un programa para ayudarte a organizar cuanto de cada tipo de comida necesitas cocinar. Naturalmente, decides tomar un descanso de cocinar y escribir una funcion para ayudar. Decides que tu funcion tomara un diccionario como parametro donde las claves son las mesas en el restaurante y los valores son listas de strings describiendo la comida que cada mesa ha ordenado. Tu funcion devuelve un diccionario con los totales de cuanta cantidad de cada articulo de comida necesitas cocinar.
+
+  Por ejemplo, digamos que tienes 5 mesas y 3 platos:
+
+  Mesas: m1, m2, m3, m4 y m5
+
+  Platos: Estofado vegetariano, Pastel de carne, Poutine
+
+  **Entrada:**
+
+  Usaras los nombres de las mesas como las claves, y usaras una lista de las comidas ordenadas en cada mesa como valores.
+
+  Por ejemplo, tu diccionario puede verse asi:
+
+  ```
+  {'m1': ['Estofado vegetariano', 'Poutine', 'Estofado vegetariano'],
+   'm3': ['Pastel de carne', 'Poutine', 'Estofado vegetariano'],
+   'm4': ['Pastel de carne', 'Pastel de carne']}
+  ```
+
+  **Salida:**
+
+  Tu funcion debe devolver un diccionario con el plato como la llave, y el numero de veces que ese plato fue ordenado como el valor. Dada la entrada anterior, tu funcion crearia y devolveria un diccionario equivalente al siguiente:
+
+  `{'Estofado vegetariano': 3, 'Poutine': 2, 'Pastel de carne': 3}`
+
+  Aqui hemos comenzado el codigo para ti. Completalo:
+elements:
+- type: editable
+  location:
+    snippet: "\ndef obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
+      \t\n    El diccionario mesa_a_comidas tiene nombres de mesas como llaves (por ejemplo, 'm1', 'm2', etc.) y cada valor\n\
+      \    es una lista de comidas ordenadas para esa mesa.\n\n    Devuelve un diccionario donde cada llave es una comida\
+      \ de mesa_a_comidas y cada\n    valor es la cantidad de esa comida que fue ordenada.\n\t\n    >>> obtener_cantidades({'m1':\
+      \ ['Estofado vegetariano', 'Poutine', 'Estofado vegetariano'], 'm3': ['Pastel de carne', 'Poutine', 'Estofado vegetariano'],\
+      \ 'm4': ['Pastel de carne', 'Pastel de carne']})\n    {'Estofado vegetariano': 3, 'Poutine': 2, 'Pastel de carne': 3}\t\
+      \n    \"\"\"\"\"\n\n    comida_a_cantidad = {}\n\n    # Acumula la informacion de la comida aqui.\n\n    return comida_a_cantidad"
+  placeholder: "\ndef obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
+    \t\n    El diccionario mesa_a_comidas tiene nombres de mesas como llaves (por ejemplo, 'm1', 'm2', etc.) y cada valor\n\
+    \    es una lista de comidas ordenadas para esa mesa.\n\n    Devuelve un diccionario donde cada llave es una comida de\
+    \ mesa_a_comidas y cada\n    valor es la cantidad de esa comida que fue ordenada.\n\t\n    >>> obtener_cantidades({'m1':\
+    \ ['Estofado vegetariano', 'Poutine', 'Estofado vegetariano'], 'm3': ['Pastel de carne', 'Poutine', 'Estofado vegetariano'],\
+    \ 'm4': ['Pastel de carne', 'Pastel de carne']})\n    {'Estofado vegetariano': 3, 'Poutine': 2, 'Pastel de carne': 3}\t\
+    \n    \"\"\"\"\"\n\n    comida_a_cantidad = {}\n\n    # Acumula la informacion de la comida aqui.\n\n    return comida_a_cantidad"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

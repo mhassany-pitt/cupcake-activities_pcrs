@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_count_two_vals_array_en
+source: SCode.java
+title: count_two_vals_array
+description: Given an array of ints and two ints, count the total number of timeseach int occurs in the array.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ArrayLength
+  - pcrs:ForStatement
+  - pcrs:IfStatement
+  - pcrs:EqualExpression
+  - pcrs:ArrayElement
+  - pcrs:MethodImplementation
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:EqualExpression
+  - pcrs:ForStatement
+  - pcrs:IfStatement
+  - pcrs:MethodImplementation
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given an array of ints and two ints, count the total number of times
+  each int occurs in the array. If the two int parameters are the same,
+  you should only count them once.
+  For example:
+
+  ```
+  numTimes2({1,2,3,4,2,1}, 1, 2) => 4
+  numTimes2({1,2,3,4,5,4,3,2,1}, 7, 4) => 2
+  numTimes2({5,6,7,4,2,4,5,2,6,7,3,4,2}, 2, 2) => 3
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\npublic int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
+  placeholder: "\npublic int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

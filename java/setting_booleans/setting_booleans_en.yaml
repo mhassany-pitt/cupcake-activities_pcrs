@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_setting_booleans_en
+source: SCode.java
+title: setting_booleans
+description: Let's use booleans to figure out if it's a good day today.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:BooleanValue
+  - pcrs:IfElseIfStatement
+  - pcrs:java.lang.System.out.println
+  - pcrs:BooleanDataType
+  - pcrs:IfStatement
+  - pcrs:IfElseStatement
+  - pcrs:BooleanExpression
+  - pcrs:BooleanDataType
+  - pcrs:BooleanExpression
+  - pcrs:BooleanValue
+  - pcrs:IfElseIfStatement
+  - pcrs:IfStatement
+  - pcrs:java.lang.System.out.println
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Let's use booleans to figure out if it's a good day today. There are a few boolean variables that have already been initialized for you:
+
+  - `boolean sunny`
+  - `boolean ateIceCream`
+  - `boolean hadHomework`
+  - `boolean isGoodDay`
+
+  The first three booleans (`sunny, ateIceCream, hadHomework`) are for you to check their values. Depending on their values, you will assign the boolean `isGoodDay` to be either true or false, and then print it out to console. Here are the rules:
+
+  - No matter what, if you ate ice cream, then it's a good day!
+  - If it's sunny and you didn't have any homework, then it's a good day!
+  - Otherwise, it wasn't sunny and/or you had homework, so it's not a good day...
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: |2-
+          // boolean sunny, ateIceCream, and hadHomework have already been declared and set!
+          //boolean isGoodDay;
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

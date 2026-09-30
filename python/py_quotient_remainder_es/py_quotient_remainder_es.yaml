@@ -1,0 +1,51 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_quotient_remainder_es
+source: main.py
+title: 'Calculo: Cuociente y Resto (ES)'
+description: Dado dos numeros enteros, num1 y num2, completa el siguiente codigo que calcula el cuociente (resultado de la
+  division de num1 por num2), el cuociente entero (d
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToFloatType
+  - pcrs:FloatLiteral
+  - pcrs:FindRemainder
+  - pcrs:IntegerLiteral
+  - pcrs:Division
+  - pcrs:ChangingValueVariable
+  - pcrs:FloatLiteral
+  - pcrs:Division
+  - pcrs:FindRemainder
+  - pcrs:TransformingToFloatType
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Dado dos numeros enteros, `num1` y `num2`, completa el siguiente codigo que calcula el cuociente (resultado de la division de num1 por num2), el cuociente entero (division entera de num1 por num2), y el resto (residuo de la division de num1 por num2).
+
+  Asume que los valores iniciales de `num1` y `num2` ya estan establecidos.
+
+  El cuociente, cuociente entero y resto (o residuo) deben almacenarse en las variables `cuociente`, `cuociente_entero`, y `residuo` respectivamente.
+
+  Ej. 1: Si el valor de `num1` es 25 y `num2` es 5, el codigo imprime ""El cociente es 5.0 el cociente entero es 5 y el residuo es 0.0""
+  Ej. 2: Si el valor de `num1` es 14 y `num2` es 4, el codigo imprime ""El cociente es 3.5 el cociente entero es 3 y el residuo es 2.0""
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,88 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_collect_underperformers_es
+source: main.py
+title: Recolectar bajo rendimiento lista (ES)
+description: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfElifElseChecking
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:CreatingObject
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:AddingListElementWithAppend
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+runtime:
+  language: python
+  version: '3'
+statement: Completa los ejemplos en el docstring y luego completa el cuerpo de la funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def recolectar_bajo_rendimiento(numeros, umbral):
+          """ (lista de numero, int) -> lista de numero
+
+          Devuelve una nueva lista que consiste en aquellos numeros en numeros que estan por debajo del umbral,
+          en el mismo orden que en numeros.
+
+          >>> recolectar_bajo_rendimiento([1, 2, 3, 4], 3)
+          [1, 2]
+          >>> recolectar_bajo_rendimiento([1, 2, 108, 3, 4], 50)
+          # TODO Reemplaza este comentario con el valor de retorno para la llamada de la funcion.
+          >>> recolectar_bajo_rendimiento([], 7)
+          # TODO Reemplaza este comentario con el valor de retorno para la llamada de la funcion.
+          """
+  placeholder: |2-
+
+    def recolectar_bajo_rendimiento(numeros, umbral):
+        """ (lista de numero, int) -> lista de numero
+
+        Devuelve una nueva lista que consiste en aquellos numeros en numeros que estan por debajo del umbral,
+        en el mismo orden que en numeros.
+
+        >>> recolectar_bajo_rendimiento([1, 2, 3, 4], 3)
+        [1, 2]
+        >>> recolectar_bajo_rendimiento([1, 2, 108, 3, 4], 50)
+        # TODO Reemplaza este comentario con el valor de retorno para la llamada de la funcion.
+        >>> recolectar_bajo_rendimiento([], 7)
+        # TODO Reemplaza este comentario con el valor de retorno para la llamada de la funcion.
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

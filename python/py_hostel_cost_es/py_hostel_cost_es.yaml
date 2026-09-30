@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_hostel_cost_es
+source: main.py
+title: 'Calculo: costo alojamiento (ES)'
+description: '"Completa el siguiente programa que calcula e imprime el costo total de la estancia en el hotel basado en el
+  numero de noches, el precio por noche y el porcenta'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Multiplication
+  - pcrs:Division
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:FloatLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:FloatLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Division
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  "Completa el siguiente programa que calcula e imprime el costo total de la estancia en el hotel basado en el numero de noches, el precio por noche y el porcentaje de impuesto.
+
+  Asume que el numero de noches, el precio por noche y el porcentaje de impuesto se almacenan en las variables `noches`, `precio`, y `impuesto` respectivamente.
+
+  Almacena el costo total en la variable `total` como un numero de punto flotante.
+
+  Por ejemplo, si la persona se quedo 3 noches, con $99.99 por noche y un impuesto del 14.5%, el programa imprime ""El costo total es 343.47""
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_end_characters_en
+source: SCode.java
+title: Checking Ending Characters of a String
+description: Given two string variables str1 and str2, complete the following code in order to check whether the string str1
+  has the suffix specificed in string str2.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.equals
+  - pcrs:StringVariable
+  - pcrs:ObjectMethodInvocation
+  - pcrs:ActualMethodParameter
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:java.lang.String.substring
+  - pcrs:java.lang.String.length
+  - pcrs:BooleanDataType
+  - pcrs:SubtractExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:BooleanDataType
+  - pcrs:java.lang.String.equals
+  - pcrs:java.lang.String.length
+  - pcrs:java.lang.String.substring
+  - pcrs:java.lang.System.out.println
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringVariable
+  - pcrs:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given two string variables `str1` and `str2`, complete the following code in order to check whether the string `str1` has the suffix specificed in string `str2`.  Assign the result to a Boolean variable `b`. Assume that the initial value of variables `str1` and `str2` is already set to a string, variable `str1` has a string with at least three characters, and variable `str2` has a string with exactly 3 characters.
+
+  E.g. 1: if the value of `str1` is "Hello" and the value of `str2` is "llo", the code prints true.
+  E.g. 2: if the value of `str1` is "234$" and the value of `str2` is "35$", the code prints false.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    boolean b;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(b);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

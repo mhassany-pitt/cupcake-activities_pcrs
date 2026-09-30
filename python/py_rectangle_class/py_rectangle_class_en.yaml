@@ -1,0 +1,117 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_rectangle_class_en
+source: main.py
+title: PCRS C3-PL  Rectangle Class
+description: DO NOT USE THE WORD input ANYWHERE!
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "DO NOT USE THE WORD `input` ANYWHERE! \n\nWe provide class `Rectangle` and starter code for class `RectangleCollection`.\
+  \ \n\nComplete class `RectangleCollection`, which has one list instance variable, `rectangles`, that should initially refer\
+  \ to an empty list.  Write a method `add_rectangle` that takes a `Rectangle` as a parameter and appends it to the rectangles\
+  \ list.  Write a method `get_same_area_rects` that takes a number as a parameter and returns a list of all `Rectangle`s\
+  \ from the rectangles list that have that area."
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      class Rectangle:
+          """ A rectangle with a width and height. """
+
+          def __init__(self, w, h):
+              """ (Rectangle, number, number)
+
+              Create a new rectangle of width w and height h.
+
+              >>> r = Rectangle(1, 2)
+              >>> r.width
+              1
+              >>> r.height
+              2
+              """
+
+              self.width = w
+              self.height = h
+
+          def get_area(self):
+              """ (Rectangle) -> number
+
+              Return the area of this rectangle.
+
+              >>> r = Rectangle(10, 20)
+              >>> r.get_area()
+              200
+              """
+
+              return self.width * self.height
+
+
+      class RectangleCollection:
+
+          def __init__(self):
+              """ (RectangleCollection) -> NoneType
+
+              >>> rc = RectangleCollection()
+              >>> rc.rectangles
+              []
+              """
+  placeholder: |2-
+
+    class Rectangle:
+        """ A rectangle with a width and height. """
+
+        def __init__(self, w, h):
+            """ (Rectangle, number, number)
+
+            Create a new rectangle of width w and height h.
+
+            >>> r = Rectangle(1, 2)
+            >>> r.width
+            1
+            >>> r.height
+            2
+            """
+
+            self.width = w
+            self.height = h
+
+        def get_area(self):
+            """ (Rectangle) -> number
+
+            Return the area of this rectangle.
+
+            >>> r = Rectangle(10, 20)
+            >>> r.get_area()
+            200
+            """
+
+            return self.width * self.height
+
+
+    class RectangleCollection:
+
+        def __init__(self):
+            """ (RectangleCollection) -> NoneType
+
+            >>> rc = RectangleCollection()
+            >>> rc.rectangles
+            []
+            """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

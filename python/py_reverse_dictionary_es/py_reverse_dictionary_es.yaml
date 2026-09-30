@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_reverse_dictionary_es
+source: main.py
+title: Busqueda inversa telefono diccionario (ES)
+description: Se te ha pedido que escribas una funcion que proporcione el nombre de una persona usando su numero de telefono
+  ("busqueda inversa").
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:AccessingDictionary
+  - pcrs:IfElifChecking
+  - pcrs:IndexingList
+  - pcrs:CheckingForItem
+  - pcrs:CreatingDictionary
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfElseChecking
+  - pcrs:IfChecking
+  - pcrs:StringLiteral
+  - pcrs:DictLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DictLiteral
+  - pcrs:StringLiteral
+  - pcrs:AccessingDictionary
+  - pcrs:CallingSimpleFunction
+  - pcrs:CreatingDictionary
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: Se te ha pedido que escribas una funcion que proporcione el nombre de una persona usando su numero de telefono
+  ("busqueda inversa"). Esto significa que, dado un numero de telefono, obtienes el nombre de la persona que esta registrada
+  con ese numero de telefono. Para este problema, se te ha pedido que escribas una solucion usando un diccionario.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
+      \ -> str\n\n    Esta funcion recibe un numero de telefono num_telefono, y un diccionario\n    telefono_a_nombre en el\
+      \ cual cada clave es un numero de telefono y cada valor\n    es el nombre asociado con ese numero de telefono.\n\t\n\
+      \    Devuelve el nombre asociado con num_telefono en telefono_a_nombre, o\n    un string vacio si no hay coincidencia.\n\
+      \    \n    >>> busqueda_inversa_diccionario(\"416-555-3498\", {\"416-555-3498\": \\\\\n        \"John A. Macdonald\"\
+      , \"647-555-9812\": \"Louis Riel\", \"416-555-6543\": \\\\\n        \"Canoe Head\", \"905-555-6681\":\"Tim Horton\"\
+      })\n    'John A. Macdonald'   \"\"\"     \n"
+  placeholder: "\ndef busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
+    \ -> str\n\n    Esta funcion recibe un numero de telefono num_telefono, y un diccionario\n    telefono_a_nombre en el\
+    \ cual cada clave es un numero de telefono y cada valor\n    es el nombre asociado con ese numero de telefono.\n\t\n \
+    \   Devuelve el nombre asociado con num_telefono en telefono_a_nombre, o\n    un string vacio si no hay coincidencia.\n\
+    \    \n    >>> busqueda_inversa_diccionario(\"416-555-3498\", {\"416-555-3498\": \\\\\n        \"John A. Macdonald\",\
+    \ \"647-555-9812\": \"Louis Riel\", \"416-555-6543\": \\\\\n        \"Canoe Head\", \"905-555-6681\":\"Tim Horton\"})\n\
+    \    'John A. Macdonald'   \"\"\"     \n"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

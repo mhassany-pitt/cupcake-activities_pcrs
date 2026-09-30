@@ -1,0 +1,3 @@
+
+def primeraMitad(string):
+    return

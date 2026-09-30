@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_linkedlist_traversal_no_feedback_en
+source: LinkedList.java
+title: Traverse LinkedList - NFB
+description: Complete the method traverseList in order to return a String that includes all elements of the LinkedList.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the method `traverseList` in order to return a String that includes all elements of the LinkedList. The\
+  \ contents in the returned String must follow the order of appearance specified in the LinkedList. \n\nThe structure of\
+  \ the custom LinkedList class has been included for you to view and understand its methods. You can assume this class represents\
+  \ a LinkedList of type String. \n\nNote that the String you return should not include any additional characters (i.e., no\
+  \ commas, spaces, etc. separating the elements).  Simply create an empty String and concatenate elements to that String\
+  \ as you iterate through the nodes of the LinkedList.\n\nE.g. \nIf myList = [\"3\",\"4\",\"5\",\"6\"], then returned myString\
+  \ = \"3456\"\nIf myList = [\"Hello\",\"World\",\"How\",\"Are\",\"You\"], then returned newString = \"HelloWorldHowAreYou\"\
+  \nIf myList = [\"\"], then returned newString = \"\""
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class LinkedList {\n\tprivate Node head;\n\tprivate int size;\n\t\n\tprivate class Node {\n\t\tNode next;\n\
+      \t\tString data;\n\t\t// Node constructor:\n\t\tpublic Node(String dataValue) {\n\t\t\tnext = null;\n\t\t\tdata = dataValue;\n\
+      \t\t}\n\t\t// Node constructor with next:\n\t\tpublic Node(String dataValue, Node nextValue){\n\t\t\tnext = nextValue;\n\
+      \t\t\tdata = dataValue;\n\t\t}\n\t}\n\t// Initialize a new empty LinkedList:\n\tpublic LinkedList()\n\t{\n\t\thead =\
+      \ null;\n\t\tsize = 0;\n\t}\n    private Node getNodeAt(int loc)\n\t{\n\t\tif (loc >= 0 && loc < size)\n\t\t{\n\t\t\t\
+      Node curr = head;\n\t\t\tfor (int i = 0; i < loc; i++)\n\t\t\t\tcurr = curr.next;\n\t\t\treturn curr;\n\t\t}\n\t\treturn\
+      \ null;\n\t}\n    \n\t// Return item at stated index:\n\tpublic String get(int loc){\n\t\tNode curr = getNodeAt(loc);\n\
+      \t\tif (curr != null)\n\t\t\treturn curr.data;\n\t\telse\n\t\t\treturn null;\n\t}\n\t// Return logical size of list:\n\
+      \tpublic int size()\n\t{\n\t\treturn size;\n\t}\n    \n    // TO DO: Complete this function to traverse through the\
+      \ LinkedList and return its contents\n    // as a single String with no characters separating the elements.\n    //\
+      \ Hint: Use the traversal techniques shown for other methods above to travel\n    // element-by-element through your\
+      \ LinkedList, as well as other methods within \n    // this class to access elements.\n\tpublic String traverseList(){\n\
+      \        String retStr = \"\";"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "        return retStr;\n\t}   \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

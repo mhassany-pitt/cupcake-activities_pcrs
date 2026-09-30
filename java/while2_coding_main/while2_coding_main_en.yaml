@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_while2_coding_main_en
+source: Lab3.java
+title: while2_coding_main
+description: Given an integer variable n entered by the user from keyboard, complete the following code in order to figure
+  out how many times can we divide n by 2 to get down to 1.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DivideExpression
+  - pcrs:WhileStatement
+  - pcrs:AddExpression
+  - pcrs:AddExpression
+  - pcrs:DivideExpression
+  - pcrs:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: "Given an integer variable `n` entered by the user from keyboard, complete the following code in order to figure\
+  \ out how many times can we divide `n` by 2 to get down to 1. Store the result in an integer variable called `count`. \n\
+  \nE.g. 1: if the value of `n` entered by the user is 2, the value of `count` will be 1. \nE.g. 2: if the value of `n` entered\
+  \ by the user is 4, the value of `count` will be 2. \nE.g. 3: if the value of `n` entered by the user is 8, the value of\
+  \ `count` will be 3."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\
+      \ a scanner to read from keyboard\n        Scanner kbd = new Scanner (System.in);\n        \n        // Prompt user\
+      \ for typing a numeric input\n        System.out.print(\"Enter value of n: \");\n        \n        //Stores the integer\
+      \ value from keyboard in the variable n\n        int n = kbd.nextInt();\n        \n        //Definition of the variable\
+      \ that it will be used for storing the number of times that n can be divided by 2 to get down to 1\n\t\tint count;\n\
+      \        \n        //YOU MUST NOT WRITE ANY CODE ABOVE THIS LINE"
+- type: editable
+  location:
+    snippet: "        \n\t\t// TODO: add your code here\n\n \n        \n        "
+  placeholder: "        \n\t\t// TODO: add your code here\n\n \n        \n        "
+- type: locked
+  location:
+    snippet: "        //YOU MUST NOT WRITE ANY CODE BELOW THIS LINE\n    \tSystem.out.println(count);\n\t}\n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

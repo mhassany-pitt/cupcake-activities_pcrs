@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_sum_product_es
+source: main.py
+title: Calcular su suma y producto
+description: Dado 2 enteros, primer_num y segundo_num, escribe un programa para calcular su suma y producto que se almacenan
+  en las variables suma y producto respectivamente
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Concatenation
+  - pcrs:Multiplication
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Addition
+  - pcrs:ChangingValueVariable
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Dado 2 enteros, `primer_num` y `segundo_num`, escribe un programa para calcular su suma y producto que se almacenan en las variables `suma` y `producto` respectivamente.
+
+  Suponga que el valor inicial de las variables `primer_num` y `segundo_num` ya está establecido en un entero.
+
+  Por ejemplo: si el valor de primer_num es 3 y el valor de segundo_num es 4, el valor de suma será 7 y el producto será 12
+
+  Autores: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

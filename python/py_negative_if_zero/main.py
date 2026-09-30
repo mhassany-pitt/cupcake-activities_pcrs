@@ -1,0 +1,3 @@
+
+def isNegative(x):
+    return

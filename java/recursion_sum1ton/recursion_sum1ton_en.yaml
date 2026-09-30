@@ -1,0 +1,38 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_recursion_sum1ton_en
+source: SCode.java
+title: (Recursion) Sum from 1 to n
+description: Using recursion, complete the sum1toN method so that it returns the total sum of all numbers from 1 to N.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:recursion
+  - pcrs:recursion
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  *Using recursion*, complete the `sum1toN` method so that it returns the total sum of all numbers from 1 to N.
+      Examples:
+
+   - `sum1toN(3)` => `6`
+
+   - `sum1toN(5)` => `15`
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static int sum1toN(int n) {\n    // TODO\n    \n}"
+  placeholder: "\npublic static int sum1toN(int n) {\n    // TODO\n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

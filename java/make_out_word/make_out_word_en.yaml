@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_make_out_word_en
+source: SCode.java
+title: Adding One String in the Middle of Another
+description: Given two string variables out and word, complete the following code in order to create a new string where the
+  string word is in the middle of the string out.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:java.lang.String.substring
+  - pcrs:ObjectMethodInvocation
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:StringVariable
+  - pcrs:AddExpression
+  - pcrs:SimpleVariable
+  - pcrs:ActualMethodParameter
+  - pcrs:StringDataType
+  - pcrs:ActualMethodParameter
+  - pcrs:AddExpression
+  - pcrs:java.lang.String.substring
+  - pcrs:java.lang.System.out.println
+  - pcrs:ObjectMethodInvocation
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:StringDataType
+  - pcrs:StringVariable
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Given two string variables `out` and `word`, complete the following code in order to create a new string where the string `word` is in the middle of the string `out`. Store the resulting string in a variable called `str`.  Assume that the initial value of variables `out` and `word` is already set to a string and variable `out` has exactly 4 characters.
+
+  E.g. 1: if the value of `out` is "(())" and the value of `word` is "Yay", the code prints ((Yay)).
+  E.g. 2: if the value of `out` is "----" and the value of `word` is "WooHoo", the code prints --WooHoo--.
+  E.g. 3: if the value of `out` is "[[]]" and the value of `word` is "word", the code prints [[word]].
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    String str;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+- type: locked
+  location:
+    snippet: '    System.out.println(str);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

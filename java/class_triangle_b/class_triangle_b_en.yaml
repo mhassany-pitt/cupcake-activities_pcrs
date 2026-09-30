@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_class_triangle_b_en
+source: Triangle.java
+title: class_triangle_b
+description: Complete the code for the class Triangle, which represents a right triangle.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:PublicMethodSpecifier
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:PublicMethodSpecifier
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the code for the class Triangle, which represents a right triangle. You have to implement all the accessor and mutator (getter/setter) methods for each of these 2 attributes:
+
+  area is the Area of the triangle
+  perimeter is the Perimeter of the triangle
+
+  Sides a, b, and c are already defined for you in the Triangle's constructor.  You do not have to worry about implementing getter/setter methods for the sides.
+
+  You have to implement the following methods (follow specifications as if they were written in UML class diagram):
+
+  + getArea(): double -> Calculates the area of the triangle (ab/2)
+  + getPerimeter(): double -> it calculates the perimeter of the triangle (simply the sum of all sides)
+
+  Use the Math class to your advantage for this problem.
+
+  More instructions on how to implement the missing parts of this class are provided in the code below.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.lang.*;\npublic class Triangle{ \n    //class attributes\n    private int a;\n    private int b;\n\
+      \    private int c;\n    \n    private double perimeter;\n    private double area;\n    \n    public Triangle(int side_a,\
+      \ int side_b, int side_c){\n        a=side_a;\n        b=side_b;\n        c=side_c;\n    }\n    public int getA() {\n\
+      \        return a;\n    }\n    public int getB() {\n        return b;\n    }\n    public int getC() {\n        return\
+      \ c;\n    }"
+- type: editable
+  location:
+    snippet: "    \n    //To Do: Define the methods getArea, getPerimeter:\n    \n    "
+  placeholder: "    \n    //To Do: Define the methods getArea, getPerimeter:\n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_dna_base_pairs_en
+source: main.py
+title: PCRS C3-PL  Dna Base Pairs
+description: Write a function that takes a string as a parameter,and returns True if the string is a DNA string (i.e.only
+  contains the capital letters A, C, G, T), and False otherwise.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes a string as a parameter,\nand returns True if the string is a DNA string (i.e.\nonly\
+  \ contains the capital letters A, C, G, T), and \nFalse otherwise. A DNA string must be at least\n1 character in length,\
+  \ so the empty string is not\na DNA string. For example:\n\n```\nisDNAString('GATTACA') => True\nisDNAString('GATTACA 2:\
+  \ The Return of Ethan Hawke') => False\nisDNAString('') => False\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def isDNAString(seq):
+          # code goes here
+  placeholder: |2-
+
+    def isDNAString(seq):
+        # code goes here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

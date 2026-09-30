@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_class_bank_en
+source: Bank.java
+title: class_bank
+description: You have a class called Bank that keeps track of how much money you have in your "Bank account".
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:PublicMethodSpecifier
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:PublicMethodSpecifier
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  You have a class called `Bank` that keeps track of how much money you have in your "Bank account". You are provided with the constructor and the accessors, but you need to write the setter methods for this class. Write a method called `addMoney` to add money to the "spending account" (this is your `spendings` variable), and another method that "transfers" all of your money from your spending account into your savings account (this is your `savings` variable).
+
+  E.g. 1: If I had a `Bank` object called `myBank`, `myBank.addMoney(150.0)` should add $150 to my spending account
+  E.g. 2: If I had a `Bank` object called `myBank`, `myBank.moveToSavings()` should transfer my original $150 from my spending account into my savings account and my spending account should be 0.
+
+  Hint: Make sure both setter methods you write are `void` methods
+  Hint: When transferring money from spending to savings, make sure you set spending back to 0.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Bank {\n    private double spending;\n    private double savings;\n    \n    public Bank()\n  \
+      \  {\n     \t this.spending = 0.0;\n         this.savings = 0.0;\n    }\n    \n    public double getSpending()\n   \
+      \ {\n    \treturn this.spending;\n    }\n    public double getSavings()\n    {\n    \treturn this.savings;\n    }\n\
+      \    \n    //Write a method called addMoney to add money to the spending account"
+- type: editable
+  location:
+    snippet: "\t//TODO: add the addMoney method here\n\t    \n    \n\t"
+  placeholder: "\t//TODO: add the addMoney method here\n\t    \n    \n\t"
+- type: locked
+  location:
+    snippet: '    //Write a method called moveToSavings that transfers all the money in spending to savings'
+- type: editable
+  location:
+    snippet: "\t//TODO: add the moveToSavings method here\n\t    \n    \n\t"
+  placeholder: "\t//TODO: add the moveToSavings method here\n\t    \n    \n\t"
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

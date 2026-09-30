@@ -1,0 +1,50 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_avocados_es
+source: main.py
+title: PCRS C3-PL  Avocados
+description: ¬¨¬∞Acabas de comprar aguacates en la tienda de comestibles!
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: ¬¨¬∞Acabas de comprar aguacates en la tienda de comestibles! No estaran maduros por otros dos dias, pero despues
+  de esos dos dias necesitaras comerlos dentro de una semana, antes de que se pongan malos. Escribe una funcion que tome el
+  numero de dias que han pasado para determinar si puedes o no comer aguacates.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def aguacates(diasPasados):
+          return
+  placeholder: |2-
+
+    def aguacates(diasPasados):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

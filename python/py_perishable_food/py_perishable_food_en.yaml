@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_perishable_food_en
+source: main.py
+title: Perishable Food
+description: A grocery store sells perishable and nonperishable food.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "A grocery store sells perishable and nonperishable food.  Each item in the store has a bar code, a 9-digit positive\
+  \ integer. The bar code of perishable items ends with 3, 4, or 7. \n\nWrite a program that checks one integer, the barcode\
+  \ of a single item, whether the item is perishable or not. The variable, perishable, is True if it is perishable, and false\
+  \ otherwise. \nIf the given integer is not a 9-digit positive integer, then perishable should be False.\n\nAssume that the\
+  \ barcode value is already stored in a variable called **`barcode`**.\n\nE.g. 1: If the barcode is 342564643, perishable\
+  \ is True since the barcode finishes with 3.\nE.g. 2: If the barcode is 442554645, perishable is False since the barcode\
+  \ finishes with 5.\nE.g. 3: If the barcode is 325, perishable is False since the barcode is not a 9-digit integer.\n\nAuthors:\
+  \ Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      perishable = True
+  placeholder: |2-
+
+    perishable = True
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

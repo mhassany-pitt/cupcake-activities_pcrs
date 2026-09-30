@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_total_number_of_pizza_es
+source: main.py
+title: Calculo rebanadas de pizza (ES)
+description: Completa la funcion segun su docstring.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Multiplication
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IntegerLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Multiplication
+runtime:
+  language: python
+  version: '3'
+statement: Completa la funcion segun su docstring. Cuando creas que has terminado, haz clic en "Enviar" para que tu codigo
+  sea probado. Si ambas pruebas pasan, felicidades! Si una o ambas fallan, edita tu codigo y vuelve a enviarlo.
+elements:
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+- type: locked
+  location:
+    snippet: "def total_rebanadas(num_pizzas, rebanadas_por_pizza):\n    \"\"\" (int, int) -> int\n\n    Devuelve el numero\
+      \ total de rebanadas en num_pizzas pizzas que cada una tiene\n    rebanadas_por_pizza rebanadas.\n    \n    >>> total_rebanadas(2,\
+      \ 30)\n    60\n    >>> total_rebanadas(1, 8)\n    8\n    \"\"\""
+- type: editable
+  location:
+    snippet: '# Escribe tu codigo aqui'
+  placeholder: '# Escribe tu codigo aqui'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,62 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_arrays_1_en
+source: SCode.java
+title: Arrays 1
+description: Complete the following method which takes an array of ints as a parameter and returns the number of values in
+  the array that are divisible by 3.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ModulusExpression
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:IntDataType
+  - pcrs:ReturnStatement
+  - pcrs:IfStatement
+  - pcrs:EqualExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:LessExpression
+  - pcrs:ForStatement
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:EqualExpression
+  - pcrs:ForStatement
+  - pcrs:IfStatement
+  - pcrs:IntDataType
+  - pcrs:LessExpression
+  - pcrs:ModulusExpression
+  - pcrs:PostIncrementExpression
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the following method which takes an array of ints as a parameter and returns the number of values in the array that are divisible by 3. For example:
+
+  ```
+  countDivisibleBy3( {1,2,3,4,5,6} ) => 2
+  countDivisibleBy3( {1,2,4,4,5,7} ) => 0
+  countDivisibleBy3( {3,4,5} ) => 1
+  ```
+elements:
+- type: editable
+  location:
+    snippet: "\npublic int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n   \
+      \ \n    \n}"
+  placeholder: "\npublic int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n \
+    \   \n    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

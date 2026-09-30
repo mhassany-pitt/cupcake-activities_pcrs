@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_squirrel_play_en
+source: SCode.java
+title: Determining When the Squirrels in Palo Alto Play
+description: The squirrels in Palo Alto spend most of the day playing.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:NotExpression
+  - pcrs:GreaterEqualExpression
+  - pcrs:AndExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:LessEqualExpression
+  - pcrs:BooleanDataType
+  - pcrs:SimpleVariable
+  - pcrs:OrExpression
+  - pcrs:AndExpression
+  - pcrs:BooleanDataType
+  - pcrs:GreaterEqualExpression
+  - pcrs:LessEqualExpression
+  - pcrs:NotExpression
+  - pcrs:OrExpression
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: "The squirrels in Palo Alto spend most of the day playing. In particular, they play if the temperature is between\
+  \ 60 and 90 (inclusive). Unless it is summer, then the upper limit is 100 instead of 90. Given an integer variable `temp`\
+  \ and a boolean variable `isSummer`, write a boolean expression to determine if the squirrels play. Store the result of\
+  \ this expression in a variable called `result`. Assume that the initial value of the variables `temp` and `isSummer` is\
+  \ already set to an integer and a boolean value, respectively.\n\nE.g. 1: if the value of `temp` is 70 and the value of\
+  \ `isSummer` is false,  the value of `result` will be true. \nE.g. 2: if the value of `temp` is 95 and the value of `isSummer`\
+  \ is false,  the value of `result` will be false."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '    boolean result;'
+- type: editable
+  location:
+    snippet: "    // TODO: add your code here\n    \n    "
+  placeholder: "    // TODO: add your code here\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_io_times_per_line_en
+source: Lab8.java
+title: (File input) Times a word appears on each line of a text file
+description: Please complete the following method timesPerLine(BufferedReader reader, String word) in order to calculate how
+  many times the word given as input appears on each line of a given file.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ReturnStatement
+  - pcrs:TryCatchStatement
+  - pcrs:ArrayVariable
+  - pcrs:null
+  - pcrs:java.lang.String.equals
+  - pcrs:AddExpression
+  - pcrs:ForStatement
+  - pcrs:ArrayElement
+  - pcrs:java.io.BufferedReader
+  - pcrs:java.io.BufferedReader.readline
+  - pcrs:java.lang.String.split
+  - pcrs:AddExpression
+  - pcrs:ArrayElement
+  - pcrs:ArrayVariable
+  - pcrs:ForStatement
+  - pcrs:java.io.BufferedReader
+  - pcrs:java.io.BufferedReader.readline
+  - pcrs:java.lang.String.equals
+  - pcrs:java.lang.String.split
+  - pcrs:null
+  - pcrs:ReturnStatement
+  - pcrs:TryCatchStatement
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Please complete the following method `timesPerLine(BufferedReader reader, String word)` in order to calculate how many times the word given as input appears on each line of a given file. You need to return this information as an ArrayList or Integers, where the first element will be the number of times that `word` appears in the first line, the second element will be the number of times that `word` appears in the second line, and so on. Assume that within each line, words are separated by a single whitespace.
+
+  The method receives a `BufferedReader` object as input, so you need to assume that the initialization of the `BufferedReader` object with a `FileReader` object was already done so you do not need to take care of it.
+
+  Hint: you can use the method split() to separate each line in multiple fields.
+
+  E.g.
+  Input:
+  `
+  This is a test file
+  in where we will test how
+  many times the word
+  test appears in this test scenario.
+  `
+  `timesPerLine(reader, "test") -> [1,1,0,2]`
+
+  Important: If an empty file is provided, the method must return an ArrayList initialized but with no elements on it.
+elements:
+- type: editable
+  location:
+    snippet: "\nstatic ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
+  placeholder: "\nstatic ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,73 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_reverse_lookup_es
+source: main.py
+title: Busqueda Inversa de Telefono (ES)
+description: Se te ha pedido que escribas una funcion que proporcione el nombre de "busqueda inversa" para la persona asociada
+  con un numero de telefono.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:StringLiteral
+  - pcrs:FindingLength
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ListLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingTuple
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:StringLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Se te ha pedido que escribas una funcion que proporcione el nombre de "busqueda inversa" para la persona asociada con un numero de telefono. Esto significa que dado un numero de telefono, obtienes el nombre de la persona que esta registrada con ese numero de telefono. Escribe esta funcion usando listas paralelas.
+
+  Completa las siguientes funciones:
+elements:
+- type: editable
+  location:
+    snippet: "\ndef busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
+      \ de str) -> str\n\n    Precondicion: len(numeros_telefono) == len(nombres)\n\n    Esta funcion recibe un numero de\
+      \ telefono num_telefono, y dos listas: una lista de \n    numeros de telefono numeros_telefono y una lista de nombres\
+      \ nombres. Estas listas son\n    listas paralelas, por lo que el nombre en la posicion 0 de la lista de nombres esta\
+      \ \n    asociado con el numero de telefono en la posicion 0 de la lista numeros_telefono, y asi sucesivamente.\n\n \
+      \   Devuelve el nombre asociado con num_telefono segun numeros_telefono\n    y nombres, o un string vacia si no hay\
+      \ coincidencia.\n    \n    >>> busqueda_inversa_listas('416-555-6543', ['416-555-3498', \\\\\n        '647-555-9812',\
+      \ '416-555-6543', '905-555-6681'], ['John A. Macdonald', \\\\\n        'Louis Riel', 'Canoe Head', 'Tim Horton'])  \
+      \      \n    'Canoe Head'\n    \"\"\""
+  placeholder: "\ndef busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
+    \ de str) -> str\n\n    Precondicion: len(numeros_telefono) == len(nombres)\n\n    Esta funcion recibe un numero de telefono\
+    \ num_telefono, y dos listas: una lista de \n    numeros de telefono numeros_telefono y una lista de nombres nombres.\
+    \ Estas listas son\n    listas paralelas, por lo que el nombre en la posicion 0 de la lista de nombres esta \n    asociado\
+    \ con el numero de telefono en la posicion 0 de la lista numeros_telefono, y asi sucesivamente.\n\n    Devuelve el nombre\
+    \ asociado con num_telefono segun numeros_telefono\n    y nombres, o un string vacia si no hay coincidencia.\n    \n \
+    \   >>> busqueda_inversa_listas('416-555-6543', ['416-555-3498', \\\\\n        '647-555-9812', '416-555-6543', '905-555-6681'],\
+    \ ['John A. Macdonald', \\\\\n        'Louis Riel', 'Canoe Head', 'Tim Horton'])        \n    'Canoe Head'\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

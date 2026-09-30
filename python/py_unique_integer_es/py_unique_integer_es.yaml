@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_unique_integer_es
+source: main.py
+title: PCRS C3-PL  Unique Integer
+description: Escribe una funcion llamada entero_unico quedevuelva el numero unico en una lista.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion llamada `entero_unico` que
+  devuelva el numero unico en una lista.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
+      \ impares.\n    \n    :param lista_numeros: Lista de numeros enteros\n    :return: El numero unico en la lista\n   \
+      \ \"\"\"\n    contador = {}\n    \n    for numero in lista_numeros:\n        # Si el numero ya esta en el contador,\
+      \ incrementa su cuenta\n        if numero in contador:\n            contador[numero] += 1\n        else:\n         \
+      \   # Si no, inicializa su cuenta en 1\n            contador[numero] = 1\n    \n    for numero, cuenta in contador.items():\n\
+      \        # Devuelve el numero cuya cuenta es 1\n        if cuenta == 1:\n            return numero\n\n# Ejemplo de uso\n\
+      lista = [1, 1, 2, 2, 3, 4, 4]\nprint(entero_unico(lista))  # Salida: 3"
+  placeholder: "\ndef entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
+    \ impares.\n    \n    :param lista_numeros: Lista de numeros enteros\n    :return: El numero unico en la lista\n    \"\
+    \"\"\n    contador = {}\n    \n    for numero in lista_numeros:\n        # Si el numero ya esta en el contador, incrementa\
+    \ su cuenta\n        if numero in contador:\n            contador[numero] += 1\n        else:\n            # Si no, inicializa\
+    \ su cuenta en 1\n            contador[numero] = 1\n    \n    for numero, cuenta in contador.items():\n        # Devuelve\
+    \ el numero cuya cuenta es 1\n        if cuenta == 1:\n            return numero\n\n# Ejemplo de uso\nlista = [1, 1, 2,\
+    \ 2, 3, 4, 4]\nprint(entero_unico(lista))  # Salida: 3"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_reverse_dict_es
+source: main.py
+title: Revertir diccionario (ES)
+description: Escribe una funcion que invierta un diccionario, cambiando las llaves por valores, y los valores por llaves.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:SingleForLoopIteration
+  - pcrs:keys()
+  - pcrs:ListReferencing
+  - pcrs:IntegerLiteral
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DictLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:AddingItemToDictionary
+  - pcrs:AccessingDictionary
+  - pcrs:CreatingDictionary
+  - pcrs:DictLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:AccessingDictionary
+  - pcrs:AddingItemToDictionary
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListReferencing
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una funcion que invierta un diccionario, cambiando las llaves por valores, y los valores por llaves. Debido a que las llaves de un diccionario deben ser unicas, puedes asumir que los valores tambien son unicos. Por ejemplo:
+
+  ```
+  invertirDiccionario({1:2}) => {2:1})
+  invertirDiccionario({1:2, 3:4}) => {2:1, 4:3})
+  invertirDiccionario({1:2, 3:4, 7:7, 9:6}) => {2:1, 7:7, 4:3, 6:9})
+  ```
+  "
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def invertirDiccionario(d):
+          # Escribe tu codigo aqui
+  placeholder: |2-
+
+    def invertirDiccionario(d):
+        # Escribe tu codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

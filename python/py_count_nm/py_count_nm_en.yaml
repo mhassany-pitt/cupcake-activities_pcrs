@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_count_nm_en
+source: main.py
+title: PCRS C3-PL  Count Nm
+description: 'Write a function that takes a list of ints and two ints,N and M, and returns the number of timesNM occurs in
+  order in the given list.For example: countNM([1,2,3'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a list of ints and two ints,
+  `N` and `M`, and returns the number of times
+  NM occurs in order in the given list.
+  For example:
+
+  ```
+  countNM([1,2,3,4,5], 2, 1) => 0
+  countNM([1,2,3,4,5], 1, 2) => 1
+  countNM([1,2,1,2,1], 1, 2) => 2
+  countNM([-3, 8, 9, 12, 8, 12, 9], 12, 8) => 1
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def countNM(items, n, m):
+          #code
+  placeholder: |2-
+
+    def countNM(items, n, m):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

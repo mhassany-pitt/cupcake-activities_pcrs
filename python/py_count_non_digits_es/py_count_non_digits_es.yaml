@@ -1,0 +1,81 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_count_non_digits_es
+source: main.py
+title: Contar no digitos (ES)
+description: Completa la siguiente funcion segun su docstring.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:CheckingForItem
+  - pcrs:IfElifElseChecking
+  - pcrs:Addition
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWith+=
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfCheckingInForLoop
+  - pcrs:StringLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:ForLoopWith+=
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:StringLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInForLoop
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contar_no_digitos(string):
+          """ (str) -> int
+
+          Devuelve el numero de no digitos en string.
+
+          >>> contar_no_digitos('abc12d')
+          4
+          >>> contar_no_digitos('135')
+          0
+          >>> contar_no_digitos('A.4')
+          2
+          """
+  placeholder: |2-
+
+    def contar_no_digitos(string):
+        """ (str) -> int
+
+        Devuelve el numero de no digitos en string.
+
+        >>> contar_no_digitos('abc12d')
+        4
+        >>> contar_no_digitos('135')
+        0
+        >>> contar_no_digitos('A.4')
+        2
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

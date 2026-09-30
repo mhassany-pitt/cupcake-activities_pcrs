@@ -1,0 +1,71 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_find_index_in_list_es
+source: main.py
+title: PCRS C3-PL  Find Index In List
+description: Completa la siguiente funcion.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:list()
+  - pcrs:IfCheckingInForLoop
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:ListLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:ListLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ForLoopWithListIndexing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion. Ten en cuenta que ni lista_de_items ni lista_de_indices deben ser mutados.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def encontrar_valor_en_indices(lista_de_items, lista_de_indices, v):
+          """ (lista de objeto, lista de int, objeto) -> lista de int
+
+          Precondicion: los valores en lista_de_indices son indices validos en lista_de_items.
+
+          v puede aparecer multiples veces en lista_de_items. lista_de_indices contiene cero o
+          mas indices. Devuelve una lista de los indices de lista_de_indices en los que v
+          aparece en lista_de_items.
+
+          >>> encontrar_valor_en_indices([6, 8, 8, 5, 8], [0, 2, 4], 8)
+          [2, 4]
+          """
+  placeholder: |2-
+
+    def encontrar_valor_en_indices(lista_de_items, lista_de_indices, v):
+        """ (lista de objeto, lista de int, objeto) -> lista de int
+
+        Precondicion: los valores en lista_de_indices son indices validos en lista_de_items.
+
+        v puede aparecer multiples veces en lista_de_items. lista_de_indices contiene cero o
+        mas indices. Devuelve una lista de los indices de lista_de_indices en los que v
+        aparece en lista_de_items.
+
+        >>> encontrar_valor_en_indices([6, 8, 8, 5, 8], [0, 2, 4], 8)
+        [2, 4]
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

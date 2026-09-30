@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_contar_digitos_es
+source: main.py
+title: Contar Digitos (ES)
+description: Escribe una función contar_dígitos(n) que reciba un número entero positivo n y retorne la cantidad de dígitos
+  que contiene.Debes usar un ciclo while en tu solución.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:Addition
+  - pcrs:Division
+  - pcrs:DefiningSimpleFunction
+  - pcrs:SingleWhileLoopIteration
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ChangingValueVariable
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:AugmentedAssignmentStatement
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:Addition
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:Division
+  - pcrs:SingleWhileLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe una función `contar_dígitos(n)` que reciba un número entero positivo `n` y retorne la cantidad de dígitos que contiene.
+
+  Debes usar un ciclo while en tu solución.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def contar_digitos(n):
+          """ (int) -> int
+
+          Retorna la cantidad de dígitos que tiene el número entero positivo n.
+
+          Debes usar un ciclo while en tu solución.
+          """
+          # Escribe tu codigo aqui
+  placeholder: |2-
+
+    def contar_digitos(n):
+        """ (int) -> int
+
+        Retorna la cantidad de dígitos que tiene el número entero positivo n.
+
+        Debes usar un ciclo while en tu solución.
+        """
+        # Escribe tu codigo aqui
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

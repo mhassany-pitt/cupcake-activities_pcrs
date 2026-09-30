@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_first_multiple_of_second_es
+source: main.py
+title: PCRS C3-PL  First Multiple Of Second
+description: En la funcion a continuacion, los pasos 1-4 de la Receta de Diseno de Funciones han sido completados.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:FindRemainder
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindRemainder
+runtime:
+  language: python
+  version: '3'
+statement: En la funcion a continuacion, los pasos 1-4 de la Receta de Diseno de Funciones han sido completados. Escribe el
+  cuerpo de la funcion y luego haz clic en Enviar para probar tu funcion.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def es_multiplo(valor1, valor2):
+          """ (int, int) -> booleano
+
+          Devuelve True si y solo si valor1 es un multiplo entero de valor2.
+
+          >>> es_multiplo(15, 3)
+          True
+          >>> es_multiplo(7, 2)
+          False
+          """
+  placeholder: |2-
+
+    def es_multiplo(valor1, valor2):
+        """ (int, int) -> booleano
+
+        Devuelve True si y solo si valor1 es un multiplo entero de valor2.
+
+        >>> es_multiplo(15, 3)
+        True
+        >>> es_multiplo(7, 2)
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

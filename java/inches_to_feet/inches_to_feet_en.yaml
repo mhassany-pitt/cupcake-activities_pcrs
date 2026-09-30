@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_inches_to_feet_en
+source: SCode.java
+title: inches_to_feet
+description: Complete the following code in order to calculate the height of a person in feet, given that his/her height is
+  heightInInches inches.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SimpleVariable
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:DoubleDataType
+  - pcrs:DivideExpression
+  - pcrs:java.lang.System.out.println
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:java.lang.System.out.println
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+runtime:
+  language: java
+  version: '17'
+statement: "Complete the following code in order to calculate the height of a person in feet, given that his/her height is\
+  \ `heightInInches` inches. Assume that the initial value of variable `heightInInches` is already set to a positive integer.\n\
+  \nYou need to convert the given `heightInInches` to feet. \nFor example, 12 inches is 1 foot. \n\nDefine a variable called\
+  \ `heightInFeet` and set the height in feet value to this variable. \n\nE.g. 1: If the value of `heightInInches` is 78,\
+  \ the code prints \"Height in feet: 6.5\" (without the quotations). Please pay attention to the white spaces!\nE.g. 2: If\
+  \ the value of `heightInInches` is 84, the code prints \"Height in feet: 7.0\" (without the quotations). Please pay attention\
+  \ to the white spaces!"
+elements:
+- type: editable
+  location:
+    snippet: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height\
+      \ in feet value to a variable called heightInFeet. \n        \n       "
+  placeholder: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height\
+    \ in feet value to a variable called heightInFeet. \n        \n       "
+- type: locked
+  location:
+    snippet: 'System.out.println("Height in feet: " + heightInFeet);'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

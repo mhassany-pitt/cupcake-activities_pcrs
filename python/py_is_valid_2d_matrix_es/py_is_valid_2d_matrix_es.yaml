@@ -1,0 +1,81 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_is_valid_2d_matrix_es
+source: main.py
+title: Es sopa de letras (ES)
+description: Una profesora de lenguaje quiere validar automáticamente si una estructura ingresada por sus estudiantes representa
+  una sopa de letras válida.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:ListReferencing
+  - pcrs:ListLiteral
+  - pcrs:Indexing2DArray
+  - pcrs:IndexingDictionary
+  - pcrs:FindingLength
+  - pcrs:DefiningSimpleFunction
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:NestedForLoopIteration
+  - pcrs:ChangingValueVariable
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IfCheckingInForLoop
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:CallingObjectMethod
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:LogicalExpression
+  - pcrs:MixedNestedLoopIteration
+  - pcrs:BooleanLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:FindingLength
+  - pcrs:IfCheckingInForLoop
+  - pcrs:Indexing2DArray
+  - pcrs:IndexingList
+  - pcrs:ListReferencing
+  - pcrs:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Una profesora de lenguaje quiere validar automáticamente si una estructura ingresada por sus estudiantes representa una sopa de letras válida. Una sopa de letras se define como una matriz 2D (lista de listas) en la que:
+  - Todas las filas tienen el mismo número de columnas.
+  - Cada celda contiene solo una letra mayúscula del alfabeto (A a Z).
+
+  Tu tarea es completar la función es_sopa_letras(matriz) para que:
+  - Devuelva True si la matriz (lista de 2D) cumple con las condiciones anteriores.
+  - Devuelva False si hay al menos una fila con longitud distinta o un carácter inválido (no letra o letra en minúscula).
+
+  Ejemplos entrada/salida
+  sopa1 = [["A","M","O"],["L","A","X"],["T","Y","R"]]
+  sopa2 = [["A","9","O"],["L","A","X"],["9","Y","R"]]
+  sopa3 = [["A","M","O"],["L","a","X"],["T","Y","r"],["A","M","O"]]
+
+  es_sopa_letras(sopa1) -> True
+  es_sopa_letras(sopa2) -> False (tiene caracteres numericos)
+  es_sopa_letras(sopa3) -> False (no posee el mismo numero de filas (4) y de columnas (3). Ademas posee algunos de los elementos en minusculas.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
+  placeholder: "\ndef es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

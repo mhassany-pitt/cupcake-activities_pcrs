@@ -1,0 +1,36 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_closed_interval_en
+source: main.py
+title: PCRS C3-PL  Closed Interval
+description: Add a Closed IntervalWrite a function which takes as input a list myl of disjoint closed intervals with integer
+  endpoints,sorted by increasing order of left end
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "# Add a Closed Interval\n\nWrite a function which takes as input a list `myl` of disjoint closed intervals with\
+  \ integer endpoints,\nsorted by increasing order of left endpoint, and an interval `interval`, and returns the union of\
+  \ `interval`\nwith the intervals in A, expressed as a union of disjoint intervals. \n\n# Example\n\n`[(1, 2)]`, `(3, 4)`->\
+  \ `[(1, 2), (3, 4)]`\n`[(3, 4)]`, `(1, 2)`-> `[(1, 2), (3, 4)]`\n`[(0, 2), (3, 6), (7, 7), (9, 12)]`, `(1, 8)` -> `[(0,\
+  \ 8), (9, 12)]`"
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

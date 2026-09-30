@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_max_in_list_es
+source: main.py
+title: Maximo en lista (ES)
+description: Escribe un programa que tome una lista y encuentre el elemento maximo.No utilices la funcion max(). maxLista([5,5,5,5])=>5
+  maxLista([5,15,10,20,25])=>25 maxList
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SingleForLoopIteration
+  - pcrs:IfElifElseCheckingInForLoop
+  - pcrs:IntegerLiteral
+  - pcrs:CheckingForItem
+  - pcrs:list()
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IndexingList
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:CallingSimpleFunction
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfCheckingInForLoop
+  - pcrs:IndexingList
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Escribe un programa que tome una lista y encuentre el elemento maximo.
+  **No** utilices la funcion max().
+
+  ```
+  maxLista([5,5,5,5])=>5
+  maxLista([5,15,10,20,25])=>25
+  maxLista([-3,-2,-1,-6,-9,-11])=>-1
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def maxLista(elementos):
+          # codigo
+  placeholder: |2-
+
+    def maxLista(elementos):
+        # codigo
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

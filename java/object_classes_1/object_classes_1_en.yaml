@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_object_classes_1_en
+source: Calculator.java
+title: Objects and Classes 1
+description: Assume that we have a class called Calculator that provides a method for performing the average operation.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DoubleDataType
+  - pcrs:ExplicitTypeCasting
+  - pcrs:FormalMethodParameter
+  - pcrs:PublicClassSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:MethodDefinition
+  - pcrs:ClassDefinition
+  - pcrs:IntDataType
+  - pcrs:DivideExpression
+  - pcrs:AddExpression
+  - pcrs:PublicMethodSpecifier
+  - pcrs:AddExpression
+  - pcrs:ClassDefinition
+  - pcrs:DivideExpression
+  - pcrs:DoubleDataType
+  - pcrs:ExplicitTypeCasting
+  - pcrs:FormalMethodParameter
+  - pcrs:IntDataType
+  - pcrs:MethodDefinition
+  - pcrs:PublicClassSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Assume that we have a class called `Calculator` that provides a method for performing the average operation. Complete the following `Calculator` class by writing a method called `average` that accepts two integer parameters and returns their average as a double.
+
+  E.g. 1: if the first parameter of the `average` method is 3 and the second parameter of the `average` method is 6, the value returned by the `average` method will be 4.5.
+  E.g. 2: if the first parameter of the `average` method is 10 and the second parameter of the `average` method is 2, the value returned by the `average` method will be 6.0.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: public class Calculator {
+- type: editable
+  location:
+    snippet: "\t//TODO: add the average method here\n\t    \n    \n\t"
+  placeholder: "\t//TODO: add the average method here\n\t    \n    \n\t"
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

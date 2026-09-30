@@ -1,0 +1,104 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_class_day_calendar_es
+source: main.py
+title: PCRS C3-PL  Class Day Calendar
+description: Below there is code for classes Event and Day.Improve class Day's __init__ method.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ListReferencing
+  - pcrs:IfCheckingInForLoop
+  - pcrs:CallingObjectMethod
+  - pcrs:CheckingForItem
+  - pcrs:list()
+  - pcrs:TransformingToStringType
+  - pcrs:__init()__
+  - pcrs:FormattingString
+  - pcrs:AddingListElementWithAppend
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:BooleanLiteral
+  - pcrs:StringLiteral
+  - pcrs:ListLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:CreatingObject
+  - pcrs:IntegerLiteral
+  - pcrs:ListLiteral
+  - pcrs:StringLiteral
+  - pcrs:__init()__
+  - pcrs:AddingListElementWithAppend
+  - pcrs:BooleanLiteral
+  - pcrs:CallingObjectMethod
+  - pcrs:ChangingValueVariable
+  - pcrs:CreatingObject
+  - pcrs:DefiningClass
+  - pcrs:DefiningObjectMethod
+  - pcrs:FormattingString
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ListReferencing
+  - pcrs:TransformingToStringType
+runtime:
+  language: python
+  version: '3'
+statement: "Below there is code for classes `Event` and `Day`.\n\n- Improve class `Day`'s `__init__` method.\n \n \n Update\
+  \ `Day`'s  `__init__` method to add default parameter values, so that if the date isn’t speciﬁed by the caller, it is set\
+  \ to January 1, 2014.\n \n\n \n\n- Improve class `Day`'s  `schedule_event` method.\n \n\n Improve method `schedule_event`\
+  \ so that if we attempt to schedule an event that overlaps with an existing event, the event is not scheduled and the method\
+  \ returns `False`.  Iff the event is successfully scheduled, the method should return `True`"
+elements:
+- type: editable
+  location:
+    snippet: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+      \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n     \
+      \   \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n  \
+      \      >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n  \
+      \      >>> e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time\
+      \ = end_time\n        self.name = event_name\n    \n    def __str__(self):\n            \"\"\" (Event) -> str\n    \n\
+      \            Return a string representation of this event.\n    \n            >>> e = Event(6, 7, 'Run')\n         \
+      \   >>> str(e)\n            'Run: from 6 to 7'\n            \"\"\"\n            \n            return '{0}: from {1}\
+      \ to {2}'.format(self.name, self.start_time,\n                                                 self.end_time)\n\n  \
+      \  def overlaps(self, other):\n        \"\"\" (Event, Event) -> bool\n\n        Return True iff this event overlaps\
+      \ with event other.\n\n        >>> e1 = Event(6, 7, 'Run')\n        >>> e2 = Event(0, 7, 'Sleep')\n        >>> e1.overlaps(e2)\n\
+      \        True\n        \"\"\"\n\n        return not (other.end_time <= self.start_time \\\n                    or other.start_time\
+      \ >= self.end_time)\n\nclass Day:\n    \"\"\"A calendar day and its events.\"\"\"\n\n    def __init__(self, day, month,\
+      \ year):\n        \"\"\" (Day, int, str, int) -> NoneType\n\n        Initialize a day on the calendar with day, month\
+      \ and year,\n        and no events.\n\n        >>> d = Day(5, 'April', 2014)\n        >>> d.day\n        5\n       \
+      \ >>> d.month\n        'April'\n        >>> d.year\n        2014\n        >>> d.events\n        []\n        \"\"\"\n\
+      \n        self.day = day\n        self.month = month\n        self.year = year\n        self.events = []\n\n\n    def\
+      \ schedule_event(self, new_event):\n        \"\"\" (Day, Event) ->\n    \n        Schedule new_event on this day.\n\n\
+      \        >>> d = Day(26, 'March', 2013)\n        >>> e = event.Event(11, 12, 'Meeting')\n        >>> d.schedule_event(e)\n\
+      \    \n        >>> d.events[0] == e\n        \"\"\"\n\n        self.events.append(new_event)"
+  placeholder: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time,\
+    \ event_name):\n        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time\
+    \ <= 23\n        \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\
+    \n        >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n \
+    \       >>> e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time\
+    \ = end_time\n        self.name = event_name\n    \n    def __str__(self):\n            \"\"\" (Event) -> str\n    \n\
+    \            Return a string representation of this event.\n    \n            >>> e = Event(6, 7, 'Run')\n           \
+    \ >>> str(e)\n            'Run: from 6 to 7'\n            \"\"\"\n            \n            return '{0}: from {1} to {2}'.format(self.name,\
+    \ self.start_time,\n                                                 self.end_time)\n\n    def overlaps(self, other):\n\
+    \        \"\"\" (Event, Event) -> bool\n\n        Return True iff this event overlaps with event other.\n\n        >>>\
+    \ e1 = Event(6, 7, 'Run')\n        >>> e2 = Event(0, 7, 'Sleep')\n        >>> e1.overlaps(e2)\n        True\n        \"\
+    \"\"\n\n        return not (other.end_time <= self.start_time \\\n                    or other.start_time >= self.end_time)\n\
+    \nclass Day:\n    \"\"\"A calendar day and its events.\"\"\"\n\n    def __init__(self, day, month, year):\n        \"\"\
+    \" (Day, int, str, int) -> NoneType\n\n        Initialize a day on the calendar with day, month and year,\n        and\
+    \ no events.\n\n        >>> d = Day(5, 'April', 2014)\n        >>> d.day\n        5\n        >>> d.month\n        'April'\n\
+    \        >>> d.year\n        2014\n        >>> d.events\n        []\n        \"\"\"\n\n        self.day = day\n      \
+    \  self.month = month\n        self.year = year\n        self.events = []\n\n\n    def schedule_event(self, new_event):\n\
+    \        \"\"\" (Day, Event) ->\n    \n        Schedule new_event on this day.\n\n        >>> d = Day(26, 'March', 2013)\n\
+    \        >>> e = event.Event(11, 12, 'Meeting')\n        >>> d.schedule_event(e)\n    \n        >>> d.events[0] == e\n\
+    \        \"\"\"\n\n        self.events.append(new_event)"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

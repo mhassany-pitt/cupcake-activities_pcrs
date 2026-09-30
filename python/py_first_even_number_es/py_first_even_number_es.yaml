@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_first_even_number_es
+source: main.py
+title: Primer Par (ES)
+description: Completa la siguiente funcion segun su docstring.
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:IfCheckingInForLoop
+  - pcrs:ComparisonExpression
+  - pcrs:FindRemainder
+  - pcrs:IntegerLiteral
+  - pcrs:CheckingForItem
+  - pcrs:BooleanLiteral
+  - pcrs:SingleForLoopIteration
+  - pcrs:ComparisonExpression
+  - pcrs:IntegerLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:CheckingForItem
+  - pcrs:FindRemainder
+  - pcrs:IfCheckingInForLoop
+  - pcrs:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun su docstring. Usa un ciclo for.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de elementos.\
+      \ Devuelve -1 si elementos no contiene numeros pares.\n\n    >>> primer_par([5, 8, 3, 2])\n    8\n    >>> primer_par([7,\
+      \ 1])\n    -1\n    \"\"\""
+  placeholder: "\ndef primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de\
+    \ elementos. Devuelve -1 si elementos no contiene numeros pares.\n\n    >>> primer_par([5, 8, 3, 2])\n    8\n    >>> primer_par([7,\
+    \ 1])\n    -1\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

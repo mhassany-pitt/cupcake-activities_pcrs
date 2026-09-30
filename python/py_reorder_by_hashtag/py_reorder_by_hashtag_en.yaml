@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_reorder_by_hashtag_en
+source: main.py
+title: PCRS C3-PL  Reorder By Hashtag
+description: This function describes a potential helper function for detect_authors.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  This function describes a potential helper function for `detect_authors`. In this question, we have a dictionary that connects candidates to the lists of the hashtags they use. The task is to write a function that produces a dictionary where the keys are hashtags and the values are the lists of candidates who use those hashtags.
+
+  Complete the function below including writing a description.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def reorder_by_hashtag(candidate_to_hashtags):
+          """(dict of str to list of str) -> dict of str to list of str
+
+          >>> d = reorder_by_hashtag({'Trump':['MakeAmericaGreatAgain', '4Prez'], 'Stein':['4Prez']})
+          {'4Prez': ['Stein', 'Trump'], 'MakeAmericaGreatAgain': ['Trump']}
+          """
+  placeholder: |2-
+
+    def reorder_by_hashtag(candidate_to_hashtags):
+        """(dict of str to list of str) -> dict of str to list of str
+
+        >>> d = reorder_by_hashtag({'Trump':['MakeAmericaGreatAgain', '4Prez'], 'Stein':['4Prez']})
+        {'4Prez': ['Stein', 'Trump'], 'MakeAmericaGreatAgain': ['Trump']}
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

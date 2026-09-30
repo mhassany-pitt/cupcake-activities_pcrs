@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_calendar_event3_en
+source: main.py
+title: PCRS C3-PL  Calendar Event3
+description: Complete each method of class Event.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete each method of class `Event`.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+      \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n     \
+      \   \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n  \
+      \      >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n  \
+      \      >>> e.name\n        'Lunch'\n        \"\"\"\n    \n        # TODO: complete this method body.\n\n    def rename(self,\
+      \ new_name):\n        \"\"\" (Event, str) -> NoneType\n\n        Change the name of this event to new_name.\n      \
+      \  \n        >>> e = Event(12, 13, 'Lunch')\n        >>> e.rename('Office hours')\n        >>> e.name\n        'Office\
+      \ hours'\n        \"\"\"\n        \n        # TODO: complete this method body.\n\n\n    def duration(self):\n      \
+      \  \"\"\" (Event) -> int\n\n        Return the duration of this event.\n\n        >>> e = Event(10, 11, 'Lecture')\n\
+      \        >>> e.duration()\n        1\n        \"\"\"\n        \n        # TODO: complete this method body.\n\n    \n\
+      \    def __str__(self):\n        \"\"\" (Event) -> str\n\n        Return a string representation of this event.\n\n\
+      \        >>> e = Event(6, 7, 'Run')\n        >>> str(e)\n        'Run: from 6 to 7'\n        \"\"\"\n        \n    \
+      \    # TODO: complete this method body.\n              \n\n    def __eq__(self, other):\n        \"\"\" (Event, Event)\
+      \ -> bool\n\n        Return True iff this event has the same start time, end time, \n        and name as other.\n\n\
+      \        >>> e1 = Event(6, 7, 'Run')\n        >>> e2 = Event(6, 7, 'Run')\n        >>> e1 == e2\n        True\n    \
+      \    \"\"\"\n        \n        # TODO: complete this method body.\n\n\n    def overlaps(self, other):\n        \"\"\"\
+      \ (Event, Event) -> bool\n\n        Return True iff this event overlaps with event other.\n\n        >>> e1 = Event(6,\
+      \ 7, 'Run')\n        >>> e2 = Event(0, 7, 'Sleep')\n        >>> e1.overlaps(e2)\n        True\n        \"\"\"\n\n  \
+      \      # TODO: complete this method body."
+  placeholder: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time,\
+    \ event_name):\n        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time\
+    \ <= 23\n        \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\
+    \n        >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n \
+    \       >>> e.name\n        'Lunch'\n        \"\"\"\n    \n        # TODO: complete this method body.\n\n    def rename(self,\
+    \ new_name):\n        \"\"\" (Event, str) -> NoneType\n\n        Change the name of this event to new_name.\n        \n\
+    \        >>> e = Event(12, 13, 'Lunch')\n        >>> e.rename('Office hours')\n        >>> e.name\n        'Office hours'\n\
+    \        \"\"\"\n        \n        # TODO: complete this method body.\n\n\n    def duration(self):\n        \"\"\" (Event)\
+    \ -> int\n\n        Return the duration of this event.\n\n        >>> e = Event(10, 11, 'Lecture')\n        >>> e.duration()\n\
+    \        1\n        \"\"\"\n        \n        # TODO: complete this method body.\n\n    \n    def __str__(self):\n   \
+    \     \"\"\" (Event) -> str\n\n        Return a string representation of this event.\n\n        >>> e = Event(6, 7, 'Run')\n\
+    \        >>> str(e)\n        'Run: from 6 to 7'\n        \"\"\"\n        \n        # TODO: complete this method body.\n\
+    \              \n\n    def __eq__(self, other):\n        \"\"\" (Event, Event) -> bool\n\n        Return True iff this\
+    \ event has the same start time, end time, \n        and name as other.\n\n        >>> e1 = Event(6, 7, 'Run')\n     \
+    \   >>> e2 = Event(6, 7, 'Run')\n        >>> e1 == e2\n        True\n        \"\"\"\n        \n        # TODO: complete\
+    \ this method body.\n\n\n    def overlaps(self, other):\n        \"\"\" (Event, Event) -> bool\n\n        Return True\
+    \ iff this event overlaps with event other.\n\n        >>> e1 = Event(6, 7, 'Run')\n        >>> e2 = Event(0, 7, 'Sleep')\n\
+    \        >>> e1.overlaps(e2)\n        True\n        \"\"\"\n\n        # TODO: complete this method body."
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

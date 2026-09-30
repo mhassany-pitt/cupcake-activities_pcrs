@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_arithmetic_exception_en
+source: Lab8.java
+title: arithmetic_exception
+description: Complete the method avgHairballsPerCat(int numHairballs, int numCats) in order to get the average number of hairballs
+  that each cat spits up (you need to use in
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:ReturnStatement
+  - pcrs:DivideExpression
+  - pcrs:TryCatchStatement
+  - pcrs:DivideExpression
+  - pcrs:ReturnStatement
+  - pcrs:TryCatchStatement
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the method `avgHairballsPerCat(int numHairballs, int numCats)` in order to get the average number of hairballs that each cat spits up (you need to use **integer division here**, as 1.7 hairballs do not make much sense, right?). You'll need to handle an erroneous situation where there are no cats. (Hint: if there are no cats, what happens to your average calculation?)
+
+  Implement try/catch to handle this situation:
+
+  1. If the number of cats specified in the parameter `numCats` is `0`, the method needs to catch an arithmetic error and return 0.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "import java.lang.ArithmeticException;\n    \nstatic int avgHairballsPerCat(int numHairballs, int numCats){\n\
+      \ttry {"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: '}  '
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

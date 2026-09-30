@@ -1,0 +1,33 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_add_underscores_en
+source: main.py
+title: PCRS C3-PL  Add Underscores
+description: Add at least one example and complete the function body according to the docstring
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Add at least one example and complete the function body according to the docstring
+elements:
+- type: editable
+  location:
+    snippet: "\ndef add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair of\
+      \ characters\n\n    # TODO: add at least one example\n\n    \"\"\"\n\n    # TODO: complete the function body"
+  placeholder: "\ndef add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair\
+    \ of characters\n\n    # TODO: add at least one example\n\n    \"\"\"\n\n    # TODO: complete the function body"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

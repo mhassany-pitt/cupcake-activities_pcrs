@@ -1,0 +1,76 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_inheritance_1_en
+source: SCode.java
+title: Inheritance 1
+description: Suppose that we have a class Book and we want to extend it to produce class Dictionary.
+authors:
+- first: Roya
+  last: Hosseini
+  email: roya.hosseini@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:SuperclassConstructorCall
+  - pcrs:ConstructorDefinition
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:ExtendsSpecification
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:FormalMethodParameter
+  - pcrs:ReturnStatement
+  - pcrs:MethodDefinition
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:ClassDefinition
+  - pcrs:InstanceField
+  - pcrs:IntDataType
+  - pcrs:SimpleVariable
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ClassDefinition
+  - pcrs:ConstructorDefinition
+  - pcrs:ExtendsSpecification
+  - pcrs:FormalMethodParameter
+  - pcrs:InstanceField
+  - pcrs:IntDataType
+  - pcrs:MethodDefinition
+  - pcrs:PrivateFieldSpecifier
+  - pcrs:PublicConstructorSpecifier
+  - pcrs:PublicMethodSpecifier
+  - pcrs:ReturnStatement
+  - pcrs:SimpleAssignmentExpression
+  - pcrs:SimpleVariable
+  - pcrs:SuperclassConstructorCall
+runtime:
+  language: java
+  version: '17'
+statement: "Suppose that we have a class `Book` and we want to extend it to produce class `Dictionary`. The class `Book` has\
+  \ one data member, `pages`, that is an integer that represents the number of the pages in the book. A `Dictionary` has two\
+  \ data members, `pages` (representing number of pages in the dictionary) and `definitions` (representing the number of definitions\
+  \ in the dictionary). \n\nComplete the class `Dictionary` by adding the required data member, two constructors, and the\
+  \ required getter method to return the data member of class `Dictionary`. \n\nThe `Dictionary` class should have constructors\
+  \ that permit a dictionary to be created when:\n(1) the number of pages  and the number of definitions in the dictionary\
+  \ are specified\n(2) none of the dictionary properties are specified. In this case, we create a dictionary with default\
+  \ values, that is a dictionary with 200 pages and 10000 definitions."
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "class Book {\n\tprivate int pages;\n\t\n    public Book (int numPages) {\n\t      pages = numPages;\n\t}\n\t\
+      \n    public int getPages() {\n\t\treturn pages;\n\t}\n}\n\nclass Dictionary extends Book {"
+- type: editable
+  location:
+    snippet: "    // TODO: Write your code here\n\t\n    \n    \n    \n    \n    \n    \n    \n    \n    "
+  placeholder: "    // TODO: Write your code here\n\t\n    \n    \n    \n    \n    \n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

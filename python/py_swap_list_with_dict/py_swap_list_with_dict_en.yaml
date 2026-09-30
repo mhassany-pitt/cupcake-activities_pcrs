@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_swap_list_with_dict_en
+source: main.py
+title: Swap list with dictionary
+description: Write a function that takes a list of strings named items and a dictionary named d with strings as both the keys
+  and the values.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes a list of strings named ` items `\nand a dictionary named ` d `with strings as both\
+  \ the keys and the values. \nReturn a new list containing all of the strings from ` items `,\nbut if any string in `items\
+  \ `occurs as the key in `d`\nreplace it with the value. For example:\n\n```\nswapper(['ab','bc','dog'], {'ab':'xyz'}) =>\
+  \ ['xyz', 'bc', 'dog']\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def swapper(items, d):
+          # code here
+  placeholder: |2-
+
+    def swapper(items, d):
+        # code here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

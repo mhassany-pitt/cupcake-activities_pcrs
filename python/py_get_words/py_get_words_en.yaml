@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_get_words_en
+source: main.py
+title: PCRS C3-PL  Get Words
+description: We will represent the words in the original story (the training text) as a list of strings.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  We will represent the words in the original story (the training text) as a list of strings.  You'll need to read the words in the training text file and create that list.  This string method will help:
+
+  ```
+  >>> help(str.split)
+  Help on method_descriptor:
+
+  split(...)
+      S.split(sep=None, maxsplit=-1) -> list of strings
+
+      Return a list of the tokens in S, using sep as the
+      delimiter string.  If maxsplit is given, at most maxsplit
+      splits are done. If sep is not specified or is None, any
+      whitespace string is a separator and empty strings are
+      removed from the result.
+  ```
+
+  Read the last sentence of that description carefully.
+
+  If a variable `training_text` represents a file open for reading, then `training_text.read()` returns a string containing the entire contents of the file.  You can use the `str` method `split` to make your list.
+
+  Complete the function below according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list\
+      \ containing the words from training_text in the same order\n    as they appear in training_text.\n    \"\"\""
+  placeholder: "\ndef get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list\
+    \ containing the words from training_text in the same order\n    as they appear in training_text.\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

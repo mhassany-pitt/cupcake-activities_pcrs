@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_linkedlist_merge_en
+source: LinkedListExample.java
+title: linkedlist_merge
+description: Given the class LinkedListExample, complete its method mergeLists that takes in a LinkedListExample objects and
+  returns a single LinkedListExample object that c
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:LinkedList
+  - pcrs:DivideExpression
+  - pcrs:ReturnStatement
+  - pcrs:LinkedList
+runtime:
+  language: java
+  version: '17'
+statement: "Given the class LinkedListExample, complete its method `mergeLists` that takes in a LinkedListExample objects\
+  \ and returns a single LinkedListExample object that combines the LinkedListExample object that called the mergeLists method\
+  \ with the method's input parameter.\n\nFor example, `mergeLists` should return a list that combines these two LinkedListExample\
+  \ objects --\n\n`LinkedListExample list1: [\"hello\", \"there\"]`\n`LinkedListExample list2: [\"General\", \"Kenobi\"]`\n\
+  \n-- as follows: \n\n`list1.mergeLists(list2);`\n`LinkedListExample returnedList: [\"hello\", \"there\", \"General\", \"\
+  Kenobi\"]`"
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class LinkedListExample {\n    // the LinkedListExample class' properties\n\tprivate Node head;\n\tprivate\
+      \ int size;\n\t\n\tprivate class Node {\n        // the Node class' properties\n\t\tNode next;\n\t\tString data;\n\t\
+      }\n\t// Constructor! This initializes a new empty LinkedListExample:\n\tpublic LinkedListExample()\n\t{\n\t\thead =\
+      \ null;\n\t\tsize = 0;\n\t}\n\t\n    // This method adds a Node to the LinkedListExample by creating a new Node out\
+      \ of a String\n    // The String becomes the new Node's data, and then the Node gets attached to the end of the LinkedListExample\n\
+      \tpublic boolean add(String val){\n\t\tNode curr = head;\n        if (curr == null) {\n\t\t\thead = new Node(val);\n\
+      \        }\n\t\telse {\n\t\t\twhile (curr.next != null){\n\t\t\t\tcurr = curr.next;\n\t\t\t}\n\t\t\tcurr.next = new\
+      \ Node(val);\n\t\t}\n\t\tsize++;\n\t\treturn true;\n\t}\n    \n    // This method returns the entire Node at a given\
+      \ \"index\" (loc)\n    private Node getNodeAt(int loc)\n\t{\n\t\tif (loc >= 0 && loc < size)\n\t\t{\n\t\t\tNode curr\
+      \ = head;\n\t\t\tfor (int i = 0; i < loc; i++)\n\t\t\t\tcurr = curr.next;\n\t\t\treturn curr;\n\t\t}\n\t\treturn null;\n\
+      \t}\n    \n\t// This method returns a Node's data from a given \"index\" (loc)\n\tpublic String get(int loc){\n\t\t\
+      Node curr = getNodeAt(loc);\n\t\tif (curr != null)\n\t\t\treturn curr.data;\n\t\telse\n\t\t\treturn null;\n\t}\n   \
+      \ \n\t// This method just returns the LinkedListExample's size\n\tpublic int size()\n\t{\n\t\treturn size;\n\t}\n  \
+      \  \n    // TODO: Complete this function to stitch together two LinkedListExample objects\n    // Parameters: two LinkedListExample\
+      \ objects\n    // Returns: one new LinkedListExample object made out of the two parameter objects\n\tpublic LinkedListExample\
+      \ mergeLists(LinkedListExample list2){\n        // mergedList is what this method eventually returns\n        // It's\
+      \ initialized here for you, and right now it's blank\n        LinkedListExample mergedList = new LinkedListExample();"
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "        return mergedList;\n\t}   \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

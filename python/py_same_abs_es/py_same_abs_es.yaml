@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_same_abs_es
+source: main.py
+title: PCRS C3-PL  Same Abs
+description: Completa la siguiente funcion segun la descripcion de su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:FindAbsolute
+  - pcrs:DefiningSimpleFunction
+  - pcrs:BooleanLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:FloatLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:FindAbsolute
+  - pcrs:FloatLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:BooleanLiteral
+  - pcrs:DefiningSimpleFunction
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun la descripcion de su docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def mismo_valor_abs(num1, num2):
+          """ (numero, numero) -> booleano
+
+          Devuelve True si y solo si num1 y num2 tienen el mismo valor absoluto.
+
+          >>> mismo_valor_abs(-3, 3)
+          True
+          >>> mismo_valor_abs(3, 3.5)
+          False
+          """
+  placeholder: |2-
+
+    def mismo_valor_abs(num1, num2):
+        """ (numero, numero) -> booleano
+
+        Devuelve True si y solo si num1 y num2 tienen el mismo valor absoluto.
+
+        >>> mismo_valor_abs(-3, 3)
+        True
+        >>> mismo_valor_abs(3, 3.5)
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

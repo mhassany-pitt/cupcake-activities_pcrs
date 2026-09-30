@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_replace_between_index_en
+source: main.py
+title: PCRS C3-PL  Replace Between Index
+description: Write a function that takes four parameters (a string s1, two ints,i and j, and another string s2) and replaces
+  all of the characters of s1 between i (inclusive) and j (exclusive)with s2.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: "Write a function that takes four parameters (a string s1, two ints,\ni and j, and another string s2) and replaces\
+  \ all of the \ncharacters of s1 between i (inclusive) and j (exclusive)\nwith s2. If j is equal to or longer than the length\
+  \ of s1, \nreplace everything in s1 from i to the end of the string with s2.\nFor example:\n\n```\nreplaceAtIndex('knox\
+  \ college', 4, 10, ' villa') => 'knox village'\nreplaceAtIndex('knox college', 5, 100, 'rocks') => 'knox rocks'\nreplaceAtIndex('monmouth\
+  \ college', 0, 100, '') => ''\n```"
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def replaceAtIndex(s1, i, j, s2):
+          # code goes here
+  placeholder: |2-
+
+    def replaceAtIndex(s1, i, j, s2):
+        # code goes here
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

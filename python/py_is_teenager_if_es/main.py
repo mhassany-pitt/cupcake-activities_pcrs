@@ -1,0 +1,3 @@
+
+def adolescenteNoPrimo(edad):
+    return

@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_same_name_list_es
+source: main.py
+title: PCRS C3-PL  Same Name List
+description: Completa la siguiente funcion segun su docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:TransformingToStringType
+  - pcrs:ListReferencing
+  - pcrs:ChangingValueVariable
+  - pcrs:DefiningSimpleFunction
+  - pcrs:ComparisonExpression
+  - pcrs:IndexingTuple
+  - pcrs:IndexingList
+  - pcrs:IndexingString
+  - pcrs:ComparisonExpression
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IndexingList
+runtime:
+  language: python
+  version: '3'
+statement: Completa la siguiente funcion segun su docstring. Los argumentos que usamos para probar no se mostraran; en su
+  lugar, se describiran en espanol. Si fallas en algun caso de prueba, deberas leer la descripcion y hacer tu propia prueba.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
+      \ si el primer elemento de nombre1 y nombre2 son el mismo.\n    \n    >>> mismo_primer_nombre(['John', 'Smith'], ['John',\
+      \ 'Harkness'])\n    True\n    >>> mismo_primer_nombre(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
+  placeholder: "\ndef mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
+    \ si el primer elemento de nombre1 y nombre2 son el mismo.\n    \n    >>> mismo_primer_nombre(['John', 'Smith'], ['John',\
+    \ 'Harkness'])\n    True\n    >>> mismo_primer_nombre(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

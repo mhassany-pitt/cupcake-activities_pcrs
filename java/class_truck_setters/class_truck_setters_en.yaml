@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_class_truck_setters_en
+source: Truck.java
+title: class_truck_setters
+description: Complete the code for the class Truck.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:PublicMethodSpecifier
+  - pcrs:FormalMethodParameter
+  - pcrs:Method
+  - pcrs:MethodImplementation
+  - pcrs:MethodSignature
+  - pcrs:PublicMethodSpecifier
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  Complete the code for the class Truck. You have to implement all the mutator/setter methods for each of these 5 attributes. Assume that the accessor/getter methods are already implemented.
+
+  Make sure that `currentLoad` will never exceed `maxCapacity`. If it does, set `currentLoad` to maxCapacity. Also, make sure that the `maxCapacity` and `currentLoad` cannot be set as negative, it that happens set the value to 0.
+
+  More instructions on how to implement the missing parts of this class are provided in the code below.
+elements:
+- type: editable
+  location:
+    snippet: // Write your code here
+  placeholder: // Write your code here
+- type: locked
+  location:
+    snippet: "public class Truck { \n    private String model;\n    private int year;\n    private String color;\n \tprivate\
+      \ double maxCapacity;\n    //If currentLoad is 0.0 the truck is empty, if equals to maxCapacity the truck is full\n\
+      \    private double currentLoad;\n    \n    public Truck(){\n        this.model = \"default model\";\n        this.year\
+      \ = 2000;\n        this.color= \"default color\";\n        this.maxCapacity = 1800.0;\n        this.currentLoad = 0.0;\
+      \     \n    }\n    \n    public Truck(String truckModel, int truckYear, String truckColor, double truckMaxCapacity,\
+      \ double truckCurrentLoad){\n    \tmodel = truckModel;\n        year = truckYear;\n        color = truckColor;\n   \
+      \     maxCapacity = truckMaxCapacity;\n        currentLoad = truckCurrentLoad;   \n    }"
+- type: editable
+  location:
+    snippet: "    // TODO: add set methods for model, year, color, maxCapacity and currentLoad\n    // There has to be 5 methods\
+      \ in total here (setModel, setYear, setColor, setMaxCapacity, setCurrentLoad).\n    \n    \n    \n    "
+  placeholder: "    // TODO: add set methods for model, year, color, maxCapacity and currentLoad\n    // There has to be 5\
+    \ methods in total here (setModel, setYear, setColor, setMaxCapacity, setCurrentLoad).\n    \n    \n    \n    "
+- type: locked
+  location:
+    snippet: '}'
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

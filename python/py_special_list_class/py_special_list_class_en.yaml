@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_special_list_class_en
+source: main.py
+title: PCRS C3-PL  Special List Class
+description: SpecialList is a class that has two instance variables value_list and size. value_list refers to a list, and
+  size stores an integer representing the maximum num
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  `SpecialList` is a class that has two instance variables `value_list` and `size`.  `value_list` refers to a list, and `size` stores an integer representing the maximum number of items that can be stored in the list.
+
+  Complete the following code.
+elements:
+- type: editable
+  location:
+    snippet: "\nclass SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
+      \ size):\n        \"\"\" (SpecialList, int)\n\n        >>> L = SpecialList(10)\n        >>> L.size\n        10\n   \
+      \     >>> L.value_list\n        []\n        \"\"\"\n        # complete this code\n\n\n    def push_value(self, new_value):\n\
+      \        \"\"\" (SpecialList, object) -> NoneType\n\n        Append new_value to this list, if there is enough space\
+      \ in the list according to its maximum size.  \n        If there is insufficient space, new_value should not be added\
+      \ to the list.\n\n        >>> L = SpecialList(10)\n        >>> L.push_value(3)\n        >>> L.value_list\n        [3]\n\
+      \        \"\"\"\n        # complete this code\n\n\n    def pop_most_recent_value(self):\n        \"\"\" (SpecialList)\
+      \ -> object\n\n        Precondition: len(self.value_list) != 0\n\n        Return the value added most recently to value_list\
+      \ and remove it from the list.\n\n        >>> L = SpecialList(10)\n        >>> L.push_value(3)\n        >>> L.push_value(4)\n\
+      \        >>> L.value_list\n        [3, 4]\n        >>> L.pop_most_recent_value()\n        4\n        \"\"\"\n      \
+      \  # complete this code\n\n    \n    def compare(self, other):\n        \"\"\" (SpecialList, SpecialList) -> int\n\n\
+      \        Return 0 if both SpecialList objects have lists that contain the same number of items.\n        Return 1 if\
+      \ self's list contains more items than other's list.\n        Return -1 if self's list contains fewer items than other's\
+      \ list.\n        \"\"\"\n        # complete this code"
+  placeholder: "\nclass SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
+    \ size):\n        \"\"\" (SpecialList, int)\n\n        >>> L = SpecialList(10)\n        >>> L.size\n        10\n     \
+    \   >>> L.value_list\n        []\n        \"\"\"\n        # complete this code\n\n\n    def push_value(self, new_value):\n\
+    \        \"\"\" (SpecialList, object) -> NoneType\n\n        Append new_value to this list, if there is enough space in\
+    \ the list according to its maximum size.  \n        If there is insufficient space, new_value should not be added to\
+    \ the list.\n\n        >>> L = SpecialList(10)\n        >>> L.push_value(3)\n        >>> L.value_list\n        [3]\n \
+    \       \"\"\"\n        # complete this code\n\n\n    def pop_most_recent_value(self):\n        \"\"\" (SpecialList) ->\
+    \ object\n\n        Precondition: len(self.value_list) != 0\n\n        Return the value added most recently to value_list\
+    \ and remove it from the list.\n\n        >>> L = SpecialList(10)\n        >>> L.push_value(3)\n        >>> L.push_value(4)\n\
+    \        >>> L.value_list\n        [3, 4]\n        >>> L.pop_most_recent_value()\n        4\n        \"\"\"\n        #\
+    \ complete this code\n\n    \n    def compare(self, other):\n        \"\"\" (SpecialList, SpecialList) -> int\n\n    \
+    \    Return 0 if both SpecialList objects have lists that contain the same number of items.\n        Return 1 if self's\
+    \ list contains more items than other's list.\n        Return -1 if self's list contains fewer items than other's list.\n\
+    \        \"\"\"\n        # complete this code"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_num_above_average_en
+source: main.py
+title: PCRS C3-PL  Num Above Average
+description: Write a program that takes two lists of ints as parameters,and returns the number of elements in the second listthat
+  are greater than the average of the first l
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a program that takes two lists of ints as parameters,
+  and returns the number of elements in the second list
+  that are greater than the average of the first list.
+  **Do not** use the sum() function.
+
+  ```
+  numAboveAverage([5,5,5,5], [3,4,5,6,7])=>2
+  numAboveAverage([5,15,10,20,25], [34, 12, 19, -1])=>2
+  numAboveAverage([5, 7], [])=>0
+  ```
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def numAboveAverage(list1, list2):
+          #code
+  placeholder: |2-
+
+    def numAboveAverage(list1, list2):
+        #code
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_smallest_factor_while_en
+source: main.py
+title: Smallest Factor (While)
+description: Write a function that takes a positive integer greater than 1 and returns its smallest factor greater than 1.Instructions:-
+  A factor of a number n is any number
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: |-
+  Write a function that takes a positive integer greater than 1 and returns its smallest factor greater than 1.
+
+  Instructions:
+
+  - A factor of a number n is any number that divides n evenly (no remainder).
+  - You must return the smallest factor that is greater than 1.
+  - You can assume the input will always be greater than 1.
+
+  Use a while loop in your solution.
+
+  Examples of input/output:
+
+  smallest_factor(15) -> 3
+  smallest_factor(24) -> 2
+  smallest_factor(49) -> 7
+elements:
+- type: editable
+  location:
+    snippet: '# Write your code here'
+  placeholder: '# Write your code here'
+- type: locked
+  location:
+    snippet: 'def smallest_factor(n):'
+- type: editable
+  location:
+    snippet: "\t#Type your code here"
+  placeholder: "\t#Type your code here"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

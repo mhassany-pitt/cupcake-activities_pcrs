@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_recursive_search_en
+source: SCode.java
+title: Recursive search
+description: 'The binarySearch method takes four parameters: arr, a sorted array of int values searchVal, an int value start,
+  a start index (inclusive) end, an end index (exc'
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:recursion
+  - pcrs:searching
+  - pcrs:recursion
+  - pcrs:searching
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  The `binarySearch` method takes four parameters:
+
+   - `arr`, a *sorted* array of `int` values
+
+   - `searchVal`, an `int` value
+
+   - `start`, a start index (inclusive)
+
+   - `end`, an end index (exclusive)
+
+      The method should return the index of the occurrence
+      of `searchVal` within the range of indices
+      from `start` (inclusive) to `end`
+      (exclusive), if there is one.  Otherwise, it should return
+   `-1` to indicate that `searchVal`
+      does not occur within the specified range of indices.
+
+      You can use the fact that the array is sorted to make this
+      method very efficient.  A simple base case is a range that
+      does not contain any elements: this means that the
+   `searchVal` does not occur in the range and
+   `-1` should be returned.
+
+      If the range is nonempty, check the element in the middle
+      of the range.  If it matches the `searchVal`,
+      return its index: this is a successful search.  Otherwise,
+      see whether the middle element is greater than or less
+      than the `searchVal`.  If it's greater than
+      the `searchVal`, then the `searchVal`
+      must occur to the left of the middle element.  Otherwise,
+      it must occur to the right of the middle element.
+      A recursive call can then be used to continue the search.
+elements:
+- type: editable
+  location:
+    snippet: "\npublic static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n \
+      \   \n}"
+  placeholder: "\npublic static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n\
+    \    \n}"
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

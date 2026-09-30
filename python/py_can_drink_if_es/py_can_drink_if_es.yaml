@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: es
+id: fc_py_can_drink_if_es
+source: main.py
+title: PCRS C3-PL If can drink
+description: En EEUU una persona sólo puede beber alcohol si tiene 21 años o más y no planea conducir.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:DefiningSimpleFunction
+  - pcrs:IfChecking
+  - pcrs:BooleanLiteral
+  - pcrs:IntegerLiteral
+  - pcrs:ComparisonExpression
+  - pcrs:LogicalExpression
+  - pcrs:CallingSimpleFunction
+  - pcrs:IfElseChecking
+runtime:
+  language: python
+  version: '3'
+statement: En EEUU una persona sólo puede beber alcohol si tiene 21 años o más y no planea conducir. Escribe una función que,
+  dadas estas dos variables, determine si puedes beber o no.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def puedeBeberAlcohol(edad,planeaConducir):
+          return
+  placeholder: |2-
+
+    def puedeBeberAlcohol(edad,planeaConducir):
+        return
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

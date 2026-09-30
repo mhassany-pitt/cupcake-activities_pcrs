@@ -1,0 +1,40 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_lastname_firstname_phonenumber_en
+source: main.py
+title: To Listing
+description: Copy and paste the contents of your solution for format_name into the box below.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Copy and paste the contents of your solution for format_name into the box below. Then, complete the following function
+  according to its docstring description.
+elements:
+- type: editable
+  location:
+    snippet: "\ndef to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter\
+      \ is a first name, the second is a last name, and the third parameter \n    is a phone number. Return a string in the\
+      \ format \"LAST_NAME, \n    FIRST_NAME: PHONE_NUMBER\", where LAST_NAME, FIRST_NAME, and \n    PHONE_NUMBER are replaced\
+      \ by the given last name, first name and phone number.\n\n    >>> ('David', ''Cohen', '12345')\n    'Cohen, David: 12345'\n\
+      \    \"\"\""
+  placeholder: "\ndef to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter\
+    \ is a first name, the second is a last name, and the third parameter \n    is a phone number. Return a string in the\
+    \ format \"LAST_NAME, \n    FIRST_NAME: PHONE_NUMBER\", where LAST_NAME, FIRST_NAME, and \n    PHONE_NUMBER are replaced\
+    \ by the given last name, first name and phone number.\n\n    >>> ('David', ''Cohen', '12345')\n    'Cohen, David: 12345'\n\
+    \    \"\"\""
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

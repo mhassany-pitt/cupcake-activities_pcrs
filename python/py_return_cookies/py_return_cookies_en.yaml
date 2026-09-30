@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_return_cookies_en
+source: main.py
+title: Return Cookies
+description: In the function below, steps 1-4 of the Function Design Recipe have been completed.
+authors:
+- first: Arun Balajiee
+  last: Lekshmi Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: In the function below, steps 1-4 of the Function Design Recipe have been completed.  Write the body of the function
+  and then click Submit to test your function.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def cookies_needed(num_adults, num_teens, num_children):
+          """ (int, int, int) -> int
+
+          Return the number of cookies needed to feed num_adults adults, num_teens
+          teens and num_children children.
+          Each adult gets 3 cookies, each teenager gets 5, and each child gets 2.
+
+          >>> cookies_needed(2, 3, 1)
+          23
+          """
+  placeholder: |2-
+
+    def cookies_needed(num_adults, num_teens, num_children):
+        """ (int, int, int) -> int
+
+        Return the number of cookies needed to feed num_adults adults, num_teens
+        teens and num_children children.
+        Each adult gets 3 cookies, each teenager gets 5, and each child gets 2.
+
+        >>> cookies_needed(2, 3, 1)
+        23
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

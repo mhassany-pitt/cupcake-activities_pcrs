@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_py_adjacent_match_en
+source: main.py
+title: PCRS C3-PL  Adjacent Match
+description: Complete the function adjacent_match according to its docstring.
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:python
+runtime:
+  language: python
+  version: '3'
+statement: Complete the function `adjacent_match` according to its docstring.
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      def adjacent_match(L):
+          """ (list of str) -> bool
+
+          Return True iff two adjacent items in L are equal.
+
+          >>> adjacent_match(['A', 'B', 'B'])
+          True
+          >>> adjacent_match(['A', 'B', 'A'])
+          False
+          """
+  placeholder: |2-
+
+    def adjacent_match(L):
+        """ (list of str) -> bool
+
+        Return True iff two adjacent items in L are equal.
+
+        >>> adjacent_match(['A', 'B', 'B'])
+        True
+        >>> adjacent_match(['A', 'B', 'A'])
+        False
+        """
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass

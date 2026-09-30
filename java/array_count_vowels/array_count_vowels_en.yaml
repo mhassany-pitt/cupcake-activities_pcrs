@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/free-coding/0.1.0
+license: MIT
+locale: en
+id: fc_array_count_vowels_en
+source: SCode.java
+title: array_count_vowels
+description: In the English language, a letter representing a vowel sound includes a, e, I, o, u.Write a method called countVowels
+  that takes an array of characters as a par
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: free-coding
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - pcrs:MethodImplementation
+  - pcrs:ArrayLength
+  - pcrs:ArrayElement
+  - pcrs:ArrayElement
+  - pcrs:ArrayLength
+  - pcrs:MethodImplementation
+runtime:
+  language: java
+  version: '17'
+statement: |-
+  In the English language, a letter representing a vowel sound includes a, e, I, o, u.
+
+  Write a method called countVowels that takes an array of characters as a parameter and returns the number of times that a lowercase vowel occurs (i.e. an 'a', 'e', 'i', 'o', or 'u').
+
+  countVowel({'i','c','e','c','r','e','a','m'}) -> 4
+
+  countVowel{'t','o','w','e','l'}) -> 2
+
+  countVowel({'r','y','t','h','m'}) -> 0
+elements:
+- type: editable
+  location:
+    snippet: |2-
+
+      public int countVowel(char[] str)
+      {
+          // TO DO: Write your code here.
+          // Hint: You can loop through the array of characters and count occurences
+          // of letters representing vowels.
+      }
+  placeholder: |2-
+
+    public int countVowel(char[] str)
+    {
+        // TO DO: Write your code here.
+        // Hint: You can loop through the array of characters and count occurences
+        // of letters representing vowels.
+    }
+testcases:
+- title: Solution Verification
+  visible: true
+  status: pass
