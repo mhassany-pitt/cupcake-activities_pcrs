@@ -23,16 +23,14 @@ statement: This shows an example of how to text a function that involves reading
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def get_lines(f):
           """ (file open for reading) -> list of str"""
           result = []
           for line in f:
               result.append(line.strip())
           return result
-  placeholder: |2-
-
+  placeholder: |-
     def get_lines(f):
         """ (file open for reading) -> list of str"""
         result = []

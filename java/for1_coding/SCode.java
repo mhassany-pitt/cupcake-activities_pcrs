@@ -1,4 +1,3 @@
-// Write your code here
 int sum = 0, i;
 for 
 (;;)       

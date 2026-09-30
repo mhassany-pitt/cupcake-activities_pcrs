@@ -1,4 +1,3 @@
-
 def formato_nombre(primero, ultimo):
     """ (str, str) -> str
     

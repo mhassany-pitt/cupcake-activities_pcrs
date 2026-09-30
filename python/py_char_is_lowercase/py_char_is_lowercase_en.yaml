@@ -24,12 +24,10 @@ statement: A letter is lowercase if it comes between ‘a’ and ‘z’. Write 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isLowerCase(letter):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def isLowerCase(letter):
         return
 testcases:

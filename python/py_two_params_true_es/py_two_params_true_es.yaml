@@ -30,12 +30,10 @@ statement: Escribe una funcion que devuelva verdadero si exactamente dos de los 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def soloDosVerdaderos(b1, b2, b3):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def soloDosVerdaderos(b1, b2, b3):
         return
 testcases:

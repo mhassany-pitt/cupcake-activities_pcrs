@@ -31,10 +31,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef valid_DNA_sequence(sequence, DNA_alphabet):\n    \"\"\" (str, str) -> bool\n    \n    Return True iff\
-      \ sequence is composed only of characters found in DNA_alphabet.\n\n    >>> valid_DNA_sequence('AmGTCA', 'ACGT')\n \
-      \   False\n    >>> valid_DNA_sequence('AmGTCA', 'ACGTmh')\n    True\n    \"\"\"\n"
-  placeholder: "\ndef valid_DNA_sequence(sequence, DNA_alphabet):\n    \"\"\" (str, str) -> bool\n    \n    Return True iff\
+    snippet: "def valid_DNA_sequence(sequence, DNA_alphabet):\n    \"\"\" (str, str) -> bool\n    \n    Return True iff sequence\
+      \ is composed only of characters found in DNA_alphabet.\n\n    >>> valid_DNA_sequence('AmGTCA', 'ACGT')\n    False\n\
+      \    >>> valid_DNA_sequence('AmGTCA', 'ACGTmh')\n    True\n    \"\"\"\n"
+  placeholder: "def valid_DNA_sequence(sequence, DNA_alphabet):\n    \"\"\" (str, str) -> bool\n    \n    Return True iff\
     \ sequence is composed only of characters found in DNA_alphabet.\n\n    >>> valid_DNA_sequence('AmGTCA', 'ACGT')\n   \
     \ False\n    >>> valid_DNA_sequence('AmGTCA', 'ACGTmh')\n    True\n    \"\"\"\n"
 testcases:

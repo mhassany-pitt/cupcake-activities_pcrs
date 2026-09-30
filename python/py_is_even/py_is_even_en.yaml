@@ -27,10 +27,6 @@ statement: |-
 
   Authors: Yana Kortsarts, Yulia Kempner, Leonid Kugel, Kamil Akhuseyinoglu
 elements:
-- type: editable
-  location:
-    snippet: '# Write your code here'
-  placeholder: '# Write your code here'
 - type: locked
   location:
     snippet: '# Use variable num below to complete your program'

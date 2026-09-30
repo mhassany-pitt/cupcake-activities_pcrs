@@ -23,12 +23,12 @@ statement: Complete the examples in the docstring and then the function body.
 elements:
 - type: editable
   location:
-    snippet: "\ndef digital_sum(nums_list):\n    \"\"\" (list of str) -> int\n    \n    Precondition: s.isdigit() holds for\
+    snippet: "def digital_sum(nums_list):\n    \"\"\" (list of str) -> int\n    \n    Precondition: s.isdigit() holds for\
       \ each string s in nums_list.\n\n    Return the sum of all the digits in all strings in nums_list.\n\n    >>> digital_sum(['64',\
       \ '128', '256'])\n    34\n    >>> digital_sum(['12', '3'])\n    # TODO: fill in the expected return of this example\
       \ call. \n    \"\"\"\n    # TODO: Complete the function body "
-  placeholder: "\ndef digital_sum(nums_list):\n    \"\"\" (list of str) -> int\n    \n    Precondition: s.isdigit() holds\
-    \ for each string s in nums_list.\n\n    Return the sum of all the digits in all strings in nums_list.\n\n    >>> digital_sum(['64',\
+  placeholder: "def digital_sum(nums_list):\n    \"\"\" (list of str) -> int\n    \n    Precondition: s.isdigit() holds for\
+    \ each string s in nums_list.\n\n    Return the sum of all the digits in all strings in nums_list.\n\n    >>> digital_sum(['64',\
     \ '128', '256'])\n    34\n    >>> digital_sum(['12', '3'])\n    # TODO: fill in the expected return of this example call.\
     \ \n    \"\"\"\n    # TODO: Complete the function body "
 testcases:

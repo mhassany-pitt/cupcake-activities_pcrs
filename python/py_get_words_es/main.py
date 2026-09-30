@@ -1,4 +1,3 @@
-
 def obtener_palabras(archivo):
     """" (Archivo Abierto para lectura) -> lista de str
  

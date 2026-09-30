@@ -29,8 +29,8 @@ statement: "*Using recursion*, complete the `countAllChildren` method so that it
 elements:
 - type: editable
   location:
-    snippet: "\npublic static int countAllChildren(Node node) {\n    // TODO\n    \n}"
-  placeholder: "\npublic static int countAllChildren(Node node) {\n    // TODO\n    \n}"
+    snippet: "public static int countAllChildren(Node node) {\n    // TODO\n    \n}"
+  placeholder: "public static int countAllChildren(Node node) {\n    // TODO\n    \n}"
 - type: locked
   location:
     snippet: "class Node{\n   public int id;\n   public Node parent;\n   public ArrayList<Node> children;//How many direct\

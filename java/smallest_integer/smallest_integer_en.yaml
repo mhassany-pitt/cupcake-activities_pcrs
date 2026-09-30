@@ -21,10 +21,6 @@ runtime:
   version: '17'
 statement: "Find the smallest n such that \n\n1 + 4 + 9 +…+ n^2 \n\nis too large to be represented as an int."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: public int smallestN() {

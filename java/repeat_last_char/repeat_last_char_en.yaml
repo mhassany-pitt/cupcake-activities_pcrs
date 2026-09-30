@@ -50,10 +50,6 @@ statement: |-
   Ej. 1: si el valor de `cadena` es "Hello", el código imprime oo.
   Ej. 2: si el valor de `cadena` es "HiH", el código imprime HH.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    String resultado;'

@@ -30,12 +30,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def exactlyOnePositive(a, b, c):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def exactlyOnePositive(a, b, c):
         # code here
 testcases:

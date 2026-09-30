@@ -23,8 +23,7 @@ statement: Complete the following code.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def insert(lst, v):
           """ (list of int, int) -> NoneType
 
@@ -40,8 +39,7 @@ elements:
           >>> my_list
           [20, 5, 4, 2, 10]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def insert(lst, v):
         """ (list of int, int) -> NoneType
 

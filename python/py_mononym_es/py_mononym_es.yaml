@@ -32,12 +32,12 @@ statement: Completa la siguiente funcion de acuerdo con la descripcion de su doc
 elements:
 - type: editable
   location:
-    snippet: "\ndef formato_nombre(primero, ultimo):\n    \"\"\" (str, str) -> str\n    \n    Devuelve el nombre y apellido\
+    snippet: "def formato_nombre(primero, ultimo):\n    \"\"\" (str, str) -> str\n    \n    Devuelve el nombre y apellido\
       \ dados como un unico string, en la forma:\n    APELLIDO, NOMBRE\n    donde APELLIDO y NOMBRE son reemplazados por ultimo\
       \ y primero.\n    Las personas mononimas (aquellas sin apellido) deben tener su nombre\n    devuelto sin una coma.\n\
       \n    >>> formato_nombre('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> formato_nombre('Cher', '')\n\
       \    'Cher'\n    \"\"\""
-  placeholder: "\ndef formato_nombre(primero, ultimo):\n    \"\"\" (str, str) -> str\n    \n    Devuelve el nombre y apellido\
+  placeholder: "def formato_nombre(primero, ultimo):\n    \"\"\" (str, str) -> str\n    \n    Devuelve el nombre y apellido\
     \ dados como un unico string, en la forma:\n    APELLIDO, NOMBRE\n    donde APELLIDO y NOMBRE son reemplazados por ultimo\
     \ y primero.\n    Las personas mononimas (aquellas sin apellido) deben tener su nombre\n    devuelto sin una coma.\n\n\
     \    >>> formato_nombre('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> formato_nombre('Cher', '')\n   \

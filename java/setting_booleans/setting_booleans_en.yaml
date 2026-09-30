@@ -45,10 +45,6 @@ statement: |-
   - If it's sunny and you didn't have any homework, then it's a good day!
   - Otherwise, it wasn't sunny and/or you had homework, so it's not a good day...
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: |2-

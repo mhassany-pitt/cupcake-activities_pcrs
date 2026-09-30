@@ -1,4 +1,3 @@
-
 def is_right_triangle(side1, side2, hypotenuse):
     """ (int, int, int) -> bool
 

@@ -1,4 +1,3 @@
-
 def entero_unico(lista_numeros):
     """
     Encuentra el numero unico en una lista de numeros enteros impares.

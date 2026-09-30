@@ -42,10 +42,6 @@ statement: "Given three integer variables, `a`, `b`, and `c`, write a boolean ex
   \ value of `c` is 1, and the value of `bOk` is false, the value of `result` will be false. \nE.g. 3: if the value of `a`\
   \ is 1, the value of `b` is 1 , the value of `c` is 2, and the value of `bOk` is true, the value of `result` will be true."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean result;'

@@ -41,13 +41,11 @@ statement: "Complete the `isPalindrome` method so that it returns\n `true` if th
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       public boolean isPalindrome(String s) {
           // TODO: add your code
       }
-  placeholder: |2-
-
+  placeholder: |-
     public boolean isPalindrome(String s) {
         // TODO: add your code
     }

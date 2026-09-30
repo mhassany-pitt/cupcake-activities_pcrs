@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contains_no_lowercase_vowels(phrase):
           """ (str) -> bool
 
@@ -37,8 +36,7 @@ elements:
           >>> contains_no_lowercase_vowels('abc')
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def contains_no_lowercase_vowels(phrase):
         """ (str) -> bool
 

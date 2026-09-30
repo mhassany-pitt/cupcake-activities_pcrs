@@ -1,4 +1,3 @@
-
 def triangulo_ascii(bloque, lado):
     """ (str, int) -> str
 

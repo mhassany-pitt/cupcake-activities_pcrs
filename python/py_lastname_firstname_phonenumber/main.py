@@ -1,4 +1,3 @@
-
 def to_listing(first_name, last_name, num):
     """ (str, str, str) -> str
 

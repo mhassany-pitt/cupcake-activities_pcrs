@@ -1,4 +1,3 @@
-
 def find_letter_n_times(s, letter, n):
     """ (str, str, int) -> str
 

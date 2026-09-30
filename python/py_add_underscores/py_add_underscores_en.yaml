@@ -23,10 +23,10 @@ statement: Add at least one example and complete the function body according to 
 elements:
 - type: editable
   location:
-    snippet: "\ndef add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair of\
+    snippet: "def add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair of\
       \ characters\n\n    # TODO: add at least one example\n\n    \"\"\"\n\n    # TODO: complete the function body"
-  placeholder: "\ndef add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair\
-    \ of characters\n\n    # TODO: add at least one example\n\n    \"\"\"\n\n    # TODO: complete the function body"
+  placeholder: "def add_underscores(s):\n    \"\"\"(str) -> str\n    \n    Return s with an underscore between each pair of\
+    \ characters\n\n    # TODO: add at least one example\n\n    \"\"\"\n\n    # TODO: complete the function body"
 testcases:
 - title: Solution Verification
   visible: true

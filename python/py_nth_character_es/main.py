@@ -1,4 +1,3 @@
-
 def cada_n_caracter(string, n):
     """ (str, int) -> str
 

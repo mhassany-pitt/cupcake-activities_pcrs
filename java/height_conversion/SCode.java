@@ -1,4 +1,3 @@
-
 // IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here
 // You Do not need to import java.util.Scanner, it is already imported.
         

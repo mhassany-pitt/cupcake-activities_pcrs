@@ -1,4 +1,3 @@
-// Write your code here
 public class IceCream{ 
     //class attributes
     private boolean sprinkles;

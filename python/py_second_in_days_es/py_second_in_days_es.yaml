@@ -35,10 +35,6 @@ statement: |-
   Ej. 1: si el valor de n es 1, la variable `segundos` se establece en 86400.
   Ej. 2: si el valor de n es 2, la variable `segundos` se establece en 172800.
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: |-

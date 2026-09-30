@@ -32,8 +32,7 @@ statement: Escribe el cuerpo de la funcion y luego haz clic en Enviar para proba
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def galletas_necesarias(num_adultos, num_adolescentes, num_ninos):
           """ (int, int, int) -> int
 
@@ -44,8 +43,7 @@ elements:
           >>> galletas_necesarias(2, 3, 1)
           23
           """
-  placeholder: |2-
-
+  placeholder: |-
     def galletas_necesarias(num_adultos, num_adolescentes, num_ninos):
         """ (int, int, int) -> int
 

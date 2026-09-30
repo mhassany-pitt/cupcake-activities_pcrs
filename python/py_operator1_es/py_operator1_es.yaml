@@ -32,8 +32,7 @@ statement: First, click the green "Submit" button in the centre bottom of the wi
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       # when you arrive at UofT you need 20 credits
       completed = 0
       required = 20
@@ -54,8 +53,7 @@ elements:
 
       # by the end of 2nd year, you have done 5 more
       # TODO: Write your last assignment statement here:
-  placeholder: |2
-
+  placeholder: |
     # when you arrive at UofT you need 20 credits
     completed = 0
     required = 20

@@ -1,4 +1,3 @@
-
 def reverse_lookup_lists(phone_num, phone_numbers, names):
     """ (str, list of str, list of str) -> str
 

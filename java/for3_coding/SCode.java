@@ -1,4 +1,3 @@
-// Write your code here
 String resultado = "";
 int i;
 for 

@@ -47,10 +47,6 @@ statement: |-
 
   More instructions on how to implement the missing parts of this class are provided in the code below.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Plane {\n    private String airline;\n    private String model;\n    private double mileage;\n\

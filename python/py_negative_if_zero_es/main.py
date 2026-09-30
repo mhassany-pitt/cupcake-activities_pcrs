@@ -1,3 +1,2 @@
-
 def esNegativo(x):
     return

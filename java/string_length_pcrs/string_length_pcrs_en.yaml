@@ -30,10 +30,6 @@ runtime:
 statement: Complete the following program in order to print to the console what is the length of a string (i.e. total number
   of characters)  entered by a user from keyboard.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab2 {\n    public static void main(String[] args){\n        // Create\

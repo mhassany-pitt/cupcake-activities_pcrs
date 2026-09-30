@@ -46,10 +46,6 @@ statement: "Given a number `n`, complete the following code in order to determin
   \ the value of `outsideMode` is false, the value of `result` will be false.\nE.g. 3: if the value of `n` is 11 and the value\
   \ of `outsideMode` is true, the value of `result` will be true."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean result;'

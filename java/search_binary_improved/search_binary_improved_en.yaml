@@ -30,13 +30,13 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\n//You should return an array with two elements\n// - 1st element: the index of the searched element (-1 if\
-      \ it is not there)\n// - 2nd element: how many comparisons were performed to find the number (comparisons done for checking\
+    snippet: "//You should return an array with two elements\n// - 1st element: the index of the searched element (-1 if it\
+      \ is not there)\n// - 2nd element: how many comparisons were performed to find the number (comparisons done for checking\
       \ if the number is out of the ArrayList should not be considered for this calculation)\nstatic int[] improvedBinarySearch(int\
       \ number, ArrayList<Integer> sortedList){\n\n}\n      "
-  placeholder: "\n//You should return an array with two elements\n// - 1st element: the index of the searched element (-1\
-    \ if it is not there)\n// - 2nd element: how many comparisons were performed to find the number (comparisons done for\
-    \ checking if the number is out of the ArrayList should not be considered for this calculation)\nstatic int[] improvedBinarySearch(int\
+  placeholder: "//You should return an array with two elements\n// - 1st element: the index of the searched element (-1 if\
+    \ it is not there)\n// - 2nd element: how many comparisons were performed to find the number (comparisons done for checking\
+    \ if the number is out of the ArrayList should not be considered for this calculation)\nstatic int[] improvedBinarySearch(int\
     \ number, ArrayList<Integer> sortedList){\n\n}\n      "
 testcases:
 - title: Solution Verification

@@ -47,10 +47,6 @@ statement: |-
   E.g. 2: if the value of `n` is 4, the value of `factorial` will be 24.
   E.g. 3: if the value of `n` is 5, the value of `factorial` will be 120.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "long factorial = 1;\nint i;\nfor "

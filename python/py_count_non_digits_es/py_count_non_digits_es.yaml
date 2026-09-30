@@ -47,8 +47,7 @@ statement: Completa la siguiente funcion segun su docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contar_no_digitos(string):
           """ (str) -> int
 
@@ -61,8 +60,7 @@ elements:
           >>> contar_no_digitos('A.4')
           2
           """
-  placeholder: |2-
-
+  placeholder: |-
     def contar_no_digitos(string):
         """ (str) -> int
 

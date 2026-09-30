@@ -63,14 +63,14 @@ statement: "Este problema te pide escribir un ciclo anidado para procesar una `l
 elements:
 - type: editable
   location:
-    snippet: "\ndef solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una lista\
+    snippet: "def solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una lista\
       \ de las listas en lista que contienen solo enteros pares. \n   \n    >>> solo_pares([[1, 2, 4], [4, 0, 6], [22, 4,\
       \ 3], [2]])\n    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    listas_pares = []\n\n    for sublista in lista:\n        #\
       \ escribe tu codigo aqui\n        \n    return listas_pares"
-  placeholder: "\ndef solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una\
-    \ lista de las listas en lista que contienen solo enteros pares. \n   \n    >>> solo_pares([[1, 2, 4], [4, 0, 6], [22,\
-    \ 4, 3], [2]])\n    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    listas_pares = []\n\n    for sublista in lista:\n        #\
-    \ escribe tu codigo aqui\n        \n    return listas_pares"
+  placeholder: "def solo_pares(lista):\n    \"\"\" (lista de lista de int) -> lista de lista de int\n\n    Devuelve una lista\
+    \ de las listas en lista que contienen solo enteros pares. \n   \n    >>> solo_pares([[1, 2, 4], [4, 0, 6], [22, 4, 3],\
+    \ [2]])\n    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    listas_pares = []\n\n    for sublista in lista:\n        # escribe\
+    \ tu codigo aqui\n        \n    return listas_pares"
 testcases:
 - title: Solution Verification
   visible: true

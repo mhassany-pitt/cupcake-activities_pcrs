@@ -1,4 +1,3 @@
-
 def swap_ends(L):
     """ (list) -> NoneType
     

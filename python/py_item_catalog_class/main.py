@@ -1,4 +1,3 @@
-# Write your code here
 class Item:
     'an Item class for the catalog'
     internal_id = 100

@@ -1,4 +1,3 @@
-
 def agregar_guiones_bajos(string):
     """(str) -> str
     

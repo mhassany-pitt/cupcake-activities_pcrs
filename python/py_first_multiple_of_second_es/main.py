@@ -1,4 +1,3 @@
-
 def es_multiplo(valor1, valor2):
     """ (int, int) -> booleano
 

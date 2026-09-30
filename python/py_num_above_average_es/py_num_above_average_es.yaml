@@ -64,10 +64,6 @@ statement: |-
   numPorEncimaDelPromedio([5, 7], [])=>0
   ```
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: |-

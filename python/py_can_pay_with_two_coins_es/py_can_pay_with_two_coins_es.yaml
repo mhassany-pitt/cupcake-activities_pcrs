@@ -47,14 +47,14 @@ statement: Completa los ejemplos en el docstring y luego el cuerpo de la funcion
 elements:
 - type: editable
   location:
-    snippet: "\ndef puede_pagar_con_dos_monedas(denominaciones, cantidad):\n    \"\"\" (lista de int, int) -> bool\n    \n\
-      \    Devuelve True si y solo si es posible formar cantidad, que es un\n    numero de centavos, usando exactamente dos\
+    snippet: "def puede_pagar_con_dos_monedas(denominaciones, cantidad):\n    \"\"\" (lista de int, int) -> bool\n    \n \
+      \   Devuelve True si y solo si es posible formar cantidad, que es un\n    numero de centavos, usando exactamente dos\
       \ monedas, que pueden ser de cualquiera de las\n    denominaciones en denominaciones.\n\n    >>> puede_pagar_con_dos_monedas([1,\
       \ 5, 10, 25], 35)\n    True\n    >>> puede_pagar_con_dos_monedas([1, 5, 10, 25], 20)\n    True\n    >>> puede_pagar_con_dos_monedas([1,\
       \ 5, 10, 25], 12)\n    #Pendiente: completar el ejemplo de salida\n\n    \"\"\"\n\n    #Pendiente: completar el cuerpo\
       \ de la funcion"
-  placeholder: "\ndef puede_pagar_con_dos_monedas(denominaciones, cantidad):\n    \"\"\" (lista de int, int) -> bool\n   \
-    \ \n    Devuelve True si y solo si es posible formar cantidad, que es un\n    numero de centavos, usando exactamente dos\
+  placeholder: "def puede_pagar_con_dos_monedas(denominaciones, cantidad):\n    \"\"\" (lista de int, int) -> bool\n    \n\
+    \    Devuelve True si y solo si es posible formar cantidad, que es un\n    numero de centavos, usando exactamente dos\
     \ monedas, que pueden ser de cualquiera de las\n    denominaciones en denominaciones.\n\n    >>> puede_pagar_con_dos_monedas([1,\
     \ 5, 10, 25], 35)\n    True\n    >>> puede_pagar_con_dos_monedas([1, 5, 10, 25], 20)\n    True\n    >>> puede_pagar_con_dos_monedas([1,\
     \ 5, 10, 25], 12)\n    #Pendiente: completar el ejemplo de salida\n\n    \"\"\"\n\n    #Pendiente: completar el cuerpo\

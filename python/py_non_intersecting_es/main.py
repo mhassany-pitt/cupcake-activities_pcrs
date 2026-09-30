@@ -1,4 +1,3 @@
-
 def listas_sin_interseccion(lista1, lista2):
     """
     (lista de lista de str, lista de str) -> lista de lista de str

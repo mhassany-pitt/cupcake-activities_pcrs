@@ -1,4 +1,3 @@
-
 def find_value_indexes(item_list, index_list, v):
     """ (list of object, list of int, object) -> list of int
 

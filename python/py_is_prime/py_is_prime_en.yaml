@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isPrime(x):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def isPrime(x):
         # code here
 testcases:

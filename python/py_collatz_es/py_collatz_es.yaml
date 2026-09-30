@@ -57,8 +57,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contar_pasos_collatz(n):
           """ (int) -> int
 
@@ -68,8 +67,7 @@ elements:
           >>> contar_pasos_collatz(6)
           8
           """
-  placeholder: |2-
-
+  placeholder: |-
     def contar_pasos_collatz(n):
         """ (int) -> int
 

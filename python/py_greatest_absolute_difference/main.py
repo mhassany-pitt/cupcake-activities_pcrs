@@ -1,4 +1,3 @@
-
 def greatest_difference(nums1, nums2):
     """ (list of number, list of number) -> number
 

@@ -34,10 +34,10 @@ statement: Completa la siguiente funcion segun su docstring. Los argumentos que 
 elements:
 - type: editable
   location:
-    snippet: "\ndef mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
+    snippet: "def mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
       \ si el primer elemento de nombre1 y nombre2 son el mismo.\n    \n    >>> mismo_primer_nombre(['John', 'Smith'], ['John',\
       \ 'Harkness'])\n    True\n    >>> mismo_primer_nombre(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
-  placeholder: "\ndef mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
+  placeholder: "def mismo_primer_nombre(nombre1, nombre2):\n    \"\"\" (lista de str, lista de str) -> bool\n    \n    Devuelve\
     \ si el primer elemento de nombre1 y nombre2 son el mismo.\n    \n    >>> mismo_primer_nombre(['John', 'Smith'], ['John',\
     \ 'Harkness'])\n    True\n    >>> mismo_primer_nombre(['John', 'Smith'], ['Matt', 'Smith'])\n    False\n    \"\"\""
 testcases:

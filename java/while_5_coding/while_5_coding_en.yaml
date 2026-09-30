@@ -27,10 +27,6 @@ statement: "Given a string variable `str`, complete the following code in order 
   \ \nE.g. 2: if the initial value of `str` is \"abc\", the value of `isPalindrome` will be false . \nE.g. 3: if the initial\
   \ value of `str` is \"abbccbba\", the value of `isPalindrome` will be true ."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: boolean isPalindrome;

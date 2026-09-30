@@ -1,4 +1,3 @@
-// Write your code here
 public class Sports{
 
     String getName(){

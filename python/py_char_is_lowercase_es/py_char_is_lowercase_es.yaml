@@ -32,12 +32,10 @@ statement: Una letra es minúscula si se encuentra entre 'a' y 'z'. Escribe una 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def esMinuscula(letra):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def esMinuscula(letra):
         return
 testcases:

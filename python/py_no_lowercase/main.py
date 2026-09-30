@@ -1,4 +1,3 @@
-
 def contains_no_lowercase_vowels(phrase):
     """ (str) -> bool
 

@@ -24,12 +24,10 @@ statement: A person can only drink alcohol if they’re 21 or older and aren’t
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def canDrinkAlcohol(age, isDriving):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def canDrinkAlcohol(age, isDriving):
         return
 testcases:

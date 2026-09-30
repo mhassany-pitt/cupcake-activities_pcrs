@@ -31,12 +31,12 @@ statement: Copia y pega el contenido de tu solucion para formato_nombre en el cu
 elements:
 - type: editable
   location:
-    snippet: "\ndef a_listado(primer_nombre, apellido, num):\n    \"\"\" (str, str, str) -> str\n\n    El primer parametro\
-      \ es un primer nombre, el segundo es un apellido, y el tercer parametro \n    es un numero de telefono. Devuelve un\
-      \ string en el formato \"APELLIDO, \n    PRIMER_NOMBRE: NUMERO_TELEFONO\", donde APELLIDO, PRIMER_NOMBRE, y \n    NUMERO_TELEFONO\
+    snippet: "def a_listado(primer_nombre, apellido, num):\n    \"\"\" (str, str, str) -> str\n\n    El primer parametro es\
+      \ un primer nombre, el segundo es un apellido, y el tercer parametro \n    es un numero de telefono. Devuelve un string\
+      \ en el formato \"APELLIDO, \n    PRIMER_NOMBRE: NUMERO_TELEFONO\", donde APELLIDO, PRIMER_NOMBRE, y \n    NUMERO_TELEFONO\
       \ son reemplazados por el apellido, primer nombre y numero de telefono dados.\n\n    >>> ('David', ''Cohen', '12345')\n\
       \    'Cohen, David: 12345'\n    \"\"\""
-  placeholder: "\ndef a_listado(primer_nombre, apellido, num):\n    \"\"\" (str, str, str) -> str\n\n    El primer parametro\
+  placeholder: "def a_listado(primer_nombre, apellido, num):\n    \"\"\" (str, str, str) -> str\n\n    El primer parametro\
     \ es un primer nombre, el segundo es un apellido, y el tercer parametro \n    es un numero de telefono. Devuelve un string\
     \ en el formato \"APELLIDO, \n    PRIMER_NOMBRE: NUMERO_TELEFONO\", donde APELLIDO, PRIMER_NOMBRE, y \n    NUMERO_TELEFONO\
     \ son reemplazados por el apellido, primer nombre y numero de telefono dados.\n\n    >>> ('David', ''Cohen', '12345')\n\

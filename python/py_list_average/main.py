@@ -1,3 +1,2 @@
-
 def avgIt(aList):
     #code

@@ -27,12 +27,10 @@ statement: "Write a function that takes a string as a parameter,\nand returns Tr
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isDNAString(seq):
           # code goes here
-  placeholder: |2-
-
+  placeholder: |-
     def isDNAString(seq):
         # code goes here
 testcases:

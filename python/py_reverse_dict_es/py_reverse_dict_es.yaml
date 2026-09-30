@@ -52,12 +52,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def invertirDiccionario(d):
           # Escribe tu codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def invertirDiccionario(d):
         # Escribe tu codigo aqui
 testcases:

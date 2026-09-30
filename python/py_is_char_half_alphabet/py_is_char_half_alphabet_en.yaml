@@ -26,12 +26,10 @@ statement: 'In python you can compare strings like you compare numbers (using al
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def firstHalf(s):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def firstHalf(s):
         return
 testcases:

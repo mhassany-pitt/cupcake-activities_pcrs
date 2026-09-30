@@ -1,2 +1,1 @@
-
 context_to_next_words = {('And', 'the'): [

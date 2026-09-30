@@ -37,10 +37,6 @@ statement: |-
 
   Make sure to interact with the superclass.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "class Employee {\n\tprivate int hours;\n\tprivate double hourlyRate;\n    \n\tpublic int getHours() {\n\t\t\

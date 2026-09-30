@@ -24,8 +24,7 @@ statement: In the function below, steps 1-4 of the Function Design Recipe have b
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def is_multiple_of_3(value):
           """ (int) -> bool
 
@@ -36,8 +35,7 @@ elements:
           >>> is_multiple_of_3(7)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def is_multiple_of_3(value):
         """ (int) -> bool
 

@@ -59,14 +59,14 @@ statement: A continuacion, hemos proporcionado una clase SistemaDeBienesRaices q
 elements:
 - type: editable
   location:
-    snippet: "\nclass SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
+    snippet: "class SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
       \ la lista de casas\n        \"\"\"\n        self.casas = []\n        \n    def anadir_casa(self, casa):\n        \"\
       \"\" (SistemaDeBienesRaices, Casa) -> NoneType\n        Anadir una casa a nuestro sistema\n        \"\"\"\n        self.casas.append(casa)\n\
       \    \n    def extraer_precio_minimo(self):\n        \"\"\" (SistemaDeBienesRaices) -> int\n        Devolver la casa\
       \ con el precio mas bajo en el sistema, o -1 si no hay casas en el sistema\n        \"\"\"\n        # completa este\
       \ codigo\n\n\nclass Casa:\n    \"\"\" Una instancia de una casa \"\"\"\n    def __init__(self, precio):\n        \"\"\
       \" (Casa, float)\n        Inicializar una casa\n        \"\"\"\n        self.precio = precio"
-  placeholder: "\nclass SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
+  placeholder: "class SistemaDeBienesRaices:\n    def __init__(self):\n        \"\"\" (SistemaDeBienesRaices)\n        Inicializar\
     \ la lista de casas\n        \"\"\"\n        self.casas = []\n        \n    def anadir_casa(self, casa):\n        \"\"\
     \" (SistemaDeBienesRaices, Casa) -> NoneType\n        Anadir una casa a nuestro sistema\n        \"\"\"\n        self.casas.append(casa)\n\
     \    \n    def extraer_precio_minimo(self):\n        \"\"\" (SistemaDeBienesRaices) -> int\n        Devolver la casa con\

@@ -37,10 +37,6 @@ statement: |-
   Hint: Make sure both setter methods you write are `void` methods
   Hint: When transferring money from spending to savings, make sure you set spending back to 0.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Bank {\n    private double spending;\n    private double savings;\n    \n    public Bank()\n  \

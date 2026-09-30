@@ -42,8 +42,8 @@ statement: "Given a string variable `str`, complete the following code in order 
 elements:
 - type: editable
   location:
-    snippet: "\n    // TODO: add your code here\n    \n\n        "
-  placeholder: "\n    // TODO: add your code here\n    \n\n        "
+    snippet: "    // TODO: add your code here\n    \n\n        "
+  placeholder: "    // TODO: add your code here\n    \n\n        "
 testcases:
 - title: Solution Verification
   visible: true

@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def different_types(obj1, obj2):
           """ (object, object) -> bool
 
@@ -35,8 +34,7 @@ elements:
           >>> different_types(108.0, 3.14)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def different_types(obj1, obj2):
         """ (object, object) -> bool
 

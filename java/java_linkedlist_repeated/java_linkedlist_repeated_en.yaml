@@ -38,10 +38,9 @@ statement: "By using the LinkedList class implemented in the java.lang package, 
 elements:
 - type: editable
   location:
-    snippet: "\nstatic LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n    \
-      \  "
-  placeholder: "\nstatic LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n  \
-    \    "
+    snippet: "static LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n      "
+  placeholder: "static LinkedList<Integer> listRepeated(LinkedList<Integer> listA, LinkedList<Integer> listB){\n\n}\n    \
+    \  "
 testcases:
 - title: Solution Verification
   visible: true

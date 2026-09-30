@@ -25,12 +25,10 @@ statement: Write a function which, when given a continent name, returns whether 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isConnected(continent):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def isConnected(continent):
         return
 testcases:

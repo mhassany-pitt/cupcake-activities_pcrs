@@ -70,8 +70,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def insert_even(L, i):
           """ (list, int) -> NoneType
 
@@ -84,8 +83,7 @@ elements:
           >>> L
           [5, 3, 7, 2]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def insert_even(L, i):
         """ (list, int) -> NoneType
 

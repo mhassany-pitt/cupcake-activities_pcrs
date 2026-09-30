@@ -1,4 +1,3 @@
-
 def earlier_name(name1, name2):
     """ (str, str) -> str
 

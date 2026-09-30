@@ -26,12 +26,10 @@ statement: "Write a function that takes a list of strings\nand returns the index
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def longestStringIndex(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def longestStringIndex(items):
         #code
 testcases:

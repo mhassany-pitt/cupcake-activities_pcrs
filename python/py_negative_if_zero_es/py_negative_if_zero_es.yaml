@@ -31,12 +31,10 @@ statement: Un numero solo se considera negativo si es menor que 0. Escribe una f
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def esNegativo(x):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def esNegativo(x):
         return
 testcases:

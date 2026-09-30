@@ -23,8 +23,7 @@ statement: Complete method `area` in the following class.  All it needs is a `re
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Rectangle:
           """ A rectangle with a width and height. """
 
@@ -52,8 +51,7 @@ elements:
               >>> r.area()
               200
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Rectangle:
         """ A rectangle with a width and height. """
 

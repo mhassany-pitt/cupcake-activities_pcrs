@@ -55,10 +55,6 @@ statement: |-
   factor_menor(24) -> 2
   factor_menor(49) -> 7
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: 'def factor_menor(n):'

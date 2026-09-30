@@ -1,4 +1,3 @@
-
 def reverse_lookup_dictionary(phone_num, phone_to_name):
     """ (str, dict of {str: str}) -> str
 

@@ -1,4 +1,3 @@
-
 def is_teenager(age):
     """ (int) -> bool
 

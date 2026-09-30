@@ -1,4 +1,3 @@
-
 def todo_esponjoso(c):
     """ (str) -> bool
 

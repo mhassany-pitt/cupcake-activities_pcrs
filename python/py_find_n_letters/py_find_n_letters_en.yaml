@@ -24,11 +24,11 @@ statement: Complete the body for the following function. While this function cou
 elements:
 - type: editable
   location:
-    snippet: "\ndef find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
+    snippet: "def find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
       \ at least n times in s\n\n    Return the smallest substring of s starting from index 0 that contains\n    n occurrences\
       \ of letter.\n\n    >>> find_letter_n_times('Computer Science', 'e', 2)\n    'Computer Scie'\n    \"\"\"\n\n    i =\
       \ 0\n    count = 0\n    \n    #TODO complete the rest of the function below"
-  placeholder: "\ndef find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
+  placeholder: "def find_letter_n_times(s, letter, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondition: letter occurs\
     \ at least n times in s\n\n    Return the smallest substring of s starting from index 0 that contains\n    n occurrences\
     \ of letter.\n\n    >>> find_letter_n_times('Computer Science', 'e', 2)\n    'Computer Scie'\n    \"\"\"\n\n    i = 0\n\
     \    count = 0\n    \n    #TODO complete the rest of the function below"

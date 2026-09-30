@@ -1,4 +1,3 @@
-
 class SpecialList:
     """A list that can hold a limited number of items."""
 

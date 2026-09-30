@@ -25,12 +25,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def hello_world(name):
           # Your code goes here...
-  placeholder: |2-
-
+  placeholder: |-
     def hello_world(name):
         # Your code goes here...
 testcases:

@@ -1,4 +1,3 @@
-
 def all_fluffy(s):
     """ (str) -> bool
 

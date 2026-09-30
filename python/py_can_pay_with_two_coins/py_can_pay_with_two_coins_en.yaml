@@ -23,12 +23,12 @@ statement: Complete the examples in the docstring and then the function body.
 elements:
 - type: editable
   location:
-    snippet: "\ndef can_pay_with_two_coins(denoms, amount):\n    \"\"\" (list of int, int) -> bool\n    \n    Return True\
-      \ if and only if it is possible to form amount, which is a\n    number of cents, using exactly two coins, which can\
-      \ be of any of the\n    denominations in denoms.\n\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 35)\n    True\n \
-      \   >>> can_pay_with_two_coins([1, 5, 10, 25], 20)\n    True\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 12)\n \
-      \   #TODO: complete the example output\n\n    \"\"\"\n\n    #TODO: complete the function body"
-  placeholder: "\ndef can_pay_with_two_coins(denoms, amount):\n    \"\"\" (list of int, int) -> bool\n    \n    Return True\
+    snippet: "def can_pay_with_two_coins(denoms, amount):\n    \"\"\" (list of int, int) -> bool\n    \n    Return True if\
+      \ and only if it is possible to form amount, which is a\n    number of cents, using exactly two coins, which can be\
+      \ of any of the\n    denominations in denoms.\n\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 35)\n    True\n    >>>\
+      \ can_pay_with_two_coins([1, 5, 10, 25], 20)\n    True\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 12)\n    #TODO:\
+      \ complete the example output\n\n    \"\"\"\n\n    #TODO: complete the function body"
+  placeholder: "def can_pay_with_two_coins(denoms, amount):\n    \"\"\" (list of int, int) -> bool\n    \n    Return True\
     \ if and only if it is possible to form amount, which is a\n    number of cents, using exactly two coins, which can be\
     \ of any of the\n    denominations in denoms.\n\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 35)\n    True\n    >>>\
     \ can_pay_with_two_coins([1, 5, 10, 25], 20)\n    True\n    >>> can_pay_with_two_coins([1, 5, 10, 25], 12)\n    #TODO:\

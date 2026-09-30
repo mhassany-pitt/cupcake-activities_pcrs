@@ -51,12 +51,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def maxLista(elementos):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def maxLista(elementos):
         # codigo
 testcases:

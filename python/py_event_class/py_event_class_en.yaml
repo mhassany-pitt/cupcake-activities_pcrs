@@ -24,7 +24,7 @@ statement: Complete each method of the class `Day`.  The `Day` class depends cla
 elements:
 - type: editable
   location:
-    snippet: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+    snippet: "class Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
       \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n     \
       \   \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n  \
       \      >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n  \
@@ -46,28 +46,27 @@ elements:
       \ 23, 'Celebrate end of classes'))\n        >>> print(d)\n        4 April 2014:\n        - Submit last exercise: from\
       \ 13 to 14\n        - Celebrate end of classes: from 19 to 23\n        \"\"\"\n\n        # To do: Complete this method\
       \ body."
-  placeholder: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time,\
-    \ event_name):\n        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time\
-    \ <= 23\n        \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\
-    \n        >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n \
-    \       >>> e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time\
-    \ = end_time\n        self.name = event_name\n\n    def __str__(self):\n        \"\"\" (Event) -> str\n\n        Return\
-    \ a string representation of this event.\n\n        >>> e = Event(6, 7, 'Run')\n        >>> str(e)\n        'Run: from\
-    \ 6 to 7'\n        \"\"\"\n        \n        return '{0}: from {1} to {2}'.format(self.name, self.start_time,\n      \
-    \                                       self.end_time)\n\nclass Day:\n    \"\"\"A calendar day and its events.\"\"\"\n\
-    \n    def __init__(self, day, month, year):\n        \"\"\" (Day, int, str, int) -> NoneType\n\n        Initialize a day\
-    \ on the calendar with day, month and year,\n        and no events.\n\n        >>> d = Day(5, 'April', 2014)\n       \
-    \ >>> d.day\n        5\n        >>> d.month\n        'April'\n        >>> d.year\n        2014\n        >>> d.events\n\
-    \        []\n        \"\"\"\n\n        # To do: Complete this method body.\n\n    def schedule_event(self, new_event):\n\
-    \        \"\"\" (Day, Event) -> NoneType\n        \n        Schedule new_event on this day, even if it overlaps with\n\
-    \        an existing event. Later we will improve this method.\n        \n        >>> d = Day(26, 'March', 2014)\n   \
-    \     >>> e = event.Event(11, 12, 'Meeting')\n        >>> d.schedule_event(e)\n        >>> d.events[0] == e\n        True\n\
-    \        \"\"\"\n\n        # To do: Complete this method body.\n    \n    def __str__(self):\n        \"\"\" (Day) ->\
-    \ str\n    \n        Return a string representation of this day.\n        \n        >>> d = Day(4, 'April', 2014)\n  \
-    \      >>> d.schedule_event(event.Event(13, 14, 'Submit last exercise'))\n        >>> d.schedule_event(event.Event(19,\
-    \ 23, 'Celebrate end of classes'))\n        >>> print(d)\n        4 April 2014:\n        - Submit last exercise: from\
-    \ 13 to 14\n        - Celebrate end of classes: from 19 to 23\n        \"\"\"\n\n        # To do: Complete this method\
-    \ body."
+  placeholder: "class Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+    \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n       \
+    \ \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n      \
+    \  >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n        >>>\
+    \ e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time = end_time\n\
+    \        self.name = event_name\n\n    def __str__(self):\n        \"\"\" (Event) -> str\n\n        Return a string representation\
+    \ of this event.\n\n        >>> e = Event(6, 7, 'Run')\n        >>> str(e)\n        'Run: from 6 to 7'\n        \"\"\"\
+    \n        \n        return '{0}: from {1} to {2}'.format(self.name, self.start_time,\n                               \
+    \              self.end_time)\n\nclass Day:\n    \"\"\"A calendar day and its events.\"\"\"\n\n    def __init__(self,\
+    \ day, month, year):\n        \"\"\" (Day, int, str, int) -> NoneType\n\n        Initialize a day on the calendar with\
+    \ day, month and year,\n        and no events.\n\n        >>> d = Day(5, 'April', 2014)\n        >>> d.day\n        5\n\
+    \        >>> d.month\n        'April'\n        >>> d.year\n        2014\n        >>> d.events\n        []\n        \"\"\
+    \"\n\n        # To do: Complete this method body.\n\n    def schedule_event(self, new_event):\n        \"\"\" (Day, Event)\
+    \ -> NoneType\n        \n        Schedule new_event on this day, even if it overlaps with\n        an existing event.\
+    \ Later we will improve this method.\n        \n        >>> d = Day(26, 'March', 2014)\n        >>> e = event.Event(11,\
+    \ 12, 'Meeting')\n        >>> d.schedule_event(e)\n        >>> d.events[0] == e\n        True\n        \"\"\"\n\n    \
+    \    # To do: Complete this method body.\n    \n    def __str__(self):\n        \"\"\" (Day) -> str\n    \n        Return\
+    \ a string representation of this day.\n        \n        >>> d = Day(4, 'April', 2014)\n        >>> d.schedule_event(event.Event(13,\
+    \ 14, 'Submit last exercise'))\n        >>> d.schedule_event(event.Event(19, 23, 'Celebrate end of classes'))\n      \
+    \  >>> print(d)\n        4 April 2014:\n        - Submit last exercise: from 13 to 14\n        - Celebrate end of classes:\
+    \ from 19 to 23\n        \"\"\"\n\n        # To do: Complete this method body."
 testcases:
 - title: Solution Verification
   visible: true

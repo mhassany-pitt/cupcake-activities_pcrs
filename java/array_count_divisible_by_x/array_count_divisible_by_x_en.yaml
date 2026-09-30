@@ -39,13 +39,11 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       public int countDivisibleByX(int[] arr, int x) {
           return -1;
       }
-  placeholder: |2-
-
+  placeholder: |-
     public int countDivisibleByX(int[] arr, int x) {
         return -1;
     }

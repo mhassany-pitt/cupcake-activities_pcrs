@@ -47,12 +47,12 @@ statement: 'Muchos sistemas similares a Unix (incluyendo CDF) tienen un dicciona
 elements:
 - type: editable
   location:
-    snippet: "\ndef es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
+    snippet: "def es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
       \    \n    Devuelve True si y solo si palabra es una palabra correctamente escrita en diccionario.\n    \n    >>> dict1\
       \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"Zyrtec\"\")\n    True\n    >>> dict1.close()\n\n    >>> dict1\
       \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"lolz\"\")\n    False\n    >>> dict1.close()\n    \"\"\"\n\
       \    #Escribe tu codigo aqui\n    \n    \n    "
-  placeholder: "\ndef es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
+  placeholder: "def es_correcta(archivo_diccionario, palabra):\n    \"\"\" (Archivo abierto para lectura, str) -> booleano\n\
     \    \n    Devuelve True si y solo si palabra es una palabra correctamente escrita en diccionario.\n    \n    >>> dict1\
     \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"Zyrtec\"\")\n    True\n    >>> dict1.close()\n\n    >>> dict1\
     \ = open('dict.txt', 'r')\n    >>> es_correcto(dict1, \"\"lolz\"\")\n    False\n    >>> dict1.close()\n    \"\"\"\n  \

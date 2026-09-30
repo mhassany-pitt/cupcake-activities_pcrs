@@ -27,11 +27,11 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef is_correct(dictionary, word):\n    \"\"\" (Open File for reading, str) -> bool\n    \n    Return True\
-      \ iff word is a correctly-spelled word in dictionary.\n    \n    >>> dict1 = open('dict.txt', 'r')\n    >>> is_correct(dict1,\
+    snippet: "def is_correct(dictionary, word):\n    \"\"\" (Open File for reading, str) -> bool\n    \n    Return True iff\
+      \ word is a correctly-spelled word in dictionary.\n    \n    >>> dict1 = open('dict.txt', 'r')\n    >>> is_correct(dict1,\
       \ \"Zyrtec\")\n    True\n    >>> dict1.close()\n\n    >>> dict1 = open('dict.txt', 'r')\n    >>> is_correct(dict1, \"\
       lolz\")\n    False\n    >>> dict1.close()\n    \"\"\""
-  placeholder: "\ndef is_correct(dictionary, word):\n    \"\"\" (Open File for reading, str) -> bool\n    \n    Return True\
+  placeholder: "def is_correct(dictionary, word):\n    \"\"\" (Open File for reading, str) -> bool\n    \n    Return True\
     \ iff word is a correctly-spelled word in dictionary.\n    \n    >>> dict1 = open('dict.txt', 'r')\n    >>> is_correct(dict1,\
     \ \"Zyrtec\")\n    True\n    >>> dict1.close()\n\n    >>> dict1 = open('dict.txt', 'r')\n    >>> is_correct(dict1, \"\
     lolz\")\n    False\n    >>> dict1.close()\n    \"\"\""

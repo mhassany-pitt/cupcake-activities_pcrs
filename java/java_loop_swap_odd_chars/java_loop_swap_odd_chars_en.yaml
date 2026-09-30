@@ -47,10 +47,6 @@ statement: |-
   opalg
   arpne#
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "\nimport java.util.Scanner;\n\npublic class Lab4 {\n    public static void main(String args[]) {\n\n\t\t// Create\

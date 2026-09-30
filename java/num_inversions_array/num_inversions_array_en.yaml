@@ -36,10 +36,6 @@ statement: |-
 
   Please note that you have to complete the method `numOfInversions(int [] input)`.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.*;\nimport java.io.*;\n\npublic class Lab5{\n    \n   static int array[] = { 26, 52, 96, 84,\

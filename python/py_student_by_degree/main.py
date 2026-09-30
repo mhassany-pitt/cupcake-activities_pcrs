@@ -1,4 +1,3 @@
-
 def students_by_degree(student_list, degree_type):
     """ (list of str, str) -> list of str
 

@@ -55,10 +55,6 @@ statement: "Complete the following code for overloading the constructors of the 
   \ and `letterGrade` as F.\n\nMore instructions on how to implement the missing parts of this class are provided in the code\
   \ below."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: |-

@@ -35,12 +35,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def countNums(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def countNums(items):
         #code
 testcases:

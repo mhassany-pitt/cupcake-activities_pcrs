@@ -47,10 +47,6 @@ runtime:
   version: '3'
 statement: Completa los ejemplos en el docstring y luego el cuerpo de la funcion.
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: "def suma_digital(lista_numeros):\n    \"\"\" (lista de str) -> int\n    \n    Precondicion: s.isdigit() se cumple\

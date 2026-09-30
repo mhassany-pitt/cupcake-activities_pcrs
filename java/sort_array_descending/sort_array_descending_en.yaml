@@ -36,9 +36,9 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
+    snippet: "static void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
       \ for details on how to solve this problem\n    \n        \n        \n        \n    }\n}\n      "
-  placeholder: "\nstatic void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
+  placeholder: "static void sortArrayDesc(int arr[]){\n        //TODO: write your code here\n        //See the instructions\
     \ for details on how to solve this problem\n    \n        \n        \n        \n    }\n}\n      "
 testcases:
 - title: Solution Verification

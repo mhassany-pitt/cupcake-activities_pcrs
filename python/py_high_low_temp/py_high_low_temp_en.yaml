@@ -23,12 +23,12 @@ statement: Complete the following function according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
+    snippet: "def average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
       \n    Precondition: len(high_temps) == len(low_temps)\n\n    high_temps and low_temps are daily high and low temperatures\
       \ for a series\n    of days. Return a new list of temperatures where each item is the daily\n    average.\n   \n   \
       \ >>> average_daily_temp([26, 27, 27, 28, 27, 26], [20, 20, 20, 20, 21, 21])\n    [23.0, 23.5, 23.5, 24.0, 24.0, 23.5]\n\
       \    \"\"\""
-  placeholder: "\ndef average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
+  placeholder: "def average_daily_temp(high_temps, low_temps):\n    \"\"\" (list of number, list of number) -> list of float\n\
     \n    Precondition: len(high_temps) == len(low_temps)\n\n    high_temps and low_temps are daily high and low temperatures\
     \ for a series\n    of days. Return a new list of temperatures where each item is the daily\n    average.\n   \n    >>>\
     \ average_daily_temp([26, 27, 27, 28, 27, 26], [20, 20, 20, 20, 21, 21])\n    [23.0, 23.5, 23.5, 24.0, 24.0, 23.5]\n \

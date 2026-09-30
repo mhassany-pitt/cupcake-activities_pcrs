@@ -39,10 +39,6 @@ statement: "The number 6 is a truly great number. Given two integer variables, `
   \ 6 and the value of `b` is 4,  the value of `result` will be true. \nE.g. 2: if the value of `a` is 4 and the value of\
   \ `b` is 5,  the value of `result` will be false."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean result;'

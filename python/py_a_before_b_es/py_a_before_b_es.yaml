@@ -48,12 +48,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def aAntesDeB(string, a, b):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def aAntesDeB(string, a, b):
         # codigo
 testcases:

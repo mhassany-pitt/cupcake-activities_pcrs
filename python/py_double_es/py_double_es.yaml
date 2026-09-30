@@ -30,11 +30,9 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def doble(numero):
-  placeholder: |2
-
+  placeholder: |
     def doble(numero):
 testcases:
 - title: Solution Verification

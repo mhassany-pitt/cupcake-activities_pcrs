@@ -25,12 +25,10 @@ statement: You just bought avocados at the grocery store! They won’t be ripe f
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def avocados(daysPassed):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def avocados(daysPassed):
         return
 testcases:

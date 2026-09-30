@@ -1,4 +1,3 @@
-
 def same_abs(num1, num2):
     """ (number, number) -> bool
 

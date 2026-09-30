@@ -57,10 +57,6 @@ statement: "Consider the following code:\n\n```\npublic class Circle {\n    priv
   \ Note that the radius of a circle must be always a positive number. Therefore, this method prevents setting the radius\
   \ of the circle to a negative value or zero."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Circle { \n    private double radius = 1;"

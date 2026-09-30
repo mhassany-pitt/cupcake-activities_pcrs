@@ -1,4 +1,3 @@
-
 def get_words(training_text):
     """ (File Open for reading) -> list of str
  

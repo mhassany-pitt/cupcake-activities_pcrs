@@ -1,4 +1,3 @@
-
 def duplicate_cut(enzyme_list):
     """ (list of str) -> bool
 

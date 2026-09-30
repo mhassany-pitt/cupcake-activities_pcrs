@@ -1,4 +1,3 @@
-
 def total_slices(num_pizzas, slices_per_pizza):
     """ (int, int) -> int
 

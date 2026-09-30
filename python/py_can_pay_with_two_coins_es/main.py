@@ -1,4 +1,3 @@
-
 def puede_pagar_con_dos_monedas(denominaciones, cantidad):
     """ (lista de int, int) -> bool
     

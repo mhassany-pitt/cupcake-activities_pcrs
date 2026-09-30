@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def countGenes(seq, gene):
           # code goes here
-  placeholder: |2-
-
+  placeholder: |-
     def countGenes(seq, gene):
         # code goes here
 testcases:

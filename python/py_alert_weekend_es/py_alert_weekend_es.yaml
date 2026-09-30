@@ -41,12 +41,10 @@ statement: 'Escribe una funcion que alertara al usuario sobre si ya es el fin de
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def esFinDeSemana(dia):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def esFinDeSemana(dia):
         return
 testcases:

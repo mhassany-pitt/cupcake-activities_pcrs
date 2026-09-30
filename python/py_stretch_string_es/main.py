@@ -1,4 +1,3 @@
-
 def estirar_string(c, factores_estiramiento):
     """ (str, lista de int) -> str
 

@@ -43,10 +43,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your\
-      \ code here\n        //See the instructions for details on how to solve this problem\n    \n        \n        \n   \
-      \     \n    }\n}\n      "
-  placeholder: "\nstatic void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your\
+    snippet: "static void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your code\
+      \ here\n        //See the instructions for details on how to solve this problem\n    \n        \n        \n        \n\
+      \    }\n}\n      "
+  placeholder: "static void sortArray(int arr[], int count){\n    for(int i=0;i<count-1;i++){\n        //TODO: write your\
     \ code here\n        //See the instructions for details on how to solve this problem\n    \n        \n        \n     \
     \   \n    }\n}\n      "
 testcases:

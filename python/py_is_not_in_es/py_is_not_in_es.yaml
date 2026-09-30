@@ -40,12 +40,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def noEstaEn(c1, c2):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def noEstaEn(c1, c2):
         # codigo
 testcases:

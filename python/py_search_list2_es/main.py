@@ -1,4 +1,3 @@
-
 def buscar_armario(elementos, color):
     """ (lista de str, str) -> lista de str
     

@@ -1,4 +1,3 @@
-
 def valido(string, alfabeto):
     """ (str, str) -> bool
 

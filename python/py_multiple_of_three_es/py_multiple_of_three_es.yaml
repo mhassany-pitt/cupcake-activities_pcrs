@@ -34,8 +34,7 @@ statement: Escribe el cuerpo de la funcion y luego haz clic en Enviar para proba
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def es_multiplo_de_3(valor):
           """ (int) -> bool
 
@@ -46,8 +45,7 @@ elements:
           >>> es_multiplo_de_3(7)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def es_multiplo_de_3(valor):
         """ (int) -> bool
 

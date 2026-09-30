@@ -52,12 +52,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def sumaLista(elementos):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def sumaLista(elementos):
         # codigo
 testcases:

@@ -26,10 +26,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass iPod:    \n    def __init__(self, capacidad_max_canciones):\n        self.capacidad_max_canciones =\
-      \ capacidad_max_canciones\n        self.biblioteca = {}\n        self.num_canciones = 0\n    \n    def espacio_disponible(self):\n\
-      \        #escribe este metodo\n    \n    def anadir_cancion(self, artista, nombre_cancion):\n        if self.espacio_disponible()\
-      \ == 0:\n            print(\"No hay mas espacio para canciones\")\n        else:\n\n            #escribe el codigo faltante\n\
+    snippet: "class iPod:    \n    def __init__(self, capacidad_max_canciones):\n        self.capacidad_max_canciones = capacidad_max_canciones\n\
+      \        self.biblioteca = {}\n        self.num_canciones = 0\n    \n    def espacio_disponible(self):\n        #escribe\
+      \ este metodo\n    \n    def anadir_cancion(self, artista, nombre_cancion):\n        if self.espacio_disponible() ==\
+      \ 0:\n            print(\"No hay mas espacio para canciones\")\n        else:\n\n            #escribe el codigo faltante\n\
       \n            print(nombre_cancion + \" de \" + artista + \" fue anadida a la biblioteca de musica\")\n            \n\
       \    def cancion_en_biblioteca(self, artista, nombre_cancion):\n        \"\"\" (iPod, str, str) -> bool\n        devuelve\
       \ verdadero si nombre_cancion de artista esta en la biblioteca\"\"\"\n\n        #escribe el codigo faltante\n\n    def\
@@ -37,8 +37,8 @@ elements:
       \"\n        if not self.cancion_en_biblioteca(artista, nombre_cancion):\n            print(\"Cancion no encontrada\"\
       )\n        else:\n\n            #escribe el codigo faltante\n\n            print(nombre_cancion + \" de \" + artista\
       \ + \" fue eliminada de la biblioteca de musica\")  "
-  placeholder: "\nclass iPod:    \n    def __init__(self, capacidad_max_canciones):\n        self.capacidad_max_canciones\
-    \ = capacidad_max_canciones\n        self.biblioteca = {}\n        self.num_canciones = 0\n    \n    def espacio_disponible(self):\n\
+  placeholder: "class iPod:    \n    def __init__(self, capacidad_max_canciones):\n        self.capacidad_max_canciones =\
+    \ capacidad_max_canciones\n        self.biblioteca = {}\n        self.num_canciones = 0\n    \n    def espacio_disponible(self):\n\
     \        #escribe este metodo\n    \n    def anadir_cancion(self, artista, nombre_cancion):\n        if self.espacio_disponible()\
     \ == 0:\n            print(\"No hay mas espacio para canciones\")\n        else:\n\n            #escribe el codigo faltante\n\
     \n            print(nombre_cancion + \" de \" + artista + \" fue anadida a la biblioteca de musica\")\n            \n\

@@ -40,12 +40,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def betweenGenes(seq, g1, g2):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def betweenGenes(seq, g1, g2):
         # code here
 testcases:

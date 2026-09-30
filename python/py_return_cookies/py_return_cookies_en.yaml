@@ -24,8 +24,7 @@ statement: In the function below, steps 1-4 of the Function Design Recipe have b
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def cookies_needed(num_adults, num_teens, num_children):
           """ (int, int, int) -> int
 
@@ -36,8 +35,7 @@ elements:
           >>> cookies_needed(2, 3, 1)
           23
           """
-  placeholder: |2-
-
+  placeholder: |-
     def cookies_needed(num_adults, num_teens, num_children):
         """ (int, int, int) -> int
 

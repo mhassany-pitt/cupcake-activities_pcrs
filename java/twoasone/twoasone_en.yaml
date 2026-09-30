@@ -45,8 +45,8 @@ statement: "Given 3 integers, `a`, `b`, and `c`, write a boolean expression to d
 elements:
 - type: editable
   location:
-    snippet: "\n// TODO: add your code here\n        \n       "
-  placeholder: "\n// TODO: add your code here\n        \n       "
+    snippet: "// TODO: add your code here\n        \n       "
+  placeholder: "// TODO: add your code here\n        \n       "
 testcases:
 - title: Solution Verification
   visible: true

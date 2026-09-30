@@ -1,4 +1,3 @@
-// Write your code here
 class Book {
 	private int pages;
 	

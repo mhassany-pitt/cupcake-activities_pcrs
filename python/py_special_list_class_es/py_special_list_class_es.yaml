@@ -63,23 +63,23 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n  \
-      \  def __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>>\
-      \ L.tamano\n        10\n        >>> L.lista_valores\n        []\n        \"\"\"\n        # complete este codigo\n\n\n\
-      \    def agregar_valor(self, nuevo_valor):\n        \"\"\" (ListaEspecial, object) -> NoneType\n\n        Agregar nuevo_valor\
-      \ a esta lista, si hay suficiente espacio en la lista segun su tamano maximo.\n        Si no hay espacio suficiente,\
-      \ nuevo_valor no debe ser agregado a la lista.\n\n        >>> L = ListaEspecial(10)\n        >>> L.agregar_valor(3)\n\
-      \        >>> L.lista_valores\n        [3]\n        \"\"\"\n        # complete este codigo\n\n\n    def eliminar_valor_mas_reciente(self):\n\
-      \        \"\"\" (ListaEspecial) -> object\n\n        Precondicion: len(self.lista_valores) != 0\n\n        Retornar\
-      \ el valor agregado mas recientemente a lista_valores y eliminarlo de la lista.\n\n        >>> L = ListaEspecial(10)\n\
-      \        >>> L.agregar_valor(3)\n        >>> L.agregar_valor(4)\n        >>> L.lista_valores\n        [3, 4]\n     \
-      \   >>> L.eliminar_valor_mas_reciente()\n        4\n        \"\"\"\n        # complete este codigo\n\n    \n    def\
-      \ comparar(self, otro):\n        \"\"\" (ListaEspecial, ListaEspecial) -> int\n\n        Retornar 0 si ambos objetos\
-      \ ListaEspecial tienen listas que contienen el mismo numero de elementos.\n        Retornar 1 si la lista de self contiene\
-      \ mas elementos que la lista de otro.\n        Retornar -1 si la lista de self contiene menos elementos que la lista\
-      \ de otro.\n        \"\"\"\n        # complete este codigo"
-  placeholder: "\nclass ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n\
-    \    def __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>>\
+    snippet: "class ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n    def\
+      \ __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>> L.tamano\n\
+      \        10\n        >>> L.lista_valores\n        []\n        \"\"\"\n        # complete este codigo\n\n\n    def agregar_valor(self,\
+      \ nuevo_valor):\n        \"\"\" (ListaEspecial, object) -> NoneType\n\n        Agregar nuevo_valor a esta lista, si\
+      \ hay suficiente espacio en la lista segun su tamano maximo.\n        Si no hay espacio suficiente, nuevo_valor no debe\
+      \ ser agregado a la lista.\n\n        >>> L = ListaEspecial(10)\n        >>> L.agregar_valor(3)\n        >>> L.lista_valores\n\
+      \        [3]\n        \"\"\"\n        # complete este codigo\n\n\n    def eliminar_valor_mas_reciente(self):\n     \
+      \   \"\"\" (ListaEspecial) -> object\n\n        Precondicion: len(self.lista_valores) != 0\n\n        Retornar el valor\
+      \ agregado mas recientemente a lista_valores y eliminarlo de la lista.\n\n        >>> L = ListaEspecial(10)\n      \
+      \  >>> L.agregar_valor(3)\n        >>> L.agregar_valor(4)\n        >>> L.lista_valores\n        [3, 4]\n        >>>\
+      \ L.eliminar_valor_mas_reciente()\n        4\n        \"\"\"\n        # complete este codigo\n\n    \n    def comparar(self,\
+      \ otro):\n        \"\"\" (ListaEspecial, ListaEspecial) -> int\n\n        Retornar 0 si ambos objetos ListaEspecial\
+      \ tienen listas que contienen el mismo numero de elementos.\n        Retornar 1 si la lista de self contiene mas elementos\
+      \ que la lista de otro.\n        Retornar -1 si la lista de self contiene menos elementos que la lista de otro.\n  \
+      \      \"\"\"\n        # complete este codigo"
+  placeholder: "class ListaEspecial:\n    \"\"\"Una lista que puede contener un numero limitado de elementos.\"\"\"\n\n  \
+    \  def __init__(self, tamano):\n        \"\"\" (ListaEspecial, int)\n\n        >>> L = ListaEspecial(10)\n        >>>\
     \ L.tamano\n        10\n        >>> L.lista_valores\n        []\n        \"\"\"\n        # complete este codigo\n\n\n\
     \    def agregar_valor(self, nuevo_valor):\n        \"\"\" (ListaEspecial, object) -> NoneType\n\n        Agregar nuevo_valor\
     \ a esta lista, si hay suficiente espacio en la lista segun su tamano maximo.\n        Si no hay espacio suficiente, nuevo_valor\

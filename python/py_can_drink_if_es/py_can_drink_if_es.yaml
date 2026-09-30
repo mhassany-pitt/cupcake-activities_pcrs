@@ -31,12 +31,10 @@ statement: En EEUU una persona sólo puede beber alcohol si tiene 21 años o má
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def puedeBeberAlcohol(edad,planeaConducir):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def puedeBeberAlcohol(edad,planeaConducir):
         return
 testcases:

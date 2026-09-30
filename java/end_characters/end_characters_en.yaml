@@ -49,10 +49,6 @@ statement: |-
   E.g. 1: if the value of `str1` is "Hello" and the value of `str2` is "llo", the code prints true.
   E.g. 2: if the value of `str1` is "234$" and the value of `str2` is "35$", the code prints false.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean b;'

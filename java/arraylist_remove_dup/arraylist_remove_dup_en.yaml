@@ -36,10 +36,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n   \
-      \ \n    \n    \n    \n    \n}\n"
-  placeholder: "\npublic ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n \
-    \   \n    \n    \n    \n    \n}\n"
+    snippet: "public ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n    \n\
+      \    \n    \n    \n    \n}\n"
+  placeholder: "public ArrayList<Integer> noDups(ArrayList<Integer> nums) {\n    // TODO: Write your code here\n    \n   \
+    \ \n    \n    \n    \n    \n}\n"
 testcases:
 - title: Solution Verification
   visible: true

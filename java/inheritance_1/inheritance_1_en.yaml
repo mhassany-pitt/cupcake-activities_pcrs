@@ -55,10 +55,6 @@ statement: "Suppose that we have a class `Book` and we want to extend it to prod
   \ are specified\n(2) none of the dictionary properties are specified. In this case, we create a dictionary with default\
   \ values, that is a dictionary with 200 pages and 10000 definitions."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "class Book {\n\tprivate int pages;\n\t\n    public Book (int numPages) {\n\t      pages = numPages;\n\t}\n\t\

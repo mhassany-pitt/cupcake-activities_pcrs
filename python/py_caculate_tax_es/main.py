@@ -1,4 +1,3 @@
-
 def calcular_impuesto(factura, tasa_impuesto):
     """
     (numero, numero) -> numero

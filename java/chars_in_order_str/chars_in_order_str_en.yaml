@@ -32,8 +32,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic static boolean isAlpha(String s)\n{\n    \n}"
-  placeholder: "\npublic static boolean isAlpha(String s)\n{\n    \n}"
+    snippet: "public static boolean isAlpha(String s)\n{\n    \n}"
+  placeholder: "public static boolean isAlpha(String s)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

@@ -56,13 +56,13 @@ statement: Completa los ejemplos en el docstring y luego completa el cuerpo de l
 elements:
 - type: editable
   location:
-    snippet: "\ndef estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion:\
-      \ len(c) == len(factores_estiramiento) y los elementos de\n                  factores_estiramiento son mayores o iguales\
-      \ a cero\n     \n    Devuelve una  string que consiste en los caracteres en c en el mismo orden que en c,\n    repetidos\
+    snippet: "def estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion: len(c)\
+      \ == len(factores_estiramiento) y los elementos de\n                  factores_estiramiento son mayores o iguales a\
+      \ cero\n     \n    Devuelve una  string que consiste en los caracteres en c en el mismo orden que en c,\n    repetidos\
       \ el numero de veces indicado por el elemento en la posicion correspondiente\n    de factores_estiramiento.\n    \n\
       \    >>> estirar_string('Hola', [2, 0, 3, 1])\n    'HHllla'\n    >>> estirar_string('eco', [0, 1, 2])\n    #TODO: Reemplaza\
       \ este comentario con el valor de retorno de la llamada a la funcion anterior.\n    \"\"\""
-  placeholder: "\ndef estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion:\
+  placeholder: "def estirar_string(c, factores_estiramiento):\n    \"\"\" (str, lista de int) -> str\n\n    Precondicion:\
     \ len(c) == len(factores_estiramiento) y los elementos de\n                  factores_estiramiento son mayores o iguales\
     \ a cero\n     \n    Devuelve una  string que consiste en los caracteres en c en el mismo orden que en c,\n    repetidos\
     \ el numero de veces indicado por el elemento en la posicion correspondiente\n    de factores_estiramiento.\n    \n  \

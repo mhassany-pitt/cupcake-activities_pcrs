@@ -1,4 +1,3 @@
-// Write your code here
 import java.lang.*;
 public class Triangle{ 
     //class attributes

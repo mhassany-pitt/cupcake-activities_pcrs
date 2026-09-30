@@ -1,4 +1,3 @@
-
 def reorder_by_hashtag(candidate_to_hashtags):
     """(dict of str to list of str) -> dict of str to list of str
 

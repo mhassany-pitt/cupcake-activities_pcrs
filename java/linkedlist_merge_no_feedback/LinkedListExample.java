@@ -1,4 +1,3 @@
-// Write your code here
 public class LinkedListExample {
     // the LinkedListExample class' properties
 	private Node head;

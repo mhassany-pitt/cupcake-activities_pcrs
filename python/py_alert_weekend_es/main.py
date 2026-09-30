@@ -1,3 +1,2 @@
-
 def esFinDeSemana(dia):
     return

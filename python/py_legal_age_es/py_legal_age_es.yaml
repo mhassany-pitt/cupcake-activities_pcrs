@@ -35,8 +35,7 @@ statement: Completa la siguiente funcion segun las instrucciones
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def puede_votar(edad):
           """ (int) -> bool
 
@@ -48,8 +47,7 @@ elements:
           True
           """
           #TODO: Completa el nuevo cuerpo de la funcion de una sola linea en el espacio a continuacion
-  placeholder: |2-
-
+  placeholder: |-
     def puede_votar(edad):
         """ (int) -> bool
 

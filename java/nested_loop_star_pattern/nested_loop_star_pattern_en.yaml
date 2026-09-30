@@ -44,10 +44,6 @@ statement: |-
 
   Hint: Make sure you have a space at the beginning AND end of every even row
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "\npublic class Lab4 {\n    public static void main(String args[]) {\n\n\t\t//YOU MUST NOT WRITE ANY CODE ABOVE\

@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def count_non_digits(s):
           """ (str) -> int
 
@@ -37,8 +36,7 @@ elements:
           >>> count_non_digits('A.4')
           2
           """
-  placeholder: |2-
-
+  placeholder: |-
     def count_non_digits(s):
         """ (str) -> int
 

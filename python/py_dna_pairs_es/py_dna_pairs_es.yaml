@@ -38,12 +38,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contarParesDeBases(secuencia):
           # codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def contarParesDeBases(secuencia):
         # codigo aqui
 testcases:

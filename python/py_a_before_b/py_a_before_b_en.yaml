@@ -31,12 +31,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def aBeforeB(s, a, b):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def aBeforeB(s, a, b):
         #code
 testcases:

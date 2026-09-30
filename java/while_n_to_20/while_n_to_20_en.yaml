@@ -36,10 +36,6 @@ statement: "Write a program that increments an integer input, n, to m, but break
   \ 7 along the way).\n- If n = 9 and m = 10, the total number of loops will be 1 (since we get to m without encountering\
   \ any multiples of 7).\n\nNote that 0 should not be a valid multiple of 7 at any point in your iterations."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: int count;

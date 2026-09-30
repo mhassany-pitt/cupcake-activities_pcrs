@@ -33,12 +33,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def sumOver10(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def sumOver10(items):
         #code
 testcases:

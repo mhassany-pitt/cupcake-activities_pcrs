@@ -37,10 +37,6 @@ statement: "Complete the following code in order to figure out how many terms is
   \ 2: if the value of `n` is 6, the value of `count` will be 4. \nE.g. 3: if the value of `n` is 10, the value of `count`\
   \ will be 5."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: int count;

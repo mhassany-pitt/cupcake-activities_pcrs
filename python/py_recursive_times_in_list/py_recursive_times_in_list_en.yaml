@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def recCount(items, x):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def recCount(items, x):
         # code here
 testcases:

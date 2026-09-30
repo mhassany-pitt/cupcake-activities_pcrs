@@ -33,10 +33,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\n\npublic int compareVal(LinkedList<Integer> list1, LinkedList<Integer> list2) {\n    // TODO: Write your code\
+    snippet: "\npublic int compareVal(LinkedList<Integer> list1, LinkedList<Integer> list2) {\n    // TODO: Write your code\
       \ here\n    \n    \n    \n    \n}\n\n"
-  placeholder: "\n\npublic int compareVal(LinkedList<Integer> list1, LinkedList<Integer> list2) {\n    // TODO: Write your\
-    \ code here\n    \n    \n    \n    \n}\n\n"
+  placeholder: "\npublic int compareVal(LinkedList<Integer> list1, LinkedList<Integer> list2) {\n    // TODO: Write your code\
+    \ here\n    \n    \n    \n    \n}\n\n"
 testcases:
 - title: Solution Verification
   visible: true

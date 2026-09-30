@@ -28,10 +28,6 @@ statement: "Complete the method `traverseList` in order to return a String that 
   \ = \"3456\"\nIf myList = [\"Hello\",\"World\",\"How\",\"Are\",\"You\"], then returned newString = \"HelloWorldHowAreYou\"\
   \nIf myList = [\"\"], then returned newString = \"\""
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class LinkedList {\n\tprivate Node head;\n\tprivate int size;\n\t\n\tprivate class Node {\n\t\tNode next;\n\

@@ -41,8 +41,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef fusionar_arreglos (a1, a2): \n    \n    pass"
-  placeholder: "\ndef fusionar_arreglos (a1, a2): \n    \n    pass"
+    snippet: "def fusionar_arreglos (a1, a2): \n    \n    pass"
+  placeholder: "def fusionar_arreglos (a1, a2): \n    \n    pass"
 testcases:
 - title: Solution Verification
   visible: true

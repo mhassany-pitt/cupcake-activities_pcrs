@@ -24,12 +24,10 @@ statement: The candy shop around the corner is open between 1pm and 7pm every da
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isCandyShopOpen(time, day):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def isCandyShopOpen(time, day):
         return
 testcases:

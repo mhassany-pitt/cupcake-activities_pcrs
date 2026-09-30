@@ -26,10 +26,6 @@ runtime:
   version: '3'
 statement: Proporciona la expresion booleana que se evalua como True si y solo si la variable `cuenta` es impar
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: 'def es_impar(cuenta):'

@@ -73,8 +73,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
-  placeholder: "\ndef es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
+    snippet: "def es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
+  placeholder: "def es_sopa_letras(matriz):\n    #Escriba su codigo aqui\n    \n    "
 testcases:
 - title: Solution Verification
   visible: true

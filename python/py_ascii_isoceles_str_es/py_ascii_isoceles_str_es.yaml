@@ -55,14 +55,14 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\n\
-      \    Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter\
+    snippet: "def triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\n \
+      \   Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter\
       \ bloque, con una base y altura de 'lado' caracteres. \n    El ángulo recto debe estar en la esquina superior izquierda.\n\
       \    \"\"\"\n    # Escribe tu codigo aqui"
-  placeholder: "\ndef triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\
-    \n    Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter\
-    \ bloque, con una base y altura de 'lado' caracteres. \n    El ángulo recto debe estar en la esquina superior izquierda.\n\
-    \    \"\"\"\n    # Escribe tu codigo aqui"
+  placeholder: "def triangulo_ascii(bloque, lado):\n    \"\"\" (str, int) -> str\n\n    Precondición: len(bloque) == 1\n\n\
+    \    Retorna una representación en texto de un triángulo rectángulo isósceles en ASCII, \n    utilizando el carácter bloque,\
+    \ con una base y altura de 'lado' caracteres. \n    El ángulo recto debe estar en la esquina superior izquierda.\n   \
+    \ \"\"\"\n    # Escribe tu codigo aqui"
 testcases:
 - title: Solution Verification
   visible: true

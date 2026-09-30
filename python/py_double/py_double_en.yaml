@@ -25,11 +25,9 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def double(num):
-  placeholder: |2
-
+  placeholder: |
     def double(num):
 testcases:
 - title: Solution Verification

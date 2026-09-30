@@ -38,12 +38,10 @@ statement: 'En python puedes comparar strings como comparas numeros (usando el o
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def primeraMitad(string):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def primeraMitad(string):
         return
 testcases:

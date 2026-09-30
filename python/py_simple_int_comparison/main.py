@@ -1,3 +1,2 @@
-
 def overNineThousand(powerLevel):
     return

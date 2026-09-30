@@ -36,10 +36,6 @@ statement: |-
   E.g. 1: if the value of `n` is 1, the code prints 86400.
   E.g. 2: if the value of `n` is 2, the code prints 172800.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    int seconds;'

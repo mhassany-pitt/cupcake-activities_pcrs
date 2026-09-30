@@ -1,4 +1,3 @@
-
 def is_multiple(value1, value2):
     """ (int, int) -> bool
 

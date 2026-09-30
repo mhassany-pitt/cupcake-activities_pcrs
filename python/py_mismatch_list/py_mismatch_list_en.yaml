@@ -23,11 +23,11 @@ statement: Complete the following function according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef first_mismatch(lst1, lst2):\n    \"\"\" (list, list) -> int\n    \n    Return the first index at which\
-      \ the values of lst1 and lst2 differ. \n    Return -1 if no differences are found.\n       \n    >>> first_mismatch(['a',\
+    snippet: "def first_mismatch(lst1, lst2):\n    \"\"\" (list, list) -> int\n    \n    Return the first index at which the\
+      \ values of lst1 and lst2 differ. \n    Return -1 if no differences are found.\n       \n    >>> first_mismatch(['a',\
       \ 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> first_mismatch(['a', 'b', 'c'], ['a', 'b', 'c', 'd'])\n    3\n    >>>\
       \ first_mismatch(['a', 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""
-  placeholder: "\ndef first_mismatch(lst1, lst2):\n    \"\"\" (list, list) -> int\n    \n    Return the first index at which\
+  placeholder: "def first_mismatch(lst1, lst2):\n    \"\"\" (list, list) -> int\n    \n    Return the first index at which\
     \ the values of lst1 and lst2 differ. \n    Return -1 if no differences are found.\n       \n    >>> first_mismatch(['a',\
     \ 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> first_mismatch(['a', 'b', 'c'], ['a', 'b', 'c', 'd'])\n    3\n    >>> first_mismatch(['a',\
     \ 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""

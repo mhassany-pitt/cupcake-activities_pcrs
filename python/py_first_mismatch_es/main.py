@@ -1,4 +1,3 @@
-
 def primera_diferencia(lista1, lista2):
     """ (list, list) -> int
     

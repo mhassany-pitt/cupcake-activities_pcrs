@@ -25,12 +25,10 @@ statement: 'Escribe una funcion que, al recibir el nombre de un continente, devu
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def estaConectado(continente):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def estaConectado(continente):
         return
 testcases:

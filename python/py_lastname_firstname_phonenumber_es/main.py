@@ -1,4 +1,3 @@
-
 def a_listado(primer_nombre, apellido, num):
     """ (str, str, str) -> str
 

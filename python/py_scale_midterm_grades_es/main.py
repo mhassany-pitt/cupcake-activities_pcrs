@@ -1,4 +1,3 @@
-
 def escalar_calificaciones_parciales(calificaciones, multiplicador, bonificacion):
     """ (lista de numeros, numero, numero) -> NoneType
 

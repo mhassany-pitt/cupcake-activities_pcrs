@@ -37,10 +37,6 @@ runtime:
   version: '3'
 statement: Completa la siguiente funcion segun las instrucciones
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: |-

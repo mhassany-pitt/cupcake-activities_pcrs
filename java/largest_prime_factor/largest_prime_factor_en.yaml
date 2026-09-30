@@ -23,10 +23,6 @@ statement: |-
   The prime factors of 455 are 5, 7 and 13.
   Write a method that calculates the largest prime factor of a given number.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: public int largestPrimeFactor(int n) {

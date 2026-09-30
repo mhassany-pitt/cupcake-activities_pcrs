@@ -1,4 +1,3 @@
-// Write your code here
 public class Lab4 {
     public static void main(String args[]) {
 

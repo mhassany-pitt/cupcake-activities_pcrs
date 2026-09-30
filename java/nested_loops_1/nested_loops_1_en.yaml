@@ -49,12 +49,10 @@ statement: "Given two integer variables `rows` and `stars`, write a **nested for
 elements:
 - type: editable
   location:
-    snippet: |2+
-
+    snippet: |+
       // TODO: Write your code here
 
-  placeholder: |2+
-
+  placeholder: |+
     // TODO: Write your code here
 
 testcases:

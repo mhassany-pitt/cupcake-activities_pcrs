@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def sumOverN(items, n):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def sumOverN(items, n):
         #code
 testcases:

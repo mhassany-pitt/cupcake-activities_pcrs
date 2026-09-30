@@ -36,11 +36,11 @@ statement: Completa la siguiente funcion segun su docstring. Usa un ciclo for.
 elements:
 - type: editable
   location:
-    snippet: "\ndef primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de elementos.\
+    snippet: "def primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de elementos.\
       \ Devuelve -1 si elementos no contiene numeros pares.\n\n    >>> primer_par([5, 8, 3, 2])\n    8\n    >>> primer_par([7,\
       \ 1])\n    -1\n    \"\"\""
-  placeholder: "\ndef primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de\
-    \ elementos. Devuelve -1 si elementos no contiene numeros pares.\n\n    >>> primer_par([5, 8, 3, 2])\n    8\n    >>> primer_par([7,\
+  placeholder: "def primer_par(elementos):\n    \"\"\" (lista de int) -> int\n    \n    Devuelve el primer numero par de elementos.\
+    \ Devuelve -1 si elementos no contiene numeros pares.\n\n    >>> primer_par([5, 8, 3, 2])\n    8\n    >>> primer_par([7,\
     \ 1])\n    -1\n    \"\"\""
 testcases:
 - title: Solution Verification

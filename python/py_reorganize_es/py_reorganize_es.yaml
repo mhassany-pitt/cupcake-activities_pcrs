@@ -69,11 +69,11 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n    \n\
-      \    >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
+    snippet: "def reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n    \n \
+      \   >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
       \ 'Clave2']}\n    \"\"\""
-  placeholder: "\ndef reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n   \
-    \ \n    >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
+  placeholder: "def reorganizar(orig_dicc):\n    \"\"\" (dict de str a lista de str) -> dict de str a lista de str\n    \n\
+    \    >>> reorganizar({'Clave1':[\"string1\", \"string2\"], 'Clave2':[\"string2\"]})\n    {'string1':['Clave1'], 'string2':['Clave1',\
     \ 'Clave2']}\n    \"\"\""
 testcases:
 - title: Solution Verification

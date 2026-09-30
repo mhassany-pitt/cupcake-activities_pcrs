@@ -1,4 +1,3 @@
-
 class iPod:    
     def __init__(self, max_song_capacity):
         self.max_song_capacity = max_song_capacity

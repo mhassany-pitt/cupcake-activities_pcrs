@@ -68,12 +68,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contarNM(elementos, n, m):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def contarNM(elementos, n, m):
         # codigo
 testcases:

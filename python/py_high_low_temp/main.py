@@ -1,4 +1,3 @@
-
 def average_daily_temp(high_temps, low_temps):
     """ (list of number, list of number) -> list of float
 

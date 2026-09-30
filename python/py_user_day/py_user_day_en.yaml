@@ -28,7 +28,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+    snippet: "class Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
       \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n     \
       \   \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n  \
       \      >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n  \
@@ -56,14 +56,14 @@ elements:
       \    >>> d = Day(5, 'December', 2015)\n        >>> e1 = Event(12, 16, 'Studying')\n        >>> d.schedule_event(e1)\n\
       \        True\n        >>> e2 = Event(17, 19, 'Dinner with A')\n        >>> e3 = Event(11, 13, 'Lunch with B')\n   \
       \     >>> e4 = Event(9, 10, 'Gym')\n        >>> d.schedule_multiple_events([e2, e3, e4])\n        2\n        \"\"\"\n"
-  placeholder: "\nclass Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time,\
-    \ event_name):\n        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time\
-    \ <= 23\n        \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\
-    \n        >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n \
-    \       >>> e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time\
-    \ = end_time\n        self.name = event_name\n    \n    def __str__(self):\n            \"\"\" (Event) -> str\n    \n\
-    \            Return a string representation of this event.\n    \n            >>> e = Event(6, 7, 'Run')\n           \
-    \ >>> str(e)\n            'Run: from 6 to 7'\n            \"\"\"\n            \n            return '{0}: from {1} to {2}'.format(self.name,\
+  placeholder: "class Event:    \n    \"\"\"A new calendar event.\"\"\"\n\n    def __init__(self, start_time, end_time, event_name):\n\
+    \        \"\"\" (Event, int, int, str) -> NoneType\n\n        Precondition: 0 <= start_time < end_time <= 23\n       \
+    \ \n        Initialize a new event that starts at start_time, ends at end_time,\n        and is named name.\n\n      \
+    \  >>> e = Event(12, 13, 'Lunch')\n        >>> e.start_time\n        12\n        >>> e.end_time\n        13\n        >>>\
+    \ e.name\n        'Lunch'\n        \"\"\"\n        \n        self.start_time = start_time\n        self.end_time = end_time\n\
+    \        self.name = event_name\n    \n    def __str__(self):\n            \"\"\" (Event) -> str\n    \n            Return\
+    \ a string representation of this event.\n    \n            >>> e = Event(6, 7, 'Run')\n            >>> str(e)\n     \
+    \       'Run: from 6 to 7'\n            \"\"\"\n            \n            return '{0}: from {1} to {2}'.format(self.name,\
     \ self.start_time,\n                                                 self.end_time)\n\n    def overlaps(self, other):\n\
     \        \"\"\" (Event, Event) -> bool\n\n        Return True iff this event overlaps with event other.\n\n        >>>\
     \ e1 = Event(6, 7, 'Run')\n        >>> e2 = Event(0, 7, 'Sleep')\n        >>> e1.overlaps(e2)\n        True\n        \"\

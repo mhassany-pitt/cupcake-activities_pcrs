@@ -25,12 +25,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def hola_mundo(nombre):
           # Tu codigo va aqui...
-  placeholder: |2-
-
+  placeholder: |-
     def hola_mundo(nombre):
         # Tu codigo va aqui...
 testcases:

@@ -27,8 +27,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def duplicate_cut(enzyme_list):
           """ (list of str) -> bool
 
@@ -39,8 +38,7 @@ elements:
           >>> duplicate_cut(['EcoRI', 'Sau3A', 'EcoRI'])
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def duplicate_cut(enzyme_list):
         """ (list of str) -> bool
 

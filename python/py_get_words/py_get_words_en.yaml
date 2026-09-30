@@ -44,9 +44,9 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list\
-      \ containing the words from training_text in the same order\n    as they appear in training_text.\n    \"\"\""
-  placeholder: "\ndef get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list\
+    snippet: "def get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list containing\
+      \ the words from training_text in the same order\n    as they appear in training_text.\n    \"\"\""
+  placeholder: "def get_words(training_text):\n    \"\"\" (File Open for reading) -> list of str\n \n    Return a new list\
     \ containing the words from training_text in the same order\n    as they appear in training_text.\n    \"\"\""
 testcases:
 - title: Solution Verification

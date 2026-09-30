@@ -37,11 +37,9 @@ statement: La funcion nuestro_maximo toma dos numeros y devuelve el mayor de los
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def nuestro_maximo(num1, num2):
-  placeholder: |2
-
+  placeholder: |
     def nuestro_maximo(num1, num2):
 testcases:
 - title: Solution Verification

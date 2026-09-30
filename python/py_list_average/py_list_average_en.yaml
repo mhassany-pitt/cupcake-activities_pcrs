@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def avgIt(aList):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def avgIt(aList):
         #code
 testcases:

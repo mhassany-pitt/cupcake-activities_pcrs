@@ -35,8 +35,7 @@ statement: En la funcion a continuacion, los pasos 1-4 de la Receta de Diseno de
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def es_multiplo(valor1, valor2):
           """ (int, int) -> booleano
 
@@ -47,8 +46,7 @@ elements:
           >>> es_multiplo(7, 2)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def es_multiplo(valor1, valor2):
         """ (int, int) -> booleano
 

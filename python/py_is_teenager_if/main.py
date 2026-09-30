@@ -1,3 +1,2 @@
-
 def teenagedNotPrime(age):
     return

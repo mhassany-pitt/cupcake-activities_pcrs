@@ -38,10 +38,6 @@ statement: |-
   E.g. 1: if the value of `height` is 3 and the value of `width` is 4, the code prints 14.
   E.g. 2: if the value of `height` is 6 and the value of `width` is 7, the code prints 26.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    int perimeter;'

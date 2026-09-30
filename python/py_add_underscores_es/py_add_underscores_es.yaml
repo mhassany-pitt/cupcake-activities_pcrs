@@ -39,12 +39,12 @@ statement: Agrega al menos un ejemplo y completa el cuerpo de la funcion segun e
 elements:
 - type: editable
   location:
-    snippet: "\ndef agregar_guiones_bajos(string):\n    \"\"\"(str) -> str\n    \n    Devuelve string con un guion bajo entre\
+    snippet: "def agregar_guiones_bajos(string):\n    \"\"\"(str) -> str\n    \n    Devuelve string con un guion bajo entre\
       \ cada par de caracteres\n\n    #Pendiente: agrega al menos un ejemplo de entrada/salida\n\n    \"\"\"\n\n    # TODO:\
       \ completa el cuerpo de la funcion"
-  placeholder: "\ndef agregar_guiones_bajos(string):\n    \"\"\"(str) -> str\n    \n    Devuelve string con un guion bajo\
-    \ entre cada par de caracteres\n\n    #Pendiente: agrega al menos un ejemplo de entrada/salida\n\n    \"\"\"\n\n    #\
-    \ TODO: completa el cuerpo de la funcion"
+  placeholder: "def agregar_guiones_bajos(string):\n    \"\"\"(str) -> str\n    \n    Devuelve string con un guion bajo entre\
+    \ cada par de caracteres\n\n    #Pendiente: agrega al menos un ejemplo de entrada/salida\n\n    \"\"\"\n\n    # TODO:\
+    \ completa el cuerpo de la funcion"
 testcases:
 - title: Solution Verification
   visible: true

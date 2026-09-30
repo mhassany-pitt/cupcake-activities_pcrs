@@ -41,8 +41,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic static boolean containsNM(int[] arr, int n, int m)\n{\n    \n}"
-  placeholder: "\npublic static boolean containsNM(int[] arr, int n, int m)\n{\n    \n}"
+    snippet: "public static boolean containsNM(int[] arr, int n, int m)\n{\n    \n}"
+  placeholder: "public static boolean containsNM(int[] arr, int n, int m)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

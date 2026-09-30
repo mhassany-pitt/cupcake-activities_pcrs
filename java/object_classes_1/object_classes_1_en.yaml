@@ -46,10 +46,6 @@ statement: |-
   E.g. 1: if the first parameter of the `average` method is 3 and the second parameter of the `average` method is 6, the value returned by the `average` method will be 4.5.
   E.g. 2: if the first parameter of the `average` method is 10 and the second parameter of the `average` method is 2, the value returned by the `average` method will be 6.0.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: public class Calculator {

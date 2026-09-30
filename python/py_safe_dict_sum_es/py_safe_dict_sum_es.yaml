@@ -66,8 +66,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
-  placeholder: "\ndef calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
+    snippet: "def calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
+  placeholder: "def calcular_total(pedido):\n    #escribe tu codigo aqui\n    \n    "
 - type: locked
   location:
     snippet: "\t\ttry:"

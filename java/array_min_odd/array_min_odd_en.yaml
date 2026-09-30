@@ -37,10 +37,6 @@ statement: "Write a program that given an array of integers variable called `arr
   \ the smallest odd number in the array. \n\nPlease note that you have to complete the methods `isEven(int n)`,  `isOdd(int\
   \ n)`  and `indOfMaxEven(int[] input)`."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.*;\nimport java.io.*;\n\npublic class Lab5{\n    \n   static int array[] = { 26, 52, 96, 84,\
@@ -58,6 +54,7 @@ elements:
 - type: editable
   location:
     snippet: // Write your code here
+    nth: 2
   placeholder: // Write your code here
 - type: locked
   location:
@@ -66,6 +63,7 @@ elements:
 - type: editable
   location:
     snippet: // Write your code here
+    nth: 3
   placeholder: // Write your code here
 - type: locked
   location:

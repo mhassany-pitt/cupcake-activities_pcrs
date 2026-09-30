@@ -24,12 +24,12 @@ statement: Copy and paste the contents of your solution for format_name into the
 elements:
 - type: editable
   location:
-    snippet: "\ndef to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter\
-      \ is a first name, the second is a last name, and the third parameter \n    is a phone number. Return a string in the\
-      \ format \"LAST_NAME, \n    FIRST_NAME: PHONE_NUMBER\", where LAST_NAME, FIRST_NAME, and \n    PHONE_NUMBER are replaced\
-      \ by the given last name, first name and phone number.\n\n    >>> ('David', ''Cohen', '12345')\n    'Cohen, David: 12345'\n\
+    snippet: "def to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter is\
+      \ a first name, the second is a last name, and the third parameter \n    is a phone number. Return a string in the format\
+      \ \"LAST_NAME, \n    FIRST_NAME: PHONE_NUMBER\", where LAST_NAME, FIRST_NAME, and \n    PHONE_NUMBER are replaced by\
+      \ the given last name, first name and phone number.\n\n    >>> ('David', ''Cohen', '12345')\n    'Cohen, David: 12345'\n\
       \    \"\"\""
-  placeholder: "\ndef to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter\
+  placeholder: "def to_listing(first_name, last_name, num):\n    \"\"\" (str, str, str) -> str\n\n    The first parameter\
     \ is a first name, the second is a last name, and the third parameter \n    is a phone number. Return a string in the\
     \ format \"LAST_NAME, \n    FIRST_NAME: PHONE_NUMBER\", where LAST_NAME, FIRST_NAME, and \n    PHONE_NUMBER are replaced\
     \ by the given last name, first name and phone number.\n\n    >>> ('David', ''Cohen', '12345')\n    'Cohen, David: 12345'\n\

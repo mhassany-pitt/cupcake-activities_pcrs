@@ -1,3 +1,2 @@
-
 def avocados(daysPassed):
     return

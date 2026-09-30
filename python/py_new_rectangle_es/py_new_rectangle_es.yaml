@@ -40,8 +40,7 @@ statement: Completa el metodo `area` en la siguiente clase. Todo lo que necesita
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Rectangulo:
           """ Un rectangulo con un ancho y altura. """
 
@@ -69,8 +68,7 @@ elements:
               >>> r.area()
               200
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Rectangulo:
         """ Un rectangulo con un ancho y altura. """
 

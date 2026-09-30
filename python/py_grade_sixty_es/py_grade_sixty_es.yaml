@@ -35,12 +35,10 @@ statement: Para aprobar una clase, debes obtener una calificacion de 60 o mas. E
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def aprobara(calificacion):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def aprobara(calificacion):
         return
 testcases:

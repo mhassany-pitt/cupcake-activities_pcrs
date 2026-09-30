@@ -27,10 +27,6 @@ statement: "Complete the code for the class Truck. The class must be able to ena
   \ attribute as needed (validating that currentLoad cannot be lower than zero when unloading and cannot be greater than maxCapacity\
   \ when loading). \n\nMore instructions on how to implement the missing parts of this class are provided in the code below."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Truck { \n    private String model;\n    private int year;\n    private String color;\n \tprivate\

@@ -1,4 +1,3 @@
-
 # Este programa verifica si un articulo es perecedero basado en su codigo de barras
 codigo_barras = 342564643  # Ejemplo de codigo de barras
 

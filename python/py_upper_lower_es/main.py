@@ -1,4 +1,3 @@
-
 def mayus_minus(string):
     """ (str) -> bool
     

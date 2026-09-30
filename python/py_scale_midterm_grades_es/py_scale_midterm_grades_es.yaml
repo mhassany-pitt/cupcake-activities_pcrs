@@ -55,8 +55,7 @@ statement: Completa los ejemplos en el docstring y luego completa el cuerpo de l
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def escalar_calificaciones_parciales(calificaciones, multiplicador, bonificacion):
           """ (lista de numeros, numero, numero) -> NoneType
 
@@ -68,8 +67,7 @@ elements:
           >>> calificaciones
           # TODO Reemplaza este comentario con la lista a la que calificaciones deberia referirse.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def escalar_calificaciones_parciales(calificaciones, multiplicador, bonificacion):
         """ (lista de numeros, numero, numero) -> NoneType
 

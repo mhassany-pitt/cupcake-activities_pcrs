@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def shiftChar(char, key):
           # code goes here
-  placeholder: |2-
-
+  placeholder: |-
     def shiftChar(char, key):
         # code goes here
 testcases:

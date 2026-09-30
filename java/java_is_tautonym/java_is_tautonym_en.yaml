@@ -29,10 +29,6 @@ statement: |-
 
   Assume that the word to be analyzed is stored in a String variable called `word`, which has already been initialized. Use the boolean variable `isTautonym` and define a boolean expression to decide if `word` is a tautonym.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '// TODO: Write your code here'

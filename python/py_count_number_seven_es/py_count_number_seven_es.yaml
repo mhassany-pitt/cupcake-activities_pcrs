@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contar79(elementos):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def contar79(elementos):
         # codigo
 testcases:

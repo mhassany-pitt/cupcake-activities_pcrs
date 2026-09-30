@@ -1,4 +1,3 @@
-
 # when you arrive at UofT you need 20 credits
 completed = 0
 required = 20

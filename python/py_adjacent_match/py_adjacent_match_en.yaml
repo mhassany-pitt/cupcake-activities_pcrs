@@ -23,8 +23,7 @@ statement: Complete the function `adjacent_match` according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def adjacent_match(L):
           """ (list of str) -> bool
 
@@ -35,8 +34,7 @@ elements:
           >>> adjacent_match(['A', 'B', 'A'])
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def adjacent_match(L):
         """ (list of str) -> bool
 

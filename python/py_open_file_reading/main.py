@@ -1,4 +1,3 @@
-
 def get_lines(f):
     """ (file open for reading) -> list of str"""
     result = []

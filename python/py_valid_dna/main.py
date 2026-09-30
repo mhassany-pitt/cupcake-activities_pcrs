@@ -1,4 +1,3 @@
-
 def valid_DNA_sequence(sequence, DNA_alphabet):
     """ (str, str) -> bool
     

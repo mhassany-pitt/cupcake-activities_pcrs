@@ -55,10 +55,10 @@ statement: "Complete the following method which takes a 2D int array (square or 
 elements:
 - type: editable
   location:
-    snippet: "\npublic int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n  \
-      \  \n}"
-  placeholder: "\npublic int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n\
-    \    \n}"
+    snippet: "public int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n    \n\
+      }"
+  placeholder: "public int sumColumn(int[][] arr, int columnIndex) {\n    // TODO: Write your code here\n\n    \n    \n  \
+    \  \n}"
 testcases:
 - title: Solution Verification
   visible: true

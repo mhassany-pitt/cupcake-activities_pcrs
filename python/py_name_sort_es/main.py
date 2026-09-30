@@ -1,4 +1,3 @@
-
 def primer_nombre(nombre1, nombre2):
     """ (str, str) -> str
 

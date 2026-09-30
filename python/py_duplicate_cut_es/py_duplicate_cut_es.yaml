@@ -50,8 +50,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def corte_duplicado(lista_enzimas):
           """ (lista de str) -> booleano
 
@@ -62,8 +61,7 @@ elements:
           >>> corte_duplicado(['EcoRI', 'Sau3A', 'EcoRI'])
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def corte_duplicado(lista_enzimas):
         """ (lista de str) -> booleano
 

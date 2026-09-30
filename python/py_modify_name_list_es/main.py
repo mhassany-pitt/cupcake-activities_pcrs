@@ -1,4 +1,3 @@
-
 def intercambiar_nombre(lista_nombres): 
     """ (lista de str) -> NoneType 
  

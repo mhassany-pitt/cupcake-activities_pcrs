@@ -31,12 +31,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contarStringsMasLargos(elementos, string):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def contarStringsMasLargos(elementos, string):
         # codigo
 testcases:

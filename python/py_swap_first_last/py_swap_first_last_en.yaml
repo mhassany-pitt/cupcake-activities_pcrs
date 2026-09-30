@@ -23,8 +23,8 @@ statement: ''
 elements:
 - type: editable
   location:
-    snippet: "\ndef swap_ends(L):\n    \"\"\" (list) -> NoneType\n    \n    Swap the items at L[0] and L[-1].\n    \"\"\""
-  placeholder: "\ndef swap_ends(L):\n    \"\"\" (list) -> NoneType\n    \n    Swap the items at L[0] and L[-1].\n    \"\"\""
+    snippet: "def swap_ends(L):\n    \"\"\" (list) -> NoneType\n    \n    Swap the items at L[0] and L[-1].\n    \"\"\""
+  placeholder: "def swap_ends(L):\n    \"\"\" (list) -> NoneType\n    \n    Swap the items at L[0] and L[-1].\n    \"\"\""
 testcases:
 - title: Solution Verification
   visible: true

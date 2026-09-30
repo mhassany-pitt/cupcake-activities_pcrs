@@ -52,8 +52,7 @@ statement: Completa los ejemplos en el docstring y luego completa el cuerpo de l
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def recolectar_bajo_rendimiento(numeros, umbral):
           """ (lista de numero, int) -> lista de numero
 
@@ -67,8 +66,7 @@ elements:
           >>> recolectar_bajo_rendimiento([], 7)
           # TODO Reemplaza este comentario con el valor de retorno para la llamada de la funcion.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def recolectar_bajo_rendimiento(numeros, umbral):
         """ (lista de numero, int) -> lista de numero
 

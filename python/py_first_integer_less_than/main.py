@@ -1,4 +1,3 @@
-
 def smaller_index(items):
     """ (list of int) -> int
     

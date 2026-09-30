@@ -40,12 +40,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def menorQue10(num):
           # pon tu codigo aqui abajo
-  placeholder: |2-
-
+  placeholder: |-
     def menorQue10(num):
         # pon tu codigo aqui abajo
 testcases:

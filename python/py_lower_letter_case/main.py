@@ -1,4 +1,3 @@
-
 def check_password(passwd):
     """ (str) -> bool
 

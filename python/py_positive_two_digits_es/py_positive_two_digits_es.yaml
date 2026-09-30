@@ -34,12 +34,10 @@ statement: Escribe una funcion que determine si el numero positivo dado tiene ex
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def tieneDosDigitos(x):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def tieneDosDigitos(x):
         return
 testcases:

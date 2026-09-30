@@ -29,12 +29,10 @@ elements:
 - type: editable
   location:
     snippet: |2-
-
           """ (list of list of str, list of str) -> list of list of str
 
           """
   placeholder: |2-
-
         """ (list of list of str, list of str) -> list of list of str
 
         """

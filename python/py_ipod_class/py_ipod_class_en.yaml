@@ -25,7 +25,7 @@ statement: "We have started to write a class to manage an iPod's music library. 
 elements:
 - type: editable
   location:
-    snippet: "\nclass iPod:    \n    def __init__(self, max_song_capacity):\n        self.max_song_capacity = max_song_capacity\n\
+    snippet: "class iPod:    \n    def __init__(self, max_song_capacity):\n        self.max_song_capacity = max_song_capacity\n\
       \        self.library = {}\n        self.num_songs = 0\n    \n    def space_available(self):\n        #write this method\n\
       \    \n    def add_song(self, artist, song_name):\n        if self.space_available() == 0:\n            print(\"No more\
       \ room for songs\")\n        else:\n\n            #write missing code\n\n            print(song_name + \" by \" + artist\
@@ -35,7 +35,7 @@ elements:
       \"\"\n        if not song_in_library(artist, song_name):\n            print(\"Song not found\")\n        else:\n\n \
       \           #write missing code\n\n            print(song_name + \" by \" + artist + \" was removed from the music library\"\
       )  "
-  placeholder: "\nclass iPod:    \n    def __init__(self, max_song_capacity):\n        self.max_song_capacity = max_song_capacity\n\
+  placeholder: "class iPod:    \n    def __init__(self, max_song_capacity):\n        self.max_song_capacity = max_song_capacity\n\
     \        self.library = {}\n        self.num_songs = 0\n    \n    def space_available(self):\n        #write this method\n\
     \    \n    def add_song(self, artist, song_name):\n        if self.space_available() == 0:\n            print(\"No more\
     \ room for songs\")\n        else:\n\n            #write missing code\n\n            print(song_name + \" by \" + artist\

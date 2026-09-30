@@ -1,3 +1,2 @@
-
 def maxIndex(items):
     #code

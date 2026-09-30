@@ -1,4 +1,3 @@
-
 def is_multiple_of_3(value):
     """ (int) -> bool
 

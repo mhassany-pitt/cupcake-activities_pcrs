@@ -39,9 +39,9 @@ statement: Define y asigna las variables "a" y "b" de manera que algunCodigo() d
 elements:
 - type: editable
   location:
-    snippet: "\ndef algunCodigo():\n    a = \n    b = \n    # Verifica si a no es igual a 7 y b es igual a 3\n    if a !=\
-      \ 7 and b == 3:\n        return True"
-  placeholder: "\ndef algunCodigo():\n    a = \n    b = \n    # Verifica si a no es igual a 7 y b es igual a 3\n    if a !=\
+    snippet: "def algunCodigo():\n    a = \n    b = \n    # Verifica si a no es igual a 7 y b es igual a 3\n    if a != 7\
+      \ and b == 3:\n        return True"
+  placeholder: "def algunCodigo():\n    a = \n    b = \n    # Verifica si a no es igual a 7 y b es igual a 3\n    if a !=\
     \ 7 and b == 3:\n        return True"
 testcases:
 - title: Solution Verification

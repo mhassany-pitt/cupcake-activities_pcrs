@@ -37,10 +37,10 @@ statement: Agrega al menos un ejemplo al docstring y completa el cuerpo de la fu
 elements:
 - type: editable
   location:
-    snippet: "\ndef todo_esponjoso(c):\n    \"\"\" (str) -> bool\n\n    Devuelve True si y solo si cada letra en c es esponjosa.\
+    snippet: "def todo_esponjoso(c):\n    \"\"\" (str) -> bool\n\n    Devuelve True si y solo si cada letra en c es esponjosa.\
       \ Las letras esponjosas son aquellas que\n    aparecen en la palabra 'esponjoso'.\n    \n    \"\"\"\n    #Pendiente:\
       \ Ahora completa el cuerpo de la funcion"
-  placeholder: "\ndef todo_esponjoso(c):\n    \"\"\" (str) -> bool\n\n    Devuelve True si y solo si cada letra en c es esponjosa.\
+  placeholder: "def todo_esponjoso(c):\n    \"\"\" (str) -> bool\n\n    Devuelve True si y solo si cada letra en c es esponjosa.\
     \ Las letras esponjosas son aquellas que\n    aparecen en la palabra 'esponjoso'.\n    \n    \"\"\"\n    #Pendiente: Ahora\
     \ completa el cuerpo de la funcion"
 testcases:

@@ -35,10 +35,6 @@ runtime:
 statement: Escribe una funcion mi_max(num1, num2) que devuelva el numero mayor de num1 o num2. Si ambos numeros son iguales,
   devuelve num1.
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: |-

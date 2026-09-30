@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def check_password(passwd):
           """ (str) -> bool
 
@@ -35,8 +34,7 @@ elements:
           >>> check_password('I<3csc108')
           True
           """
-  placeholder: |2-
-
+  placeholder: |-
     def check_password(passwd):
         """ (str) -> bool
 

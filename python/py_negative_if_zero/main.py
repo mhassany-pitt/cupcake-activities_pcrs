@@ -1,3 +1,2 @@
-
 def isNegative(x):
     return

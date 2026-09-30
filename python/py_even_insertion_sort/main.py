@@ -1,4 +1,3 @@
-
 def insert_even(L, i):
     """ (list, int) -> NoneType
 

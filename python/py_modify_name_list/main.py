@@ -1,4 +1,3 @@
-
 def swap_name(name_list): 
     """ (list of str) -> NoneType 
  

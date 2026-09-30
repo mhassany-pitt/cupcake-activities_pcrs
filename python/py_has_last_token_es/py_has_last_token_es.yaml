@@ -71,8 +71,7 @@ statement: En este problema escribiras la `funcion tiene_ultimo_token` que toma 
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def tiene_ultimo_token(L, token)
           """ (lista de str, str) -> lista de str
 
@@ -81,8 +80,7 @@ elements:
           >>> tiene_ultimo_token(['uno,gordo,negro,gato', 'uno,pequeno,rojo,pez', 'dos,delgado,azul,pez'], 'pez')
           ['uno,pequeno,rojo,pez', 'dos,delgado,azul,pez']
           """
-  placeholder: |2
-
+  placeholder: |
     def tiene_ultimo_token(L, token)
         """ (lista de str, str) -> lista de str
 

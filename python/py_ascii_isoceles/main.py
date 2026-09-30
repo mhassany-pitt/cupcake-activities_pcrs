@@ -1,4 +1,3 @@
-
 def write_ascii_triangle(triangle_doc, block, sidelength):
     """ (File Open for writing, str, int) -> NoneType
     

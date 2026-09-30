@@ -23,8 +23,7 @@ statement: Complete the examples in the docstring and then complete the function
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def scale_midterm_grades(grades, multiplier, bonus):
           """ (list of number, number, number) -> NoneType
 
@@ -36,8 +35,7 @@ elements:
           >>> grades
           # TODO Replace this comment with the list that grades should refer to.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def scale_midterm_grades(grades, multiplier, bonus):
         """ (list of number, number, number) -> NoneType
 

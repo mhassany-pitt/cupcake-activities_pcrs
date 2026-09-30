@@ -59,8 +59,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef generar_string_repetidos(inicio,fin):\n    #PENDIENTE: escriba codigo aqui "
-  placeholder: "\ndef generar_string_repetidos(inicio,fin):\n    #PENDIENTE: escriba codigo aqui "
+    snippet: "def generar_string_repetidos(inicio,fin):\n    #PENDIENTE: escriba codigo aqui "
+  placeholder: "def generar_string_repetidos(inicio,fin):\n    #PENDIENTE: escriba codigo aqui "
 testcases:
 - title: Solution Verification
   visible: true

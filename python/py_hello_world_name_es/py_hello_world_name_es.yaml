@@ -39,10 +39,6 @@ statement: |-
 
    - `hola_mundo('Python')` => `"Python dice hola mundo!"`
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: 'def hola_mundo(nombre):'

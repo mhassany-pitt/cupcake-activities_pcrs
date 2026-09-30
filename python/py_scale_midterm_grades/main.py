@@ -1,4 +1,3 @@
-
 def scale_midterm_grades(grades, multiplier, bonus):
     """ (list of number, number, number) -> NoneType
 

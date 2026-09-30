@@ -28,12 +28,10 @@ statement: "Write a function that takes a single character and an int key as par
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def unshiftChar(ch, key):
           # code goes here
-  placeholder: |2-
-
+  placeholder: |-
     def unshiftChar(ch, key):
         # code goes here
 testcases:

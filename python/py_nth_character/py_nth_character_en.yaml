@@ -24,8 +24,7 @@ statement: Complete the body for the following function. While this function cou
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def every_nth_character(s, n):
           """ (str, int) -> str
 
@@ -41,8 +40,7 @@ elements:
           #TODO add the rest of the code here
 
           return result
-  placeholder: |2-
-
+  placeholder: |-
     def every_nth_character(s, n):
         """ (str, int) -> str
 

@@ -35,10 +35,6 @@ statement: "Given an integer variable `n` entered by the user from keyboard, com
   \ `n` entered by the user is 500, the value of `maxPower` will be 243. \nE.g. 3: if the value of `n` entered by the user\
   \ is 27, the value of `maxPower` will be 27."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab4 {\n    public static void main(String[] args){\n        // Create\

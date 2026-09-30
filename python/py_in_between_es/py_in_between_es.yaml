@@ -47,8 +47,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
-  placeholder: "\ndef estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
+    snippet: "def estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
+  placeholder: "def estaEntre(x, a, b):\n    #Escribe tu codigo aqui\n    "
 testcases:
 - title: Solution Verification
   visible: true

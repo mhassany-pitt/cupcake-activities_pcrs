@@ -36,12 +36,10 @@ statement: ¬¨¬∞Acabas de comprar aguacates en la tienda de comestibles! No 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def aguacates(diasPasados):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def aguacates(diasPasados):
         return
 testcases:

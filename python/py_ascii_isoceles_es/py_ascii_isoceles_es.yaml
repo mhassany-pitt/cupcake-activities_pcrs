@@ -23,12 +23,12 @@ statement: Completa la siguiente funcion.
 elements:
 - type: editable
   location:
-    snippet: "\ndef escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
+    snippet: "def escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
       \ str, int) -> NoneType\n    \n    Precondicion: len(bloque) == 1\n    \n    Escribe un triangulo rectangulo isosceles\
       \ de caracteres bloque que es\n    longitud_lado caracteres de ancho y alto en triangulo_doc. El angulo recto\n    debe\
       \ estar en la esquina superior izquierda. Por ejemplo, dado\n    bloque=\"@\" y longitud_lado=4, lo siguiente debe escribirse\
       \ en triangulo_doc:\n    \n    @@@@\n    @@@\n    @@\n    @\n    \"\"\""
-  placeholder: "\ndef escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
+  placeholder: "def escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):\n    \"\"\" (Archivo abierto para escribir,\
     \ str, int) -> NoneType\n    \n    Precondicion: len(bloque) == 1\n    \n    Escribe un triangulo rectangulo isosceles\
     \ de caracteres bloque que es\n    longitud_lado caracteres de ancho y alto en triangulo_doc. El angulo recto\n    debe\
     \ estar en la esquina superior izquierda. Por ejemplo, dado\n    bloque=\"@\" y longitud_lado=4, lo siguiente debe escribirse\

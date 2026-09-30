@@ -39,9 +39,9 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de\
-      \ los parámetros es positivo.\n    \"\"\"\n    #Escribe tu codigo aqui\n    \n    "
-  placeholder: "\ndef alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de\
+    snippet: "def alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de los\
+      \ parámetros es positivo.\n    \"\"\"\n    #Escribe tu codigo aqui\n    \n    "
+  placeholder: "def alMenosUnoPositivo(a, b, c):\n    \"\"\"(int, int, int) -> bool\n    Devuelve True si al menos uno de\
     \ los parámetros es positivo.\n    \"\"\"\n    #Escribe tu codigo aqui\n    \n    "
 testcases:
 - title: Solution Verification

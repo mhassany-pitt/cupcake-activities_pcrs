@@ -30,12 +30,8 @@ statement: "A grocery store sells perishable and nonperishable food.  Each item 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      perishable = True
-  placeholder: |2-
-
-    perishable = True
+    snippet: perishable = True
+  placeholder: perishable = True
 testcases:
 - title: Solution Verification
   visible: true

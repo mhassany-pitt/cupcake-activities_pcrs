@@ -47,11 +47,11 @@ statement: Completa la siguiente funcion segun su docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
+    snippet: "def primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
       \ en el que los valores de lista1 y lista2 difieren. \n    Devuelve -1 si no se encuentran diferencias.\n       \n \
       \   >>> primera_diferencia(['a', 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> primera_diferencia(['a', 'b', 'c'], ['a',\
       \ 'b', 'c', 'd'])\n    3\n    >>> primera_diferencia(['a', 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""
-  placeholder: "\ndef primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
+  placeholder: "def primera_diferencia(lista1, lista2):\n    \"\"\" (list, list) -> int\n    \n    Devuelve el primer indice\
     \ en el que los valores de lista1 y lista2 difieren. \n    Devuelve -1 si no se encuentran diferencias.\n       \n   \
     \ >>> primera_diferencia(['a', 'b', 'c'], ['a', 'd', 'c'])\n    1\n    >>> primera_diferencia(['a', 'b', 'c'], ['a', 'b',\
     \ 'c', 'd'])\n    3\n    >>> primera_diferencia(['a', 'b', [1]], ['a', 'b', [1]])\n    -1\n    \"\"\""

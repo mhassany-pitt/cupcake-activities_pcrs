@@ -1,4 +1,3 @@
-
 def mismo_valor_abs(num1, num2):
     """ (numero, numero) -> booleano
 

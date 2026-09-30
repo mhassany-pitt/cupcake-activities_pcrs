@@ -1,4 +1,3 @@
-// Write your code here
 static int indOfMin( int[] arr, int count, int startingAt){
     int minIndex = startingAt;
     int min = arr[startingAt];

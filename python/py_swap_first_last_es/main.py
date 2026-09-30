@@ -1,4 +1,3 @@
-
 def intercambiar_extremos(L):
     """ (lista) -> NoneType
     

@@ -33,12 +33,10 @@ statement: 'Escribe una funcion que devuelva verdadero si solo uno de los dos pa
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def soloUnoVerdadero(b1, b2):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def soloUnoVerdadero(b1, b2):
         return
 testcases:

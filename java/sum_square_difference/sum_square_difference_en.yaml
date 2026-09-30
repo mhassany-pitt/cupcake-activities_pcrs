@@ -33,10 +33,6 @@ statement: |-
 
   Write a method that finds the difference between the sum of the squares of the first n natural numbers and the square of the sum.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: |-

@@ -31,10 +31,6 @@ statement: "Given an integer variable `n` entered by the user from keyboard, com
   \ by the user is 4, the value of `count` will be 2. \nE.g. 3: if the value of `n` entered by the user is 8, the value of\
   \ `count` will be 3."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\

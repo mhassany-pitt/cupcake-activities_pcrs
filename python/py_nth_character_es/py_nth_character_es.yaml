@@ -50,8 +50,7 @@ statement: Complete the body for the following function. While this function cou
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def cada_n_caracter(string, n):
           """ (str, int) -> str
 
@@ -67,8 +66,7 @@ elements:
           #TODO agrega el resto del codigo aqui
 
           return resultado
-  placeholder: |2-
-
+  placeholder: |-
     def cada_n_caracter(string, n):
         """ (str, int) -> str
 

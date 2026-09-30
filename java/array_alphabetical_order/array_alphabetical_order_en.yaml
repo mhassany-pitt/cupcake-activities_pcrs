@@ -50,8 +50,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic boolean isAlphabetical(String[] sarr)\n{\n    \n}"
-  placeholder: "\npublic boolean isAlphabetical(String[] sarr)\n{\n    \n}"
+    snippet: "public boolean isAlphabetical(String[] sarr)\n{\n    \n}"
+  placeholder: "public boolean isAlphabetical(String[] sarr)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

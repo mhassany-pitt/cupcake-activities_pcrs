@@ -38,16 +38,14 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       public int countVowel(char[] str)
       {
           // TO DO: Write your code here.
           // Hint: You can loop through the array of characters and count occurences
           // of letters representing vowels.
       }
-  placeholder: |2-
-
+  placeholder: |-
     public int countVowel(char[] str)
     {
         // TO DO: Write your code here.

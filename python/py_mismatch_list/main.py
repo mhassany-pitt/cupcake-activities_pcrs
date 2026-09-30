@@ -1,4 +1,3 @@
-
 def first_mismatch(lst1, lst2):
     """ (list, list) -> int
     

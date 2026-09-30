@@ -44,12 +44,12 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
+    snippet: "def intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
       \ el nombre de una sola persona. Modifica lista_nombres para que el primer nombre y el ultimo apellido sean intercambiados.\
       \ \n                 \n    >>> nombre = ['John', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n    >>> nombre \n\
       \    ['Smith', 'John'] \n    >>> nombre = ['John', 'Andrew', 'Gleeson', 'Smith'] \n    >>> intercambiar_nombre(nombre)\
       \ \n    >>> nombre \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
-  placeholder: "\ndef intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
+  placeholder: "def intercambiar_nombre(lista_nombres): \n    \"\"\" (lista de str) -> NoneType \n \n    lista_nombres contiene\
     \ el nombre de una sola persona. Modifica lista_nombres para que el primer nombre y el ultimo apellido sean intercambiados.\
     \ \n                 \n    >>> nombre = ['John', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n    >>> nombre \n  \
     \  ['Smith', 'John'] \n    >>> nombre = ['John', 'Andrew', 'Gleeson', 'Smith'] \n    >>> intercambiar_nombre(nombre) \n\

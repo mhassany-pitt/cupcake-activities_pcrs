@@ -44,8 +44,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contar_digitos(n):
           """ (int) -> int
 
@@ -54,8 +53,7 @@ elements:
           Debes usar un ciclo while en tu solución.
           """
           # Escribe tu codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def contar_digitos(n):
         """ (int) -> int
 

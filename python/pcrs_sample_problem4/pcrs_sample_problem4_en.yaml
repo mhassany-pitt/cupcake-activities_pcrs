@@ -22,10 +22,6 @@ runtime:
 statement: Write the body of a loop that computes the sum of all of the integers at odd indices of the list L. The result
   should be stored in the variable sum.
 elements:
-- type: editable
-  location:
-    snippet: '# Write your code here'
-  placeholder: '# Write your code here'
 - type: locked
   location:
     snippet: |-

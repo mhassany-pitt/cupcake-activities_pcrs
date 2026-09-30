@@ -42,9 +42,9 @@ statement: "Complete the following code in order to calculate the height of a pe
 elements:
 - type: editable
   location:
-    snippet: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height\
-      \ in meters value to a variable called heightInMeters. \n            \n            "
-  placeholder: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height\
+    snippet: "// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height in\
+      \ meters value to a variable called heightInMeters. \n            \n            "
+  placeholder: "// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// Set the height\
     \ in meters value to a variable called heightInMeters. \n            \n            "
 - type: locked
   location:

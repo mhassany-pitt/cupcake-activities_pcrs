@@ -1,4 +1,3 @@
-
 CHILD = "child"
 SENIOR = "senior"
 ADULT = "adult"

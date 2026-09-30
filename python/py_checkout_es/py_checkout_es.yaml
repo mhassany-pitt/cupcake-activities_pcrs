@@ -50,13 +50,13 @@ statement: La caja rapida es para pedidos de comestibles con 8 o menos articulos
 elements:
 - type: editable
   location:
-    snippet: "\ndef caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve\
-      \ True si y solo si el pedido de comestibles en producto_a_cantidad califica para la\n    caja rapida. producto_a_cantidad\
+    snippet: "def caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve True\
+      \ si y solo si el pedido de comestibles en producto_a_cantidad califica para la\n    caja rapida. producto_a_cantidad\
       \ asigna productos a la cantidad de esos\n    articulos en el pedido de comestibles.\n\n    >>> caja_rapida({'platano':\
       \ 3, 'leche de soya': 1, 'mantequilla de mani': 1})\n    #Pendiente: Completar el valor de retorno de la llamada a la\
       \ funcion anterior.\n    >>> caja_rapida({'platano': 3, 'leche de soya': 1, 'pastelito': 5})\n    #Pendiente: Completar\
       \ el valor de retorno de la llamada a la funcion anterior.\n    \"\"\"\n    "
-  placeholder: "\ndef caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve\
+  placeholder: "def caja_rapida(producto_a_cantidad):\n    \"\"\" (diccionario de {str: int}) -> booleano\n\n    Devuelve\
     \ True si y solo si el pedido de comestibles en producto_a_cantidad califica para la\n    caja rapida. producto_a_cantidad\
     \ asigna productos a la cantidad de esos\n    articulos en el pedido de comestibles.\n\n    >>> caja_rapida({'platano':\
     \ 3, 'leche de soya': 1, 'mantequilla de mani': 1})\n    #Pendiente: Completar el valor de retorno de la llamada a la\

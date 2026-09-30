@@ -1,4 +1,3 @@
-
 def search_closet(items, colour):
     """ (list of str, str) -> list of str
     

@@ -33,11 +33,11 @@ statement: Completa la siguiente funcion de acuerdo con la descripcion de su doc
 elements:
 - type: editable
   location:
-    snippet: "\ndef formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es\
-      \ un nombre y el segundo es un apellido. Devuelve un string \n    en el formato \"APELLIDO, NOMBRE\", donde APELLIDO\
-      \ y NOMBRE \n    son reemplazados por el apellido y nombre  dados.\n\n    >>> formato_nombre('David', 'Cohen')\n   \
-      \ 'Cohen, David' \n    \"\"\""
-  placeholder: "\ndef formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es\
+    snippet: "def formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es un\
+      \ nombre y el segundo es un apellido. Devuelve un string \n    en el formato \"APELLIDO, NOMBRE\", donde APELLIDO y\
+      \ NOMBRE \n    son reemplazados por el apellido y nombre  dados.\n\n    >>> formato_nombre('David', 'Cohen')\n    'Cohen,\
+      \ David' \n    \"\"\""
+  placeholder: "def formato_nombre(nombre, apellido):    \n    \"\"\" (str, str) -> str\n    \n    El primer parametro es\
     \ un nombre y el segundo es un apellido. Devuelve un string \n    en el formato \"APELLIDO, NOMBRE\", donde APELLIDO y\
     \ NOMBRE \n    son reemplazados por el apellido y nombre  dados.\n\n    >>> formato_nombre('David', 'Cohen')\n    'Cohen,\
     \ David' \n    \"\"\""

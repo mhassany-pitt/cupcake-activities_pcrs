@@ -44,10 +44,6 @@ statement: |-
   E.g. 2: if the value of `out` is "----" and the value of `word` is "WooHoo", the code prints --WooHoo--.
   E.g. 3: if the value of `out` is "[[]]" and the value of `word` is "word", the code prints [[word]].
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    String str;'

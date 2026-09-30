@@ -1,3 +1,2 @@
-
 def estaConectado(continente):
     return

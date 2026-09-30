@@ -55,8 +55,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic boolean isSorted(int[] arr)\n{\n    \n}"
-  placeholder: "\npublic boolean isSorted(int[] arr)\n{\n    \n}"
+    snippet: "public boolean isSorted(int[] arr)\n{\n    \n}"
+  placeholder: "public boolean isSorted(int[] arr)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

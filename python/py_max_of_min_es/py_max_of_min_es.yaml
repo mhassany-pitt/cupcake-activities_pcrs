@@ -40,8 +40,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef maximo_de_minimos(num1, num2, valor1, valor2):\n    "
-  placeholder: "\ndef maximo_de_minimos(num1, num2, valor1, valor2):\n    "
+    snippet: "def maximo_de_minimos(num1, num2, valor1, valor2):\n    "
+  placeholder: "def maximo_de_minimos(num1, num2, valor1, valor2):\n    "
 testcases:
 - title: Solution Verification
   visible: true

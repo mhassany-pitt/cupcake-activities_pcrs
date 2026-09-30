@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isSorted(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def isSorted(items):
         #code
 testcases:

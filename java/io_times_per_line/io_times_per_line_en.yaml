@@ -62,8 +62,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
-  placeholder: "\nstatic ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
+    snippet: "static ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
+  placeholder: "static ArrayList<Integer> timesPerLine(BufferedReader reader, String word){\n\n}\n      "
 testcases:
 - title: Solution Verification
   visible: true

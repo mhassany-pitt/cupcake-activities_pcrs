@@ -31,12 +31,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def countA(s):
           #your code here
-  placeholder: |2-
-
+  placeholder: |-
     def countA(s):
         #your code here
 testcases:

@@ -49,12 +49,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def esstringADN(secuencia):
           # el codigo va aqui
-  placeholder: |2-
-
+  placeholder: |-
     def esstringADN(secuencia):
         # el codigo va aqui
 testcases:

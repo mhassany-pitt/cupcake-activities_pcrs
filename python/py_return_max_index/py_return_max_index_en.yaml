@@ -26,12 +26,10 @@ statement: "Write a function that takes a list of ints \nand returns the *index*
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def maxIndex(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def maxIndex(items):
         #code
 testcases:

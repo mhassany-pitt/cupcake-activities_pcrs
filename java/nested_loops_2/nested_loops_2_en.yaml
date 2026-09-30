@@ -43,8 +43,8 @@ statement: "Given an integer variable `N`, write a **nested for loop** to print 
 elements:
 - type: editable
   location:
-    snippet: "\n// TODO: write your code here \n\n"
-  placeholder: "\n// TODO: write your code here \n\n"
+    snippet: "// TODO: write your code here \n\n"
+  placeholder: "// TODO: write your code here \n\n"
 testcases:
 - title: Solution Verification
   visible: true

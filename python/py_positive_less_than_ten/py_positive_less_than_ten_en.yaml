@@ -26,12 +26,10 @@ statement: "Write a method that takes an int as a parameter and returns true if 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def positiveLessThan10(num):
           # your code here
-  placeholder: |2-
-
+  placeholder: |-
     def positiveLessThan10(num):
         # your code here
 testcases:

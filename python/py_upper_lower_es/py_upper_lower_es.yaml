@@ -63,14 +63,14 @@ statement: Completa esta funcion segun la descripcion de su docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un caracter\
+    snippet: "def mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un caracter\
       \ alfabetico en string y los caracteres alfabeticos en string\n    son todos mayusculas o todos minusculas.\n    \n\
       \    >>> mayus_minus('abc')\n    True\n    >>> mayus_minus('abcXYZ')\n    False\n    >>> mayus_minus('XYZ')\n    True\n\
       \    \"\"\""
-  placeholder: "\ndef mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un\
-    \ caracter alfabetico en string y los caracteres alfabeticos en string\n    son todos mayusculas o todos minusculas.\n\
-    \    \n    >>> mayus_minus('abc')\n    True\n    >>> mayus_minus('abcXYZ')\n    False\n    >>> mayus_minus('XYZ')\n  \
-    \  True\n    \"\"\""
+  placeholder: "def mayus_minus(string):\n    \"\"\" (str) -> bool\n    \n    Devuelve True si y solo si hay al menos un caracter\
+    \ alfabetico en string y los caracteres alfabeticos en string\n    son todos mayusculas o todos minusculas.\n    \n  \
+    \  >>> mayus_minus('abc')\n    True\n    >>> mayus_minus('abcXYZ')\n    False\n    >>> mayus_minus('XYZ')\n    True\n\
+    \    \"\"\""
 testcases:
 - title: Solution Verification
   visible: true

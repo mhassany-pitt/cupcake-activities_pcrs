@@ -43,10 +43,6 @@ statement: "Escribe una función que tome una lista de strings denominados ` ite
   \ ` items ` aparece como llave en `d`\nreemplácelo con el valor. Por ejemplo:\n\n```\nintercambiar(['ab','bc','perro'],\
   \ {'ab':'xyz'}) => ['xyz', 'bc', 'perro']\n```"
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: 'def intercambiar(items, d):'

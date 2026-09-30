@@ -23,8 +23,7 @@ statement: Add at least one example to the docstring and complete the function b
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def count_uppercase(s):
           """ (str) -> int
 
@@ -35,8 +34,7 @@ elements:
           """
 
           #TODO: now complete the function body
-  placeholder: |2-
-
+  placeholder: |-
     def count_uppercase(s):
         """ (str) -> int
 

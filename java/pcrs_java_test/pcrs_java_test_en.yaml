@@ -21,10 +21,6 @@ runtime:
   version: '17'
 statement: Complete the following code fragment to sum all even numbers up to and including `n`.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "// Initialization of n is hidden.\nint sum = 0, i;\n\nfor        "

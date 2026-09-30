@@ -51,13 +51,13 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\n# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
+    snippet: "# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
       \  # Ejemplo de codigo de barras\n\n# Verificar si el codigo de barras es un numero entero de 9 digitos\nif len(str(codigo_barras))\
       \ == 9:\n    # Obtener el ultimo digito del codigo de barras\n    ultimo_digito = int(str(codigo_barras)[-1])\n    \n\
       \    # Verificar si el ultimo digito indica que el articulo es perecedero\n    if ultimo_digito in [3, 4, 7]:\n    \
       \    print('SI')  # El articulo es perecedero\n    else:\n        print('NO')  # El articulo no es perecedero\nelse:\n\
       \    print('Invalido')  # El codigo de barras no es valido"
-  placeholder: "\n# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
+  placeholder: "# Este programa verifica si un articulo es perecedero basado en su codigo de barras\ncodigo_barras = 342564643\
     \  # Ejemplo de codigo de barras\n\n# Verificar si el codigo de barras es un numero entero de 9 digitos\nif len(str(codigo_barras))\
     \ == 9:\n    # Obtener el ultimo digito del codigo de barras\n    ultimo_digito = int(str(codigo_barras)[-1])\n    \n\
     \    # Verificar si el ultimo digito indica que el articulo es perecedero\n    if ultimo_digito in [3, 4, 7]:\n      \

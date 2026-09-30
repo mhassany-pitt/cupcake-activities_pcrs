@@ -1,4 +1,3 @@
-
 def reorganize(orig_dict):
     """ (dict of str to list of str) -> dict of str to list of str
     

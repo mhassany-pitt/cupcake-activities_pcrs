@@ -1,4 +1,3 @@
-
 def obtener_cantidades(mesa_a_comidas):
     """"" (dict de {str: lista de str}) -> dict de {str: int}
 	

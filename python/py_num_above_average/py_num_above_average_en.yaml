@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def numAboveAverage(list1, list2):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def numAboveAverage(list1, list2):
         #code
 testcases:

@@ -1,4 +1,3 @@
-
 class Rectangle:
     """ A rectangle with a width and height. """
 

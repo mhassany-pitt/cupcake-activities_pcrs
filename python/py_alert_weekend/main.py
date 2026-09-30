@@ -1,3 +1,2 @@
-
 def isWeekend(day):
     return

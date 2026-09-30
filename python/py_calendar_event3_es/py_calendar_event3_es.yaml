@@ -47,7 +47,7 @@ statement: Completa cada metodo de la clase `Evento`.
 elements:
 - type: editable
   location:
-    snippet: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
+    snippet: "class Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
       \ nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio < hora_fin\
       \ <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n      \
       \  y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n       \
@@ -67,26 +67,26 @@ elements:
       \ se_superpone(self, otro):\n        \"\"\" (Evento, Evento) -> bool\n\n        Devuelve True si y solo si este evento\
       \ se superpone con el evento otro.\n\n        >>> e1 = Evento(6, 7, 'Correr')\n        >>> e2 = Evento(0, 7, 'Dormir')\n\
       \        >>> e1.se_superpone(e2)\n        True\n        \"\"\"\n\n        # TODO: completar el cuerpo de este metodo."
-  placeholder: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio,\
-    \ hora_fin, nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio\
-    \ < hora_fin <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n\
-    \        y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n   \
-    \     >>> e.hora_fin\n        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n    \n        # TODO: completar\
-    \ el cuerpo de este metodo.\n\n    def renombrar(self, nuevo_nombre):\n        \"\"\" (Evento, str) -> NoneType\n\n  \
-    \      Cambia el nombre de este evento a nuevo_nombre.\n        \n        >>> e = Evento(12, 13, 'Almuerzo')\n       \
-    \ >>> e.renombrar('Horas de oficina')\n        >>> e.nombre\n        'Horas de oficina'\n        \"\"\"\n        \n  \
-    \      # TODO: completar el cuerpo de este metodo.\n\n\n    def duracion(self):\n        \"\"\" (Evento) -> int\n\n  \
-    \      Devuelve la duracion de este evento.\n\n        >>> e = Evento(10, 11, 'Clase')\n        >>> e.duracion()\n   \
-    \     1\n        \"\"\"\n        \n        # TODO: completar el cuerpo de este metodo.\n\n    \n    def __str__(self):\n\
-    \        \"\"\" (Evento) -> str\n\n        Devuelve una representacion en string de este evento.\n\n        >>> e = Evento(6,\
-    \ 7, 'Correr')\n        >>> str(e)\n        'Correr: de 6 a 7'\n        \"\"\"\n        \n        # TODO: completar el\
-    \ cuerpo de este metodo.\n              \n\n    def __eq__(self, otro):\n        \"\"\" (Evento, Evento) -> bool\n\n \
-    \       Devuelve True si y solo si este evento tiene la misma hora de inicio, hora de fin, \n        y nombre que otro.\n\
-    \n        >>> e1 = Evento(6, 7, 'Correr')\n        >>> e2 = Evento(6, 7, 'Correr')\n        >>> e1 == e2\n        True\n\
-    \        \"\"\"\n        \n        # TODO: completar el cuerpo de este metodo.\n\n\n    def se_superpone(self, otro):\n\
-    \        \"\"\" (Evento, Evento) -> bool\n\n        Devuelve True si y solo si este evento se superpone con el evento\
-    \ otro.\n\n        >>> e1 = Evento(6, 7, 'Correr')\n        >>> e2 = Evento(0, 7, 'Dormir')\n        >>> e1.se_superpone(e2)\n\
-    \        True\n        \"\"\"\n\n        # TODO: completar el cuerpo de este metodo."
+  placeholder: "class Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
+    \ nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio < hora_fin\
+    \ <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n        y\
+    \ se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n        >>> e.hora_fin\n\
+    \        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n    \n        # TODO: completar el cuerpo de este\
+    \ metodo.\n\n    def renombrar(self, nuevo_nombre):\n        \"\"\" (Evento, str) -> NoneType\n\n        Cambia el nombre\
+    \ de este evento a nuevo_nombre.\n        \n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.renombrar('Horas\
+    \ de oficina')\n        >>> e.nombre\n        'Horas de oficina'\n        \"\"\"\n        \n        # TODO: completar\
+    \ el cuerpo de este metodo.\n\n\n    def duracion(self):\n        \"\"\" (Evento) -> int\n\n        Devuelve la duracion\
+    \ de este evento.\n\n        >>> e = Evento(10, 11, 'Clase')\n        >>> e.duracion()\n        1\n        \"\"\"\n  \
+    \      \n        # TODO: completar el cuerpo de este metodo.\n\n    \n    def __str__(self):\n        \"\"\" (Evento)\
+    \ -> str\n\n        Devuelve una representacion en string de este evento.\n\n        >>> e = Evento(6, 7, 'Correr')\n\
+    \        >>> str(e)\n        'Correr: de 6 a 7'\n        \"\"\"\n        \n        # TODO: completar el cuerpo de este\
+    \ metodo.\n              \n\n    def __eq__(self, otro):\n        \"\"\" (Evento, Evento) -> bool\n\n        Devuelve\
+    \ True si y solo si este evento tiene la misma hora de inicio, hora de fin, \n        y nombre que otro.\n\n        >>>\
+    \ e1 = Evento(6, 7, 'Correr')\n        >>> e2 = Evento(6, 7, 'Correr')\n        >>> e1 == e2\n        True\n        \"\
+    \"\"\n        \n        # TODO: completar el cuerpo de este metodo.\n\n\n    def se_superpone(self, otro):\n        \"\
+    \"\" (Evento, Evento) -> bool\n\n        Devuelve True si y solo si este evento se superpone con el evento otro.\n\n \
+    \       >>> e1 = Evento(6, 7, 'Correr')\n        >>> e2 = Evento(0, 7, 'Dormir')\n        >>> e1.se_superpone(e2)\n  \
+    \      True\n        \"\"\"\n\n        # TODO: completar el cuerpo de este metodo."
 testcases:
 - title: Solution Verification
   visible: true

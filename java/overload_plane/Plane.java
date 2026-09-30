@@ -1,4 +1,3 @@
-// Write your code here
 public class Plane {
     private String airline;
     private String model;

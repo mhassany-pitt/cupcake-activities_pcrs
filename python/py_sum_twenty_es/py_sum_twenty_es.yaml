@@ -42,12 +42,10 @@ statement: "El metodo tiene 3 parametros: a, b y c. Devuelve verdadero si alguna
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def suma20(a, b, c):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def suma20(a, b, c):
         # code here
 testcases:

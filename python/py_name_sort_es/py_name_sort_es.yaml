@@ -30,8 +30,7 @@ statement: Completa la siguiente funcion segun la descripcion de su docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def primer_nombre(nombre1, nombre2):
           """ (str, str) -> str
 
@@ -42,8 +41,7 @@ elements:
           >>> primer_nombre('Colin', 'Colin')
           'Colin'
           """
-  placeholder: |2-
-
+  placeholder: |-
     def primer_nombre(nombre1, nombre2):
         """ (str, str) -> str
 

@@ -23,12 +23,10 @@ statement: Write a function that returns true if exactly two of the three given 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def onlyTwoTrue(b1, b2, b3):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def onlyTwoTrue(b1, b2, b3):
         return
 testcases:

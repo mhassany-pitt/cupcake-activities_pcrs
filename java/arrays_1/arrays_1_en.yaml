@@ -52,10 +52,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n   \
-      \ \n    \n}"
-  placeholder: "\npublic int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n \
-    \   \n    \n}"
+    snippet: "public int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n    \n\
+      \    \n}"
+  placeholder: "public int countDivisibleBy3(int[] arr) {\n    // TODO: Write your code here\n    \n    \n    \n    \n   \
+    \ \n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

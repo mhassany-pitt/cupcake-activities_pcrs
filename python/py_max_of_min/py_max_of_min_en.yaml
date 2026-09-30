@@ -27,12 +27,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      def max_of_min(num1, num2, value1, value2):
-  placeholder: |2-
-
-    def max_of_min(num1, num2, value1, value2):
+    snippet: 'def max_of_min(num1, num2, value1, value2):'
+  placeholder: 'def max_of_min(num1, num2, value1, value2):'
 testcases:
 - title: Solution Verification
   visible: true

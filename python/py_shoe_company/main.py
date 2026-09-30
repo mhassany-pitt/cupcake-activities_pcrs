@@ -1,4 +1,3 @@
-
 def build_placements(shoes):
     """ (list of str) -> dict of {str: list of int}
 

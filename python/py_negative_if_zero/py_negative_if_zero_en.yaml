@@ -24,12 +24,10 @@ statement: A number is only considered negative if it’s less than 0. Write a f
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isNegative(x):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def isNegative(x):
         return
 testcases:

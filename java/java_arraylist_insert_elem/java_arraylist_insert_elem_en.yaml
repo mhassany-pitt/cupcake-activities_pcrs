@@ -40,8 +40,8 @@ statement: Complete the method `insertElementSortedList` in order to insert an e
 elements:
 - type: editable
   location:
-    snippet: "\nstatic void insertElementSortedList(ArrayList<Integer> sortedList, int number){\n\n}\n      "
-  placeholder: "\nstatic void insertElementSortedList(ArrayList<Integer> sortedList, int number){\n\n}\n      "
+    snippet: "static void insertElementSortedList(ArrayList<Integer> sortedList, int number){\n\n}\n      "
+  placeholder: "static void insertElementSortedList(ArrayList<Integer> sortedList, int number){\n\n}\n      "
 testcases:
 - title: Solution Verification
   visible: true

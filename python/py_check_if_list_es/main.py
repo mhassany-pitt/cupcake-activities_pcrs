@@ -1,4 +1,3 @@
-# Escribe tu codigo aqui
 def suma_digital(lista_numeros):
     """ (lista de str) -> int
     

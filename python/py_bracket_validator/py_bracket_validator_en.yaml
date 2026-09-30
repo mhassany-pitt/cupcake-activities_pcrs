@@ -51,12 +51,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def is_valid(code):
           pass
-  placeholder: |2-
-
+  placeholder: |-
     def is_valid(code):
         pass
 testcases:

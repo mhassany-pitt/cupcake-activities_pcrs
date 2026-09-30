@@ -1,4 +1,3 @@
-
 def digital_sum(nums_list):
     """ (list of str) -> int
     

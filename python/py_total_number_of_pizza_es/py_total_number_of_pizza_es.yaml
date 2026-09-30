@@ -27,10 +27,6 @@ runtime:
 statement: Completa la funcion segun su docstring. Cuando creas que has terminado, haz clic en "Enviar" para que tu codigo
   sea probado. Si ambas pruebas pasan, felicidades! Si una o ambas fallan, edita tu codigo y vuelve a enviarlo.
 elements:
-- type: editable
-  location:
-    snippet: '# Escribe tu codigo aqui'
-  placeholder: '# Escribe tu codigo aqui'
 - type: locked
   location:
     snippet: "def total_rebanadas(num_pizzas, rebanadas_por_pizza):\n    \"\"\" (int, int) -> int\n\n    Devuelve el numero\

@@ -41,12 +41,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def countBasePairs(seq):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def countBasePairs(seq):
         # code here
 testcases:

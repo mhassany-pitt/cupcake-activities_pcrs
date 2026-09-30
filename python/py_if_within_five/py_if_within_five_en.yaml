@@ -23,12 +23,10 @@ statement: Write a function which determines whether a number is within five of 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def withinFive(x, y):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def withinFive(x, y):
         return
 testcases:

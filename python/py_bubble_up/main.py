@@ -1,4 +1,3 @@
-
 def bubble_up(L, start, end):
     """ (list, int, int) -> NoneType
 

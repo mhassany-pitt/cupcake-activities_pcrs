@@ -28,8 +28,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
-  placeholder: "\nstatic ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
+    snippet: "static ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
+  placeholder: "static ArrayList<Person> sortPersonListDescending(ArrayList<Person> unsortedList){\n\n}\n      "
 - type: locked
   location:
     snippet: "class Person{\n    public String firstName;\n    public String lastName;\n    public int age;\n    \n    public\

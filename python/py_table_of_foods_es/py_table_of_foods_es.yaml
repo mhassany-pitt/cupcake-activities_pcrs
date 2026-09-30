@@ -94,14 +94,14 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
+    snippet: "def obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
       \t\n    El diccionario mesa_a_comidas tiene nombres de mesas como llaves (por ejemplo, 'm1', 'm2', etc.) y cada valor\n\
       \    es una lista de comidas ordenadas para esa mesa.\n\n    Devuelve un diccionario donde cada llave es una comida\
       \ de mesa_a_comidas y cada\n    valor es la cantidad de esa comida que fue ordenada.\n\t\n    >>> obtener_cantidades({'m1':\
       \ ['Estofado vegetariano', 'Poutine', 'Estofado vegetariano'], 'm3': ['Pastel de carne', 'Poutine', 'Estofado vegetariano'],\
       \ 'm4': ['Pastel de carne', 'Pastel de carne']})\n    {'Estofado vegetariano': 3, 'Poutine': 2, 'Pastel de carne': 3}\t\
       \n    \"\"\"\"\"\n\n    comida_a_cantidad = {}\n\n    # Acumula la informacion de la comida aqui.\n\n    return comida_a_cantidad"
-  placeholder: "\ndef obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
+  placeholder: "def obtener_cantidades(mesa_a_comidas):\n    \"\"\"\"\" (dict de {str: lista de str}) -> dict de {str: int}\n\
     \t\n    El diccionario mesa_a_comidas tiene nombres de mesas como llaves (por ejemplo, 'm1', 'm2', etc.) y cada valor\n\
     \    es una lista de comidas ordenadas para esa mesa.\n\n    Devuelve un diccionario donde cada llave es una comida de\
     \ mesa_a_comidas y cada\n    valor es la cantidad de esa comida que fue ordenada.\n\t\n    >>> obtener_cantidades({'m1':\

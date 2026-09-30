@@ -1,4 +1,3 @@
-// Write your code here
 public class LinkedList {
 	private Node head;
 	private int size;

@@ -50,8 +50,7 @@ statement: 'A continuacion se presenta una funcion llamada burbujear_hacia_arrib
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def burbujear_hacia_arriba(L, inicio, fin):
           """ (list, int, int) -> NoneType
 
@@ -81,8 +80,7 @@ elements:
           >>> L
           [4, 1, 3, 2, 0]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def burbujear_hacia_arriba(L, inicio, fin):
         """ (list, int, int) -> NoneType
 

@@ -46,10 +46,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
+    snippet: "def obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
       \ una nueva lista que contiene las palabras de archivo en el mismo orden\n    en que aparecen en archivo.\n    \"\"\"\
       \""
-  placeholder: "\ndef obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
+  placeholder: "def obtener_palabras(archivo):\n    \"\"\"\" (Archivo Abierto para lectura) -> lista de str\n \n    Devuelve\
     \ una nueva lista que contiene las palabras de archivo en el mismo orden\n    en que aparecen en archivo.\n    \"\"\"\""
 testcases:
 - title: Solution Verification

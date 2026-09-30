@@ -24,12 +24,10 @@ statement: "The method has 3 parameters: a, b and c. Return true if any pair of 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def sum20(a, b, c):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def sum20(a, b, c):
         # code here
 testcases:

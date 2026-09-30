@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def earlier_name(name1, name2):
           """ (str, str) -> str
 
@@ -35,8 +34,7 @@ elements:
           >>> earlier_name('Colin', 'Colin')
           'Colin'
           """
-  placeholder: |2-
-
+  placeholder: |-
     def earlier_name(name1, name2):
         """ (str, str) -> str
 

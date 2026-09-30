@@ -32,10 +32,6 @@ statement: |-
 
   **Important:** Note that you have to define a variable named `firstSixChars` to store the 6 first characters of the user input, which are printed to the console in the last part of the code below.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab2 {\n    public static void main(String[] args){\n        // Create\

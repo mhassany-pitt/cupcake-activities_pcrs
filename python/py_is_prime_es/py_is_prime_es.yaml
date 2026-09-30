@@ -59,12 +59,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def esPrimo(x):
           # codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def esPrimo(x):
         # codigo aqui
 testcases:

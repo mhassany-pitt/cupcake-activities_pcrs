@@ -1,4 +1,3 @@
-
 def format_name(first, last):
     """ (str, str) -> str
     

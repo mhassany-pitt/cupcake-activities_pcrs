@@ -42,8 +42,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic int numTriples(int[] arr)\n{\n    \n}"
-  placeholder: "\npublic int numTriples(int[] arr)\n{\n    \n}"
+    snippet: "public int numTriples(int[] arr)\n{\n    \n}"
+  placeholder: "public int numTriples(int[] arr)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

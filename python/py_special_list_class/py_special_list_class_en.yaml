@@ -27,7 +27,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
+    snippet: "class SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
       \ size):\n        \"\"\" (SpecialList, int)\n\n        >>> L = SpecialList(10)\n        >>> L.size\n        10\n   \
       \     >>> L.value_list\n        []\n        \"\"\"\n        # complete this code\n\n\n    def push_value(self, new_value):\n\
       \        \"\"\" (SpecialList, object) -> NoneType\n\n        Append new_value to this list, if there is enough space\
@@ -41,7 +41,7 @@ elements:
       \        Return 0 if both SpecialList objects have lists that contain the same number of items.\n        Return 1 if\
       \ self's list contains more items than other's list.\n        Return -1 if self's list contains fewer items than other's\
       \ list.\n        \"\"\"\n        # complete this code"
-  placeholder: "\nclass SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
+  placeholder: "class SpecialList:\n    \"\"\"A list that can hold a limited number of items.\"\"\"\n\n    def __init__(self,\
     \ size):\n        \"\"\" (SpecialList, int)\n\n        >>> L = SpecialList(10)\n        >>> L.size\n        10\n     \
     \   >>> L.value_list\n        []\n        \"\"\"\n        # complete this code\n\n\n    def push_value(self, new_value):\n\
     \        \"\"\" (SpecialList, object) -> NoneType\n\n        Append new_value to this list, if there is enough space in\

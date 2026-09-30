@@ -1,4 +1,3 @@
-
 class Rectangulo:
     """ Un rectangulo con un ancho y altura. """
 

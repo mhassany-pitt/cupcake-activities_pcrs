@@ -54,10 +54,6 @@ statement: |-
 
   More instructions on how to implement the missing parts of this class are provided in the code below.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Sphere{ \n    //class attributes\n    private int x;\n    private int y;\n \tprivate int z;\n \

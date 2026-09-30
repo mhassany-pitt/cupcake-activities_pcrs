@@ -46,10 +46,6 @@ statement: "Given a string variable `str`, complete the following code in order 
   \ at least one character. \n\nE.g. 1: if the value of `str` is \"Hello\", the code prints Hlo. \nE.g. 2: if the value of\
   \ `str` is \"abc\", the code prints ac. \nE.g. 3: if the value of `str` is \"1234\", the code prints 13."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "int i;\nfor "

@@ -1,4 +1,3 @@
-
 def busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):
     """ (str, lista de str, lista de str) -> str
 

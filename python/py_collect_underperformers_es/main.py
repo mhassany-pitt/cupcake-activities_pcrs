@@ -1,4 +1,3 @@
-
 def recolectar_bajo_rendimiento(numeros, umbral):
     """ (lista de numero, int) -> lista de numero
 

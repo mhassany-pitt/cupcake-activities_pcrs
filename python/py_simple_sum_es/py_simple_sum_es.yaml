@@ -38,15 +38,13 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       # Supongamos que ambas variables num1 y num2 ya estan establecidas en un entero.
       # Asigna la suma a una variable llamada suma.
 
       suma = num1 + num2
       print(suma)
-  placeholder: |2-
-
+  placeholder: |-
     # Supongamos que ambas variables num1 y num2 ya estan establecidas en un entero.
     # Asigna la suma a una variable llamada suma.
 

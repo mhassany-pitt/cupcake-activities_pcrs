@@ -26,8 +26,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def students_by_degree(student_list, degree_type):
           """ (list of str, str) -> list of str
 
@@ -40,8 +39,7 @@ elements:
                                  'BEng')
           ['Paul Gries,Another High School,1990,BIO,60,70,CHM,80,90,CAT,95,96,BEng', 'Jen Campbell,Yet Another High School,2015,ENG,75,78,SCI,80,81,CHM,80,81,BEng']
           """
-  placeholder: |2
-
+  placeholder: |
     def students_by_degree(student_list, degree_type):
         """ (list of str, str) -> list of str
 

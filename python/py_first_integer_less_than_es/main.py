@@ -1,4 +1,3 @@
-
 def indice_menor(elementos):
     """ (lista de int) -> int
     

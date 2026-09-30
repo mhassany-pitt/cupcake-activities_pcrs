@@ -1,4 +1,3 @@
-
 def cookies_needed(num_adults, num_teens, num_children):
     """ (int, int, int) -> int
 

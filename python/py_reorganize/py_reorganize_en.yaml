@@ -27,10 +27,10 @@ statement: "Complete the function `reorganize` below that returns a dictionary `
 elements:
 - type: editable
   location:
-    snippet: "\ndef reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n\
-      \    >>> reorganize({'Key1':[\"str1\", \"str2\"], 'Key2':[\"str2\"]})\n    {'str1':['Key1'], 'str2':['Key1', 'Key2']}\n\
+    snippet: "def reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n  \
+      \  >>> reorganize({'Key1':[\"str1\", \"str2\"], 'Key2':[\"str2\"]})\n    {'str1':['Key1'], 'str2':['Key1', 'Key2']}\n\
       \    \"\"\""
-  placeholder: "\ndef reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n\
+  placeholder: "def reorganize(orig_dict):\n    \"\"\" (dict of str to list of str) -> dict of str to list of str\n    \n\
     \    >>> reorganize({'Key1':[\"str1\", \"str2\"], 'Key2':[\"str2\"]})\n    {'str1':['Key1'], 'str2':['Key1', 'Key2']}\n\
     \    \"\"\""
 testcases:

@@ -60,8 +60,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef conteo_votos(lista_votos):\n\t#Escribe tu codigo aqui\n    "
-  placeholder: "\ndef conteo_votos(lista_votos):\n\t#Escribe tu codigo aqui\n    "
+    snippet: "def conteo_votos(lista_votos):\n\t#Escribe tu codigo aqui\n    "
+  placeholder: "def conteo_votos(lista_votos):\n\t#Escribe tu codigo aqui\n    "
 testcases:
 - title: Solution Verification
   visible: true

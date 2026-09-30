@@ -23,11 +23,9 @@ statement: Function our maximum takes two numbers and returns the larger of the 
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def our_maximum(num1, num2):
-  placeholder: |2
-
+  placeholder: |
     def our_maximum(num1, num2):
 testcases:
 - title: Solution Verification

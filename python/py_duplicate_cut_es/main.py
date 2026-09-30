@@ -1,4 +1,3 @@
-
 def corte_duplicado(lista_enzimas):
     """ (lista de str) -> booleano
 

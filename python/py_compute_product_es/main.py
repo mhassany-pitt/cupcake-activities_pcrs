@@ -1,4 +1,3 @@
-
 def calcularProducto(numero1, numero2):
     """
     Calcula el producto de dos numeros.

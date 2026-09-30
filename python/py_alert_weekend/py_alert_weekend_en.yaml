@@ -25,12 +25,10 @@ statement: Write a function that will alert the user about whether it is the wee
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isWeekend(day):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def isWeekend(day):
         return
 testcases:

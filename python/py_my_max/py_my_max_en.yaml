@@ -22,10 +22,6 @@ runtime:
 statement: Write a function my_max(num1, num2) that returns the larger number of num1 or num2. If both nums are the same,
   return num1.
 elements:
-- type: editable
-  location:
-    snippet: '# Write your code here'
-  placeholder: '# Write your code here'
 - type: locked
   location:
     snippet: |-

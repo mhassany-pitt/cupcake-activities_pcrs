@@ -23,13 +23,13 @@ statement: Complete the examples in the docstring and then complete the function
 elements:
 - type: editable
   location:
-    snippet: "\ndef stretch_string(s, stretch_factors):\n    \"\"\" (str, list of int) -> str\n\n    Precondition: len(s)\
-      \ == len(stretch_factors) and the items of\n                  stretch_factors are non-negative\n     \n    Return a\
-      \ string consisting of the characters in s in the same order as in s,\n    repeated the number of times indicated by\
-      \ the item at the corresponding\n    position of stretch_factors.\n    \n    >>> stretch_string('Hello', [2, 0, 3, 1,\
-      \ 1])\n    'HHllllo'\n    >>> stretch_string('echo', [0, 0, 1, 5])\n    # TODO: Replace this comment with the return\
-      \ value of the above function call.\n    \"\"\""
-  placeholder: "\ndef stretch_string(s, stretch_factors):\n    \"\"\" (str, list of int) -> str\n\n    Precondition: len(s)\
+    snippet: "def stretch_string(s, stretch_factors):\n    \"\"\" (str, list of int) -> str\n\n    Precondition: len(s) ==\
+      \ len(stretch_factors) and the items of\n                  stretch_factors are non-negative\n     \n    Return a string\
+      \ consisting of the characters in s in the same order as in s,\n    repeated the number of times indicated by the item\
+      \ at the corresponding\n    position of stretch_factors.\n    \n    >>> stretch_string('Hello', [2, 0, 3, 1, 1])\n \
+      \   'HHllllo'\n    >>> stretch_string('echo', [0, 0, 1, 5])\n    # TODO: Replace this comment with the return value\
+      \ of the above function call.\n    \"\"\""
+  placeholder: "def stretch_string(s, stretch_factors):\n    \"\"\" (str, list of int) -> str\n\n    Precondition: len(s)\
     \ == len(stretch_factors) and the items of\n                  stretch_factors are non-negative\n     \n    Return a string\
     \ consisting of the characters in s in the same order as in s,\n    repeated the number of times indicated by the item\
     \ at the corresponding\n    position of stretch_factors.\n    \n    >>> stretch_string('Hello', [2, 0, 3, 1, 1])\n   \

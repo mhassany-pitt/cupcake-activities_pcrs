@@ -1,4 +1,3 @@
-
 class Evento:    
     """Un nuevo evento de calendario."""
 

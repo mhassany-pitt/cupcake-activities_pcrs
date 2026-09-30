@@ -1,4 +1,3 @@
-
 def same_first_name(name1, name2):
     """ (list of str, list of str) -> bool
     

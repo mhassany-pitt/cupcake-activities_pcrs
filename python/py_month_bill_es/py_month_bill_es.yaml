@@ -40,12 +40,8 @@ statement: "Escribe un programa que calcule la factura mensual total utilizando 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      # Este es un programa para calcular la factura mensual total
-  placeholder: |2-
-
-    # Este es un programa para calcular la factura mensual total
+    snippet: '# Este es un programa para calcular la factura mensual total'
+  placeholder: '# Este es un programa para calcular la factura mensual total'
 testcases:
 - title: Solution Verification
   visible: true

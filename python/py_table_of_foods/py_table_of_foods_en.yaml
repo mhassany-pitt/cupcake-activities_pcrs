@@ -50,15 +50,15 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n \
-      \   The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
+    snippet: "def get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n   \
+      \ The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
       \ ordered for that table.\n\n    Return a dictionary where each key is a food from table_to_foods and each\n    value\
       \ is the quantity of that food that was ordered.\n\t\n    >>> get_quantities({'t1': ['Vegetarian stew', 'Poutine', 'Vegetarian\
       \ stew'], 't3': ['Steak pie', 'Poutine', 'Vegetarian stew'], 't4': ['Steak pie', 'Steak pie']})\n    {'Vegetarian stew':\
       \ 3, 'Poutine': 2, 'Steak pie': 3}\t\n    \"\"\"\n\n    food_to_quantity = {}\n\n    # Accumulate the food information\
       \ here.\n\n    return food_to_quantity"
-  placeholder: "\ndef get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n\
-    \    The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
+  placeholder: "def get_quantities(table_to_foods):\n    \"\"\" (dict of {str: list of str}) -> dict of {str: int}\n\t\n \
+    \   The table_to_foods dict has table names as keys (e.g., 't1', 't2', and so on) and each value\n    is a list of foods\
     \ ordered for that table.\n\n    Return a dictionary where each key is a food from table_to_foods and each\n    value\
     \ is the quantity of that food that was ordered.\n\t\n    >>> get_quantities({'t1': ['Vegetarian stew', 'Poutine', 'Vegetarian\
     \ stew'], 't3': ['Steak pie', 'Poutine', 'Vegetarian stew'], 't4': ['Steak pie', 'Steak pie']})\n    {'Vegetarian stew':\

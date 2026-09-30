@@ -34,10 +34,6 @@ statement: |-
   E.g. 2: if `maritalStatus="married", annualIncome=70500`, then `taxDue=8025.0`.
   E.g. 3: if `maritalStatus="single", annualIncome=40090`, then `taxDue=5222.5`.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '// TODO: Write your code here'

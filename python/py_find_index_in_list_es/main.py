@@ -1,4 +1,3 @@
-
 def encontrar_valor_en_indices(lista_de_items, lista_de_indices, v):
     """ (lista de objeto, lista de int, objeto) -> lista de int
 

@@ -24,10 +24,10 @@ statement: "Complete the following function according to its docstring descripti
 elements:
 - type: editable
   location:
-    snippet: "\ndef every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list\
-      \ containing every second line (with leading and trailing\n    whitespace removed) in report, starting with the first\
-      \ line.\n    \"\"\""
-  placeholder: "\ndef every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list\
+    snippet: "def every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list containing\
+      \ every second line (with leading and trailing\n    whitespace removed) in report, starting with the first line.\n \
+      \   \"\"\""
+  placeholder: "def every_second_line(report):\n    \"\"\" (Open File for reading) -> list of str\n    \n    Return a list\
     \ containing every second line (with leading and trailing\n    whitespace removed) in report, starting with the first\
     \ line.\n    \"\"\""
 testcases:

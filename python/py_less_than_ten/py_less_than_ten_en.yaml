@@ -33,12 +33,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def lessThan10(num):
           # put your code under here
-  placeholder: |2-
-
+  placeholder: |-
     def lessThan10(num):
         # put your code under here
 testcases:

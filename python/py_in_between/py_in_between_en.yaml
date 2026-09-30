@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def inBetween(a, b, c):
           # codigo aqui
-  placeholder: |2
-
+  placeholder: |
     def inBetween(a, b, c):
         # codigo aqui
 testcases:

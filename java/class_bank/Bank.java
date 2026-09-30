@@ -1,4 +1,3 @@
-// Write your code here
 public class Bank {
     private double spending;
     private double savings;

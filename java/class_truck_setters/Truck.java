@@ -1,4 +1,3 @@
-// Write your code here
 public class Truck { 
     private String model;
     private int year;

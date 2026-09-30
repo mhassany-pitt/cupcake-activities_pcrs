@@ -48,9 +48,9 @@ statement: "Complete the method `mergeLists` in order to return an arraylists th
 elements:
 - type: editable
   location:
-    snippet: "\nstatic ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n\
-      \      "
-  placeholder: "\nstatic ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n\
+    snippet: "static ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n  \
+      \    "
+  placeholder: "static ArrayList<Integer> mergeLists(ArrayList<Integer> listA, ArrayList<Integer> listB, int key){\n\n}\n\
     \      "
 testcases:
 - title: Solution Verification

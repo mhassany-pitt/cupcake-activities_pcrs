@@ -28,17 +28,17 @@ statement: "# Agregar un Intervalo Cerrado\n\nEscribe una funcion que tome como 
 elements:
 - type: editable
   location:
-    snippet: "\ndef agregar_intervalo(mil, intervalo):\n    # Inicializar la lista de resultados\n    resultado = []\n   \
-      \ i = 0\n    n = len(mil)\n    \n    # Agregar todos los intervalos que vienen antes del nuevo intervalo\n    while\
-      \ i < n and mil[i][1] < intervalo[0]:\n        resultado.append(mil[i])\n        i += 1\n    \n    # Fusionar todos\
-      \ los intervalos que se superponen con el nuevo intervalo\n    while i < n and mil[i][0] <= intervalo[1]:\n        intervalo\
+    snippet: "def agregar_intervalo(mil, intervalo):\n    # Inicializar la lista de resultados\n    resultado = []\n    i\
+      \ = 0\n    n = len(mil)\n    \n    # Agregar todos los intervalos que vienen antes del nuevo intervalo\n    while i\
+      \ < n and mil[i][1] < intervalo[0]:\n        resultado.append(mil[i])\n        i += 1\n    \n    # Fusionar todos los\
+      \ intervalos que se superponen con el nuevo intervalo\n    while i < n and mil[i][0] <= intervalo[1]:\n        intervalo\
       \ = (min(intervalo[0], mil[i][0]), max(intervalo[1], mil[i][1]))\n        i += 1\n    \n    # Agregar el nuevo intervalo\
       \ fusionado\n    resultado.append(intervalo)\n    \n    # Agregar los intervalos restantes\n    while i < n:\n     \
       \   resultado.append(mil[i])\n        i += 1\n    \n    return resultado\n\n# Ejemplo de uso\nmil = [(0, 2), (3, 6),\
       \ (7, 7), (9, 12)]\nintervalo = (1, 8)\nprint(agregar_intervalo(mil, intervalo))  # Salida: [(0, 8), (9, 12)]"
-  placeholder: "\ndef agregar_intervalo(mil, intervalo):\n    # Inicializar la lista de resultados\n    resultado = []\n \
-    \   i = 0\n    n = len(mil)\n    \n    # Agregar todos los intervalos que vienen antes del nuevo intervalo\n    while\
-    \ i < n and mil[i][1] < intervalo[0]:\n        resultado.append(mil[i])\n        i += 1\n    \n    # Fusionar todos los\
+  placeholder: "def agregar_intervalo(mil, intervalo):\n    # Inicializar la lista de resultados\n    resultado = []\n   \
+    \ i = 0\n    n = len(mil)\n    \n    # Agregar todos los intervalos que vienen antes del nuevo intervalo\n    while i\
+    \ < n and mil[i][1] < intervalo[0]:\n        resultado.append(mil[i])\n        i += 1\n    \n    # Fusionar todos los\
     \ intervalos que se superponen con el nuevo intervalo\n    while i < n and mil[i][0] <= intervalo[1]:\n        intervalo\
     \ = (min(intervalo[0], mil[i][0]), max(intervalo[1], mil[i][1]))\n        i += 1\n    \n    # Agregar el nuevo intervalo\
     \ fusionado\n    resultado.append(intervalo)\n    \n    # Agregar los intervalos restantes\n    while i < n:\n       \

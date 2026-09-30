@@ -32,10 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic int[] swapInArray(int n, int m, int arr[]){\n    // TO DO: Write your code here.\n    // See instructions\
+    snippet: "static int[] swapInArray(int n, int m, int arr[]){\n    // TO DO: Write your code here.\n    // See instructions\
       \ for hints on how to solve this problem.\n    \n    // Return the array arr once you are finished swapping.\n}\n  \
       \    "
-  placeholder: "\nstatic int[] swapInArray(int n, int m, int arr[]){\n    // TO DO: Write your code here.\n    // See instructions\
+  placeholder: "static int[] swapInArray(int n, int m, int arr[]){\n    // TO DO: Write your code here.\n    // See instructions\
     \ for hints on how to solve this problem.\n    \n    // Return the array arr once you are finished swapping.\n}\n    \
     \  "
 testcases:

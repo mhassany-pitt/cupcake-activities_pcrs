@@ -23,8 +23,7 @@ statement: Complete the examples in the docstring and then complete the function
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def greatest_difference(nums1, nums2):
           """ (list of number, list of number) -> number
 
@@ -38,8 +37,7 @@ elements:
           >>> greatest_difference([1, -2, 3], [-6, 8, 10])
           # TODO Replace this comment with the return value for the above function call.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def greatest_difference(nums1, nums2):
         """ (list of number, list of number) -> number
 

@@ -26,8 +26,7 @@ statement: 'Below is a bubble_up function that takes 3 parameters: the list, a s
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def bubble_up(L, start, end):
           """ (list, int, int) -> NoneType
 
@@ -57,8 +56,7 @@ elements:
           >>> L
           [4, 1, 3, 2, 0]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def bubble_up(L, start, end):
         """ (list, int, int) -> NoneType
 

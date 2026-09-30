@@ -29,8 +29,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic static int sum1toN(int n) {\n    // TODO\n    \n}"
-  placeholder: "\npublic static int sum1toN(int n) {\n    // TODO\n    \n}"
+    snippet: "public static int sum1toN(int n) {\n    // TODO\n    \n}"
+  placeholder: "public static int sum1toN(int n) {\n    // TODO\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

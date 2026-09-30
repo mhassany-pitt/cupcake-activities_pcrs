@@ -1,4 +1,3 @@
-// Write your code here
 public class Box {
 	private double height;
 	private double width;

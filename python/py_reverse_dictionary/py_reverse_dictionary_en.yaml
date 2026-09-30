@@ -26,13 +26,13 @@ statement: You have been asked to write a function that supplies the "reverse lo
 elements:
 - type: editable
   location:
-    snippet: "\ndef reverse_lookup_dictionary(phone_num, phone_to_name):\n    \"\"\" (str, dict of {str: str}) -> str\n\n\
-      \    This function receives a phone number phone_num, and a dictionary\n    phone_to_name in which each key is a phone\
+    snippet: "def reverse_lookup_dictionary(phone_num, phone_to_name):\n    \"\"\" (str, dict of {str: str}) -> str\n\n  \
+      \  This function receives a phone number phone_num, and a dictionary\n    phone_to_name in which each key is a phone\
       \ number and each value\n    is the name associated with that phone number.\n\t\n    Return the name associated with\
       \ phone_num in phone_to_name, or\n    an empty string if there is no match.\n    \n    >>> reverse_lookup_dictionary(\"\
       416-555-3498\", {\"416-555-3498\": \\\n        \"John A. Macdonald\", \"647-555-9812\": \"Louis Riel\", \"416-555-6543\"\
       : \\\n        \"Canoe Head\", \"905-555-6681\":\"Tim Horton\"})\n    'John A. Macdonald'        \n    \"\"\""
-  placeholder: "\ndef reverse_lookup_dictionary(phone_num, phone_to_name):\n    \"\"\" (str, dict of {str: str}) -> str\n\n\
+  placeholder: "def reverse_lookup_dictionary(phone_num, phone_to_name):\n    \"\"\" (str, dict of {str: str}) -> str\n\n\
     \    This function receives a phone number phone_num, and a dictionary\n    phone_to_name in which each key is a phone\
     \ number and each value\n    is the name associated with that phone number.\n\t\n    Return the name associated with phone_num\
     \ in phone_to_name, or\n    an empty string if there is no match.\n    \n    >>> reverse_lookup_dictionary(\"416-555-3498\"\

@@ -1,4 +1,3 @@
-
 def contar_pasos_collatz(n):
     """ (int) -> int
 

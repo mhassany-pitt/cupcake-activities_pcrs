@@ -1,4 +1,3 @@
-
 def every_second_line(report):
     """ (Open File for reading) -> list of str
     

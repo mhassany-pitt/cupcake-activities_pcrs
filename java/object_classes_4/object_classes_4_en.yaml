@@ -63,10 +63,6 @@ statement: "Assume that we have a class called `Box` that contains instance data
   \ the `height` is 1, `width` is 3, and `depth` is 5, the `toString` method returns \"[1.0,3.0,5.0]\".\n\nE.g. 2: if the\
   \ `height` is 4.4, `width` is 5.4, and `depth` is 1.2, the `toString` method returns \"[4.4,5.4,1.2]\"."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Box {\n\tprivate double height;\n\tprivate double width;\n\tprivate double depth;\n\t\n\tpublic\

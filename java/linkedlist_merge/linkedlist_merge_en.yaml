@@ -30,10 +30,6 @@ statement: "Given the class LinkedListExample, complete its method `mergeLists` 
   \n-- as follows: \n\n`list1.mergeLists(list2);`\n`LinkedListExample returnedList: [\"hello\", \"there\", \"General\", \"\
   Kenobi\"]`"
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class LinkedListExample {\n    // the LinkedListExample class' properties\n\tprivate Node head;\n\tprivate\

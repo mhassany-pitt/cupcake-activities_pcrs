@@ -50,7 +50,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
+    snippet: "def busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
       \ de str) -> str\n\n    Precondicion: len(numeros_telefono) == len(nombres)\n\n    Esta funcion recibe un numero de\
       \ telefono num_telefono, y dos listas: una lista de \n    numeros de telefono numeros_telefono y una lista de nombres\
       \ nombres. Estas listas son\n    listas paralelas, por lo que el nombre en la posicion 0 de la lista de nombres esta\
@@ -59,7 +59,7 @@ elements:
       \ coincidencia.\n    \n    >>> busqueda_inversa_listas('416-555-6543', ['416-555-3498', \\\\\n        '647-555-9812',\
       \ '416-555-6543', '905-555-6681'], ['John A. Macdonald', \\\\\n        'Louis Riel', 'Canoe Head', 'Tim Horton'])  \
       \      \n    'Canoe Head'\n    \"\"\""
-  placeholder: "\ndef busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
+  placeholder: "def busqueda_inversa_listas(num_telefono, numeros_telefono, nombres):\n    \"\"\" (str, lista de str, lista\
     \ de str) -> str\n\n    Precondicion: len(numeros_telefono) == len(nombres)\n\n    Esta funcion recibe un numero de telefono\
     \ num_telefono, y dos listas: una lista de \n    numeros de telefono numeros_telefono y una lista de nombres nombres.\
     \ Estas listas son\n    listas paralelas, por lo que el nombre en la posicion 0 de la lista de nombres esta \n    asociado\

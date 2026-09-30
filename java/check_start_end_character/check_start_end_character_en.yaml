@@ -45,10 +45,6 @@ statement: "Given a string `str`, write a boolean expression to determine if the
   \ is \"fig\",  the value of `result` will be false. \nE.g. 2: if the value of `str` is \"fib\",  the value of `result` will\
   \ be true."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean result;'

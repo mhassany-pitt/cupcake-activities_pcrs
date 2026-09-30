@@ -28,12 +28,8 @@ statement: "Here is an example of a story list:\n\n```\n['And', 'the', 'fan,', '
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      context_to_next_words = {('And', 'the'): [
-  placeholder: |2-
-
-    context_to_next_words = {('And', 'the'): [
+    snippet: 'context_to_next_words = {(''And'', ''the''): ['
+  placeholder: 'context_to_next_words = {(''And'', ''the''): ['
 testcases:
 - title: Solution Verification
   visible: true

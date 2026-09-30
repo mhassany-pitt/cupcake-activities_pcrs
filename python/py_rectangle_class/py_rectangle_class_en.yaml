@@ -27,8 +27,7 @@ statement: "DO NOT USE THE WORD `input` ANYWHERE! \n\nWe provide class `Rectangl
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Rectangle:
           """ A rectangle with a width and height. """
 
@@ -69,8 +68,7 @@ elements:
               >>> rc.rectangles
               []
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Rectangle:
         """ A rectangle with a width and height. """
 

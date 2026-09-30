@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def isNotIn(s1, s2):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def isNotIn(s1, s2):
         #code
 testcases:

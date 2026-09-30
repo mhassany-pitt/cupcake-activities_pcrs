@@ -48,8 +48,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic int indOfFirst( int arr[], int count, int key ){\n\t//TODO: Write your code here\n}\n    "
-  placeholder: "\nstatic int indOfFirst( int arr[], int count, int key ){\n\t//TODO: Write your code here\n}\n    "
+    snippet: "static int indOfFirst( int arr[], int count, int key ){\n\t//TODO: Write your code here\n}\n    "
+  placeholder: "static int indOfFirst( int arr[], int count, int key ){\n\t//TODO: Write your code here\n}\n    "
 testcases:
 - title: Solution Verification
   visible: true

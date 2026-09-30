@@ -1,4 +1,3 @@
-
 def collect_underperformers(nums, threshold):
     """ (list of number, int) -> list of number
 

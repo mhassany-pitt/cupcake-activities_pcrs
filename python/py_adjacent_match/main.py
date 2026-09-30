@@ -1,4 +1,3 @@
-
 def adjacent_match(L):
     """ (list of str) -> bool
 

@@ -1,4 +1,3 @@
-# Escribe tu codigo aqui
 def total_rebanadas(num_pizzas, rebanadas_por_pizza):
     """ (int, int) -> int
 

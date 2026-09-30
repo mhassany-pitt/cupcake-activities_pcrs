@@ -1,4 +1,3 @@
-
 def insert(lst, v):
     """ (list of int, int) -> NoneType
 

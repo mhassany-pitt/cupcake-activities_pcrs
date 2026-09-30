@@ -58,8 +58,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nstatic double getAverageSalary(BufferedReader reader){\n\n}\n      "
-  placeholder: "\nstatic double getAverageSalary(BufferedReader reader){\n\n}\n      "
+    snippet: "static double getAverageSalary(BufferedReader reader){\n\n}\n      "
+  placeholder: "static double getAverageSalary(BufferedReader reader){\n\n}\n      "
 testcases:
 - title: Solution Verification
   visible: true

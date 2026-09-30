@@ -1,4 +1,3 @@
-
 def insertar(lista, v):
     """ (lista de int, int) -> NoneType
 

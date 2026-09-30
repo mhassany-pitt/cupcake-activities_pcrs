@@ -42,12 +42,10 @@ statement: "Given 2 integers, `a` and `b`, write a code to calculate their sum a
 elements:
 - type: editable
   location:
-    snippet: |2+
-
+    snippet: |+
       // TODO: add your code here
 
-  placeholder: |2+
-
+  placeholder: |+
     // TODO: add your code here
 
 testcases:

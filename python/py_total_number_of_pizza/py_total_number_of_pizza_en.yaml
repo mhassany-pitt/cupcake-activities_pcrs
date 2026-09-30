@@ -24,10 +24,10 @@ statement: Complete the function according to its docstring.  When you think you
 elements:
 - type: editable
   location:
-    snippet: "\ndef total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
+    snippet: "def total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
       \ of slices in num_pizzas pizzas that each have\n    slices_per_pizza slices.\n    \n    >>> total_slices(2, 30)\n \
       \   60\n    >>> total_slices(1, 8)\n    8\n    \"\"\""
-  placeholder: "\ndef total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
+  placeholder: "def total_slices(num_pizzas, slices_per_pizza):\n    \"\"\" (int, int) -> int\n\n    Return the total number\
     \ of slices in num_pizzas pizzas that each have\n    slices_per_pizza slices.\n    \n    >>> total_slices(2, 30)\n   \
     \ 60\n    >>> total_slices(1, 8)\n    8\n    \"\"\""
 testcases:

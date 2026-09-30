@@ -33,12 +33,10 @@ statement: Escribe una función que determine si un número (x) está distanciad
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def distanciaMaxCinco(x, y):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def distanciaMaxCinco(x, y):
         return
 testcases:

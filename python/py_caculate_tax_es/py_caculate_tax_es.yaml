@@ -33,10 +33,10 @@ statement: "Define la funcion `calcular_impuesto`.\n\nEl primer parametro repres
 elements:
 - type: editable
   location:
-    snippet: "\ndef calcular_impuesto(factura, tasa_impuesto):\n    \"\"\"\n    (numero, numero) -> numero\n    \n    Calcula\
+    snippet: "def calcular_impuesto(factura, tasa_impuesto):\n    \"\"\"\n    (numero, numero) -> numero\n    \n    Calcula\
       \ la cantidad de impuesto a pagar sobre la factura dada.\n    \n    factura: el monto total de la factura\n    tasa_impuesto:\
       \ la tasa de impuesto a aplicar\n    \n    Devuelve el monto del impuesto.\n    \"\"\"\n\t#Escribe tu codigo aqui"
-  placeholder: "\ndef calcular_impuesto(factura, tasa_impuesto):\n    \"\"\"\n    (numero, numero) -> numero\n    \n    Calcula\
+  placeholder: "def calcular_impuesto(factura, tasa_impuesto):\n    \"\"\"\n    (numero, numero) -> numero\n    \n    Calcula\
     \ la cantidad de impuesto a pagar sobre la factura dada.\n    \n    factura: el monto total de la factura\n    tasa_impuesto:\
     \ la tasa de impuesto a aplicar\n    \n    Devuelve el monto del impuesto.\n    \"\"\"\n\t#Escribe tu codigo aqui"
 testcases:

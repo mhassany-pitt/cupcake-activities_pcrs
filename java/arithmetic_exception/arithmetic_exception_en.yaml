@@ -32,10 +32,6 @@ statement: |-
 
   1. If the number of cats specified in the parameter `numCats` is `0`, the method needs to catch an arithmetic error and return 0.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.lang.ArithmeticException;\n    \nstatic int avgHairballsPerCat(int numHairballs, int numCats){\n\

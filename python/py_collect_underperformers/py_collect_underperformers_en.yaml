@@ -23,8 +23,7 @@ statement: Complete the examples in the docstring and then complete the function
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def collect_underperformers(nums, threshold):
           """ (list of number, int) -> list of number
 
@@ -38,8 +37,7 @@ elements:
           >>> collect_underperformers([], 7)
           # TODO Replace this comment with the return value for the function call.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def collect_underperformers(nums, threshold):
         """ (list of number, int) -> list of number
 

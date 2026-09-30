@@ -1,4 +1,3 @@
-
 def escribir_triangulo_ascii(triangulo_doc, bloque, longitud_lado):
     """ (Archivo abierto para escribir, str, int) -> NoneType
     

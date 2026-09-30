@@ -1,4 +1,3 @@
-# Escribe tu codigo aqui
 def es_adolescente(edad):
     """ (int) -> bool
 

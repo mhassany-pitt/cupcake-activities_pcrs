@@ -1,4 +1,3 @@
-
 def diferentes_tipos(obj1, obj2):
     """ (object, object) -> bool
 

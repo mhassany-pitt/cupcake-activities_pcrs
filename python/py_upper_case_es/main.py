@@ -1,4 +1,3 @@
-
 def contar_mayusculas(string):
     """ (str) -> int
 

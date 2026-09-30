@@ -27,11 +27,11 @@ statement: "This problem has you write a nested loop to process a `list of list 
 elements:
 - type: editable
   location:
-    snippet: "\ndef only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the\
-      \ lists in lst that contain only even integers. \n   \n    >>> only_evens([[1, 2, 4], [4, 0, 6], [22, 4, 3], [2]])\n\
-      \    [[4, 0, 6], [2]]\n    \"\"\"\n    \n    even_lists = []\n\n    for sublist in lst:\n    \n        # write your\
-      \ code here (be sure to read above for a suggested approach)\n\n    return even_lists"
-  placeholder: "\ndef only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the\
+    snippet: "def only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the lists\
+      \ in lst that contain only even integers. \n   \n    >>> only_evens([[1, 2, 4], [4, 0, 6], [22, 4, 3], [2]])\n    [[4,\
+      \ 0, 6], [2]]\n    \"\"\"\n    \n    even_lists = []\n\n    for sublist in lst:\n    \n        # write your code here\
+      \ (be sure to read above for a suggested approach)\n\n    return even_lists"
+  placeholder: "def only_evens(lst):\n    \"\"\" (list of list of int) -> list of list of int\n\n    Return a list of the\
     \ lists in lst that contain only even integers. \n   \n    >>> only_evens([[1, 2, 4], [4, 0, 6], [22, 4, 3], [2]])\n \
     \   [[4, 0, 6], [2]]\n    \"\"\"\n    \n    even_lists = []\n\n    for sublist in lst:\n    \n        # write your code\
     \ here (be sure to read above for a suggested approach)\n\n    return even_lists"

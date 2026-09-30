@@ -62,13 +62,13 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef contiene_sin_hashtags_unicos(hashtags_tweet, hashtags_unicos):\n    \"\"\"\n    (lista de lista de str,\
+    snippet: "def contiene_sin_hashtags_unicos(hashtags_tweet, hashtags_unicos):\n    \"\"\"\n    (lista de lista de str,\
       \ lista de str) -> lista de lista de str\n\n    Devuelve una nueva lista de listas de hashtags para aquellos tweets\
       \ que no pueden ser atribuidos al candidato.\n    Un tweet no puede ser atribuido al candidato si no utiliza ninguno\
       \ de los hashtags unicos utilizados por el candidato.\n    Ejemplo entrada/salida:\n    contiene_sin_hashtags_unicos([['politica',\
       \ 'eleccion'], ['futbol', 'deporte'], ['eleccion', 'voto']],['voto'])  -> [['politica', 'eleccion'], ['futbol', 'deporte']]\n\
       \    \n    \"\"\"\n\n"
-  placeholder: "\ndef contiene_sin_hashtags_unicos(hashtags_tweet, hashtags_unicos):\n    \"\"\"\n    (lista de lista de str,\
+  placeholder: "def contiene_sin_hashtags_unicos(hashtags_tweet, hashtags_unicos):\n    \"\"\"\n    (lista de lista de str,\
     \ lista de str) -> lista de lista de str\n\n    Devuelve una nueva lista de listas de hashtags para aquellos tweets que\
     \ no pueden ser atribuidos al candidato.\n    Un tweet no puede ser atribuido al candidato si no utiliza ninguno de los\
     \ hashtags unicos utilizados por el candidato.\n    Ejemplo entrada/salida:\n    contiene_sin_hashtags_unicos([['politica',\

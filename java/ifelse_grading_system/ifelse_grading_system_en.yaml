@@ -46,10 +46,6 @@ statement: "You will be coding a function that will take in an input of a percen
   \nE.g. Enter percentage received in class: 60 | Output in console: \"Letter Grade Received: D- : GPA Received: 0.75\"\n\
   E.g. Enter percentage received in class: 59 | Output in console: \"Letter Grade Received: F : GPA Received: 0.0\""
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\

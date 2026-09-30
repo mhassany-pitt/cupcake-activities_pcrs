@@ -27,10 +27,9 @@ statement: "Complete the following method which takes a 2D int array (square or 
 elements:
 - type: editable
   location:
-    snippet: "\npublic static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n    \n\
-      }"
-  placeholder: "\npublic static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n  \
-    \  \n}"
+    snippet: "public static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n    \n}"
+  placeholder: "public static int superSumPositives(int[][] arr) {\n    // TODO: Write your code here\n\n    \n    \n    \n\
+    }"
 testcases:
 - title: Solution Verification
   visible: true

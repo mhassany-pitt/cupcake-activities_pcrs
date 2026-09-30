@@ -1,4 +1,3 @@
-
 def is_correct(dictionary, word):
     """ (Open File for reading, str) -> bool
     

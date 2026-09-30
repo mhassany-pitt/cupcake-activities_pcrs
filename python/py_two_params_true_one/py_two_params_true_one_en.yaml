@@ -25,12 +25,10 @@ statement: Write a function that returns true if only one of the two given param
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def onlyOneTrue(b1, b2):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def onlyOneTrue(b1, b2):
         return
 testcases:

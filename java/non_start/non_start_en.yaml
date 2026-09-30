@@ -46,10 +46,6 @@ statement: "Given two string variables  `str1` and `str2`, complete the followin
   \ value of `str1` is \"java\" and the value of `str2` is \"code\", the code prints avaode. \nE.g. 3: if the value of `str1`\
   \ is \"shotl\" and the value of `str2` is \"java\", the code prints hotlava."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    String str3;'

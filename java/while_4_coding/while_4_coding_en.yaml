@@ -31,10 +31,6 @@ statement: "Assume that you want to invest your money by putting it in a bank ac
   \ of `year` will be 12.\nE.g. 3:  if the value of `balance` is 1000 and the value of `rate` is 20, the value of `year` will\
   \ be 7."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: int year;

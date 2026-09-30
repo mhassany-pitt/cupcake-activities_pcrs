@@ -1,4 +1,3 @@
-
 def triple(numero):
     """
     Multiplica el numero dado por tres.

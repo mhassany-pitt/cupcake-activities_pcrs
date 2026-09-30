@@ -1,3 +1,2 @@
-
 def estaOrdenada(elementos):
     # codigo

@@ -63,12 +63,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def es_matriz_diagonal(matriz):
           #Escribe tu codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def es_matriz_diagonal(matriz):
         #Escribe tu codigo aqui
 testcases:

@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def contarNMoMN(elementos, n, m):
           # codigo
-  placeholder: |2-
-
+  placeholder: |-
     def contarNMoMN(elementos, n, m):
         # codigo
 testcases:

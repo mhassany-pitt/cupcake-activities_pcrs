@@ -27,12 +27,10 @@ statement: "Write a function that takes a list of strings named ` items `\nand a
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def swapper(items, d):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def swapper(items, d):
         # code here
 testcases:

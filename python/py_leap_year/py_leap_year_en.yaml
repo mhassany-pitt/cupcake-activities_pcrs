@@ -33,12 +33,8 @@ statement: "In the Gregorian calendar, a year is a leap year when the number rep
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      leap_year = True
-  placeholder: |2-
-
-    leap_year = True
+    snippet: leap_year = True
+  placeholder: leap_year = True
 testcases:
 - title: Solution Verification
   visible: true

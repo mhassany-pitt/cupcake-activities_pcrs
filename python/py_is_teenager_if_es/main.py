@@ -1,3 +1,2 @@
-
 def adolescenteNoPrimo(edad):
     return

@@ -1,4 +1,3 @@
-
 def indiceMaximo(elementos):
     # codigo
    

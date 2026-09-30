@@ -23,12 +23,12 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: "\ndef format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
+    snippet: "def format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
       \ as a single string, in the form:\n    LAST_NAME, FIRST_NAME\n    where LAST_NAME and FIRST_NAME are replaced by last\
       \ and first.\n    Mononymous persons (those with no last name) should have their name\n    returned without a comma.\n\
       \n    >>> format_name('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> format_name('Cher', '')\n    'Cher'\n\
       \    \"\"\""
-  placeholder: "\ndef format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
+  placeholder: "def format_name(first, last):\n    \"\"\" (str, str) -> str\n    \n    Return the given first and last name\
     \ as a single string, in the form:\n    LAST_NAME, FIRST_NAME\n    where LAST_NAME and FIRST_NAME are replaced by last\
     \ and first.\n    Mononymous persons (those with no last name) should have their name\n    returned without a comma.\n\
     \n    >>> format_name('Cherilyn', 'Sarkisian')\n    'Sarkisian, Cherilyn' \n    >>> format_name('Cher', '')\n    'Cher'\n\

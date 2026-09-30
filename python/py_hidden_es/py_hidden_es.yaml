@@ -26,8 +26,7 @@ statement: Completa la funcion segun lo descrito en su docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def triple(numero):
           """
           Multiplica el numero dado por tres.
@@ -40,8 +39,7 @@ elements:
       # Ejemplo de uso
       resultado = triple(4)
       print('El resultado es:', resultado)  # Salida: El resultado es: 12
-  placeholder: |2-
-
+  placeholder: |-
     def triple(numero):
         """
         Multiplica el numero dado por tres.

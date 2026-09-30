@@ -1,4 +1,3 @@
-// Write your code here
 public class Grade {
     private String studentID;
     private String letter;

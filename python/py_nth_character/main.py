@@ -1,4 +1,3 @@
-
 def every_nth_character(s, n):
     """ (str, int) -> str
 

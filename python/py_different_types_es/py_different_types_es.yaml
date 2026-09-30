@@ -30,8 +30,7 @@ statement: Completa la siguiente funcion segun la descripcion de su docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def diferentes_tipos(obj1, obj2):
           """ (object, object) -> bool
 
@@ -42,8 +41,7 @@ elements:
           >>> diferentes_tipos(108.0, 3.14)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def diferentes_tipos(obj1, obj2):
         """ (object, object) -> bool
 

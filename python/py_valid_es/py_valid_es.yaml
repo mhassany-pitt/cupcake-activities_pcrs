@@ -43,10 +43,10 @@ statement: Completa la funcion a continuacion segun su docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef valido(string, alfabeto):\n    \"\"\" (str, str) -> bool\n\n    Devolver True si y solo si string esta\
-      \ compuesta solo de caracteres en alfabeto.\n    \n    >>> valido('adc', 'abcd')\n    True\n    >>> valido('ABC', 'abcd')\n\
-      \    False\n    >>> valido('abc', 'abz')\n    False\n    \"\"\""
-  placeholder: "\ndef valido(string, alfabeto):\n    \"\"\" (str, str) -> bool\n\n    Devolver True si y solo si string esta\
+    snippet: "def valido(string, alfabeto):\n    \"\"\" (str, str) -> bool\n\n    Devolver True si y solo si string esta compuesta\
+      \ solo de caracteres en alfabeto.\n    \n    >>> valido('adc', 'abcd')\n    True\n    >>> valido('ABC', 'abcd')\n  \
+      \  False\n    >>> valido('abc', 'abz')\n    False\n    \"\"\""
+  placeholder: "def valido(string, alfabeto):\n    \"\"\" (str, str) -> bool\n\n    Devolver True si y solo si string esta\
     \ compuesta solo de caracteres en alfabeto.\n    \n    >>> valido('adc', 'abcd')\n    True\n    >>> valido('ABC', 'abcd')\n\
     \    False\n    >>> valido('abc', 'abz')\n    False\n    \"\"\""
 testcases:

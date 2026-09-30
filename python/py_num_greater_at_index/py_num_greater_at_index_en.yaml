@@ -34,12 +34,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def numGreaterAtIndex(list1, list2):
           # code
-  placeholder: |2-
-
+  placeholder: |-
     def numGreaterAtIndex(list1, list2):
         # code
 testcases:

@@ -24,12 +24,10 @@ statement: "Write a function that takes three parameters and returns \nTrue if a
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def atLeastOnePositive(a, b, c):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def atLeastOnePositive(a, b, c):
         # code here
 testcases:

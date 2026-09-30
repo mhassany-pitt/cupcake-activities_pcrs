@@ -23,8 +23,7 @@ statement: Complete the following function according to instruction
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def is_teenager(age):
           """ (int) -> bool
 
@@ -47,8 +46,7 @@ elements:
                   return True
 
           #TODO: complete the new single-line function body in the space below:
-  placeholder: |2-
-
+  placeholder: |-
     def is_teenager(age):
         """ (int) -> bool
 

@@ -1,4 +1,3 @@
-
 def tiene_ultimo_token(L, token)
     """ (lista de str, str) -> lista de str
 

@@ -1,4 +1,3 @@
-// Write your code here
 import java.util.Scanner;
 
 public class Lab2 {

@@ -1,4 +1,3 @@
-
 def stretch_string(s, stretch_factors):
     """ (str, list of int) -> str
 

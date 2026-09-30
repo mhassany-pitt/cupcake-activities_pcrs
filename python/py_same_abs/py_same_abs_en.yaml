@@ -23,8 +23,7 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def same_abs(num1, num2):
           """ (number, number) -> bool
 
@@ -35,8 +34,7 @@ elements:
           >>> same_abs(3, 3.5)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def same_abs(num1, num2):
         """ (number, number) -> bool
 

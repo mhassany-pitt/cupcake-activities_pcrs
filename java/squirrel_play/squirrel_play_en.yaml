@@ -42,10 +42,6 @@ statement: "The squirrels in Palo Alto spend most of the day playing. In particu
   \ `isSummer` is false,  the value of `result` will be true. \nE.g. 2: if the value of `temp` is 95 and the value of `isSummer`\
   \ is false,  the value of `result` will be false."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    boolean result;'

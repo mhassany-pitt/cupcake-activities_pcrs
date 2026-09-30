@@ -49,8 +49,7 @@ statement: Completa el siguiente codigo.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def insertar(lista, v):
           """ (lista de int, int) -> NoneType
 
@@ -66,8 +65,7 @@ elements:
           >>> mi_lista
           [20, 5, 4, 2, 10]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def insertar(lista, v):
         """ (lista de int, int) -> NoneType
 

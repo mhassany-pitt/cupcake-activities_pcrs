@@ -1,4 +1,3 @@
-
 class Circle:
     """ A circle with a radius. """
 

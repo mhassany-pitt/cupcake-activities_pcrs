@@ -48,9 +48,9 @@ statement: Completa la funcion intercambiar_extremos(L) para intercambiar los ex
 elements:
 - type: editable
   location:
-    snippet: "\ndef intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
+    snippet: "def intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
       \ y L[-1].\n    \"\"\""
-  placeholder: "\ndef intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
+  placeholder: "def intercambiar_extremos(L):\n    \"\"\" (lista) -> NoneType\n    \n    Intercambiar los elementos en L[0]\
     \ y L[-1].\n    \"\"\""
 testcases:
 - title: Solution Verification

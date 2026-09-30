@@ -1,4 +1,3 @@
-
 def primer_par(elementos):
     """ (lista de int) -> int
     

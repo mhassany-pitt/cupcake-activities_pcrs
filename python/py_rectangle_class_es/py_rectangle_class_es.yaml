@@ -52,8 +52,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Rectangulo:
           """ Un rectangulo con un ancho y alto. """
 
@@ -94,8 +93,7 @@ elements:
               >>> rc.rectangulos
               []
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Rectangulo:
         """ Un rectangulo con un ancho y alto. """
 

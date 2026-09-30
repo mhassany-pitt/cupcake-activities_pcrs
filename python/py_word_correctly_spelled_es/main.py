@@ -1,4 +1,3 @@
-
 def es_correcta(archivo_diccionario, palabra):
     """ (Archivo abierto para lectura, str) -> booleano
     

@@ -1,4 +1,3 @@
-// Write your code here
 public class Sphere{ 
     //class attributes
     private int x;

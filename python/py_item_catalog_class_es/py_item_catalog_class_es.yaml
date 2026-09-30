@@ -56,21 +56,21 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass Item:\n    #'una clase Item para el catalogo'\n    internal_id = 100\n    def __init__(self):\n    \
-      \    Item.internal_id += 1\n        self.id = Item.internal_id\n        self.cantidad = 0\n        # Otros atributos\
-      \ pueden ser definidos a continuacion. Este codigo esta oculto. Vea la descripcion para detalles.\n        # ...\n \
-      \       \nclass Catalog:\n    #'una clase Catalog simple'\n    \n    def __init__(self):\n        #'el constructor'\n\
-      \        self.items=[]\n        \n    def agregar(self, item):\n        #'agregar un item al catalogo'\n        return\
-      \ self.items.append(item)\n    \n    def tiene_estilo(self, estilo_deseado):\n        #'''devuelve verdadero si el catalogo\
-      \ tiene un item del estilo dado'''\n        for obj in self.items:\n            if obj.estilo == estilo_deseado:\n \
-      \               return True\n        return False\n    \n    def tamano(self):\n        #'''devuelve el numero de items\
-      \ en el catalogo'''\n        return len(self.items)\n\n    # Escriba el metodo busqueda aqui:\n    def busqueda(self,\
-      \ forma_deseada):\n        #'''devuelve el nombre del primer item que coincide con la forma dada'''\n        "
-  placeholder: "\nclass Item:\n    #'una clase Item para el catalogo'\n    internal_id = 100\n    def __init__(self):\n  \
-    \      Item.internal_id += 1\n        self.id = Item.internal_id\n        self.cantidad = 0\n        # Otros atributos\
-    \ pueden ser definidos a continuacion. Este codigo esta oculto. Vea la descripcion para detalles.\n        # ...\n   \
-    \     \nclass Catalog:\n    #'una clase Catalog simple'\n    \n    def __init__(self):\n        #'el constructor'\n  \
-    \      self.items=[]\n        \n    def agregar(self, item):\n        #'agregar un item al catalogo'\n        return self.items.append(item)\n\
+    snippet: "class Item:\n    #'una clase Item para el catalogo'\n    internal_id = 100\n    def __init__(self):\n      \
+      \  Item.internal_id += 1\n        self.id = Item.internal_id\n        self.cantidad = 0\n        # Otros atributos pueden\
+      \ ser definidos a continuacion. Este codigo esta oculto. Vea la descripcion para detalles.\n        # ...\n        \n\
+      class Catalog:\n    #'una clase Catalog simple'\n    \n    def __init__(self):\n        #'el constructor'\n        self.items=[]\n\
+      \        \n    def agregar(self, item):\n        #'agregar un item al catalogo'\n        return self.items.append(item)\n\
+      \    \n    def tiene_estilo(self, estilo_deseado):\n        #'''devuelve verdadero si el catalogo tiene un item del\
+      \ estilo dado'''\n        for obj in self.items:\n            if obj.estilo == estilo_deseado:\n                return\
+      \ True\n        return False\n    \n    def tamano(self):\n        #'''devuelve el numero de items en el catalogo'''\n\
+      \        return len(self.items)\n\n    # Escriba el metodo busqueda aqui:\n    def busqueda(self, forma_deseada):\n\
+      \        #'''devuelve el nombre del primer item que coincide con la forma dada'''\n        "
+  placeholder: "class Item:\n    #'una clase Item para el catalogo'\n    internal_id = 100\n    def __init__(self):\n    \
+    \    Item.internal_id += 1\n        self.id = Item.internal_id\n        self.cantidad = 0\n        # Otros atributos pueden\
+    \ ser definidos a continuacion. Este codigo esta oculto. Vea la descripcion para detalles.\n        # ...\n        \n\
+    class Catalog:\n    #'una clase Catalog simple'\n    \n    def __init__(self):\n        #'el constructor'\n        self.items=[]\n\
+    \        \n    def agregar(self, item):\n        #'agregar un item al catalogo'\n        return self.items.append(item)\n\
     \    \n    def tiene_estilo(self, estilo_deseado):\n        #'''devuelve verdadero si el catalogo tiene un item del estilo\
     \ dado'''\n        for obj in self.items:\n            if obj.estilo == estilo_deseado:\n                return True\n\
     \        return False\n    \n    def tamano(self):\n        #'''devuelve el numero de items en el catalogo'''\n      \

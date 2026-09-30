@@ -37,10 +37,6 @@ statement: |-
   1. If the product in the position `index` is `null`, the method needs to return 0.0;
   2. If the `index` provided is "out of bounds" of the array `arr`, the method needs to return -9999.0;
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "static double getProductPrice(Product[] arr, int index){\n\ttry{"

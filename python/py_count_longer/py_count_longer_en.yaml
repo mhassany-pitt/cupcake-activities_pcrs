@@ -26,12 +26,10 @@ statement: "Write a function that takes a list of strings\nand a string, and ret
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def countLongerStrings(items, s):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def countLongerStrings(items, s):
         #code
 testcases:

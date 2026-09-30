@@ -58,10 +58,6 @@ statement: "Consider the following code:\n\n```\npublic class Bicycle {\n    pri
   \ or without specifiying the `owner`. If the `owner` is not specified, the `owner` should be set to \"Anonymous\".\n\nHint:\
   \ You need to define two constructors for this class."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Bicycle { \n    private String owner;"

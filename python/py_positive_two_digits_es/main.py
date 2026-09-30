@@ -1,3 +1,2 @@
-
 def tieneDosDigitos(x):
     return

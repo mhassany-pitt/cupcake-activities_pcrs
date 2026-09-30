@@ -53,8 +53,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef indiceMaximo(elementos):\n    # codigo\n   "
-  placeholder: "\ndef indiceMaximo(elementos):\n    # codigo\n   "
+    snippet: "def indiceMaximo(elementos):\n    # codigo\n   "
+  placeholder: "def indiceMaximo(elementos):\n    # codigo\n   "
 testcases:
 - title: Solution Verification
   visible: true

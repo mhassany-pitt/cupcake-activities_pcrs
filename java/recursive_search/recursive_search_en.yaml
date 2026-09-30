@@ -59,10 +59,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n \
-      \   \n}"
-  placeholder: "\npublic static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n\
-    \    \n}"
+    snippet: "public static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n   \
+      \ \n}"
+  placeholder: "public static int binarySearch(int[] arr, int searchVal, int start, int end) {\n    // TODO: implement\n \
+    \   \n}"
 testcases:
 - title: Solution Verification
   visible: true

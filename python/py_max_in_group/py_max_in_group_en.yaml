@@ -31,12 +31,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def max(x,y,z):
           #Code here
-  placeholder: |2-
-
+  placeholder: |-
     def max(x,y,z):
         #Code here
 testcases:

@@ -38,12 +38,10 @@ statement: "Escribe un metodo que tome un entero como parametro y devuelva verda
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def positivoMenorQue10(num):
           # tu codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def positivoMenorQue10(num):
         # tu codigo aqui
 testcases:

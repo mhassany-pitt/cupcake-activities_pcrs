@@ -23,10 +23,10 @@ statement: Complete the function below according to its docstring.
 elements:
 - type: editable
   location:
-    snippet: "\ndef valid(s, alphabet):\n    \"\"\" (str, str) -> bool\n\n    Return True iff s is composed only of characters\
+    snippet: "def valid(s, alphabet):\n    \"\"\" (str, str) -> bool\n\n    Return True iff s is composed only of characters\
       \ in alphabet.\n    \n    >>> valid('adc', 'abcd')\n    True\n    >>> valid('ABC', 'abcd')\n    False\n    >>> valid('abc',\
       \ 'abz')\n    False\n    \"\"\""
-  placeholder: "\ndef valid(s, alphabet):\n    \"\"\" (str, str) -> bool\n\n    Return True iff s is composed only of characters\
+  placeholder: "def valid(s, alphabet):\n    \"\"\" (str, str) -> bool\n\n    Return True iff s is composed only of characters\
     \ in alphabet.\n    \n    >>> valid('adc', 'abcd')\n    True\n    >>> valid('ABC', 'abcd')\n    False\n    >>> valid('abc',\
     \ 'abz')\n    False\n    \"\"\""
 testcases:

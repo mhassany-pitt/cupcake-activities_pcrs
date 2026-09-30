@@ -1,4 +1,3 @@
-// Write your code here
     int seconds;
     // TODO: add your code here
         

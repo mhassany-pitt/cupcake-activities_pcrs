@@ -35,8 +35,7 @@ statement: Completa la siguiente funcion segun la descripcion de su docstring.
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def mismo_valor_abs(num1, num2):
           """ (numero, numero) -> booleano
 
@@ -47,8 +46,7 @@ elements:
           >>> mismo_valor_abs(3, 3.5)
           False
           """
-  placeholder: |2-
-
+  placeholder: |-
     def mismo_valor_abs(num1, num2):
         """ (numero, numero) -> booleano
 

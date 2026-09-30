@@ -23,8 +23,7 @@ statement: Complete the following function.  Note that neither item_list nor ind
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def find_value_indexes(item_list, index_list, v):
           """ (list of object, list of int, object) -> list of int
 
@@ -37,8 +36,7 @@ elements:
           >>> find_value_indexes([6, 8, 8, 5, 8], [0, 2, 4], 8)
           [2, 4]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def find_value_indexes(item_list, index_list, v):
         """ (list of object, list of int, object) -> list of int
 

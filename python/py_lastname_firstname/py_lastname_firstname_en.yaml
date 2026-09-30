@@ -23,14 +23,14 @@ statement: Complete the following function according to its docstring descriptio
 elements:
 - type: editable
   location:
-    snippet: "\ndef format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter is\
+    snippet: "def format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter is\
       \ a first name and the second is a last name. Return a string \n    in the format \"LAST_NAME, FIRST_NAME\", where LAST_NAME\
       \ and FIRST_NAME \n    are replaced by the given last and first names. \n\n    >>> format_name('David', 'Cohen'')\n\
       \    'Cohen, David' \n    \"\"\""
-  placeholder: "\ndef format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter\
-    \ is a first name and the second is a last name. Return a string \n    in the format \"LAST_NAME, FIRST_NAME\", where\
-    \ LAST_NAME and FIRST_NAME \n    are replaced by the given last and first names. \n\n    >>> format_name('David', 'Cohen'')\n\
-    \    'Cohen, David' \n    \"\"\""
+  placeholder: "def format_name(first_name, last_name):    \n    \"\"\" (str, str) -> str\n    \n    The first parameter is\
+    \ a first name and the second is a last name. Return a string \n    in the format \"LAST_NAME, FIRST_NAME\", where LAST_NAME\
+    \ and FIRST_NAME \n    are replaced by the given last and first names. \n\n    >>> format_name('David', 'Cohen'')\n  \
+    \  'Cohen, David' \n    \"\"\""
 testcases:
 - title: Solution Verification
   visible: true

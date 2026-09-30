@@ -1,4 +1,3 @@
-
 def puede_votar(edad):
     """ (int) -> bool
 

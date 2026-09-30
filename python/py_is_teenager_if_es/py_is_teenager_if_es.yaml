@@ -32,12 +32,10 @@ statement: 'Generalmente se considera que una persona es un adolescente entre la
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def adolescenteNoPrimo(edad):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def adolescenteNoPrimo(edad):
         return
 testcases:

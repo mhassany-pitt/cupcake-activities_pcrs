@@ -1,4 +1,3 @@
-
 def first_even(items):
     """ (list of int) -> int
     

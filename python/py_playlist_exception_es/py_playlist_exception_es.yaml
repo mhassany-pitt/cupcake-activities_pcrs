@@ -30,8 +30,8 @@ statement: "Estás desarrollando un prototipo para una aplicación de música. C
 elements:
 - type: editable
   location:
-    snippet: "\ndef generar_lista_reproduccion(canciones,selecciones):\n    "
-  placeholder: "\ndef generar_lista_reproduccion(canciones,selecciones):\n    "
+    snippet: "def generar_lista_reproduccion(canciones,selecciones):\n    "
+  placeholder: "def generar_lista_reproduccion(canciones,selecciones):\n    "
 - type: locked
   location:
     snippet: "\t\ttry:"

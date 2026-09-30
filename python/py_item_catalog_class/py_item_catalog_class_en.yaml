@@ -58,10 +58,6 @@ statement: |-
 
   Using just the editing space below, write your definition of the lookup method so that it works as described above.
 elements:
-- type: editable
-  location:
-    snippet: '# Write your code here'
-  placeholder: '# Write your code here'
 - type: locked
   location:
     snippet: "class Item:\n    'an Item class for the catalog'\n    internal_id = 100\n    def __init__(self):\n        Item.internal_id\

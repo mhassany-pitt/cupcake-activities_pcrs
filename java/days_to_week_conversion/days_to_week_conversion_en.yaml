@@ -44,10 +44,6 @@ statement: |-
   E.g. 1: if the value of `n` is 9, the code prints "1 week(s) and 2 day(s)".
   E.g. 2: if the value of `n` is 17, the code prints "2 week(s) and 3 day(s)".
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    int weeks, days;'

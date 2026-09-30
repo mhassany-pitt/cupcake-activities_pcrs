@@ -1,4 +1,3 @@
-
 def caja_rapida(producto_a_cantidad):
     """ (diccionario de {str: int}) -> booleano
 

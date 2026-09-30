@@ -40,10 +40,6 @@ statement: "The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on 
   \ wind speed (in km/hr): 199  | Output in console: \"123.38 mph is classified as 3 in the Saffir-Simpson Hurricane Wind\
   \ Scale\""
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "import java.util.Scanner;\n\npublic class Lab3 {\n    public static void main(String[] args){\n        // Create\

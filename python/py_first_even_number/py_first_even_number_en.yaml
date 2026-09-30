@@ -25,10 +25,10 @@ statement: Complete the following function according to its docstring.  Use a fo
 elements:
 - type: editable
   location:
-    snippet: "\ndef first_even(items):\n    \"\"\" (list of int) -> int\n    \n    Return the first even number from items.\
+    snippet: "def first_even(items):\n    \"\"\" (list of int) -> int\n    \n    Return the first even number from items.\
       \ Return -1 if items contains no even numbers.\n\n    >>> first_even([5, 8, 3, 2])\n    8\n    >>> first_even([7, 1])\n\
       \    -1\n    \"\"\""
-  placeholder: "\ndef first_even(items):\n    \"\"\" (list of int) -> int\n    \n    Return the first even number from items.\
+  placeholder: "def first_even(items):\n    \"\"\" (list of int) -> int\n    \n    Return the first even number from items.\
     \ Return -1 if items contains no even numbers.\n\n    >>> first_even([5, 8, 3, 2])\n    8\n    >>> first_even([7, 1])\n\
     \    -1\n    \"\"\""
 testcases:

@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def maxList(items):
           #code
-  placeholder: |2-
-
+  placeholder: |-
     def maxList(items):
         #code
 testcases:

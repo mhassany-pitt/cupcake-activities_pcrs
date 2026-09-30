@@ -49,8 +49,7 @@ statement: Completa los ejemplos en el docstring y luego completa el cuerpo de l
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def mayor_diferencia(nums1, nums2):
           """ (lista de numeros, lista de numeros) -> numero
 
@@ -64,8 +63,7 @@ elements:
           >>> mayor_diferencia([1, -2, 3], [-6, 8, 10])
           # TODO Reemplazar este comentario con el valor de retorno para la llamada de funcion anterior.
           """
-  placeholder: |2-
-
+  placeholder: |-
     def mayor_diferencia(nums1, nums2):
         """ (lista de numeros, lista de numeros) -> numero
 

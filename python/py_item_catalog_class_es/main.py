@@ -1,4 +1,3 @@
-
 class Item:
     #'una clase Item para el catalogo'
     internal_id = 100

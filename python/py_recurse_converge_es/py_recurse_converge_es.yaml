@@ -39,8 +39,8 @@ statement: "### auto_converger\n\n`Objetivo`: Dado un numero, devuelve el numero
 elements:
 - type: editable
   location:
-    snippet: "\ndef auto_converger(numero):\n    \n    "
-  placeholder: "\ndef auto_converger(numero):\n    \n    "
+    snippet: "def auto_converger(numero):\n    \n    "
+  placeholder: "def auto_converger(numero):\n    \n    "
 testcases:
 - title: Solution Verification
   visible: true

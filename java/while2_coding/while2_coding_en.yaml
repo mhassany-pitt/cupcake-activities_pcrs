@@ -37,10 +37,6 @@ statement: "Given an integer variable `n`, complete the following code in order 
   \ 1. \nE.g. 2: if the value of `n` is 4, the value of `count` will be 2. \nE.g. 3: if the value of `n` is 8, the value of\
   \ `count` will be 3."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: int count;

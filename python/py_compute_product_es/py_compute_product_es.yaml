@@ -41,8 +41,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2
-
+    snippet: |
       def calcularProducto(numero1, numero2):
           """
           Calcula el producto de dos numeros.
@@ -55,8 +54,7 @@ elements:
           El producto de numero1 y numero2.
           """
           # Escribe tu codigo aqui
-  placeholder: |2
-
+  placeholder: |
     def calcularProducto(numero1, numero2):
         """
         Calcula el producto de dos numeros.

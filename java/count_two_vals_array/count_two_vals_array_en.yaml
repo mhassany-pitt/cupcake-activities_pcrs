@@ -44,8 +44,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
-  placeholder: "\npublic int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
+    snippet: "public int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
+  placeholder: "public int numTimes2(int[] arr, int val1, int val2)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

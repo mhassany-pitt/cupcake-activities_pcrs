@@ -1,4 +1,3 @@
-
 def mayor_diferencia(nums1, nums2):
     """ (lista de numeros, lista de numeros) -> numero
 

@@ -1,4 +1,3 @@
-
 def get_quantities(table_to_foods):
     """ (dict of {str: list of str}) -> dict of {str: int}
 	

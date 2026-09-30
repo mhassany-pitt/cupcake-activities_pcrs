@@ -1,4 +1,3 @@
-
 def cada_segunda_linea(informe):
     """ (archivo abierto para lectura) -> lista de str
     

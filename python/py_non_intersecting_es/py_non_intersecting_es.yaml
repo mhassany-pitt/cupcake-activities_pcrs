@@ -56,10 +56,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
+    snippet: "def listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
       \ de lista de str\n\n    Devuelve una nueva lista que contiene las listas originales dentro de lista1\n    que no contienen\
       \ ninguno de los strings en lista2.\n    \"\"\"\n    \n    \n    \n    "
-  placeholder: "\ndef listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
+  placeholder: "def listas_sin_interseccion(lista1, lista2):\n    \"\"\"\n    (lista de lista de str, lista de str) -> lista\
     \ de lista de str\n\n    Devuelve una nueva lista que contiene las listas originales dentro de lista1\n    que no contienen\
     \ ninguno de los strings en lista2.\n    \"\"\"\n    \n    \n    \n    "
 testcases:

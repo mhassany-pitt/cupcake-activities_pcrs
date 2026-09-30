@@ -33,10 +33,6 @@ statement: |-
 
   Write an overridden ` getNumMembers method` that `prints the same` statement as the `superclass` getNumMembers ` except ` it replaces n with 21 `n` with `21`. The method will ` not return` anything.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class Sports{\n\n    String getName(){\n        return \"Generic Sports\";\n    }\n  \n    void getNumMembers(){\n\

@@ -1,4 +1,3 @@
-
 class RealEstateSystem:
     def __init__(self):
         """ (RealEstateSystem)

@@ -37,8 +37,7 @@ statement: Completa la siguiente funcion. Ten en cuenta que ni lista_de_items ni
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def encontrar_valor_en_indices(lista_de_items, lista_de_indices, v):
           """ (lista de objeto, lista de int, objeto) -> lista de int
 
@@ -51,8 +50,7 @@ elements:
           >>> encontrar_valor_en_indices([6, 8, 8, 5, 8], [0, 2, 4], 8)
           [2, 4]
           """
-  placeholder: |2-
-
+  placeholder: |-
     def encontrar_valor_en_indices(lista_de_items, lista_de_indices, v):
         """ (lista de objeto, lista de int, objeto) -> lista de int
 

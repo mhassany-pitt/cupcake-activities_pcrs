@@ -45,14 +45,14 @@ statement: Se te ha pedido que escribas una funcion que proporcione el nombre de
 elements:
 - type: editable
   location:
-    snippet: "\ndef busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
+    snippet: "def busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
       \ -> str\n\n    Esta funcion recibe un numero de telefono num_telefono, y un diccionario\n    telefono_a_nombre en el\
       \ cual cada clave es un numero de telefono y cada valor\n    es el nombre asociado con ese numero de telefono.\n\t\n\
       \    Devuelve el nombre asociado con num_telefono en telefono_a_nombre, o\n    un string vacio si no hay coincidencia.\n\
       \    \n    >>> busqueda_inversa_diccionario(\"416-555-3498\", {\"416-555-3498\": \\\\\n        \"John A. Macdonald\"\
       , \"647-555-9812\": \"Louis Riel\", \"416-555-6543\": \\\\\n        \"Canoe Head\", \"905-555-6681\":\"Tim Horton\"\
       })\n    'John A. Macdonald'   \"\"\"     \n"
-  placeholder: "\ndef busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
+  placeholder: "def busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):\n    \"\"\"\"\" (str, dict de {str: str})\
     \ -> str\n\n    Esta funcion recibe un numero de telefono num_telefono, y un diccionario\n    telefono_a_nombre en el\
     \ cual cada clave es un numero de telefono y cada valor\n    es el nombre asociado con ese numero de telefono.\n\t\n \
     \   Devuelve el nombre asociado con num_telefono en telefono_a_nombre, o\n    un string vacio si no hay coincidencia.\n\

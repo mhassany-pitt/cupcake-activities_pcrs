@@ -25,14 +25,14 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
+    snippet: "def entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
       \ impares.\n    \n    :param lista_numeros: Lista de numeros enteros\n    :return: El numero unico en la lista\n   \
       \ \"\"\"\n    contador = {}\n    \n    for numero in lista_numeros:\n        # Si el numero ya esta en el contador,\
       \ incrementa su cuenta\n        if numero in contador:\n            contador[numero] += 1\n        else:\n         \
       \   # Si no, inicializa su cuenta en 1\n            contador[numero] = 1\n    \n    for numero, cuenta in contador.items():\n\
       \        # Devuelve el numero cuya cuenta es 1\n        if cuenta == 1:\n            return numero\n\n# Ejemplo de uso\n\
       lista = [1, 1, 2, 2, 3, 4, 4]\nprint(entero_unico(lista))  # Salida: 3"
-  placeholder: "\ndef entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
+  placeholder: "def entero_unico(lista_numeros):\n    \"\"\"\n    Encuentra el numero unico en una lista de numeros enteros\
     \ impares.\n    \n    :param lista_numeros: Lista de numeros enteros\n    :return: El numero unico en la lista\n    \"\
     \"\"\n    contador = {}\n    \n    for numero in lista_numeros:\n        # Si el numero ya esta en el contador, incrementa\
     \ su cuenta\n        if numero in contador:\n            contador[numero] += 1\n        else:\n            # Si no, inicializa\

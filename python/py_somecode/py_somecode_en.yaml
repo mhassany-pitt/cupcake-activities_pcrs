@@ -23,8 +23,8 @@ statement: Define and assign variable "a" and "b" such that someCode() returns T
 elements:
 - type: editable
   location:
-    snippet: "\ndef someCode():\n    a = \n    b = \n\tif a != 7 and b == 3:\n        return True"
-  placeholder: "\ndef someCode():\n    a = \n    b = \n\tif a != 7 and b == 3:\n        return True"
+    snippet: "def someCode():\n    a = \n    b = \n\tif a != 7 and b == 3:\n        return True"
+  placeholder: "def someCode():\n    a = \n    b = \n\tif a != 7 and b == 3:\n        return True"
 testcases:
 - title: Solution Verification
   visible: true

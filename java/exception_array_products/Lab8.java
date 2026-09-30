@@ -1,4 +1,3 @@
-// Write your code here
 static double getProductPrice(Product[] arr, int index){
 	try{
 // Write your code here

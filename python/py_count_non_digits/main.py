@@ -1,4 +1,3 @@
-
 def count_non_digits(s):
     """ (str) -> int
 

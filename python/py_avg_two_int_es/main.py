@@ -1,2 +1,1 @@
-
 # Calcular el promedio de primer_num y segundo_num

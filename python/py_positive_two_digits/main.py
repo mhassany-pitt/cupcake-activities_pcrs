@@ -1,3 +1,2 @@
-
 def hasTwoDigits(x):
     return

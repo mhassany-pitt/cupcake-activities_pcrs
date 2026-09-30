@@ -40,7 +40,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
+    snippet: "class Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
       \ str, str, str) -> NoneType\n        \n        Inicializa el usuario con nombre_usuario, contrasena e info_cuenta.\n\
       \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.nombre_usuario\n\
       \        'xyz'\n        >>> nuevo_usuario.contrasena\n        'contrasena1'\n        >>> nuevo_usuario.info_cuenta\n\
@@ -55,7 +55,7 @@ elements:
       \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.actualizar_cuenta('1234',\
       \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        \"Banco en Linea de Bob\"\n        >>> nuevo_usuario.actualizar_cuenta('contrasena1',\
       \ 'B.O.B.')\n        >>> nuevo_usuario.info_cuenta\n        'B.O.B.'\n        \"\"\""
-  placeholder: "\nclass Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
+  placeholder: "class Usuario:\n    \n    def __init__(self, nombre_usuario, contrasena, info_cuenta):\n        \"\"\" (Usuario,\
     \ str, str, str) -> NoneType\n        \n        Inicializa el usuario con nombre_usuario, contrasena e info_cuenta.\n\
     \        \n        >>> nuevo_usuario = Usuario('xyz', 'contrasena1', \"Banco en Linea de Bob\")\n        >>> nuevo_usuario.nombre_usuario\n\
     \        'xyz'\n        >>> nuevo_usuario.contrasena\n        'contrasena1'\n        >>> nuevo_usuario.info_cuenta\n \

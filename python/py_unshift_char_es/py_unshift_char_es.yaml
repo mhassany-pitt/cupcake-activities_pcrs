@@ -47,12 +47,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def desplazarAtrasCaracter(caracter, posiciones):
           # el codigo va aqui
-  placeholder: |2-
-
+  placeholder: |-
     def desplazarAtrasCaracter(caracter, posiciones):
         # el codigo va aqui
 testcases:

@@ -63,7 +63,7 @@ statement: Completa cada metodo de la clase `Dia`. La clase `Dia` depende de la 
 elements:
 - type: editable
   location:
-    snippet: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
+    snippet: "class Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
       \ nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio < hora_fin\
       \ <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n      \
       \  y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n       \
@@ -85,28 +85,28 @@ elements:
       \ 14, 'Entregar ultimo ejercicio'))\n        >>> d.programar_evento(Evento(19, 23, 'Celebrar fin de clases'))\n    \
       \    >>> print(d)\n        4 Abril 2014:\n        - Entregar ultimo ejercicio: de 13 a 14\n        - Celebrar fin de\
       \ clases: de 19 a 23\n        \"\"\"\n\n        # Por hacer: Completa el cuerpo de este metodo."
-  placeholder: "\nclass Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio,\
-    \ hora_fin, nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio\
-    \ < hora_fin <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n\
-    \        y se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n   \
-    \     >>> e.hora_fin\n        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n        \n        self.hora_inicio\
-    \ = hora_inicio\n        self.hora_fin = hora_fin\n        self.nombre = nombre_evento\n\n    def __str__(self):\n   \
-    \     \"\"\" (Evento) -> str\n\n        Devuelve una representacion en string de este evento.\n\n        >>> e = Evento(6,\
-    \ 7, 'Correr')\n        >>> str(e)\n        'Correr: de 6 a 7'\n        \"\"\"\n        \n        return '{0}: de {1}\
-    \ a {2}'.format(self.nombre, self.hora_inicio,\n                                          self.hora_fin)\n\nclass Dia:\n\
-    \    \"\"\"Un dia de calendario y sus eventos.\"\"\"\n\n    def __init__(self, dia, mes, ano):\n        \"\"\" (Dia, int,\
-    \ str, int) -> NoneType\n\n        Inicializa un dia en el calendario con dia, mes y ano,\n        y sin eventos.\n\n\
-    \        >>> d = Dia(5, 'Abril', 2014)\n        >>> d.dia\n        5\n        >>> d.mes\n        'Abril'\n        >>>\
-    \ d.ano\n        2014\n        >>> d.eventos\n        []\n        \"\"\"\n\n        # Por hacer: Completa el cuerpo de\
-    \ este metodo.\n\n    def programar_evento(self, nuevo_evento):\n        \"\"\" (Dia, Evento) -> NoneType\n        \n\
-    \        Programa nuevo_evento en este dia, incluso si se superpone con\n        un evento existente. Mas adelante mejoraremos\
-    \ este metodo.\n        \n        >>> d = Dia(26, 'Marzo', 2014)\n        >>> e = Evento(11, 12, 'Reunion')\n        >>>\
-    \ d.programar_evento(e)\n        >>> d.eventos[0] == e\n        True\n        \"\"\"\n\n        # Por hacer: Completa\
-    \ el cuerpo de este metodo.\n    \n    def __str__(self):\n        \"\"\" (Dia) -> str\n    \n        Devuelve una representacion\
-    \ en string de este dia.\n        \n        >>> d = Dia(4, 'Abril', 2014)\n        >>> d.programar_evento(Evento(13, 14,\
-    \ 'Entregar ultimo ejercicio'))\n        >>> d.programar_evento(Evento(19, 23, 'Celebrar fin de clases'))\n        >>>\
-    \ print(d)\n        4 Abril 2014:\n        - Entregar ultimo ejercicio: de 13 a 14\n        - Celebrar fin de clases:\
-    \ de 19 a 23\n        \"\"\"\n\n        # Por hacer: Completa el cuerpo de este metodo."
+  placeholder: "class Evento:    \n    \"\"\"Un nuevo evento de calendario.\"\"\"\n\n    def __init__(self, hora_inicio, hora_fin,\
+    \ nombre_evento):\n        \"\"\" (Evento, int, int, str) -> NoneType\n\n        Precondicion: 0 <= hora_inicio < hora_fin\
+    \ <= 23\n        \n        Inicializa un nuevo evento que comienza a la hora_inicio, termina a la hora_fin,\n        y\
+    \ se llama nombre.\n\n        >>> e = Evento(12, 13, 'Almuerzo')\n        >>> e.hora_inicio\n        12\n        >>> e.hora_fin\n\
+    \        13\n        >>> e.nombre\n        'Almuerzo'\n        \"\"\"\n        \n        self.hora_inicio = hora_inicio\n\
+    \        self.hora_fin = hora_fin\n        self.nombre = nombre_evento\n\n    def __str__(self):\n        \"\"\" (Evento)\
+    \ -> str\n\n        Devuelve una representacion en string de este evento.\n\n        >>> e = Evento(6, 7, 'Correr')\n\
+    \        >>> str(e)\n        'Correr: de 6 a 7'\n        \"\"\"\n        \n        return '{0}: de {1} a {2}'.format(self.nombre,\
+    \ self.hora_inicio,\n                                          self.hora_fin)\n\nclass Dia:\n    \"\"\"Un dia de calendario\
+    \ y sus eventos.\"\"\"\n\n    def __init__(self, dia, mes, ano):\n        \"\"\" (Dia, int, str, int) -> NoneType\n\n\
+    \        Inicializa un dia en el calendario con dia, mes y ano,\n        y sin eventos.\n\n        >>> d = Dia(5, 'Abril',\
+    \ 2014)\n        >>> d.dia\n        5\n        >>> d.mes\n        'Abril'\n        >>> d.ano\n        2014\n        >>>\
+    \ d.eventos\n        []\n        \"\"\"\n\n        # Por hacer: Completa el cuerpo de este metodo.\n\n    def programar_evento(self,\
+    \ nuevo_evento):\n        \"\"\" (Dia, Evento) -> NoneType\n        \n        Programa nuevo_evento en este dia, incluso\
+    \ si se superpone con\n        un evento existente. Mas adelante mejoraremos este metodo.\n        \n        >>> d = Dia(26,\
+    \ 'Marzo', 2014)\n        >>> e = Evento(11, 12, 'Reunion')\n        >>> d.programar_evento(e)\n        >>> d.eventos[0]\
+    \ == e\n        True\n        \"\"\"\n\n        # Por hacer: Completa el cuerpo de este metodo.\n    \n    def __str__(self):\n\
+    \        \"\"\" (Dia) -> str\n    \n        Devuelve una representacion en string de este dia.\n        \n        >>>\
+    \ d = Dia(4, 'Abril', 2014)\n        >>> d.programar_evento(Evento(13, 14, 'Entregar ultimo ejercicio'))\n        >>>\
+    \ d.programar_evento(Evento(19, 23, 'Celebrar fin de clases'))\n        >>> print(d)\n        4 Abril 2014:\n        -\
+    \ Entregar ultimo ejercicio: de 13 a 14\n        - Celebrar fin de clases: de 19 a 23\n        \"\"\"\n\n        # Por\
+    \ hacer: Completa el cuerpo de este metodo."
 testcases:
 - title: Solution Verification
   visible: true

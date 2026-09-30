@@ -26,11 +26,11 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
+    snippet: "def swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
       \ name.  Modify name_list so that the first name and last name are swapped. \n                 \n    >>> name = ['John',\
       \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'John'] \n    >>> name = ['John', 'Andrew', 'Gleeson',\
       \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "
-  placeholder: "\ndef swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
+  placeholder: "def swap_name(name_list): \n    \"\"\" (list of str) -> NoneType \n \n    name_list contains a single person's\
     \ name.  Modify name_list so that the first name and last name are swapped. \n                 \n    >>> name = ['John',\
     \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'John'] \n    >>> name = ['John', 'Andrew', 'Gleeson',\
     \ 'Smith'] \n    >>> swap_name(name) \n    >>> name \n    ['Smith', 'Andrew', 'Gleeson', 'John'] \n    \"\"\" "

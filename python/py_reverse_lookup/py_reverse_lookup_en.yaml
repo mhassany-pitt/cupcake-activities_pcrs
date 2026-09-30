@@ -27,15 +27,15 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef reverse_lookup_lists(phone_num, phone_numbers, names):\n    \"\"\" (str, list of str, list of str) ->\
-      \ str\n\n    Precondition: len(phone_numbers) == len(names)\n\n    This function receives a phone number phone_num,\
-      \ and two lists: a list of \n    phone numbers phone_numbers and a list of names names.  These lists are\n    parallel\
-      \ lists, so the name in position 0 of the names list is \n    associated with the phone number in position 0 of the\
-      \ phone_numbers \n    list, and so on.\n\n    Return the name associated with phone_num according to phone_numbers\n\
-      \    and names, or an empty string if there is no match.\n    \n    >>> reverse_lookup_lists('416-555-6543', ['416-555-3498',\
-      \ \\\n        '647-555-9812', '416-555-6543', '905-555-6681'], ['John A. Macdonald', \\\n        'Louis Riel', 'Canoe\
-      \ Head', 'Tim Horton'])        \n    'Canoe Head'\n    \"\"\""
-  placeholder: "\ndef reverse_lookup_lists(phone_num, phone_numbers, names):\n    \"\"\" (str, list of str, list of str) ->\
+    snippet: "def reverse_lookup_lists(phone_num, phone_numbers, names):\n    \"\"\" (str, list of str, list of str) -> str\n\
+      \n    Precondition: len(phone_numbers) == len(names)\n\n    This function receives a phone number phone_num, and two\
+      \ lists: a list of \n    phone numbers phone_numbers and a list of names names.  These lists are\n    parallel lists,\
+      \ so the name in position 0 of the names list is \n    associated with the phone number in position 0 of the phone_numbers\
+      \ \n    list, and so on.\n\n    Return the name associated with phone_num according to phone_numbers\n    and names,\
+      \ or an empty string if there is no match.\n    \n    >>> reverse_lookup_lists('416-555-6543', ['416-555-3498', \\\n\
+      \        '647-555-9812', '416-555-6543', '905-555-6681'], ['John A. Macdonald', \\\n        'Louis Riel', 'Canoe Head',\
+      \ 'Tim Horton'])        \n    'Canoe Head'\n    \"\"\""
+  placeholder: "def reverse_lookup_lists(phone_num, phone_numbers, names):\n    \"\"\" (str, list of str, list of str) ->\
     \ str\n\n    Precondition: len(phone_numbers) == len(names)\n\n    This function receives a phone number phone_num, and\
     \ two lists: a list of \n    phone numbers phone_numbers and a list of names names.  These lists are\n    parallel lists,\
     \ so the name in position 0 of the names list is \n    associated with the phone number in position 0 of the phone_numbers\

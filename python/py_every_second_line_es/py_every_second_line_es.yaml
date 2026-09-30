@@ -64,10 +64,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef cada_segunda_linea(informe):\n    \"\"\" (archivo abierto para lectura) -> lista de str\n    \n    Devuelve\
+    snippet: "def cada_segunda_linea(informe):\n    \"\"\" (archivo abierto para lectura) -> lista de str\n    \n    Devuelve\
       \ una lista que contiene cada segunda linea (con espacios en blanco\n    al inicio y al final eliminados), comenzando\
       \ con la primera linea.\n    \"\"\""
-  placeholder: "\ndef cada_segunda_linea(informe):\n    \"\"\" (archivo abierto para lectura) -> lista de str\n    \n    Devuelve\
+  placeholder: "def cada_segunda_linea(informe):\n    \"\"\" (archivo abierto para lectura) -> lista de str\n    \n    Devuelve\
     \ una lista que contiene cada segunda linea (con espacios en blanco\n    al inicio y al final eliminados), comenzando\
     \ con la primera linea.\n    \"\"\""
 testcases:

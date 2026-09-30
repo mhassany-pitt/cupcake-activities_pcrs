@@ -1,4 +1,3 @@
-
 def upper_lower(s):
     """ (str) -> bool
     

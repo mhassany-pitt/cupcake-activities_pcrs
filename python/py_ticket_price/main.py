@@ -1,4 +1,3 @@
-
 def ticket_price(age):
     """ (int) -> float
     

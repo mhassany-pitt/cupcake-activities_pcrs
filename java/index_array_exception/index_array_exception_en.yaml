@@ -31,10 +31,6 @@ statement: "Complete the method given below: \n\nYou must check to see if the in
   \ with a comma (the last element in the array does not include a comma).\n\nExample:\nif `arr={3,7,90}` and `index=3` you\
   \ must print:\n`The user has no preferences`\n`3,7,90`"
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "static void inputIndex(int[] arr, int index){\n\ttry{"

@@ -1,4 +1,3 @@
-
 public int countVowel(char[] str)
 {
     // TO DO: Write your code here.

@@ -38,8 +38,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic static String nChar(String s, int n)\n{\n    \n}"
-  placeholder: "\npublic static String nChar(String s, int n)\n{\n    \n}"
+    snippet: "public static String nChar(String s, int n)\n{\n    \n}"
+  placeholder: "public static String nChar(String s, int n)\n{\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

@@ -25,12 +25,10 @@ statement: "Write a function called `hello_world` that\n    returns a suitable g
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def hello_world(name):
           # Your code goes here...
-  placeholder: |2-
-
+  placeholder: |-
     def hello_world(name):
         # Your code goes here...
 testcases:

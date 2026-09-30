@@ -56,15 +56,15 @@ statement: Completa la siguiente funcion segun su docstring utilizando un ciclo 
 elements:
 - type: editable
   location:
-    snippet: "\ndef buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos\
-      \ es una lista que contiene descripciones del contenido de un armario donde\n    cada descripcion tiene la forma 'color\
+    snippet: "def buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos es\
+      \ una lista que contiene descripciones del contenido de un armario donde\n    cada descripcion tiene la forma 'color\
       \ articulo', donde cada color es una palabra\n    y cada articulo es una o mas palabras. Por ejemplo:\n\n        ['gris\
       \ chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos', 'verde sombrero']\n\n    color es un color que\
       \ se esta buscando en elementos. \n    \n    Devuelve una lista que contiene solo los articulos que coinciden con el\
       \ color.\n    \n    >>> buscar_armario(['rojo chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos',\
       \ 'verde sombrero'], 'rojo')\n    ['rojo chaqueta de verano', 'rojo zapatos']\n    >>> buscar_armario(['rojo camisa',\
       \ 'verde pantalones'], 'azul')\n    []\n    >>> buscar_armario([], 'malva')\n    []\n    \"\"\""
-  placeholder: "\ndef buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos\
+  placeholder: "def buscar_armario(elementos, color):\n    \"\"\" (lista de str, str) -> lista de str\n    \n    elementos\
     \ es una lista que contiene descripciones del contenido de un armario donde\n    cada descripcion tiene la forma 'color\
     \ articulo', donde cada color es una palabra\n    y cada articulo es una o mas palabras. Por ejemplo:\n\n        ['gris\
     \ chaqueta de verano', 'naranja chaqueta de primavera', 'rojo zapatos', 'verde sombrero']\n\n    color es un color que\

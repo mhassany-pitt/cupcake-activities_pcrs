@@ -23,13 +23,12 @@ statement: Complete the following function according to instruction
 elements:
 - type: editable
   location:
-    snippet: "\ndef can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least 18\
-      \ years.\n\n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n  \
-      \      return False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the\
-      \ space below"
-  placeholder: "\ndef can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least\
-    \ 18 years.\n\n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n \
-    \       return False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the space\
+    snippet: "def can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least 18 years.\n\
+      \n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n        return\
+      \ False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the space below"
+  placeholder: "def can_vote(age):\n    \"\"\" (int) -> bool\n\n    Return True iff age is legal voting age of at least 18\
+    \ years.\n\n    >>> can_vote(16)\n    False\n    >>> can_vote(21)\n    True\n    \"\"\"\n    \n    if age < 18:\n    \
+    \    return False\n    else:\n        return True\n\n    #TODO: Complete the new single-line function body in the space\
     \ below"
 testcases:
 - title: Solution Verification

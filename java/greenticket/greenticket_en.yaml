@@ -44,10 +44,6 @@ statement: |-
   Ej. 2: si el valor de `a` es 2, el de `b` es 2 y el de `c` es 2, el valor de `resultado` será 20.
   Ej. 3: si el valor de `a` es 1, el de `b` es 1 y el de `c` es 2, el valor de `resultado` será 10.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    int resultado;'

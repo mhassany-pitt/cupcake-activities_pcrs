@@ -40,8 +40,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\npublic boolean sameNumEvens(ArrayList<Integer> arraylist1, ArrayList<Integer> arraylist2) {\n    \n}"
-  placeholder: "\npublic boolean sameNumEvens(ArrayList<Integer> arraylist1, ArrayList<Integer> arraylist2) {\n    \n}"
+    snippet: "public boolean sameNumEvens(ArrayList<Integer> arraylist1, ArrayList<Integer> arraylist2) {\n    \n}"
+  placeholder: "public boolean sameNumEvens(ArrayList<Integer> arraylist1, ArrayList<Integer> arraylist2) {\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

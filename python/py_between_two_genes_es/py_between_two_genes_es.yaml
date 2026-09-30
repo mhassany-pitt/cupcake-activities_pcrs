@@ -40,12 +40,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def entreGenes(secuencia, g1, g2):
           # codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def entreGenes(secuencia, g1, g2):
         # codigo aqui
 testcases:

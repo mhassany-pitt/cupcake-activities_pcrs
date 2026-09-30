@@ -1,4 +1,3 @@
-// Write your code here
     int weeks, days;
     // TODO: add your code here
     

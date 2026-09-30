@@ -1,3 +1,2 @@
-
 def isSorted(items):
     #code

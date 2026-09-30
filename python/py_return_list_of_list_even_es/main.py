@@ -1,4 +1,3 @@
-
 def solo_pares(lista):
     """ (lista de lista de int) -> lista de lista de int
 

@@ -33,10 +33,6 @@ statement: "Complete the method `sortArray` in order to ascendingly sort the fir
   \ any element while trying to swap pairs, you have to use an auxiliary temporal variable (for this, use the following lines\
   \ of code `temp = a; a=b; b = temp;` in the same order)."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "static int indOfMin( int[] arr, int count, int startingAt){\n    int minIndex = startingAt;\n    int min = arr[startingAt];\n\

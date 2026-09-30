@@ -41,8 +41,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef merge_arrays (a1, a2): \n    \n    pass"
-  placeholder: "\ndef merge_arrays (a1, a2): \n    \n    pass"
+    snippet: "def merge_arrays (a1, a2): \n    \n    pass"
+  placeholder: "def merge_arrays (a1, a2): \n    \n    pass"
 testcases:
 - title: Solution Verification
   visible: true

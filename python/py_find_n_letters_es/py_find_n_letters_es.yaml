@@ -53,11 +53,11 @@ statement: Completa el cuerpo de la siguiente funcion. Aunque esta funcion podri
 elements:
 - type: editable
   location:
-    snippet: "\ndef encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
+    snippet: "def encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
       \ ocurre al menos 'n' veces en 'string'\n\n    Devuelve el substring mas pequeno de 'string' comenzando desde el indice\
       \ 0 que contiene\n    n ocurrencias de 'letra'.\n\n    >>> encontrar_letra_n_veces('Ciencias de la Computacion', 'e',\
       \ 2)\n    'Ciencias de'\n    \"\"\"\n\n    i = 0\n    cuenta = 0\n    \n    #TODO completa el resto de la funcion abajo"
-  placeholder: "\ndef encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
+  placeholder: "def encontrar_letra_n_veces(string, letra, n):\n    \"\"\" (str, str, int) -> str\n\n    Precondicion: 'letra'\
     \ ocurre al menos 'n' veces en 'string'\n\n    Devuelve el substring mas pequeno de 'string' comenzando desde el indice\
     \ 0 que contiene\n    n ocurrencias de 'letra'.\n\n    >>> encontrar_letra_n_veces('Ciencias de la Computacion', 'e',\
     \ 2)\n    'Ciencias de'\n    \"\"\"\n\n    i = 0\n    cuenta = 0\n    \n    #TODO completa el resto de la funcion abajo"

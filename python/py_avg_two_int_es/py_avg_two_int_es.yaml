@@ -42,12 +42,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
-      # Calcular el promedio de primer_num y segundo_num
-  placeholder: |2-
-
-    # Calcular el promedio de primer_num y segundo_num
+    snippet: '# Calcular el promedio de primer_num y segundo_num'
+  placeholder: '# Calcular el promedio de primer_num y segundo_num'
 testcases:
 - title: Solution Verification
   visible: true

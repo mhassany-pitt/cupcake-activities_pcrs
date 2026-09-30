@@ -1,4 +1,3 @@
-
 def reorganizar(orig_dicc):
     """ (dict de str a lista de str) -> dict de str a lista de str
     

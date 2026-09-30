@@ -30,8 +30,7 @@ statement: Completa el metodo `__init__` en la siguiente clase. (Solo falta una 
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Circulo:
           """ Un circulo con un radio. """
 
@@ -44,8 +43,7 @@ elements:
               >>> c.radio
               10
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Circulo:
         """ Un circulo con un radio. """
 

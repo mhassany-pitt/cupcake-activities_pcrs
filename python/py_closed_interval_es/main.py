@@ -1,4 +1,3 @@
-
 def agregar_intervalo(mil, intervalo):
     # Inicializar la lista de resultados
     resultado = []

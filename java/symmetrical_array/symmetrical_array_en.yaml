@@ -29,10 +29,6 @@ statement: |-
 
   canBalance([10, 10]) → true
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: public boolean isArraySymmetrical(int[] arr) {

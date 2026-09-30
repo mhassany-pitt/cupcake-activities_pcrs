@@ -35,8 +35,8 @@ statement: "*Using recursion*,\n    complete the `doubleCharacters` method\n    
 elements:
 - type: editable
   location:
-    snippet: "\npublic static String doubleCharacters(String s) {\n    // TODO\n    \n}"
-  placeholder: "\npublic static String doubleCharacters(String s) {\n    // TODO\n    \n}"
+    snippet: "public static String doubleCharacters(String s) {\n    // TODO\n    \n}"
+  placeholder: "public static String doubleCharacters(String s) {\n    // TODO\n    \n}"
 testcases:
 - title: Solution Verification
   visible: true

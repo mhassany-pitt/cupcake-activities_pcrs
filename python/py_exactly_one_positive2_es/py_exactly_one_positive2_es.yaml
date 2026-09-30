@@ -30,12 +30,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def exactamenteUnPositivo(a, b, c):
           # codigo aqui
-  placeholder: |2-
-
+  placeholder: |-
     def exactamenteUnPositivo(a, b, c):
         # codigo aqui
 testcases:

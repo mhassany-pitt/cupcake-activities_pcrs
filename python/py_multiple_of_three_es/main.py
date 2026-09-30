@@ -1,4 +1,3 @@
-
 def es_multiplo_de_3(valor):
     """ (int) -> bool
 

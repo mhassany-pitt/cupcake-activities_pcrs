@@ -1,4 +1,3 @@
-
 class SistemaDeBienesRaices:
     def __init__(self):
         """ (SistemaDeBienesRaices)

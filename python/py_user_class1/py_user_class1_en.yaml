@@ -27,7 +27,7 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\nclass User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str, str,\
+    snippet: "class User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str, str,\
       \ str) -> NoneType\n        \n        Initialize the user with username, password, and account_info.\n        \n   \
       \     >>> new_user = User('xyz', 'password1', \"Bob's Online Banking\")\n        >>> new_user.username\n        'xyz'\n\
       \        >>> new_user.password\n        'password1'\n        >>> new_user.account_info\n        \"Bob's Online Banking\"\
@@ -41,9 +41,9 @@ elements:
       \ \"Bob's Online Banking\")\n        >>> new_user.update_account('1234', 'B.O.B.')\n        >>> new_user.account_info\n\
       \        \"Bob's Online Banking\"\n        >>> new_user.update_account('password1', 'B.O.B.')\n        >>> new_user.account_info\n\
       \        'B.O.B.'\n        \"\"\""
-  placeholder: "\nclass User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str,\
-    \ str, str) -> NoneType\n        \n        Initialize the user with username, password, and account_info.\n        \n\
-    \        >>> new_user = User('xyz', 'password1', \"Bob's Online Banking\")\n        >>> new_user.username\n        'xyz'\n\
+  placeholder: "class User:\n    \n    def __init__(self, username, password, account_info):\n        \"\"\" (User, str, str,\
+    \ str) -> NoneType\n        \n        Initialize the user with username, password, and account_info.\n        \n     \
+    \   >>> new_user = User('xyz', 'password1', \"Bob's Online Banking\")\n        >>> new_user.username\n        'xyz'\n\
     \        >>> new_user.password\n        'password1'\n        >>> new_user.account_info\n        \"Bob's Online Banking\"\
     \n        \"\"\"\n        self.username = username\n        self.password = password\n        self.account_info = account_info\n\
     \        \n    def login(self, entered_password):\n        \"\"\" (User, str) -> bool\n        \n        Return True iff\

@@ -32,12 +32,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def replace1(s):
           #your code here
-  placeholder: |2-
-
+  placeholder: |-
     def replace1(s):
         #your code here
 testcases:

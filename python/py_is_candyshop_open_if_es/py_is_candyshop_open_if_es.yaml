@@ -36,12 +36,10 @@ statement: La confitería a la vuelta de la esquina está abierta entre las 13:0
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def confiteriaAbierta(hora, dia):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def confiteriaAbierta(hora, dia):
         return
 testcases:

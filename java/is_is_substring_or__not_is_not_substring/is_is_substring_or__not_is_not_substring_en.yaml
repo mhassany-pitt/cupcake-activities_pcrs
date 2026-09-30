@@ -29,10 +29,6 @@ statement: |-
 
   equalIsNot("noisxxnotyynotxisi") → true
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: public boolean equalIsNot(String str) {

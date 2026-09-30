@@ -37,10 +37,6 @@ statement: |-
   smallest_factor(24) -> 2
   smallest_factor(49) -> 7
 elements:
-- type: editable
-  location:
-    snippet: '# Write your code here'
-  placeholder: '# Write your code here'
 - type: locked
   location:
     snippet: 'def smallest_factor(n):'

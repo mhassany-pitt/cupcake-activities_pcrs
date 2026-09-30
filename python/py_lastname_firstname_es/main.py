@@ -1,4 +1,3 @@
-
 def formato_nombre(nombre, apellido):    
     """ (str, str) -> str
     

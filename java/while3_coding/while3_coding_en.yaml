@@ -35,10 +35,6 @@ statement: "Given two integer variables `a` and `b`, complete the following code
   \ of `b` is 8, the value of `mult` will be 10. \nE.g. 2: if the value of `a` is 3 and the value of `b` is 5, the value of\
   \ `mult` will be 6. \nE.g. 3: if the value of `a` is 4 and the value of `b` is 6, the value of `mult` will be 8."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: int mult;

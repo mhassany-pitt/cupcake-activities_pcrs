@@ -55,10 +55,6 @@ statement: "Given a string `str`, complete the following code in order to determ
   \ be \"lloHe\".\nE.g. 2: if the value of `str` is \"Hi\", the value of `result` will be \"\".\nE.g. 3: if the value of `str`\
   \ is \"HelloHi\", the value of `result` will be \"HelloHi\"."
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: '    String result;'

@@ -83,8 +83,8 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: "\ndef encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
-  placeholder: "\ndef encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
+    snippet: "def encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
+  placeholder: "def encontrar_palabra(sopa_de_letras,palabra):\n\t#Escribir aqui tu codigo"
 testcases:
 - title: Solution Verification
   visible: true

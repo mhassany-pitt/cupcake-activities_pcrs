@@ -1,4 +1,3 @@
-
 def busqueda_inversa_diccionario(num_telefono, telefono_a_nombre):
     """"" (str, dict de {str: str}) -> str
 

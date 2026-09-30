@@ -23,8 +23,7 @@ statement: Complete method `__init__` in the following class.  (It's only missin
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       class Circle:
           """ A circle with a radius. """
 
@@ -37,8 +36,7 @@ elements:
               >>> c.radius
               10
               """
-  placeholder: |2-
-
+  placeholder: |-
     class Circle:
         """ A circle with a radius. """
 

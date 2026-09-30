@@ -48,9 +48,9 @@ statement: "Complete the following code in order to prompt the user for his/her 
 elements:
 - type: editable
   location:
-    snippet: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
+    snippet: "// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
       \ to import java.util.Scanner, it is already imported.\n        \n       "
-  placeholder: "\n// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
+  placeholder: "// IMPORTANT: YOU DO NOT HAVE TO DEFINE THE MAIN CLASS. Directly write your answer here\n// You Do not need\
     \ to import java.util.Scanner, it is already imported.\n        \n       "
 - type: locked
   location:

@@ -24,12 +24,10 @@ statement: 'A person is generally considered to be a teenager between the ages o
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def teenagedNotPrime(age):
           return
-  placeholder: |2-
-
+  placeholder: |-
     def teenagedNotPrime(age):
         return
 testcases:

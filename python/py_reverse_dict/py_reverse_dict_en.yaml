@@ -33,12 +33,10 @@ statement: |-
 elements:
 - type: editable
   location:
-    snippet: |2-
-
+    snippet: |-
       def reverseDictionary(d):
           # code here
-  placeholder: |2-
-
+  placeholder: |-
     def reverseDictionary(d):
         # code here
 testcases:

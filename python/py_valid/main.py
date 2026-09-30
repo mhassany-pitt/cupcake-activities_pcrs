@@ -1,4 +1,3 @@
-
 def valid(s, alphabet):
     """ (str, str) -> bool
 

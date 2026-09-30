@@ -1,4 +1,3 @@
-
 class ListaEspecial:
     """Una lista que puede contener un numero limitado de elementos."""
 

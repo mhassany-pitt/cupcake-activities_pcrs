@@ -45,10 +45,6 @@ statement: |-
 
   Don't worry about returning or printing anything outside of your setters/getters -- this will happen behind the scenes and check whether your code is correct! Some tests will give feedback if your code is incorrect.
 elements:
-- type: editable
-  location:
-    snippet: // Write your code here
-  placeholder: // Write your code here
 - type: locked
   location:
     snippet: "public class IceCream{ \n    //class attributes\n    private boolean sprinkles;\n    private int scoops;\n \

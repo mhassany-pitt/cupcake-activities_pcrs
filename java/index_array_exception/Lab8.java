@@ -1,4 +1,3 @@
-// Write your code here
 static void inputIndex(int[] arr, int index){
 	try{
     

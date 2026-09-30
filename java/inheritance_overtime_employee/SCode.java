@@ -1,4 +1,3 @@
-// Write your code here
 class Employee {
 	private int hours;
 	private double hourlyRate;

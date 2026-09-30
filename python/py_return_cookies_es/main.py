@@ -1,4 +1,3 @@
-
 def galletas_necesarias(num_adultos, num_adolescentes, num_ninos):
     """ (int, int, int) -> int
 
